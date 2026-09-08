@@ -74,4 +74,4 @@ The production Java runtime and private integration source are not included. Pub
 
 ## GitHub and Zenodo
 
-This directory is structured to be published as a standalone evidence/documentation repository and deposited as a versioned research artifact. Before a Zenodo deposit, complete `CITATION.cff.template` and `ZENODO_METADATA.template.json` with any missing ORCID, repository URL and DOI metadata. Rights over this repository are governed by the root `LICENSE`; do not substitute an open-content license unless the copyright holder explicitly decides to relicense the relevant material.
+This directory is structured to be published as a standalone evidence/documentation repository and deposited as a versioned research artifact.
