@@ -1,0 +1,107 @@
+{
+  "history": [
+    {
+      "event_id": "E00",
+      "world_time_s": 0.0,
+      "decision": "ACT",
+      "action": "I join the quick round, joking with the others. When it ends, I walk over to her and say, “Hey, want to grab a snack with me while they finish up?”",
+      "committed": true
+    },
+    {
+      "event_id": "E01",
+      "world_time_s": 70.0,
+      "decision": "ACT",
+      "action": "I walk alongside her toward the balloon-dart stall and casually ask, “Still up for grabbing a snack with me while they play this one?”",
+      "committed": true
+    },
+    {
+      "event_id": "E02",
+      "world_time_s": 145.0,
+      "decision": "WAIT",
+      "action": "I let her help her friend, stay engaged with the group, and wait for a natural opening afterward.",
+      "committed": true
+    },
+    {
+      "event_id": "E03",
+      "world_time_s": 220.0,
+      "decision": "ACT",
+      "action": "I take the quick dart turn, joke with the group, then rejoin everyone afterward.",
+      "committed": true
+    },
+    {
+      "event_id": "E04",
+      "world_time_s": 300.0,
+      "decision": "ACT",
+      "action": "I join their conversation briefly, then say, “I’m heading to the food stand—anyone want anything?”",
+      "committed": true
+    },
+    {
+      "event_id": "E05",
+      "world_time_s": 365.0,
+      "decision": "WAIT",
+      "action": "I stay a few metres away and finish the call. Then I return to the group and say, “Sorry about that—my dad called.”",
+      "committed": true
+    },
+    {
+      "event_id": "E06",
+      "world_time_s": 405.0,
+      "decision": "WAIT",
+      "action": "I finish the call promptly, turn to her, and say, “Sorry—thanks for waiting. What’s up?”",
+      "committed": true
+    },
+    {
+      "event_id": "E07",
+      "world_time_s": 470.0,
+      "decision": "ACT",
+      "action": "",
+      "committed": false
+    },
+    {
+      "event_id": "E08",
+      "world_time_s": 525.0,
+      "decision": "ACT",
+      "action": "I walk beside her toward the marquee and say, “Want to take the scenic route over there?” I keep the pace relaxed and naturally rejoin the group at the marquee.",
+      "committed": true
+    },
+    {
+      "event_id": "E09",
+      "world_time_s": 565.0,
+      "decision": "ACT",
+      "action": "I walk beside her and say, “Shall we hang back and grab a snack before we join them?” If she declines, I continue to the marquee with the group.",
+      "committed": true
+    }
+  ],
+  "late_background_results": [],
+  "tail_background_ignored": [],
+  "world_time_s": 600.0,
+  "wall_s": 111.34517810028046,
+  "committed_action_count": 9,
+  "committed_action_rewritten_after_commit": false,
+  "late_background_retained_without_retroactive_action": 0,
+  "usage": {
+    "supervisor": {
+      "input_tokens": 5083,
+      "cached_input_tokens": 0,
+      "output_tokens": 923,
+      "reasoning_tokens": 0,
+      "total_tokens": 6006,
+      "request_count": 10
+    },
+    "worker": {
+      "input_tokens": 59073,
+      "cached_input_tokens": 0,
+      "output_tokens": 5649,
+      "reasoning_tokens": 0,
+      "total_tokens": 64722,
+      "request_count": 37
+    },
+    "high": {
+      "input_tokens": 0,
+      "cached_input_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "audit_protocol": "C4_INVARIANCE_RUN_AUDIT_V1",
+  "source_run": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\runs\\translation-20260906-012324-4108b27a",
+  "case_count": 12,
+  "paired_hop_count": 35,
+  "unpaired_hop_count": 17,
+  "final": {
+    "completed_final_cases": 4,
+    "llm_only_exact_cases": 0,
+    "llm_mdpar_exact_cases": 0,
+    "equal_drift_cases": 3,
+    "both_exact_cases": 0,
+    "equal_but_drifted_cases": 3
+  },
+  "hops": {
+    "llm_only_exact_hops": 0,
+    "llm_mdpar_exact_hops": 0,
+    "llm_only_observed_structure_preserved_hops": 6,
+    "llm_mdpar_observed_structure_preserved_hops": 7,
+    "mdpar_pareto_better_hops": 8,
+    "llm_only_pareto_better_hops": 3,
+    "incomparable_hops": 2,
+    "equal_drift_hops": 22,
+    "both_exact_hops": 0,
+    "equal_but_drifted_hops": 22
+  },
+  "component_disagreements": {
+    "state_path_preserved": 7,
+    "transition_path_preserved": 6,
+    "cognitive_remembrance": 5,
+    "unknown_state_ratio": 2,
+    "structural_brittleness": 1,
+    "structural_mark_preserved": 1
+  },
+  "interpretation": {
+    "equal_drift_is_not_exactness": true,
+    "pareto_is_weight_free": true,
+    "component_disagreements_count_only_where_conditions_differ": true,
+    "partial_hops_are_retained": true,
+    "observed_structure_preservation_keeps_none_as_none": true
+  }
+}

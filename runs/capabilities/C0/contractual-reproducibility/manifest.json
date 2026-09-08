@@ -1,0 +1,32 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.0.0",
+  "adapter_version": "0.9.5",
+  "adapter_source_sha256": "sha256:b86b7c1b6d3be89459b98cdde8c51a2134ab843e61ca7b28ead28241ee7831c0",
+  "protocol": "C0_CONTRACTUAL_REPRODUCIBILITY_V1",
+  "capabilities": [
+    "C0"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Is the runtime under evaluation traceable to the declared MDPAR/adapter contract and are the normative OPEN resources actually available?",
+  "started_at_utc": "2026-09-08T08:38:17Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.0.0.jar",
+  "mdpar_jar_sha256": "a6b98189ab3c0be2e255a96a2508eca6d94099068403ff1ee2ef4650b9c5e67e",
+  "runtime_mdpar_version": "2.0.0",
+  "open_contract_version": "7",
+  "normative_open_document_count": 26,
+  "expected_normative_open_document_count": 26,
+  "neural_calls": 0,
+  "finished_at_utc": "2026-09-08T08:38:17Z"
+}

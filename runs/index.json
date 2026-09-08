@@ -1,0 +1,4169 @@
+{
+  "schema": "MDPAR_BENCHMARK_EVIDENCE_INDEX_V1",
+  "mdpar_version": "2.0.0",
+  "capability_range": "C0-C12",
+  "artifact_policy": "Historical evidence bytes are preserved. Canonical packaging names may differ from historical identifiers embedded in the original artifacts.",
+  "capabilities": {
+    "C0": {
+      "file_count": 6,
+      "instruments": [
+        "contractual-reproducibility"
+      ]
+    },
+    "C1": {
+      "file_count": 9,
+      "instruments": [
+        "structural-identification"
+      ]
+    },
+    "C2": {
+      "file_count": 12,
+      "instruments": [
+        "structural-metrology"
+      ]
+    },
+    "C3": {
+      "file_count": 8,
+      "instruments": [
+        "directional-continuity",
+        "structural-calculus"
+      ]
+    },
+    "C4": {
+      "file_count": 38,
+      "instruments": [
+        "permutation-realization",
+        "translation-invariance"
+      ]
+    },
+    "C5": {
+      "file_count": 16,
+      "instruments": [
+        "contextual-adaptation",
+        "contextual-direction"
+      ]
+    },
+    "C6": {
+      "file_count": 5,
+      "instruments": [
+        "longitudinal-narrative"
+      ]
+    },
+    "C7": {
+      "file_count": 6,
+      "instruments": [
+        "heterogeneous-closed",
+        "lexical-closed"
+      ]
+    },
+    "C8": {
+      "file_count": 3,
+      "instruments": [
+        "closed-open-composition"
+      ]
+    },
+    "C9": {
+      "file_count": 461,
+      "instruments": [
+        "concurrent-adaptive",
+        "paired-adaptive-economics"
+      ]
+    },
+    "C10": {
+      "file_count": 9,
+      "instruments": [
+        "natural-online",
+        "temporal-authority"
+      ]
+    },
+    "C11": {
+      "file_count": 6,
+      "instruments": [
+        "frontier-recovery",
+        "handoff-contract"
+      ]
+    },
+    "C12": {
+      "file_count": 3,
+      "instruments": [
+        "servant-robot"
+      ]
+    }
+  },
+  "files": [
+    {
+      "path": "capabilities/C0/contractual-reproducibility/checks.json",
+      "capability": "C0",
+      "instrument": "contractual-reproducibility",
+      "size_bytes": 245,
+      "sha256": "5df3b3c9c7cb8a4ee23c072e427d78f331958821a63fbbb74a2a20bfbb66fc2a"
+    },
+    {
+      "path": "capabilities/C0/contractual-reproducibility/contractual-reproducibility-20260908-103817/checks.json",
+      "capability": "C0",
+      "instrument": "contractual-reproducibility",
+      "size_bytes": 245,
+      "sha256": "5df3b3c9c7cb8a4ee23c072e427d78f331958821a63fbbb74a2a20bfbb66fc2a"
+    },
+    {
+      "path": "capabilities/C0/contractual-reproducibility/contractual-reproducibility-20260908-103817/manifest.json",
+      "capability": "C0",
+      "instrument": "contractual-reproducibility",
+      "size_bytes": 1261,
+      "sha256": "840f216bd0f63a9803947e87abd082bb323858bcbf2fd4aec89134b227418fb3"
+    },
+    {
+      "path": "capabilities/C0/contractual-reproducibility/contractual-reproducibility-20260908-103817/summary.json",
+      "capability": "C0",
+      "instrument": "contractual-reproducibility",
+      "size_bytes": 127,
+      "sha256": "f4665a1bf84cecfed9d639b9d26f2a25fbcfe7d710011be505c5f649ed2d07a2"
+    },
+    {
+      "path": "capabilities/C0/contractual-reproducibility/manifest.json",
+      "capability": "C0",
+      "instrument": "contractual-reproducibility",
+      "size_bytes": 1261,
+      "sha256": "840f216bd0f63a9803947e87abd082bb323858bcbf2fd4aec89134b227418fb3"
+    },
+    {
+      "path": "capabilities/C0/contractual-reproducibility/summary.json",
+      "capability": "C0",
+      "instrument": "contractual-reproducibility",
+      "size_bytes": 127,
+      "sha256": "f4665a1bf84cecfed9d639b9d26f2a25fbcfe7d710011be505c5f649ed2d07a2"
+    },
+    {
+      "path": "capabilities/C1/structural-identification/manifest.json",
+      "capability": "C1",
+      "instrument": "structural-identification",
+      "size_bytes": 1728,
+      "sha256": "13d12d351a6cdd63bf0a00a59e8c924258a867d66eaaeb06b58095625a629d61"
+    },
+    {
+      "path": "capabilities/C1/structural-identification/manifest__20260905-180347.json",
+      "capability": "C1",
+      "instrument": "structural-identification",
+      "size_bytes": 1700,
+      "sha256": "8964598ba7677205e6e463ff4fa3ead737582564ddf6711459a191bfec1b1cc8"
+    },
+    {
+      "path": "capabilities/C1/structural-identification/manifest__20260905-201801.json",
+      "capability": "C1",
+      "instrument": "structural-identification",
+      "size_bytes": 1700,
+      "sha256": "ae80a1451e934baacc92c4675f04c21215f75e5e802065a2f358aa25fdabcf10"
+    },
+    {
+      "path": "capabilities/C1/structural-identification/records.jsonl",
+      "capability": "C1",
+      "instrument": "structural-identification",
+      "size_bytes": 20118,
+      "sha256": "b1c2893f09d609460b0df605ea00bf973a13d16ec7c6b6e15044f9594ad93889"
+    },
+    {
+      "path": "capabilities/C1/structural-identification/records__20260905-180347.jsonl",
+      "capability": "C1",
+      "instrument": "structural-identification",
+      "size_bytes": 22129,
+      "sha256": "6796d342e7dfc75f8e5987ef13e20673402871d9f0035a4fc241a94d997a26d5"
+    },
+    {
+      "path": "capabilities/C1/structural-identification/records__20260905-201801.jsonl",
+      "capability": "C1",
+      "instrument": "structural-identification",
+      "size_bytes": 19969,
+      "sha256": "baffa44de341bc9ac0500a90f7459e0bfa858ad5cb94605db0710974cc7c6015"
+    },
+    {
+      "path": "capabilities/C1/structural-identification/summary.json",
+      "capability": "C1",
+      "instrument": "structural-identification",
+      "size_bytes": 7228,
+      "sha256": "9a2151ccfd2fba76bd4ca126a75ee2e538f1d9f5bb8636fc7992d94f8dafeadd"
+    },
+    {
+      "path": "capabilities/C1/structural-identification/summary__20260905-180347.json",
+      "capability": "C1",
+      "instrument": "structural-identification",
+      "size_bytes": 7129,
+      "sha256": "bed2f1a7d349ea8a0287ad0fcbb0f0ece1d0fa82978efeb8c1eeb54f86d191f6"
+    },
+    {
+      "path": "capabilities/C1/structural-identification/summary__20260905-201801.json",
+      "capability": "C1",
+      "instrument": "structural-identification",
+      "size_bytes": 7256,
+      "sha256": "ac7b8058969de4e3dfb4811609b30afbba1368f1ef1de532c5483ccf48f04a94"
+    },
+    {
+      "path": "capabilities/C2/structural-metrology/manifest.json",
+      "capability": "C2",
+      "instrument": "structural-metrology",
+      "size_bytes": 2262,
+      "sha256": "55c91cf1b185b2bbdc5b296b3707addf199d13ecbb6e3226d1acc18b96e8eb80"
+    },
+    {
+      "path": "capabilities/C2/structural-metrology/manifest__20260905-182158.json",
+      "capability": "C2",
+      "instrument": "structural-metrology",
+      "size_bytes": 2284,
+      "sha256": "7829cb05fbb35f361a7ff9a3a7984c48df53f5d561030c09cbc8863b64366d03"
+    },
+    {
+      "path": "capabilities/C2/structural-metrology/manifest__20260905-182809.json",
+      "capability": "C2",
+      "instrument": "structural-metrology",
+      "size_bytes": 2282,
+      "sha256": "6285b90a058ae8e80d0f4ac4c4a364fded34d3a31fbaa031faa992193004155f"
+    },
+    {
+      "path": "capabilities/C2/structural-metrology/manifest__20260905-190455.json",
+      "capability": "C2",
+      "instrument": "structural-metrology",
+      "size_bytes": 2290,
+      "sha256": "46efa6e94af3b7a8bf0bbb967fccb1fa608e2717c972c25e255e1aab1c9c1cf4"
+    },
+    {
+      "path": "capabilities/C2/structural-metrology/observations.jsonl",
+      "capability": "C2",
+      "instrument": "structural-metrology",
+      "size_bytes": 43855,
+      "sha256": "8f7c1a7bf3f5b60b1870c6f3895b5e5ec9bf3d500a35f543e249b369912ce4bd"
+    },
+    {
+      "path": "capabilities/C2/structural-metrology/observations__20260905-182158.jsonl",
+      "capability": "C2",
+      "instrument": "structural-metrology",
+      "size_bytes": 38864,
+      "sha256": "e8303edd342ea12b9a70cbf6926ef6fb70f80b387fbbab91004c0a25a9b8e7cd"
+    },
+    {
+      "path": "capabilities/C2/structural-metrology/observations__20260905-182809.jsonl",
+      "capability": "C2",
+      "instrument": "structural-metrology",
+      "size_bytes": 11038,
+      "sha256": "4fe724fe031514323ad54dcebdd1379561ad28928ff1bf93cda0ac6015682b91"
+    },
+    {
+      "path": "capabilities/C2/structural-metrology/observations__20260905-190455.jsonl",
+      "capability": "C2",
+      "instrument": "structural-metrology",
+      "size_bytes": 42445,
+      "sha256": "a66d64860417a993cf322eb8af894b92ee5e6d013cfa4275de8549bfbcdd8abd"
+    },
+    {
+      "path": "capabilities/C2/structural-metrology/summary.json",
+      "capability": "C2",
+      "instrument": "structural-metrology",
+      "size_bytes": 10983,
+      "sha256": "7d6e7741ae194022c2925840cc63341dd954a99d3255cba4de664e0732c6bc1a"
+    },
+    {
+      "path": "capabilities/C2/structural-metrology/summary__20260905-182158.json",
+      "capability": "C2",
+      "instrument": "structural-metrology",
+      "size_bytes": 10965,
+      "sha256": "1d1e31768343f8f5341c0e760e568788616e043d6f098ed633fbce63a681ab4b"
+    },
+    {
+      "path": "capabilities/C2/structural-metrology/summary__20260905-182809.json",
+      "capability": "C2",
+      "instrument": "structural-metrology",
+      "size_bytes": 11003,
+      "sha256": "bc74e22114439919cfb2afbdbe919c9e7f674bced5530e6ec1a388aa0a1f1050"
+    },
+    {
+      "path": "capabilities/C2/structural-metrology/summary__20260905-190455.json",
+      "capability": "C2",
+      "instrument": "structural-metrology",
+      "size_bytes": 10980,
+      "sha256": "8c79db3adb6a22a05e373ce3f6d335db2189fefd5058013d970a3cabd19cbb72"
+    },
+    {
+      "path": "capabilities/C3/directional-continuity/directional-engine.state",
+      "capability": "C3",
+      "instrument": "directional-continuity",
+      "size_bytes": 405,
+      "sha256": "fd96731de30fda0dc6b42c6945d636b0515d18b52df027442678562ec9b53324"
+    },
+    {
+      "path": "capabilities/C3/directional-continuity/directional-engine.state.bak",
+      "capability": "C3",
+      "instrument": "directional-continuity",
+      "size_bytes": 405,
+      "sha256": "fd96731de30fda0dc6b42c6945d636b0515d18b52df027442678562ec9b53324"
+    },
+    {
+      "path": "capabilities/C3/directional-continuity/manifest.json",
+      "capability": "C3",
+      "instrument": "directional-continuity",
+      "size_bytes": 1434,
+      "sha256": "63d2d055b8a037813888c996daba839a9b8813797209fb9fb92968099a39fa6f"
+    },
+    {
+      "path": "capabilities/C3/directional-continuity/records.jsonl",
+      "capability": "C3",
+      "instrument": "directional-continuity",
+      "size_bytes": 11078,
+      "sha256": "02397760e62886329715a1f113b100155c52bd024a74e492fbeb37afa98ed85c"
+    },
+    {
+      "path": "capabilities/C3/directional-continuity/summary.json",
+      "capability": "C3",
+      "instrument": "directional-continuity",
+      "size_bytes": 684,
+      "sha256": "32bac09d77264aba7741c2abbe6b7257826025e6c9d3ba0e3479a4745393d752"
+    },
+    {
+      "path": "capabilities/C3/structural-calculus/manifest.json",
+      "capability": "C3",
+      "instrument": "structural-calculus",
+      "size_bytes": 1451,
+      "sha256": "52dd66757e31275c61d7188d03fae3da1d1431c443b44070a762396e1ddab760"
+    },
+    {
+      "path": "capabilities/C3/structural-calculus/records.jsonl",
+      "capability": "C3",
+      "instrument": "structural-calculus",
+      "size_bytes": 8425,
+      "sha256": "a5e1dc65bd8088b86f94b6ef212813696d29d059609395c3aa9c2bedb7e7096a"
+    },
+    {
+      "path": "capabilities/C3/structural-calculus/summary.json",
+      "capability": "C3",
+      "instrument": "structural-calculus",
+      "size_bytes": 307,
+      "sha256": "ae586a178d1ce3f642991ed2cfa03d4041fb8da85c15b6f3c0405b014cb1f960"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/anchors.jsonl",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 10319,
+      "sha256": "90d294f4ef8bfcf4a031478f63708d2b323f64ee2fef5f68ce56e889c61d1406"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/anchors__20260906-002845.jsonl",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 10319,
+      "sha256": "90d294f4ef8bfcf4a031478f63708d2b323f64ee2fef5f68ce56e889c61d1406"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/discrepancy_audit.json",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 1770,
+      "sha256": "edd16fe38072843015a86593fff6c504df6e7145fb1cf0679bb87475e8c3faf5"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/discrepancy_audit__20260906-002845.json",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 1508,
+      "sha256": "98f6f2197536ecd3c9c3beccf7eec330846e692525eec7354fe447c8d9743bd0"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/discrepancy_records.jsonl",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 29267,
+      "sha256": "2b8ae5db634d36ed0315bc99b06f7d872ebee74627752e4012cc2c47eff52983"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/discrepancy_records__20260906-002845.jsonl",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 35202,
+      "sha256": "d0b0d9149fee250263c00ffbbd53a35657cf40b2e17ee13d83ed7cc943f7c59f"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/manifest.json",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 3638,
+      "sha256": "7fe97b167f03b622d8b66f3f6250bba2fd1ed3470e3bb206252201723a47def3"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/manifest__20260906-002845.json",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 3637,
+      "sha256": "73ffa0e9c0f308b70c16d6860296d5796de04c3c9d78feab6d5afcf419dc9588"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/records.jsonl",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 67289,
+      "sha256": "c2e0bb50c9c85df389af62ed9cfb3c29e1348742954281b2c4ddc43992df105e"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/records__20260906-002845.jsonl",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 71345,
+      "sha256": "4803baa36e9b94b8c96b61b99a7d02de57c5b7ba4f495f2453930be6a7337955"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/reidentification-replay/manifest.json",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 2256,
+      "sha256": "a3469132d2657f060f7735f4f69ad13a12400ed1f32837f1ad254365a275e68f"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/reidentification-replay/records.jsonl",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 22249,
+      "sha256": "7e0244e3117bc4c2dfda678ccab73f48a0f9bf7f17eca5c0b2a88e94eb40b599"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/reidentification-replay/summary.json",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 614,
+      "sha256": "437ac66f424ce62e6b9434244773742ab41ec65f4d6f620a4b062bff9d67996c"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/reidentification-replay__20260906-002845/manifest.json",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 2258,
+      "sha256": "8b0df6b09c58d8daee5a2f5059322a2d7c27f928b0b13b48f23d5bcb80b4a15c"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/reidentification-replay__20260906-002845/records.jsonl",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 23896,
+      "sha256": "437e47c0cb6131138c5308665e0bd05c5d7995c1ac96f7e6ed6039d9ef0e2b0a"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/reidentification-replay__20260906-002845/summary.json",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 620,
+      "sha256": "8a8ea9b2f4ea19f9dc3418a97aaf2e8ca7dbfa91510199ef6685bfce7efa0740"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/setup_failures.jsonl",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/setup_failures__20260906-002845.jsonl",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/source_diagnostics.jsonl",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/source_diagnostics__20260906-002845.jsonl",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/summary.json",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 4111,
+      "sha256": "41474544d6c3e003d529896eda94ba00461388a1973bd45ce21276da0c584015"
+    },
+    {
+      "path": "capabilities/C4/permutation-realization/summary__20260906-002845.json",
+      "capability": "C4",
+      "instrument": "permutation-realization",
+      "size_bytes": 4124,
+      "sha256": "971eb5d45c88a1f9fa5bc5e2c7d831d520c63e4b5191628dd281620aaf4796dc"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-002108-d696eecc/audit_summary.json",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 1237,
+      "sha256": "6b3f6a1021bac9ae9e24de26e9c1613267de14ff0b97a03bd1769cc6c2c1cdd7"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-002108-d696eecc/case_summaries.json",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 17015,
+      "sha256": "efda86b85007687ad59e9d883c7fb3646d60872a87e59cc76d5f7b1d395c3e14"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-002108-d696eecc/failures.jsonl",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 5730,
+      "sha256": "37f75b8177f0c670b0b985861d16af918ea2d467423f8314793bf92631f6d367"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-002108-d696eecc/hops.csv",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 180372,
+      "sha256": "c6ab5a84e7a86a52e90778ebb9754c71d6e1365fe292c2c226205488772cd869"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-002108-d696eecc/hops.jsonl",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 178001,
+      "sha256": "29e70730031b06ce824c97d1bf5827fb7845df1eda69af8b958d3c8cf00bf7e2"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-002108-d696eecc/manifest.json",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 2755,
+      "sha256": "c205f4c4cec184fde553c61cc30bd7cdd7a106f973fd2c0e21c52bc1d4d7fa2f"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-002108-d696eecc/provider_usage.json",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 168,
+      "sha256": "f8df8b519bedaf9ee36e2f39f65730ade62cab32a0077ca61e65487915b9919c"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-002108-d696eecc/summary.json",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 1063,
+      "sha256": "99b064c21af1a50e12b4d1d26abdb63f72837d74ffb67dae707b4177d430b658"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-012324-4108b27a/audit_summary.json",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 1372,
+      "sha256": "5386c369e9b7f838b9a991fc55f221fce6aad49b9840f3450d93bc42dc5c298f"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-012324-4108b27a/case_summaries.json",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 22144,
+      "sha256": "4bd740a8dd59042615d579a630fc1115d95e00bee2f2ff6ceb9bb263ab612c84"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-012324-4108b27a/failures.jsonl",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 5324,
+      "sha256": "e60bd83d8d2e8a912bcc72a3da5f98e661f962406cb1e8199b66c7c0962a68ad"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-012324-4108b27a/hops.csv",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 293772,
+      "sha256": "876a601d1b2ddebfcb181571543fb1d37c1857e8bd07c047fc17fa6373af57a7"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-012324-4108b27a/hops.jsonl",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 288984,
+      "sha256": "c8880198faff7a15a41defbb5b1202b284eab99a1f44ded6b87ad0c407816227"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-012324-4108b27a/manifest.json",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 2755,
+      "sha256": "39ee628cb84b933a1f5539258f66fe0d7b2c9079eb8f08ee677885f2096dd6cb"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-012324-4108b27a/provider_usage.json",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 174,
+      "sha256": "71921b11edd30126ba4772ce1a9df56857c61bca3c6f75c945ce6b8b0babd364"
+    },
+    {
+      "path": "capabilities/C4/translation-invariance/translation-invariance-20260906-012324-4108b27a/summary.json",
+      "capability": "C4",
+      "instrument": "translation-invariance",
+      "size_bytes": 1060,
+      "sha256": "0a992df31a7970f8cde6de43c8c538d063954f9dd40d2ab20fea8dadcd38d5d1"
+    },
+    {
+      "path": "capabilities/C5/contextual-adaptation/manifest.json",
+      "capability": "C5",
+      "instrument": "contextual-adaptation",
+      "size_bytes": 1787,
+      "sha256": "51f9502722cbe120489066bcf3700070f838af08ccd2656e9fb366fae8fcf147"
+    },
+    {
+      "path": "capabilities/C5/contextual-adaptation/manifest__20260906-123311.json",
+      "capability": "C5",
+      "instrument": "contextual-adaptation",
+      "size_bytes": 1787,
+      "sha256": "b21a1ad08bf099c029893d271305b72a7fed38118be96a0d61030a8d2adda0c2"
+    },
+    {
+      "path": "capabilities/C5/contextual-adaptation/metrology_summary.json",
+      "capability": "C5",
+      "instrument": "contextual-adaptation",
+      "size_bytes": 541,
+      "sha256": "8b79952383c931a9cc6041f0fc9896234a43209fe8644ea488d4da51c5f984a4"
+    },
+    {
+      "path": "capabilities/C5/contextual-adaptation/metrology_summary__20260906-123311.json",
+      "capability": "C5",
+      "instrument": "contextual-adaptation",
+      "size_bytes": 541,
+      "sha256": "917c89dd10c1130006eca33caaa3cd41dc867bebfac161169a1fd4eeee34f210"
+    },
+    {
+      "path": "capabilities/C5/contextual-adaptation/records.jsonl",
+      "capability": "C5",
+      "instrument": "contextual-adaptation",
+      "size_bytes": 150823,
+      "sha256": "a96ecc3b493ad02a166981c4cc7733020084fe77d7b61e5c974136f0c6137c4e"
+    },
+    {
+      "path": "capabilities/C5/contextual-adaptation/records__20260906-123311.jsonl",
+      "capability": "C5",
+      "instrument": "contextual-adaptation",
+      "size_bytes": 148002,
+      "sha256": "ff549ee81bbcc2aa7dae3218acb57b2426b023395257b4d340a620f229e9f46c"
+    },
+    {
+      "path": "capabilities/C5/contextual-adaptation/summary.json",
+      "capability": "C5",
+      "instrument": "contextual-adaptation",
+      "size_bytes": 559,
+      "sha256": "afb4bf8771e51512ebb004a44f349abb500299c9020a2ac7a1f64f5d5b29fa54"
+    },
+    {
+      "path": "capabilities/C5/contextual-adaptation/summary__20260906-123311.json",
+      "capability": "C5",
+      "instrument": "contextual-adaptation",
+      "size_bytes": 566,
+      "sha256": "7820015e31214fd235b2bddceb47b46eae916fabf80ecd6156eaa15213d6c683"
+    },
+    {
+      "path": "capabilities/C5/contextual-direction/manifest.json",
+      "capability": "C5",
+      "instrument": "contextual-direction",
+      "size_bytes": 1777,
+      "sha256": "fa6c489d54faf9c816f58b57153f00c159734bc6496ceff719d8448b3bd413ae"
+    },
+    {
+      "path": "capabilities/C5/contextual-direction/manifest__20260906-120023.json",
+      "capability": "C5",
+      "instrument": "contextual-direction",
+      "size_bytes": 1777,
+      "sha256": "d6b79fa66f2debb26074b0daafb8bfe2a48ad173f5871c2b45567fccf0809d94"
+    },
+    {
+      "path": "capabilities/C5/contextual-direction/metrology_summary.json",
+      "capability": "C5",
+      "instrument": "contextual-direction",
+      "size_bytes": 539,
+      "sha256": "c42ec99f8a880f93820b4b24a29d53fc4c118b3bae8ff2b1595714af70954a92"
+    },
+    {
+      "path": "capabilities/C5/contextual-direction/metrology_summary__20260906-120023.json",
+      "capability": "C5",
+      "instrument": "contextual-direction",
+      "size_bytes": 508,
+      "sha256": "e9a1aad2e1f182651764428d900ecf4167185a2bbf5f2de1cd089cb6497b0606"
+    },
+    {
+      "path": "capabilities/C5/contextual-direction/records.jsonl",
+      "capability": "C5",
+      "instrument": "contextual-direction",
+      "size_bytes": 27914,
+      "sha256": "0b2a1605a483c8e3d2ed65e5771994f7ba614f21f66c0d4c9b394fc3a180c197"
+    },
+    {
+      "path": "capabilities/C5/contextual-direction/records__20260906-120023.jsonl",
+      "capability": "C5",
+      "instrument": "contextual-direction",
+      "size_bytes": 28301,
+      "sha256": "d5e375b7488efaf9870ff827de566839379b7f0cdcc0415776e3d5bca72ad5c7"
+    },
+    {
+      "path": "capabilities/C5/contextual-direction/summary.json",
+      "capability": "C5",
+      "instrument": "contextual-direction",
+      "size_bytes": 3607,
+      "sha256": "d127ff4f1f3186f51e7c33dd03f1578d374a60c0e94743e66fb3ec14c6e90e66"
+    },
+    {
+      "path": "capabilities/C5/contextual-direction/summary__20260906-120023.json",
+      "capability": "C5",
+      "instrument": "contextual-direction",
+      "size_bytes": 3616,
+      "sha256": "642fcdd940ffc5e9b97c1c8a1af72cfbeca0e07304c58b4858fad353007cb759"
+    },
+    {
+      "path": "capabilities/C6/longitudinal-narrative/analysis.json",
+      "capability": "C6",
+      "instrument": "longitudinal-narrative",
+      "size_bytes": 1613,
+      "sha256": "10e3d2d59e2ad3607a151ab93fe911c6649e91e768aa6f73fe1c1d4bf4d3e149"
+    },
+    {
+      "path": "capabilities/C6/longitudinal-narrative/final.json",
+      "capability": "C6",
+      "instrument": "longitudinal-narrative",
+      "size_bytes": 253770,
+      "sha256": "56c79c4177f2fda22750633c25db354117475cde5f1f94ea20805d113febc187"
+    },
+    {
+      "path": "capabilities/C6/longitudinal-narrative/manifest.json",
+      "capability": "C6",
+      "instrument": "longitudinal-narrative",
+      "size_bytes": 2058,
+      "sha256": "ce45199473fd6d407bfa4d151951bb363fee5b91bdadcbe89ff81012634db776"
+    },
+    {
+      "path": "capabilities/C6/longitudinal-narrative/records.jsonl",
+      "capability": "C6",
+      "instrument": "longitudinal-narrative",
+      "size_bytes": 4874996,
+      "sha256": "5a5508efe3c571077602e7333b67f0a59de9b62779db0bd333725b7c6af5d870"
+    },
+    {
+      "path": "capabilities/C6/longitudinal-narrative/semantic_grades.json",
+      "capability": "C6",
+      "instrument": "longitudinal-narrative",
+      "size_bytes": 49471,
+      "sha256": "865ddafd4a22b0fccedbce2fc712e772f2a4aa4d0dd14f44a1af17aee89b2ed6"
+    },
+    {
+      "path": "capabilities/C7/heterogeneous-closed/manifest.json",
+      "capability": "C7",
+      "instrument": "heterogeneous-closed",
+      "size_bytes": 1751,
+      "sha256": "bba5de86d6b37038a9f6d135f8f876615de06ff63178ae056cc18c84ec2341c0"
+    },
+    {
+      "path": "capabilities/C7/heterogeneous-closed/records.jsonl",
+      "capability": "C7",
+      "instrument": "heterogeneous-closed",
+      "size_bytes": 1163657,
+      "sha256": "97fc782315774c6a353da15f8b215b47669d173c8315107388ae3e39acee3634"
+    },
+    {
+      "path": "capabilities/C7/heterogeneous-closed/summary.json",
+      "capability": "C7",
+      "instrument": "heterogeneous-closed",
+      "size_bytes": 9840,
+      "sha256": "716ff6c929602f81d04f74a08a988c2fce3ccba10b0081be59b89d1617a494ef"
+    },
+    {
+      "path": "capabilities/C7/lexical-closed/manifest.json",
+      "capability": "C7",
+      "instrument": "lexical-closed",
+      "size_bytes": 1542,
+      "sha256": "fa1b0538c472c67037931203f50c2677dc439b66d34b3b52c5a9d1c0cdebadf4"
+    },
+    {
+      "path": "capabilities/C7/lexical-closed/records.jsonl",
+      "capability": "C7",
+      "instrument": "lexical-closed",
+      "size_bytes": 73240,
+      "sha256": "9b720efaf47a71edd46406510e399406476d0cb09fa3047637daf8446ab3c195"
+    },
+    {
+      "path": "capabilities/C7/lexical-closed/summary.json",
+      "capability": "C7",
+      "instrument": "lexical-closed",
+      "size_bytes": 6385,
+      "sha256": "95fbd783779153fec1b3648024dc2a1a846f0ae2d24fe46ee9628c0d5048f73a"
+    },
+    {
+      "path": "capabilities/C8/closed-open-composition/manifest.json",
+      "capability": "C8",
+      "instrument": "closed-open-composition",
+      "size_bytes": 1863,
+      "sha256": "9e8cd2dc17adbb39203495d7260523b572a481174a729bc14bc863d8a19c0424"
+    },
+    {
+      "path": "capabilities/C8/closed-open-composition/records.jsonl",
+      "capability": "C8",
+      "instrument": "closed-open-composition",
+      "size_bytes": 5843,
+      "sha256": "b103e17fa4106aeab42184b9cd111587952f424d8ca91596fb7d9cf129c04e01"
+    },
+    {
+      "path": "capabilities/C8/closed-open-composition/summary.json",
+      "capability": "C8",
+      "instrument": "closed-open-composition",
+      "size_bytes": 701,
+      "sha256": "c672eb718879b29419b889ced1f4468f3a51f08615dc3b18b0cbe9558220ef59"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/concurrency-analysis.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 6305,
+      "sha256": "8651b8cf4e9e4e1c6b34d5292000b3dd28dff14fa57337c8bd692474ad721074"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/concurrency-analysis.md",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 850,
+      "sha256": "38f00617fc402d8900da5c23dffa7a2fc4e761b74453332c7cb82f570f40c0e4"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/_case_corpora/anchor-loss-opportunity.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 887,
+      "sha256": "ec24016dc78ef8149cb5427595d276579c5f85db9f51f4d087b7841c592cc916"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/_case_corpora/appropriate-takeover-emergency.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 625,
+      "sha256": "a98b6c932f5bf2f6714d559d61d85cd28949c534f3d52a2a5a1fc73e380ddca5"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/_case_corpora/convergent-diagnosis.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 674,
+      "sha256": "cf7d119d595d786acc4044d39d784f67fec52ad1d8a792f3360faae0254fb66e"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/_case_corpora/divergent-exploration.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 641,
+      "sha256": "d645a82635191806348c9c9bb9908a4554e8914865aed11be23215d4af2d437d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/_case_corpora/explicit-contextual-underdetermination.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 784,
+      "sha256": "6705325c79e96b61cf89ebe70bc5d655f66c90eee672706091fe61c84825534d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/_case_corpora/group-external-cutoff-after-merge.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1995,
+      "sha256": "d417dcfc0e58c8b6f6e5cc01139fb47e65283f6ff739608034a7ca613a3cc88d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/_case_corpora/group-interleaved-resumption-and-merge.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 2465,
+      "sha256": "5fe9921349ce2769ea8015fc871e4097677c8bcc1fac3e2afc64b599fb0e2f9e"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/_case_corpora/group-misunderstanding-repeat-and-reanchor.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1668,
+      "sha256": "f98782c7a66d3610da883613b0abc03aa0edf7755e453cef781ec250bea20c45"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/_case_corpora/group-observer-reconstructs-without-original-participation.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1528,
+      "sha256": "0081dfc149712f121f3a3911e59ae8cc35a7afad79621b44f038a9ad58a01c36"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/_case_corpora/group-parallel-threads-local-inertia.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1755,
+      "sha256": "e780352dbc2b22080220846e82405efebb9a5b12e42e60852920a6b75bff83a7"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/_case_corpora/group-same-topic-opposed-organization.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1196,
+      "sha256": "d279a8128236818f4d0d8ce7aa338b3e3dbcff96f9c86f5a3618bfa3b33b00e6"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/_case_corpora/inappropriate-takeover-social.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 945,
+      "sha256": "02da10b43d7639c2391a50d404b5d532fa1172e4bb942b5539468745c93e8f96"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/_case_corpora/topic-shift-direction-preserved.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 647,
+      "sha256": "c3027b3ae6e2eb7301f005c97e413e9011d99e818c9eaab64e9ee23fada6c5fb"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/anchor-loss-opportunity/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1922,
+      "sha256": "5b6d80c8fad6e3d0fbe10f476201d9b11fad12d27b8f246f07ed35142dbc758e"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/anchor-loss-opportunity/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 8361,
+      "sha256": "84c728279235b70b9cb3c44ee8451271a28c7a95b64887c526e367f15f377b84"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/anchor-loss-opportunity/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 945,
+      "sha256": "87f7e2d11ffe5a56a6ef3df5e3b5644cd13ffaed399cae3158cf9df461bad45b"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/appropriate-takeover-emergency/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1929,
+      "sha256": "0d474935ff7a2aba99ef66869913ef493f876befe0d2731b9837aa7dec163c5e"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/appropriate-takeover-emergency/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 9817,
+      "sha256": "8c780952625b9b7b128d049d3c6083102e862c324d36b3e723e31a57d2b2fad2"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/appropriate-takeover-emergency/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 943,
+      "sha256": "8b2d53aac89ceed91cb23e4fa569c9882071d60770e95dee4562eac820df83e1"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/convergent-diagnosis/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1919,
+      "sha256": "6a0453c039ccd01c7f97525f42124087b004298a478978f7cdbe7692a401ad25"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/convergent-diagnosis/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 9772,
+      "sha256": "6bce56e3eac78838620bfa169d7bf3c8c740c5ed1bc1c727a06390a59dc6f290"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/convergent-diagnosis/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 943,
+      "sha256": "5b3e301df1dd184f3e23e44f84e59f6b40ad7ba530ea3421bf34d3b0c3557d8b"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/divergent-exploration/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1920,
+      "sha256": "0d846646124f3f66c81451738b640b4939b21526778df45e5073500c61f3c97d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/divergent-exploration/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 13689,
+      "sha256": "e1aac6a9b2f01b95439f592db97a18c5e7b328c0c6d48cad5506a77e0ef424ea"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/divergent-exploration/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 946,
+      "sha256": "aece2d862863d5f278a40920e1a7abcf2168a7a6dadde138964f86b3076785ed"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/explicit-contextual-underdetermination/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1937,
+      "sha256": "90e109d66aa5afecdd18a4ec7195180b92914d6c63c65ff832cfcccf89b5bd23"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/explicit-contextual-underdetermination/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 7099,
+      "sha256": "d0e5da1069c2b397628e61cdade44df4425fd905a9dbdd023522ca4b2e078819"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/explicit-contextual-underdetermination/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 943,
+      "sha256": "78a0f6d2459420d845ec8fc7dd43112b8146548e3af108727b29f4ec0dffc018"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-external-cutoff-after-merge/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1932,
+      "sha256": "2e15ccbf50d4fd3e9f5ea18c9d7bb51056ac95edcb237caf75665c41f611ecc3"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-external-cutoff-after-merge/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 23862,
+      "sha256": "8c60a2841b70dff82b19524d8e494096411691976ca19c6713fe6ab08b50078b"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-external-cutoff-after-merge/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 953,
+      "sha256": "2842bb85247def33d2e7d81d85f3cb754ce8ffe94bb322079cf0330b565e8c31"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-external-cutoff-after-merge/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1932,
+      "sha256": "ad13b0a1ef0c4c957e214fa6d1720091374c4a845fa75a2673405311a0507878"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-external-cutoff-after-merge/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 4242,
+      "sha256": "6cdca68771a11361c2ecf08d7bdd1e2d230c0680cfd2bccbe2fedba4fb2d69c3"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-external-cutoff-after-merge/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 994,
+      "sha256": "ada7c0232ac18a078c22eeae2daacc2afca2f4409c10285a40bd47dfd2e3db8f"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-interleaved-resumption-and-merge/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1937,
+      "sha256": "63a186d3b31d833c9e150dd464dcb0784e35610c614a17adfe1904990e3573e8"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-interleaved-resumption-and-merge/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 45567,
+      "sha256": "1503fc6c147d59a981dd5dbee5f726f53b552d7da77083e3004ec10fec693d58"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-interleaved-resumption-and-merge/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 948,
+      "sha256": "a490c70f96bd49f31e98145fa45bad82f0bfb7662764bd87d5dc143592d7532b"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-misunderstanding-repeat-and-reanchor/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1941,
+      "sha256": "8d444ee7b1b5927e12bb683907cbd590f548a419a9b54508b1addcbe9fd5a922"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-misunderstanding-repeat-and-reanchor/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 21884,
+      "sha256": "955479ee1912cfe5d91531bc06c9f7fbf1d8eea43f02e892278937a998c0d1ba"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-misunderstanding-repeat-and-reanchor/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 948,
+      "sha256": "866e3c50e95806708ee863d329ea6a34e66218c937e9425d16cc6d26fccc7d03"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-observer-reconstructs-without-original-participation/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1957,
+      "sha256": "d6d5f4775dcd28cceb6e8648ccf78179c12a8cd5307cfc9f8879fd4fcf317562"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-observer-reconstructs-without-original-participation/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 15392,
+      "sha256": "13139b361ad9eaca2ea07a80384b6a2102cf78d81b2d5d772b2542b9df42f47b"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-observer-reconstructs-without-original-participation/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 948,
+      "sha256": "2beba7d088fed36259d69f3a33724f20cf1e3dc93bafec79af472bb94bc7a857"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-parallel-threads-local-inertia/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1935,
+      "sha256": "f45c82c00c56595818cb6007d341bc6c5f57390632364682d273ec1279f84c4d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-parallel-threads-local-inertia/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 3344,
+      "sha256": "f8cd5ee7ae49fd4d4e09993ee0e17dccbb6b864e199ae7d237c7e13b5eb6bbdf"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-parallel-threads-local-inertia/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 984,
+      "sha256": "644494483c7ae85e367f415d9589d40d0707836a8bf12576ada8560a5825eee8"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-parallel-threads-local-inertia/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1935,
+      "sha256": "b2fa3861c7202f59b56cf08a1ed2ec2f8260e15e9530904e2bb9e589c91c4e25"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-parallel-threads-local-inertia/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 24343,
+      "sha256": "ab2032b301c0a993df021459b2ecd24d35b3ddfd07414c0511d591771f358600"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-parallel-threads-local-inertia/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 986,
+      "sha256": "b2d7d8732cbf760045b3a6485dfd3314adb99e1b5920c41ad1f787062eb739f4"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-same-topic-opposed-organization/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1936,
+      "sha256": "30f1bd80b7f0a13b0e960fb22fb70693d87723127d6ee9fa8cf9763639a5dbfc"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-same-topic-opposed-organization/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 25222,
+      "sha256": "a8764410537997c0772dc104db71b3a2de48edffc65e366a0060977485e2cf31"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/group-same-topic-opposed-organization/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 947,
+      "sha256": "04085e86ef3ec35cf6a9dc5e0e4b9a742bb7c74404cfc45352844a76233ffa80"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/inappropriate-takeover-social/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1928,
+      "sha256": "48831a412d1786c50e1a71059eaec57028fb96749ecd3397b71d24acb7a78229"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/inappropriate-takeover-social/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 8479,
+      "sha256": "3ef6f470ac87d718ecbec46233ed741e6a127d92d827265ebaf641ae72eb2dbc"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/inappropriate-takeover-social/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 948,
+      "sha256": "ccefe411fead764287bef734a08e49877fd37e4cbaa4fb00cd554227004f3061"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/inappropriate-takeover-social/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1928,
+      "sha256": "7ee106353d070f7856bf9bf68ccb9b780ca96afa9bcd53249c4aa377389de030"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/inappropriate-takeover-social/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1426,
+      "sha256": "36ecf66fc932a411511006aca9bf62962ffe208e412881ad54d0e36f4f71d896"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/inappropriate-takeover-social/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1005,
+      "sha256": "cdc173372d8e6744a675546a77f548fd5acc1a441b51defd845e37c5ec38b10d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/topic-shift-direction-preserved/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1930,
+      "sha256": "02595b6d262f747cf66fda4158164dacb559c599f530deb6068d24d1a0d11822"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/topic-shift-direction-preserved/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 11192,
+      "sha256": "f76fc0960876d998a6d72758775125da626090b1bb9ea4913b080ebf38f1cd69"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_concurrent/topic-shift-direction-preserved/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 944,
+      "sha256": "6e428fe84f4eb7756d58fbe651ed80df4e9d1aed5e0c000b2abd3ebbede670d1"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/_case_corpora/anchor-loss-opportunity.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 887,
+      "sha256": "ec24016dc78ef8149cb5427595d276579c5f85db9f51f4d087b7841c592cc916"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/_case_corpora/appropriate-takeover-emergency.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 625,
+      "sha256": "a98b6c932f5bf2f6714d559d61d85cd28949c534f3d52a2a5a1fc73e380ddca5"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/_case_corpora/convergent-diagnosis.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 674,
+      "sha256": "cf7d119d595d786acc4044d39d784f67fec52ad1d8a792f3360faae0254fb66e"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/_case_corpora/divergent-exploration.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 641,
+      "sha256": "d645a82635191806348c9c9bb9908a4554e8914865aed11be23215d4af2d437d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/_case_corpora/explicit-contextual-underdetermination.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 784,
+      "sha256": "6705325c79e96b61cf89ebe70bc5d655f66c90eee672706091fe61c84825534d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/_case_corpora/group-external-cutoff-after-merge.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1995,
+      "sha256": "d417dcfc0e58c8b6f6e5cc01139fb47e65283f6ff739608034a7ca613a3cc88d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/_case_corpora/group-interleaved-resumption-and-merge.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 2465,
+      "sha256": "5fe9921349ce2769ea8015fc871e4097677c8bcc1fac3e2afc64b599fb0e2f9e"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/_case_corpora/group-misunderstanding-repeat-and-reanchor.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1668,
+      "sha256": "f98782c7a66d3610da883613b0abc03aa0edf7755e453cef781ec250bea20c45"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/_case_corpora/group-observer-reconstructs-without-original-participation.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1528,
+      "sha256": "0081dfc149712f121f3a3911e59ae8cc35a7afad79621b44f038a9ad58a01c36"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/_case_corpora/group-parallel-threads-local-inertia.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1755,
+      "sha256": "e780352dbc2b22080220846e82405efebb9a5b12e42e60852920a6b75bff83a7"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/_case_corpora/group-same-topic-opposed-organization.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1196,
+      "sha256": "d279a8128236818f4d0d8ce7aa338b3e3dbcff96f9c86f5a3618bfa3b33b00e6"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/_case_corpora/inappropriate-takeover-social.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 945,
+      "sha256": "02da10b43d7639c2391a50d404b5d532fa1172e4bb942b5539468745c93e8f96"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/_case_corpora/topic-shift-direction-preserved.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 647,
+      "sha256": "c3027b3ae6e2eb7301f005c97e413e9011d99e818c9eaab64e9ee23fada6c5fb"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/anchor-loss-opportunity/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1922,
+      "sha256": "acb9f2cc9a1b83626a60a722c57df4149d9af50872131161165df3bb2c0e3575"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/anchor-loss-opportunity/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 7987,
+      "sha256": "0fdc4768de65de70f6f1ac1906b453f771308658ac60d22838b121bb384d148e"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/anchor-loss-opportunity/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 944,
+      "sha256": "cc37b1e1eb5082a603640c08b4343f8456d2fef7236ecc1d4f39195fa1af99c5"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/appropriate-takeover-emergency/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1929,
+      "sha256": "830d566099a82b1a46cdc0c3336b7d99dc1d7cc04e3ace5f16ccfc3e6b5ab3da"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/appropriate-takeover-emergency/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1149,
+      "sha256": "58c49199ee75223c976aaab33842f63ea8a40cc4b5b68b78499faf7eab019f97"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/appropriate-takeover-emergency/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 984,
+      "sha256": "bf827852f0858ff7cead41bd6d0a50a59cc0d3e504b7994c49507e2e5965052f"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/appropriate-takeover-emergency/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1929,
+      "sha256": "6a321804448b86eb44c017ca225511faa0dffe20f1fd501453a820b56dad6b5b"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/appropriate-takeover-emergency/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1149,
+      "sha256": "58c49199ee75223c976aaab33842f63ea8a40cc4b5b68b78499faf7eab019f97"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/appropriate-takeover-emergency/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 982,
+      "sha256": "b41f420c10b332efc87a3901ac7fc40f178292cb30cef264fd97ea86a356e938"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/convergent-diagnosis/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1919,
+      "sha256": "de713088461d529bfa108b32cc58fe073ac98b5f8996263315d4e5ac9aa75cca"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/convergent-diagnosis/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 9575,
+      "sha256": "d302d06678173ccf61d718109e9325cb3093f7c35584ace2fe59602edaaa0e0e"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/convergent-diagnosis/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 943,
+      "sha256": "6a0bf023487c4d2726b174c689a749bdc0f8f70946f5a74b2f2a8357e267482c"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/divergent-exploration/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1920,
+      "sha256": "99137464c678c4c6d99c8075871e844d633adbb0c252ce40adab239a9af611ed"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/divergent-exploration/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 15878,
+      "sha256": "95cf1a2966def334f2066eab8eb36b77e0f9b6cd0acbd867fb2df81678e81ff6"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/divergent-exploration/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 946,
+      "sha256": "09149a08c7e334cbb1919ee7f1fcf617b344f165120cfe81321fe0ce46477218"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/explicit-contextual-underdetermination/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1937,
+      "sha256": "4eaac63596256b2c8827c2aabf483f78adde8095e2e9304315b748a122416cf3"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/explicit-contextual-underdetermination/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 7145,
+      "sha256": "265475200e029f1c2b2cd2c683d0e56cc084ac0a5b99f7e1cb63eaa2a2b86bd1"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/explicit-contextual-underdetermination/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 940,
+      "sha256": "ee9c544454aa417be39bd6eef19bf9b99608db3b94a021261aa5ee0f42af641c"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-external-cutoff-after-merge/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1932,
+      "sha256": "a0800d6be58e2fb0ef5235fe0b2f333ecb6f1a3f251d341f3d13e6e449897415"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-external-cutoff-after-merge/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 25003,
+      "sha256": "ecf50ee9b5128b98a4ab0043e4bc345f289d6041024950820905089462c90534"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-external-cutoff-after-merge/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 949,
+      "sha256": "91d46d180a9530231b55c4c3c827bdf59e62adaa300b3b6f17321912b0de85ca"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-external-cutoff-after-merge/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1932,
+      "sha256": "4667abbca67669fe2a986be07dfc6429c60bf9a7aaab8a301d6b73c7afb7e564"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-external-cutoff-after-merge/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 10515,
+      "sha256": "e9da5a2a37b1a96f27c6fd936568e0ef87eb14e10f884f228251c68788492c62"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-external-cutoff-after-merge/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1004,
+      "sha256": "12006e60554a9c0d57447ee6a2db0715b16a795bfa118b4a9ebeb7dcfd908b85"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-interleaved-resumption-and-merge/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1937,
+      "sha256": "dbd9dc5ac8be693501db8d4dadf7a2d424660d3a55facdd6059c0917578887fa"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-interleaved-resumption-and-merge/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 18821,
+      "sha256": "92864c478d5a6da1f482a50afecff558d2dbcba990f3d54c8e61f747306c1cb1"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-interleaved-resumption-and-merge/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1014,
+      "sha256": "1d9f387be039f41c07e886f391eb0c39f9f9a8f213ec7fa2ec221f4548804602"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-interleaved-resumption-and-merge/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1937,
+      "sha256": "2d1fcad92fcbb47fcd93c62f3363c52f5191d06c76a16422d6e1ca3d8a6af49f"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-interleaved-resumption-and-merge/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 18636,
+      "sha256": "c47ad2dde63b2146d6a41511b2f135fdd4504950e62448e564a57d1f8369e5b3"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-interleaved-resumption-and-merge/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 986,
+      "sha256": "2d90d05f13245c335147c3d5e1f52f761cf92771edcdad2823055a8b3ab789ef"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-misunderstanding-repeat-and-reanchor/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1941,
+      "sha256": "0c32332b7600f494fafa1eff428e8e5831873dc8c4320413d67e6411bd905ff1"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-misunderstanding-repeat-and-reanchor/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 22059,
+      "sha256": "214262b415e522ec642050225d4745535f5a1b7e1bd7392308a8304455ef7bea"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-misunderstanding-repeat-and-reanchor/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 949,
+      "sha256": "c773cfefcfb17082d3e72e8b833814648a7d1bd73e77561ecda433dca5cc08d7"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-misunderstanding-repeat-and-reanchor/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1941,
+      "sha256": "a9cce82449629f4c771c83973f4f1b0419bce9a05618e9ac02888f3b7974e48f"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-misunderstanding-repeat-and-reanchor/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 15717,
+      "sha256": "4853f97236034301f6386c8538072218c5569146908dce7ba9d488f14db14326"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-misunderstanding-repeat-and-reanchor/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 996,
+      "sha256": "6f733fcaaa6bdf0d9d71ce33a5985228c1796a248716551ce6c176020fa5d917"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-observer-reconstructs-without-original-participation/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1957,
+      "sha256": "91ba8ec3c00cfcaf8a4767e7bc587f30a8f65bc3b5b87aa27a803c3abaf71abb"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-observer-reconstructs-without-original-participation/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 16243,
+      "sha256": "7a2fc94da011c4a1bfb8d79395976ef2b461f8ea19e4d2348e65bb4dc56d6b9c"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-observer-reconstructs-without-original-participation/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 948,
+      "sha256": "a0f34103eb71f5e390c7f762a3bdd88670d0abd6376d9c77bc1a802c9cf5db46"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-parallel-threads-local-inertia/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1935,
+      "sha256": "9ff0f0a3d27300e8f00267dd67f137d776b488e0fa90906afe47503ab9695612"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-parallel-threads-local-inertia/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 3344,
+      "sha256": "f8cd5ee7ae49fd4d4e09993ee0e17dccbb6b864e199ae7d237c7e13b5eb6bbdf"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-parallel-threads-local-inertia/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 987,
+      "sha256": "d53542b5180a12d528a67f3e959321c8dce0f2dceb1d11c70f30bba9e55329f5"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-parallel-threads-local-inertia/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1935,
+      "sha256": "90f11c16668e2d752a3d45d320bff11aa7445d86af8aabd54acd883e13a58316"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-parallel-threads-local-inertia/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 21848,
+      "sha256": "bce2df4ec0e540b88c4ada5af7dd4945170df0a2687c8b53e908dffc30ec7c64"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-parallel-threads-local-inertia/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 996,
+      "sha256": "7d6681d178bd0311bd837f86d06048df7838d6c461455a6160d7685bb8ac1d79"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-same-topic-opposed-organization/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1936,
+      "sha256": "14d3166a2274005e7fbf5c4b1832e536fdaf1e5694d83e0c343fdf3f85e5ea21"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-same-topic-opposed-organization/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 24534,
+      "sha256": "06b680ab6827ef7e768a282a99bc6212dc66d26b8bb25e80b205f9248fb1f47c"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-same-topic-opposed-organization/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 949,
+      "sha256": "a7e50962604fd0114480c2c80b0f42455d9bd7811c2ee4b818e8b02dcba95542"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-same-topic-opposed-organization/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1936,
+      "sha256": "9c6229537e0030959ec5bbeffb8082b4e2771970a9747b52ca4bf2b669304254"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-same-topic-opposed-organization/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 2318,
+      "sha256": "d2de2812e408f6e35447c60211642b88b4efdbec7e50b72a025e06caa850a819"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/group-same-topic-opposed-organization/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 982,
+      "sha256": "a6658ecdfde2bf924e7589b52738def8bb331cad862424343b70e918b072a255"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/inappropriate-takeover-social/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1928,
+      "sha256": "491fd3db48d9392f25e0883f01377ee3c71427cf953094deccbb64c82f2623bd"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/inappropriate-takeover-social/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 12093,
+      "sha256": "5b8169ef0d40022c4a3e57dd46fa8eafdf5828ae16f78ce2df23879af7974f4f"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/inappropriate-takeover-social/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 946,
+      "sha256": "0c143a40c55040893970a3c94168904f1ac1d23ebd4a58b7a972b7ab363ffe48"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/topic-shift-direction-preserved/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1930,
+      "sha256": "06b83f034b55cecf3eac56879bb6b56b103db97a5ba8352abb53f4cb1553b7a5"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/topic-shift-direction-preserved/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 7763,
+      "sha256": "39724237d9c7832e6d0ecc88dc9489bbfa0dc8c35d29247bcae474369ea17036"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-adaptation/adaptive_sequential/topic-shift-direction-preserved/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 943,
+      "sha256": "9f3448decfa32de0c2a1c457c78e9ed8cbe0658a64fb4253e32656778f370008"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/_case_corpora/anchor-loss-opportunity.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 887,
+      "sha256": "ec24016dc78ef8149cb5427595d276579c5f85db9f51f4d087b7841c592cc916"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/_case_corpora/appropriate-takeover-emergency.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 625,
+      "sha256": "a98b6c932f5bf2f6714d559d61d85cd28949c534f3d52a2a5a1fc73e380ddca5"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/_case_corpora/convergent-diagnosis.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 674,
+      "sha256": "cf7d119d595d786acc4044d39d784f67fec52ad1d8a792f3360faae0254fb66e"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/_case_corpora/divergent-exploration.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 641,
+      "sha256": "d645a82635191806348c9c9bb9908a4554e8914865aed11be23215d4af2d437d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/_case_corpora/explicit-contextual-underdetermination.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 784,
+      "sha256": "6705325c79e96b61cf89ebe70bc5d655f66c90eee672706091fe61c84825534d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/_case_corpora/group-external-cutoff-after-merge.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1995,
+      "sha256": "d417dcfc0e58c8b6f6e5cc01139fb47e65283f6ff739608034a7ca613a3cc88d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/_case_corpora/group-interleaved-resumption-and-merge.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 2465,
+      "sha256": "5fe9921349ce2769ea8015fc871e4097677c8bcc1fac3e2afc64b599fb0e2f9e"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/_case_corpora/group-misunderstanding-repeat-and-reanchor.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1668,
+      "sha256": "f98782c7a66d3610da883613b0abc03aa0edf7755e453cef781ec250bea20c45"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/_case_corpora/group-observer-reconstructs-without-original-participation.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1528,
+      "sha256": "0081dfc149712f121f3a3911e59ae8cc35a7afad79621b44f038a9ad58a01c36"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/_case_corpora/group-parallel-threads-local-inertia.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1755,
+      "sha256": "e780352dbc2b22080220846e82405efebb9a5b12e42e60852920a6b75bff83a7"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/_case_corpora/group-same-topic-opposed-organization.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1196,
+      "sha256": "d279a8128236818f4d0d8ce7aa338b3e3dbcff96f9c86f5a3618bfa3b33b00e6"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/_case_corpora/inappropriate-takeover-social.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 945,
+      "sha256": "02da10b43d7639c2391a50d404b5d532fa1172e4bb942b5539468745c93e8f96"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/_case_corpora/topic-shift-direction-preserved.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 647,
+      "sha256": "c3027b3ae6e2eb7301f005c97e413e9011d99e818c9eaab64e9ee23fada6c5fb"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/anchor-loss-opportunity/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1912,
+      "sha256": "64aa5bc71f0232f76fccba186681e7caa960ade320bd6374cc8f7b20d1a2b889"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/anchor-loss-opportunity/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1281,
+      "sha256": "fdc3e9087b0780439350d5d4c84971ba4761c8bf4410675bd30614d667b0ebca"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/anchor-loss-opportunity/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 941,
+      "sha256": "596b61016d4df075a374d044357e249c68f37e60f741fcc2d6c9ec491977f4af"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/appropriate-takeover-emergency/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1919,
+      "sha256": "b43462ea6f5df894fe8ea01692e76bda3210eee071be7b4ceb2bc171a7828dd9"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/appropriate-takeover-emergency/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1084,
+      "sha256": "fd413cc02436b9b45611ef24be2000910b1d9604b139731197af8a5b4540e7e9"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/appropriate-takeover-emergency/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 941,
+      "sha256": "0ea34ad022dab17f351fb9d427e0cbb26f6233bef26f39209e9e8cbc88c2b1f3"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/convergent-diagnosis/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1909,
+      "sha256": "da6039eaeb3da68a722f3462f8876c8884b2b58aace18ff141ff5edcc0dc1648"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/convergent-diagnosis/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1171,
+      "sha256": "a4904869cde5b642203453b12ed660b17c170c632120bdc358f2d43286403dda"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/convergent-diagnosis/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 930,
+      "sha256": "c4f1ae0370df017afb4a1c28e63f756779fb3bf58ce8277c47d26e0fa3dd8cde"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/divergent-exploration/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1910,
+      "sha256": "b958b807d537603cc80c5f9ea644dad64b8eb0050fa71856cb6b6f9e77a11715"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/divergent-exploration/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1095,
+      "sha256": "aa1b2a6622e604c320457513335c9a5229d75d460f99da74cc7b0c9c40b18205"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/divergent-exploration/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 929,
+      "sha256": "757c5f61ed12c2b57a3f8e2d9e7f766115fba05a8ef4fcccb8ca1dba76340ff8"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/explicit-contextual-underdetermination/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1927,
+      "sha256": "50aaf6b77bb1a9503322bf5f5adc09572939cb6cd3a0f25685f4bb5409f23cae"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/explicit-contextual-underdetermination/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1176,
+      "sha256": "1e20a20354c7dd89b3272c64c9e59162fb0a16d75563faa40bd521ac1caa5d5b"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/explicit-contextual-underdetermination/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 950,
+      "sha256": "64dec22e59f40182b76ebaa2ab8870df1acaa677174532526baa4a166a8073af"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-external-cutoff-after-merge/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1922,
+      "sha256": "b4eff864579da869a0a0f63fe2457eab282d0e75f3ca1c1556a15580ee43e2dd"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-external-cutoff-after-merge/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 3472,
+      "sha256": "13e1f9c9afaba72dae56418c6b8b7586114a7f832d511c39b920cad34e126e45"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-external-cutoff-after-merge/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1229,
+      "sha256": "9ee0c29af2e2fce31720ac25ab830f509c7248850efe807306c8782e0bf91a35"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-external-cutoff-after-merge/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1922,
+      "sha256": "f1131dc04b27c7896b48e13ef6e7a25c125fb0d540b2b1fbdeab0ea052d63f5f"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-external-cutoff-after-merge/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 3356,
+      "sha256": "08ad042b6a69832947a439fa75292e9a75766b4bda2654a640a0aab7192f6209"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-external-cutoff-after-merge/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1285,
+      "sha256": "b414471c7bdaa290fbc9b316d202a6a56c9e23ee0d7b931909c2d452de2300ba"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-interleaved-resumption-and-merge/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1927,
+      "sha256": "d231d1edd877b4189c5a5c058922e3ffa6d59458bcc7bb4ac178aa3824df67a7"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-interleaved-resumption-and-merge/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 5070,
+      "sha256": "ff4fad3b3dfed16474cfc28744b27c67327e065bc8c137327e652cfeadcfbdd0"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-interleaved-resumption-and-merge/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1316,
+      "sha256": "bfdd1a74cfb4f11aa9e1073bccd7f7ccca5b4b02aa5ccfc012d20a10031717d1"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-misunderstanding-repeat-and-reanchor/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1931,
+      "sha256": "48c0d3b9ffb30789aa84f3c2a65e564be9f18816a6a38c0e8cc346fbdc67b061"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-misunderstanding-repeat-and-reanchor/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 3409,
+      "sha256": "993722f72105da39f73746a957ce2e08847cfaf0c68db670e9568742aa8c6603"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-misunderstanding-repeat-and-reanchor/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1219,
+      "sha256": "41f9d61efe3986cd172d90dcd10472808b7d95c49cfd80392af1171d8b4f70da"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-observer-reconstructs-without-original-participation/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1947,
+      "sha256": "a47834a190826d4f17517fa330bb6567c1f34a24b9df848d8cc25ce47a362c6a"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-observer-reconstructs-without-original-participation/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 2496,
+      "sha256": "30b5dc6c21edaa95739db43595d79e2e91a4fd590b49567ed54d5904a92da990"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-observer-reconstructs-without-original-participation/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1087,
+      "sha256": "6371a22c028271daebf63adfe9d7824728744b20da2838e26122221bf9558242"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-observer-reconstructs-without-original-participation/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1947,
+      "sha256": "3799ddf7c9606bb55d673de02e4caa9b315dbf3557801db38e7c084376ef4c57"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-observer-reconstructs-without-original-participation/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 2014,
+      "sha256": "5dbf9169ece4a33d66564f0873fc42cc785e129cdfe7591926297ef815c259c7"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-observer-reconstructs-without-original-participation/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1143,
+      "sha256": "bab1fa3345a44d0b74eac707b752d3acf6ff396b4fc3ed134db732739e1957da"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-parallel-threads-local-inertia/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1925,
+      "sha256": "5d7e9afb347e08ba57f230740aabca6d5281d773585dfe259dfd65012dd38ac5"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-parallel-threads-local-inertia/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 3651,
+      "sha256": "fb18dcb3332a51633ccf67c81508cdc20e9926e52b67aa90716724d83fdc2368"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-parallel-threads-local-inertia/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1209,
+      "sha256": "8041554d54f1a5f820ccd33c9f30196d16edd9d825914284082f585068ff3712"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-same-topic-opposed-organization/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1926,
+      "sha256": "6f0903b609ed2ce98e75cefc0240c8efdd8df77cb68a9815b6d92fae93b87533"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-same-topic-opposed-organization/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 2452,
+      "sha256": "9fd468923f47c97a47b1731a9dccea2d8a0b2a1df13d740ea252e339a5d87a70"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/group-same-topic-opposed-organization/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1066,
+      "sha256": "e1d1aaf55172029083fc8cf1aff0c7284f2ea85da4cdb05cd5b07bfe8b7cd4c3"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/inappropriate-takeover-social/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1918,
+      "sha256": "03559425692af98fd4fd5f342d235e2fcf290c38423f259c884a0bb24b06c43f"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/inappropriate-takeover-social/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1232,
+      "sha256": "67f2041217baa1c92a3d12e9e932105e29c2555efc4b71b79898fee780221531"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/inappropriate-takeover-social/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 948,
+      "sha256": "b4e645144f1884b1888d2ac9ac0d674f4fe739e15314616a373acb94509eea22"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/inappropriate-takeover-social/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1918,
+      "sha256": "202c2b8bf73bb7ff8fb73475fe70608818268ffd0b0ca13bf68287329fd88e0d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/inappropriate-takeover-social/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1107,
+      "sha256": "4e1a48c6ee6b75f45ea3e6a92864fb4eaa2b21459399302ac6d4b23988d84825"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/inappropriate-takeover-social/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1005,
+      "sha256": "764e7c8201213dc56db64159943ccff644d9a37f08623adf6953d7c379f4738b"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/topic-shift-direction-preserved/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1920,
+      "sha256": "e733e73bdce0c69204dc39415f5416be1c0da1727d31785a5eb8ff71146db77c"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/topic-shift-direction-preserved/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1142,
+      "sha256": "148c89e9b3e3290d941cbc42b2949c6d8c7bd3759cb4d32f4d59ac5574d081bf"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_concurrent/topic-shift-direction-preserved/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 944,
+      "sha256": "8c71c33135d7a02b0f536a3692b17c60a6aceba4ca95d318e17db900d1cbdb29"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/_case_corpora/anchor-loss-opportunity.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 887,
+      "sha256": "ec24016dc78ef8149cb5427595d276579c5f85db9f51f4d087b7841c592cc916"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/_case_corpora/appropriate-takeover-emergency.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 625,
+      "sha256": "a98b6c932f5bf2f6714d559d61d85cd28949c534f3d52a2a5a1fc73e380ddca5"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/_case_corpora/convergent-diagnosis.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 674,
+      "sha256": "cf7d119d595d786acc4044d39d784f67fec52ad1d8a792f3360faae0254fb66e"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/_case_corpora/divergent-exploration.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 641,
+      "sha256": "d645a82635191806348c9c9bb9908a4554e8914865aed11be23215d4af2d437d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/_case_corpora/explicit-contextual-underdetermination.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 784,
+      "sha256": "6705325c79e96b61cf89ebe70bc5d655f66c90eee672706091fe61c84825534d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/_case_corpora/group-external-cutoff-after-merge.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1995,
+      "sha256": "d417dcfc0e58c8b6f6e5cc01139fb47e65283f6ff739608034a7ca613a3cc88d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/_case_corpora/group-interleaved-resumption-and-merge.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 2465,
+      "sha256": "5fe9921349ce2769ea8015fc871e4097677c8bcc1fac3e2afc64b599fb0e2f9e"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/_case_corpora/group-misunderstanding-repeat-and-reanchor.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1668,
+      "sha256": "f98782c7a66d3610da883613b0abc03aa0edf7755e453cef781ec250bea20c45"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/_case_corpora/group-observer-reconstructs-without-original-participation.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1528,
+      "sha256": "0081dfc149712f121f3a3911e59ae8cc35a7afad79621b44f038a9ad58a01c36"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/_case_corpora/group-parallel-threads-local-inertia.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1755,
+      "sha256": "e780352dbc2b22080220846e82405efebb9a5b12e42e60852920a6b75bff83a7"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/_case_corpora/group-same-topic-opposed-organization.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1196,
+      "sha256": "d279a8128236818f4d0d8ce7aa338b3e3dbcff96f9c86f5a3618bfa3b33b00e6"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/_case_corpora/inappropriate-takeover-social.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 945,
+      "sha256": "02da10b43d7639c2391a50d404b5d532fa1172e4bb942b5539468745c93e8f96"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/_case_corpora/topic-shift-direction-preserved.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 647,
+      "sha256": "c3027b3ae6e2eb7301f005c97e413e9011d99e818c9eaab64e9ee23fada6c5fb"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/anchor-loss-opportunity/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1912,
+      "sha256": "593189d84359a23a93ac45f3fd26788ff09a9870708a84afda05732f36619ee6"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/anchor-loss-opportunity/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1268,
+      "sha256": "176e1e312dd3c97cb9f879d9dd5e597ebe16ac9f4b605bab46f44a211b23a058"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/anchor-loss-opportunity/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 944,
+      "sha256": "b5f1947121e3fa8537a55b9394804d9da79d8f4a3f1d9f48861d132c294f5013"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/appropriate-takeover-emergency/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1919,
+      "sha256": "452fd31659af9ce66bb9a9da2ef2b73ce4b6184f2fa2b91190910894a8dc7c0c"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/appropriate-takeover-emergency/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1096,
+      "sha256": "8accfca2f752dc9272f9c8e3fbdbac51ca73213d593863bfcadaa7007889029f"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/appropriate-takeover-emergency/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 944,
+      "sha256": "7982ff7f3a3e0a092a8749c5c43f88492e2e64eea0dcd74e2a525ed574861f3d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/convergent-diagnosis/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1909,
+      "sha256": "8ffedff005e1cf336d9f151edd395d5f2e2995bfc2c774e6204d93a876004c79"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/convergent-diagnosis/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1159,
+      "sha256": "82b614eb1d3a96d8125e03944cb4dc97af0ec2cbbb1da47b5c85bb48ea62a153"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/convergent-diagnosis/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 933,
+      "sha256": "d9f8befe0bd41d14ae7abe486555bb249c963bb0309808229bd127f551a92368"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/divergent-exploration/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1910,
+      "sha256": "a82045bcef0f0a67306ed2b0429226b2a09016c00ce0863cfd11be7475d8dfc1"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/divergent-exploration/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1115,
+      "sha256": "423f64a579cc8bba8752ffc1f7e5497a14121b49cba28739b82f4a3b0a0a3cf2"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/divergent-exploration/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 932,
+      "sha256": "0d77b1e1c335f51939c55d231ec87ab4a3c9ec5ce7a4a5775247311f2c341525"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/explicit-contextual-underdetermination/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1927,
+      "sha256": "146e41a2ae63207b2d45c344eafb00a337c6c4e927134db8d778b46781981979"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/explicit-contextual-underdetermination/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1151,
+      "sha256": "ae6bc19a8b2e2f4a7dc5a8bed72c180693af0f4b3f9eebded7a2bb4cfa01fb23"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/explicit-contextual-underdetermination/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 950,
+      "sha256": "312157e6fcd565d426398d922ea99178f207b20fe79a2857247fbdc07607476d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-external-cutoff-after-merge/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1922,
+      "sha256": "c480ccf68fb24710d005f114d4fbe8a3711f626206ca10daf0fb58d647febffd"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-external-cutoff-after-merge/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 3569,
+      "sha256": "86c7a4b086b91dc5ad100a9173cb1d3b5021ea4d2e3f94483325e04144f523cb"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-external-cutoff-after-merge/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1229,
+      "sha256": "c1576c422438f26812aa4fb7c41e1f7e1241d3447581c933964d3075677fc473"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-external-cutoff-after-merge/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1922,
+      "sha256": "be3d54934eba242a4d738763c8eabcb994207aeaf200457f9c31ee2fe3ad0804"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-external-cutoff-after-merge/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 3453,
+      "sha256": "d8702de76e970914875dd2d28d014effb9300fa2fe024266478809c1b2c5247f"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-external-cutoff-after-merge/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1285,
+      "sha256": "d46f9f3bd365c7b5aec2817c1609b561142a9a63c656027a5a992f5545f37b19"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-interleaved-resumption-and-merge/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1927,
+      "sha256": "04aa4a3b96b6e1ba46cd378e7617b66580e83dfcdf3b9db0d410a25c5740750b"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-interleaved-resumption-and-merge/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 3478,
+      "sha256": "7cd3be6290d74bbfec30d231490a8b113bb020b0eaadf6ab72e6552c8b128b95"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-interleaved-resumption-and-merge/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1359,
+      "sha256": "ab627d5561dd05593d4f46d33d329e0e25fc0764faa6de690c1d9e1d724a68ad"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-interleaved-resumption-and-merge/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1927,
+      "sha256": "bb625b0a2d0982a1bbf83d2ac83905c028039f748366d268b3c058d5330efb0c"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-interleaved-resumption-and-merge/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 3743,
+      "sha256": "9c7eb8eec25ac42bf70c5ff41e15f65d8652df8ff5d2ce03fe23872d5c144f13"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-interleaved-resumption-and-merge/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1380,
+      "sha256": "595fc7d31fad2d186e995401c9aff8f3a4f71de1bb8c870012ea4db7b3d07673"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-misunderstanding-repeat-and-reanchor/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1931,
+      "sha256": "b4e4e2468d5baa0155dbc4d5dab4af2a8807cc0d95eab3979f23663ce744c444"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-misunderstanding-repeat-and-reanchor/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 3281,
+      "sha256": "7edee0b8b4e8a463c0453d7b2cda4512ace7bcd505c311f2561dcb72a029d585"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-misunderstanding-repeat-and-reanchor/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1219,
+      "sha256": "98e21c091a48c6d1065e1d56a479b86ad17f3bd14b7f59035d00e383145a0d4f"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-observer-reconstructs-without-original-participation/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1947,
+      "sha256": "560ed13448ab9f9d4dbfb94448e690e76c1f96d745a229c55e3a26c42091005a"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-observer-reconstructs-without-original-participation/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 2396,
+      "sha256": "751e0bb603afd2a04a1f1b83b099aca5bcb76c25c0cbb73ce1c0b5b4cf10f569"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-observer-reconstructs-without-original-participation/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1082,
+      "sha256": "6ae83c8f758e90a401ee3fde573795a6584c2fbc134b1543600a6cab9a66496a"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-parallel-threads-local-inertia/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1925,
+      "sha256": "d9e54b9d791451058d2f477803d70fe10344de984cfed9c2c4c5744c5ac017ce"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-parallel-threads-local-inertia/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 3569,
+      "sha256": "2cee00576843acbba2f828b2fa7a0a029cda80f85005313645f4066789f0c632"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-parallel-threads-local-inertia/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1213,
+      "sha256": "7be8b3e7b03a9df1a721ebc01918bc5a3671c156f41a05092377b1ee16f7fa73"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-same-topic-opposed-organization/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1926,
+      "sha256": "2936b9355d333417f5be978881810bedc475a4bb91985eef753fb4f312be8e69"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-same-topic-opposed-organization/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 2410,
+      "sha256": "c52f4a7e9b7690c92b04e3e4ef02bbaab662fa0494f6a066eccd57b1c13c4ea4"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/group-same-topic-opposed-organization/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1069,
+      "sha256": "214fb562d38ab0e82bf48535161c2fcc9bca4f5c55864f8bdb02dd6375cd8546"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/inappropriate-takeover-social/high/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1918,
+      "sha256": "2bfb89b97f31583e97053c00212a828a3d349d356ca06ebb7c08307e0fe12c8d"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/inappropriate-takeover-social/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1238,
+      "sha256": "492211b055fb3458e58413c1fd8602e104546eef80327a8ad40f16f300141280"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/inappropriate-takeover-social/high/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 951,
+      "sha256": "44255d55b634bb58a21ba04d7ea5ea9f7c9f8a179a6e8fa34bfd16fad580f3de"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/inappropriate-takeover-social/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1918,
+      "sha256": "b62f963df7d37c2d8612cf5428a494728b4537b382e451407cd5dd514a572e40"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/inappropriate-takeover-social/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1107,
+      "sha256": "ebbf4b9e1c4d73eef465e4537331fdc19f9ce6c26d77bfe1b408278548219b5f"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/inappropriate-takeover-social/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1008,
+      "sha256": "c13fb0dec23daadf2db9465e9ea20ad15f7ec72eb866e01e19804514e930ee00"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/topic-shift-direction-preserved/none/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1920,
+      "sha256": "915b49d7b602e4a75a34113470a6f20247ab3286f66ab822e58366beed3ae9cd"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/topic-shift-direction-preserved/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 1101,
+      "sha256": "bf75516b48e6dcbef317b8e3d19256465f28193ca3e12146e0dcb124700b609b"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/contextual-direction/adaptive_sequential/topic-shift-direction-preserved/none/summary.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 947,
+      "sha256": "75a3c334d67f6bac0d1b767069cb07a2fd7caf23345bc807e4eb02e590b88295"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/manifest.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 3122,
+      "sha256": "9a2cefac9556d55d47d22f1daefec3a875c1d7b166163b77fe5e30bdd4874763"
+    },
+    {
+      "path": "capabilities/C9/concurrent-adaptive/records.json",
+      "capability": "C9",
+      "instrument": "concurrent-adaptive",
+      "size_bytes": 88209,
+      "sha256": "abca209eae0757e83e2640bd528c8a001e1b80dbc18fb57ac3b899c238484b00"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/_case_corpora/anchor-loss-opportunity.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 887,
+      "sha256": "ec24016dc78ef8149cb5427595d276579c5f85db9f51f4d087b7841c592cc916"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/_case_corpora/appropriate-takeover-emergency.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 625,
+      "sha256": "a98b6c932f5bf2f6714d559d61d85cd28949c534f3d52a2a5a1fc73e380ddca5"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/_case_corpora/convergent-diagnosis.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 674,
+      "sha256": "cf7d119d595d786acc4044d39d784f67fec52ad1d8a792f3360faae0254fb66e"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/_case_corpora/divergent-exploration.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 641,
+      "sha256": "d645a82635191806348c9c9bb9908a4554e8914865aed11be23215d4af2d437d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/_case_corpora/explicit-contextual-underdetermination.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 784,
+      "sha256": "6705325c79e96b61cf89ebe70bc5d655f66c90eee672706091fe61c84825534d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/_case_corpora/group-external-cutoff-after-merge.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1995,
+      "sha256": "d417dcfc0e58c8b6f6e5cc01139fb47e65283f6ff739608034a7ca613a3cc88d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/_case_corpora/group-interleaved-resumption-and-merge.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 2465,
+      "sha256": "5fe9921349ce2769ea8015fc871e4097677c8bcc1fac3e2afc64b599fb0e2f9e"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/_case_corpora/group-misunderstanding-repeat-and-reanchor.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1668,
+      "sha256": "f98782c7a66d3610da883613b0abc03aa0edf7755e453cef781ec250bea20c45"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/_case_corpora/group-observer-reconstructs-without-original-participation.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1528,
+      "sha256": "0081dfc149712f121f3a3911e59ae8cc35a7afad79621b44f038a9ad58a01c36"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/_case_corpora/group-parallel-threads-local-inertia.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1755,
+      "sha256": "e780352dbc2b22080220846e82405efebb9a5b12e42e60852920a6b75bff83a7"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/_case_corpora/group-same-topic-opposed-organization.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1196,
+      "sha256": "d279a8128236818f4d0d8ce7aa338b3e3dbcff96f9c86f5a3618bfa3b33b00e6"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/_case_corpora/inappropriate-takeover-social.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 945,
+      "sha256": "02da10b43d7639c2391a50d404b5d532fa1172e4bb942b5539468745c93e8f96"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/_case_corpora/topic-shift-direction-preserved.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 647,
+      "sha256": "c3027b3ae6e2eb7301f005c97e413e9011d99e818c9eaab64e9ee23fada6c5fb"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/anchor-loss-opportunity/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1920,
+      "sha256": "1382f786aece833671b53e90bea3903a916d93309272654ff6ac0eacac7464a3"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/anchor-loss-opportunity/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 8198,
+      "sha256": "6f4e9fc49b0b8aac4a45ccfd6da121d282f9683356c5d8cbfb6534b2b70e1f63"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/anchor-loss-opportunity/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 942,
+      "sha256": "d466ecc6f784fe2d774b5cbaa5fd31c7ee3712199217990a76ae0ff21bc1de1d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/anchor-loss-opportunity/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1920,
+      "sha256": "90acf48b9e5240452ee275c0682b0f7d5b6f804e7510eea613a4bdf3139636ff"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/anchor-loss-opportunity/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1174,
+      "sha256": "025968ac6d4f6c3af8a6977ced849a5228cbaaa112d4de71ef36b935f8d34d89"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/anchor-loss-opportunity/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 983,
+      "sha256": "c07d8501ee7db69fdc87ffa4ab1f59f4b67e98766ed6fc90834c8802ab4ae7ec"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/appropriate-takeover-emergency/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1927,
+      "sha256": "e7a1954e1993816d70704f015b2c0c29c2b4ceba97e810be7cbfb18d0913440e"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/appropriate-takeover-emergency/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 7605,
+      "sha256": "4068336acbf318c342dc9f42e035b07aaa63e4c7a21d79bd64cef2536305b9f2"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/appropriate-takeover-emergency/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 940,
+      "sha256": "8e3d60fe3045614b6e1febf689228fb0ca1db5e8c613924f8f160cb3843262f6"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/appropriate-takeover-emergency/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1927,
+      "sha256": "552484bda67d8350530e499d574a80a1d68dc4023a1e5d22387225007684ce3d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/appropriate-takeover-emergency/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1149,
+      "sha256": "58c49199ee75223c976aaab33842f63ea8a40cc4b5b68b78499faf7eab019f97"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/appropriate-takeover-emergency/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 985,
+      "sha256": "3f627023f7f95a7f27f8711600f48a576fbcbda1d65790fb87752aca3d82f174"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/convergent-diagnosis/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1917,
+      "sha256": "92750c85a85496b8073f56a38e7c890b70dddf34f4b04ab95abcdf8dda4115a8"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/convergent-diagnosis/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 7618,
+      "sha256": "46e7905b850e02f675abb9978ef15f0d3b407ddd1832b3e30cd29b20a83bc9bf"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/convergent-diagnosis/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 943,
+      "sha256": "3cdc4aa5d5971c92489a0c111939735aa625e22b0a87c83b908527f97dc3fbd6"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/convergent-diagnosis/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1917,
+      "sha256": "7207012c21f372146a4f015138092e32eacd63a88392da97e7caaae3e7a3b077"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/convergent-diagnosis/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1138,
+      "sha256": "3eb55bb5f5b18a6d5c0593df7564b28397e03a98b551b3d2615f6f260d45ff10"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/convergent-diagnosis/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 986,
+      "sha256": "b2e0f6e161a5037ceaf31cc8f6da493468239c125c27583512559ba3855a350d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/divergent-exploration/adaptive/high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1918,
+      "sha256": "7e04c2b0bb36fc95ee325fcdd57203eeea4213a5a1d8ccc115ec8f983f1f80f7"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/divergent-exploration/adaptive/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 13552,
+      "sha256": "88c236a56e3b66260d8b2283fb556c61cc1fd976d3c91866d8fbb18af7c4d330"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/divergent-exploration/adaptive/high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 947,
+      "sha256": "6c3477a1d3ed4b0faa96275a9a41cc64ab6af40b6384960d8b28907dc180e7d4"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/divergent-exploration/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1918,
+      "sha256": "bc31b34b456bfc20a04aecce4a612226f38ebbcc3187acdc5caa4f129967ab36"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/divergent-exploration/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1023,
+      "sha256": "d37ec77197ae002ab18251aea7c7c9c00affde6a28551285f0e1924a2ec489bf"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/divergent-exploration/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1002,
+      "sha256": "a9de13aa25cc3663233df495e5533225b7b617bf8a9ec5ee9f0c75055f8f96ee"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/divergent-exploration/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1918,
+      "sha256": "6b8ae2b5b18ad3c26ca7eed52f07c5b75e49ea945125b83baa7282123ba0b6ea"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/divergent-exploration/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 12396,
+      "sha256": "af500e1f5fa117f063d2b608a321c02086ebe0d166f223b61a49ddc21e8fb493"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/divergent-exploration/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 949,
+      "sha256": "5ad5b4f2fe8027690ba1d01f91580bae0d89fff289472dd14d82e0bc1c466909"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/explicit-contextual-underdetermination/adaptive/high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1935,
+      "sha256": "06e4d2b17ba19ce20b96ec6c1a6f641482716812064778177f8bf391a354a8c1"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/explicit-contextual-underdetermination/adaptive/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 7532,
+      "sha256": "8e2a69fa293a1edd06abef7ae082102ad960b576b5624e523f7e83a03742091b"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/explicit-contextual-underdetermination/adaptive/high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 948,
+      "sha256": "6d9864d81c6bdea9f0f7cc228a7e82da3729eac517f2fce694754936cda450e8"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/explicit-contextual-underdetermination/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1935,
+      "sha256": "03b4cc3d7151c0988e9ed96afe4ebb1d9dee6a73164ef944dfc63f385d9ebdca"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/explicit-contextual-underdetermination/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1113,
+      "sha256": "7358601580b4b6500a26f8ab7434ca2f4384e733ed554d0bd1ccc2a937ccd5b2"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/explicit-contextual-underdetermination/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1002,
+      "sha256": "d236f2fa7c5afb0b0ae0ae932e74a53814bcbd3ee3fe5dbdb34de07a24b4ad6a"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/explicit-contextual-underdetermination/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1935,
+      "sha256": "28434a457c55eed2115c2dc789a8143f70207b0526c3fe4dda720dc8960cd7bf"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/explicit-contextual-underdetermination/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1418,
+      "sha256": "c9cbee8ceee381e49eeacae6f102591526702821164678e9b6697dde3091e433"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/explicit-contextual-underdetermination/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 994,
+      "sha256": "4950e9c39d96715a5b334f9feec66693531ee5fbeab2072208adf41f7850d5fe"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-external-cutoff-after-merge/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1930,
+      "sha256": "b697c02b287a318efba548a1915998dc60e8a7476c6507de19545377972b8a67"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-external-cutoff-after-merge/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 28154,
+      "sha256": "4204bbaef58b22c03f30aa2642f4da3c37ba564d71b2d4a6237e5259a434f2e3"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-external-cutoff-after-merge/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 944,
+      "sha256": "2a7b08d94b5a4fb27d7405286db88d31c5ea3cb3ddef264031f33a89714e6a2f"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-external-cutoff-after-merge/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1930,
+      "sha256": "5b7245f2964fca6911374b3fbb83762a64afbdc93c26197efcc353f4f7e7d9eb"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-external-cutoff-after-merge/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 27652,
+      "sha256": "ca003fc45e330f21d9b60ddd273ae3b1b5d0d26e4e16517dd58f7a59058f574c"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-external-cutoff-after-merge/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 949,
+      "sha256": "7a08d55239275309fd834cf2195ddcae40b46c98fa35c1cb6bda2cf1a225fc08"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-interleaved-resumption-and-merge/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1935,
+      "sha256": "995513c50acbeeb707f996331517a894c1026605c78907a53be37aaf9864a973"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-interleaved-resumption-and-merge/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 38681,
+      "sha256": "4f8b7cd0ba79072fb3d440798e709e16c4ff99b992d315a77b65ce51abd464ad"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-interleaved-resumption-and-merge/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 944,
+      "sha256": "7c7323f9ccd8536cdcde803fcea8f12dfc6f1016a64e5c9a1cd81a715420142d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-interleaved-resumption-and-merge/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1935,
+      "sha256": "a33535f9ad6c76200ba2bfa0d8a862e5cf6ec8f1d3fe8b8245239d6accaad2cf"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-interleaved-resumption-and-merge/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 4754,
+      "sha256": "cc21b7a9b3b61f6f049b64a449fc0721baa7ffd04609597539b99d17a9927c57"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-interleaved-resumption-and-merge/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 985,
+      "sha256": "d37d19136d3ea2bde995153aa5ccb534e9da1bee0577dfb736ea23d9c18da093"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-misunderstanding-repeat-and-reanchor/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1939,
+      "sha256": "f55112730a8f9e843be6d15c8ce24170da6490efdd4a35cb5398e16643d2972c"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-misunderstanding-repeat-and-reanchor/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 23286,
+      "sha256": "58d0840d86d9ce435abed203cf03f984f31828262b7c581945b137300b695740"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-misunderstanding-repeat-and-reanchor/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 944,
+      "sha256": "677d13c25eba13a076f14e4e191b8dca60bcfdcaa0b0b2d37f786cd42134cdde"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-misunderstanding-repeat-and-reanchor/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1939,
+      "sha256": "1a238a84e472a86b5b2353e1bf62bfbf9f2b785065c8cc2f6cc523579a24e836"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-misunderstanding-repeat-and-reanchor/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 22377,
+      "sha256": "cf663f353c93be0275501dcdaa33d0b20814f105b1c7bcdf6c127663d2521d01"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-misunderstanding-repeat-and-reanchor/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 949,
+      "sha256": "c7e235c9aee8457ab2edd2f72d395c658784723955f37501b915381652c2812f"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-observer-reconstructs-without-original-participation/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1955,
+      "sha256": "7fd0320dad53eeadaa13323b181d9f2ee358d0d6be93500176c060ba97494b5e"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-observer-reconstructs-without-original-participation/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 17803,
+      "sha256": "e1ba0382c8e31db43e1fb04cb606aae401cff06acd356764c5accefc0013247c"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-observer-reconstructs-without-original-participation/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 944,
+      "sha256": "633bddec2205eb7d6319a5a89c638cf7dcd91ed4f7898ad56cef5ede350d15d5"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-observer-reconstructs-without-original-participation/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1955,
+      "sha256": "6d80d112baa611b39e02837326101b78c3771a22a6ae67ccc52c481688be7694"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-observer-reconstructs-without-original-participation/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 17089,
+      "sha256": "c7ac227d50083f191d0815f5c8c18ae9143085d8deac7ad0e462050fd50eec89"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-observer-reconstructs-without-original-participation/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 949,
+      "sha256": "00b8249f8020466e5e9757966e8614bf333f30758f9d36cde3c4c6e1a45c7979"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-parallel-threads-local-inertia/adaptive/high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1933,
+      "sha256": "fa257253f40071c16872a23c874eb4dd55761b951097e6af4cec906f1220c04a"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-parallel-threads-local-inertia/adaptive/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 34815,
+      "sha256": "12b46704811be795d3ad5e337e28081788048a03df746e0d1e0ffff25f3d99a6"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-parallel-threads-local-inertia/adaptive/high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 967,
+      "sha256": "64936ef03e90746be2c7189e1feaf90b80415e9f52a475f632dca5cb83137359"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-parallel-threads-local-inertia/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1933,
+      "sha256": "5143e1005ef78a1aa66cbb72ae681e49fcbdc99af2f77358bc278924adbac92a"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-parallel-threads-local-inertia/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 24216,
+      "sha256": "c63e94ddb13f3054496e48be5d184484e13b038d672685fcbdb964e1d6d6b5fd"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-parallel-threads-local-inertia/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 982,
+      "sha256": "1e81bee30981551ef175a45a7a5c7c969953ec40a2af8e93db0ec67540badc9a"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-parallel-threads-local-inertia/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1933,
+      "sha256": "3b8f1b7efc4951bfebc4976dc1c733903b9d9f189d9812628ad576f06938279d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-parallel-threads-local-inertia/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 3344,
+      "sha256": "f8cd5ee7ae49fd4d4e09993ee0e17dccbb6b864e199ae7d237c7e13b5eb6bbdf"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-parallel-threads-local-inertia/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 984,
+      "sha256": "91aa05a5b8611682232c375bbc785a9ff5e24bac4e1332d7f64cd87b419609f0"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-same-topic-opposed-organization/adaptive/high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1934,
+      "sha256": "1fb4561f38fb53c613706084e0512b582b150f379ff58aa46f89d1e2872717c4"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-same-topic-opposed-organization/adaptive/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 22546,
+      "sha256": "7ca69a9ac781a47408c2a1f7dc484c08c920fbc2e76ac252a3d636f360440521"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-same-topic-opposed-organization/adaptive/high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 948,
+      "sha256": "57bc18b8d4aa0a82e7145dc867ba933716686a445b57cca66fa2cfe3dd3736ce"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-same-topic-opposed-organization/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1934,
+      "sha256": "f39369690849aca3bc56564f193b234cd92f26f97cb472e0d65f2b0470dce3e6"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-same-topic-opposed-organization/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 11852,
+      "sha256": "6578f813a8c970e6e96174b5f1dd159faae96b0e23e4e557a00e418f9dcf6af2"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-same-topic-opposed-organization/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 981,
+      "sha256": "c49baf5e46b41590dbd34d6b9d2a0f2679baaf079fabe124cd0150e23f8be03f"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-same-topic-opposed-organization/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1934,
+      "sha256": "0a7c9b75fc976b942dbcbabec1bf9262c9f87e8af81cf5b1f4f8c02a4b187ad0"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-same-topic-opposed-organization/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 2318,
+      "sha256": "d2de2812e408f6e35447c60211642b88b4efdbec7e50b72a025e06caa850a819"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/group-same-topic-opposed-organization/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 988,
+      "sha256": "6f1181046567887a7d89cbf9637ae695eceff73c56b532a6980c2133204d8502"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/inappropriate-takeover-social/adaptive/high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1926,
+      "sha256": "a7c99ef289959014b18b0dc016369a8604e5e1bc937ff59add38c177ece67c31"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/inappropriate-takeover-social/adaptive/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 8223,
+      "sha256": "7bb44cbab61b2a01e73da7716f05fe498cb3300af94cdad5956b63c210c0ccf1"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/inappropriate-takeover-social/adaptive/high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 945,
+      "sha256": "2a6c88fe4c74619d419c5a98d5203ebee2510b3ccd2669c102000975f764fdd3"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/inappropriate-takeover-social/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1926,
+      "sha256": "561c0530ec0b56c893c8feeac6d2ebb4785a17ed6078e938351a46e796b82aa9"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/inappropriate-takeover-social/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1426,
+      "sha256": "36ecf66fc932a411511006aca9bf62962ffe208e412881ad54d0e36f4f71d896"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/inappropriate-takeover-social/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1002,
+      "sha256": "ebf3f083bc4ce12fe7f6f3931436cda01c6beb7d142905689dc26afc7f8a9cee"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/inappropriate-takeover-social/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1926,
+      "sha256": "f70f4de2aeb520c9a71d446431d2d5875cba06718acdd8f35873bceec0b3ab8f"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/inappropriate-takeover-social/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 11828,
+      "sha256": "72b206cb45513a8fde96ec491317a9ced4767c3d9d057c3af2cacb846ed1a71d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/inappropriate-takeover-social/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 949,
+      "sha256": "6bb7f7aaa6178d4756d95fb6c0dc7d4f22ff38b799c1f6c8c66ad99fccc409ac"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/topic-shift-direction-preserved/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1928,
+      "sha256": "d9a62085ff97a35498f524982d307f95eaf8b583b6dbf8321beecfae6393984d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/topic-shift-direction-preserved/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 8079,
+      "sha256": "c82dd7e7d214d5dc4bf5221b8c5753829b4639b9dbb2349e260193cc22d3fe41"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/topic-shift-direction-preserved/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 940,
+      "sha256": "734c0316d437e8beb177fcca7b167e96710cbfe93cf9f9f5221c213d6c2c22aa"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/topic-shift-direction-preserved/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1928,
+      "sha256": "fa9335cbc27a8b80d93eeb5fe3ed5c8cf5ebcd11a66ec88de27a326e54fb0fc9"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/topic-shift-direction-preserved/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 9759,
+      "sha256": "73c74400aac8c73a747fc8949008e5c5d4d42e38607a28623269c0216188238c"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-adaptation/topic-shift-direction-preserved/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 945,
+      "sha256": "4f23a007bd0e5421780731cebb382bc8d925d1d8b3a33bdc4386c129b422707c"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/_case_corpora/anchor-loss-opportunity.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 887,
+      "sha256": "ec24016dc78ef8149cb5427595d276579c5f85db9f51f4d087b7841c592cc916"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/_case_corpora/appropriate-takeover-emergency.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 625,
+      "sha256": "a98b6c932f5bf2f6714d559d61d85cd28949c534f3d52a2a5a1fc73e380ddca5"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/_case_corpora/convergent-diagnosis.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 674,
+      "sha256": "cf7d119d595d786acc4044d39d784f67fec52ad1d8a792f3360faae0254fb66e"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/_case_corpora/divergent-exploration.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 641,
+      "sha256": "d645a82635191806348c9c9bb9908a4554e8914865aed11be23215d4af2d437d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/_case_corpora/explicit-contextual-underdetermination.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 784,
+      "sha256": "6705325c79e96b61cf89ebe70bc5d655f66c90eee672706091fe61c84825534d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/_case_corpora/group-external-cutoff-after-merge.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1995,
+      "sha256": "d417dcfc0e58c8b6f6e5cc01139fb47e65283f6ff739608034a7ca613a3cc88d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/_case_corpora/group-interleaved-resumption-and-merge.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 2465,
+      "sha256": "5fe9921349ce2769ea8015fc871e4097677c8bcc1fac3e2afc64b599fb0e2f9e"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/_case_corpora/group-misunderstanding-repeat-and-reanchor.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1668,
+      "sha256": "f98782c7a66d3610da883613b0abc03aa0edf7755e453cef781ec250bea20c45"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/_case_corpora/group-observer-reconstructs-without-original-participation.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1528,
+      "sha256": "0081dfc149712f121f3a3911e59ae8cc35a7afad79621b44f038a9ad58a01c36"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/_case_corpora/group-parallel-threads-local-inertia.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1755,
+      "sha256": "e780352dbc2b22080220846e82405efebb9a5b12e42e60852920a6b75bff83a7"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/_case_corpora/group-same-topic-opposed-organization.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1196,
+      "sha256": "d279a8128236818f4d0d8ce7aa338b3e3dbcff96f9c86f5a3618bfa3b33b00e6"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/_case_corpora/inappropriate-takeover-social.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 945,
+      "sha256": "02da10b43d7639c2391a50d404b5d532fa1172e4bb942b5539468745c93e8f96"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/_case_corpora/topic-shift-direction-preserved.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 647,
+      "sha256": "c3027b3ae6e2eb7301f005c97e413e9011d99e818c9eaab64e9ee23fada6c5fb"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/anchor-loss-opportunity/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1909,
+      "sha256": "82a0d0d1de26b1cbc7cb10d65890ddd662d93d5db90baa20ada4e086b07294d8"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/anchor-loss-opportunity/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1260,
+      "sha256": "61c28f188f25db39cbe4fc94e18fa8386d94cfb531e147f75a15f866fd5dd9b5"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/anchor-loss-opportunity/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 941,
+      "sha256": "234d20a6af24c13df8e1d47f158c346406e71f3b121ddeb064f2be8b024695eb"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/anchor-loss-opportunity/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1909,
+      "sha256": "09f1474b8aaae5a7dea501cba620f9146c640cc50ace3bfdc46e4370249e4835"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/anchor-loss-opportunity/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 855,
+      "sha256": "118fc5692cb0140de88fc0ac3a952893b4fcb363d92154508ccb9a118e059e12"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/anchor-loss-opportunity/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 985,
+      "sha256": "4c8b8ebfc3cb5251a964976a9e9548c8c6fbcd5f575b6fcfaba93f85dbdec0c2"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/appropriate-takeover-emergency/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1916,
+      "sha256": "15be32aedaef2b9eb4bdec00e64846a8aa2403fb525a632dc2d830f912d735ce"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/appropriate-takeover-emergency/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1097,
+      "sha256": "1ec75fda77bb0e7c9384b5ddb608f62f76f5343dd3395c08300f804d0f7a65eb"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/appropriate-takeover-emergency/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 941,
+      "sha256": "1f71c657fdcc44af6396fa21477977e2ecc47b945872896600317102065f2932"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/appropriate-takeover-emergency/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1916,
+      "sha256": "32d76e19e7f35e24d4f5d39c2d3ee5a50b44c4978307b8a84b9a818efe382f11"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/appropriate-takeover-emergency/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1098,
+      "sha256": "62466b1b9465b1782729c8402ac03eb48249abcb68d8458c2e6e350528a03711"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/appropriate-takeover-emergency/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 945,
+      "sha256": "e8e120dcbd345205370bdfb7f3253c479fa97fefb722ca1587eec6cce51a3252"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/convergent-diagnosis/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1906,
+      "sha256": "6133995192f8051a29e2f2c7f56e6088238fb349f5550ff653bbaf8a87ff91f0"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/convergent-diagnosis/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1142,
+      "sha256": "8329a781611e52855f207ee1b93e56b9d496ec24f7b5f8b72543d3a6b31742c6"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/convergent-diagnosis/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 930,
+      "sha256": "23a53ef5017e029f84146a50f4ac94bf983fa49a26f6ad0d0887493a8f771527"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/convergent-diagnosis/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1906,
+      "sha256": "2628bc9e7f5f20802d870755e9a70e5843f79b695417c9f2c41d3ea8712083a2"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/convergent-diagnosis/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1179,
+      "sha256": "881c8cedd64457fc0ca43a9a34a58938f10cce7eef1d93c25566aff0e8bd17f2"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/convergent-diagnosis/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 934,
+      "sha256": "e1a1c8667f5b4f06f81bdbb355847915c1946ceceb648b36070f87e97b4e902f"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/divergent-exploration/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1907,
+      "sha256": "6c27f942bbbfad6716ec556748feb7eeb30af9562739b7bb0facf526639882f9"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/divergent-exploration/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1090,
+      "sha256": "0dd92bf2c2cd8d1300c75a8e3f4d9f471d0ee1684e5e3e620f8c54abf1a619e4"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/divergent-exploration/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 929,
+      "sha256": "582d2a7fd67d82dccfcd0a2934b9668492e3c0a9c7943767639637fde1bb33ee"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/divergent-exploration/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1907,
+      "sha256": "3efcdfc418c2f94c6b03206e20a4ebfb82f8594274bef8ab2eeed0e9ace106d8"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/divergent-exploration/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1097,
+      "sha256": "acf44e162158f4ee8993aa4a37be9c6b4d7fbadf1b7f2802e0a49bb0ffb88653"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/divergent-exploration/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 933,
+      "sha256": "312a7911fed99f2468a4125b589796633ae63a228df707914336fcda15d23cf4"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/explicit-contextual-underdetermination/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1924,
+      "sha256": "619b0f114c665e5b8b38471b415328e8fa8e9fa3cb635801ef7669ad5d9eba05"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/explicit-contextual-underdetermination/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1139,
+      "sha256": "e76d8496c33278dff61e9c57033f63fd488d452c2b6ffa81501ad58ce1d87b79"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/explicit-contextual-underdetermination/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 947,
+      "sha256": "4a595dde21125b9ec5232b6676ec2bc13330185f972444417fac209310aa38b7"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/explicit-contextual-underdetermination/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1924,
+      "sha256": "52ddec5c9fafef807f67e39e167628875c58a5dbfd3f85171d43555dd2f84799"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/explicit-contextual-underdetermination/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1147,
+      "sha256": "dc28d4ee98d9d4b97aed77bd6867403a96d862aef3f6b105e799f581ccffa611"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/explicit-contextual-underdetermination/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 951,
+      "sha256": "6b61cd951e95d01df7d715da8bf836e84494926c5fd9768c9a6db5cc128f614b"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-external-cutoff-after-merge/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1919,
+      "sha256": "4f2f47080c152da911d56513e9cfd9e26da6f3c3be74e297d87f2a5433029458"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-external-cutoff-after-merge/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 3616,
+      "sha256": "03cba18763a120c8a8087f77e9082d047d86aac56e9fbe321e1ccafb33fade98"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-external-cutoff-after-merge/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1220,
+      "sha256": "cab448a1f4070b36369e5a6082a5574b030af139052d4b11dc3f0cdec3f01011"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-external-cutoff-after-merge/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1919,
+      "sha256": "66c8284cc65bb2f6223e8894118581bc8ef77bbffc5a1c8f83093d44b0802dae"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-external-cutoff-after-merge/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 3650,
+      "sha256": "876323d179676bd995cbac8bcaca38249acaaffe83e1d47788827e520b6aaab8"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-external-cutoff-after-merge/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1225,
+      "sha256": "a1039112f7b2c95d8adab48b66aa63a9aa1c86cd921e67b0683d32d1874a084f"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-interleaved-resumption-and-merge/adaptive/high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1924,
+      "sha256": "2a0e1475974541b65d1ca5754fee6c45c5cb18ebf84b4741e7f419e21426a955"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-interleaved-resumption-and-merge/adaptive/high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 3478,
+      "sha256": "3ba9fafcf346cdc7c69f902003416905e5e63e582aff11ce3b86d1b56501e21e"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-interleaved-resumption-and-merge/adaptive/high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1359,
+      "sha256": "a148c8a7405ea9f9306107be5a984e020e6499b932af2e4fc308d83b3a898b5e"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-interleaved-resumption-and-merge/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1924,
+      "sha256": "606a50493473cf61a29cd3422a0b3a9b48137ac2d062942b3fb689c6f4b56ca9"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-interleaved-resumption-and-merge/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 4612,
+      "sha256": "db244862ba1a4b6504ff94d466185fe8dcf3c31c1db6ba594babda368ad5893d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-interleaved-resumption-and-merge/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1376,
+      "sha256": "bda358359cf7f8d87260f64b08acb4290c97e7a801592dc6b0cb57e01fd799a7"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-interleaved-resumption-and-merge/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1924,
+      "sha256": "1e1dc1297ee8dd0d9091f0c6d273534ae9fa9bf14ed8a10643fef0b2853d20cc"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-interleaved-resumption-and-merge/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 3478,
+      "sha256": "3ba9fafcf346cdc7c69f902003416905e5e63e582aff11ce3b86d1b56501e21e"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-interleaved-resumption-and-merge/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1363,
+      "sha256": "08a9b50260b9517b8cb095f159cf54733a0da9ec462085b74dd5f014daf758e1"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-misunderstanding-repeat-and-reanchor/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1928,
+      "sha256": "33943f7196e528a184f6ca28e0c5e390682807a90f1bd5bf065daedfd43194dd"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-misunderstanding-repeat-and-reanchor/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 3265,
+      "sha256": "6d32875d45409d2e25f2ba6c337b479ded9e60c90f4ddb6ad23b619f072297ce"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-misunderstanding-repeat-and-reanchor/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1214,
+      "sha256": "de6553bbbf25d80b11dec80c1f55a88067b796b2fd8ccb7909d7cc820111ae6d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-misunderstanding-repeat-and-reanchor/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1928,
+      "sha256": "3d11292fe49e232dad6c42090ce2569d1f32fbc0615734deeb2c36d7a30dd5b9"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-misunderstanding-repeat-and-reanchor/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 3270,
+      "sha256": "d491e801fdf697d40f6e9b0bdc787b770cb7b60f2232b1e84296dda4e0ab6ace"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-misunderstanding-repeat-and-reanchor/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1220,
+      "sha256": "fdba214353f42026b7b450eefee361d342ba23e6f014aa87b9c035b32d96d179"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-observer-reconstructs-without-original-participation/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1944,
+      "sha256": "dc937a2b30ddae5b3459fa7aa69f29102ffce499c0e8da8daa0efb39e499716f"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-observer-reconstructs-without-original-participation/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 2405,
+      "sha256": "1f9eb9fb9c95def589af727566e66591b37da43643223610a3380893b6a5a018"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-observer-reconstructs-without-original-participation/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1078,
+      "sha256": "7116878b7bab69dd159d29fcb6d46dd033d2f5fb2ec43fe1a35b782bbc1b4e9a"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-observer-reconstructs-without-original-participation/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1944,
+      "sha256": "bcae8e5d6840d13a7c86ca40bcbefca85563628a53ba3399ec22b65ff3ffe64d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-observer-reconstructs-without-original-participation/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 2377,
+      "sha256": "0372978bb4cd8c944ecb6df2c4ccd421ed6317dddc22dbf8370229c1dc5c02b5"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-observer-reconstructs-without-original-participation/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1084,
+      "sha256": "88f72a53e45d8150639502b26cc855d67bc697818579d270016934f3344e8522"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-parallel-threads-local-inertia/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1922,
+      "sha256": "75171293fbe189ac13c9ed004d0d1b0d9ba30ad742f9cac4ffb91fc1bf632f41"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-parallel-threads-local-inertia/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 3609,
+      "sha256": "444c6c162ccb06bccf13a4e52d7eabba34070cbda169e960b690cbe4aeec6fb5"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-parallel-threads-local-inertia/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1209,
+      "sha256": "77322e7cd03b57010163d59e6bbc78d25b0310824b2256d3d3dac2edd4533d2c"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-parallel-threads-local-inertia/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1922,
+      "sha256": "c2808ccf8a4214e771ba61fed68dd541020068762047fd85b64db9ae7cd7cb4a"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-parallel-threads-local-inertia/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 3584,
+      "sha256": "efe75270386dc91500a35bd035b9496fb24a808b1f1afd9d5013dc271da7c72a"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-parallel-threads-local-inertia/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1213,
+      "sha256": "1ca5c05d4a1a39599aa66849ccfe6ede21281eb796eb4729bd5ae448109b3746"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-same-topic-opposed-organization/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1923,
+      "sha256": "227aeaf771b38126d68b43bd20f6f80557e251c589de321cfd840f449ef85f2d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-same-topic-opposed-organization/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 2466,
+      "sha256": "dd41a705a07cd24fb3021358a6043fe39b0316028584cc2b36f12896c24f94d3"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-same-topic-opposed-organization/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1066,
+      "sha256": "0d37f9b2194f9a90da2836da4cd0794f49a3902886ba4fae610cfcd662afdcaa"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-same-topic-opposed-organization/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1923,
+      "sha256": "79c2d88ee6f661a928683b6adfd928913e3dc655a78aca1fcf3fcc22a51470fb"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-same-topic-opposed-organization/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 2382,
+      "sha256": "2439fa5859c66c860fe6d4e8cd835dc36a4cac86157956548176163c82ab4fe7"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/group-same-topic-opposed-organization/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1071,
+      "sha256": "44e9e5a7695ef42eda3f0ada4d1243266d741f3088a645f9d7426f04581f0101"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/inappropriate-takeover-social/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1915,
+      "sha256": "25e9abbb9712e728a007afe10c68505da4f90dc40a43eed58d4a9cded626d7db"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/inappropriate-takeover-social/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1238,
+      "sha256": "19f110442a1ba6d947a049c1a604174e03ed1a12a45a652f7e711a565365c280"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/inappropriate-takeover-social/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 943,
+      "sha256": "25ddb674ac71665b4b2adaa8bfffce1c8121ea3485ee3d3a9eb1b4a47b39bd38"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/inappropriate-takeover-social/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1915,
+      "sha256": "fde77a4e5800d117cd10ede3cc4a7e4919f2493240d2a2af51fe2769a314acb9"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/inappropriate-takeover-social/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1257,
+      "sha256": "7352373a87b03c43e513e5bd0198ef9d3ce3f33600ab45e5b315a0ab0745a379"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/inappropriate-takeover-social/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 948,
+      "sha256": "dfc996962f8496c546121709c9e71ac8b1019a3dd052c9ba503cfbf006492686"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/topic-shift-direction-preserved/adaptive/none/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1917,
+      "sha256": "3c884677929cbe1d09654c333b9c579f4cfc4db7828526a43b118ef722eac200"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/topic-shift-direction-preserved/adaptive/none/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1103,
+      "sha256": "9080c3ed6cb5074b99a1e1d75954767e0dfd5b0198bfdeec2e6fd77d95e9c51d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/topic-shift-direction-preserved/adaptive/none/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 944,
+      "sha256": "1ff73b5e6db86a2e0176e21801a508260780d2014ef969be55aa9c59b183125d"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/topic-shift-direction-preserved/always_high/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1917,
+      "sha256": "b0e732d82aaac1e1ec877e828bb0ca07120454642139e9f420d0d77d576c60ae"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/topic-shift-direction-preserved/always_high/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 1082,
+      "sha256": "d3ea91377456b2055c7eb8bd295cad4905db8e163dd565191d1c308431a03665"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/contextual-direction/topic-shift-direction-preserved/always_high/summary.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 948,
+      "sha256": "fa3fce03c93253c37ce0f6cd2188e7e65a3f943ed8defdc899c8ba0ed6cd66eb"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/economic-analysis.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 36278,
+      "sha256": "97ea252469fa5226b0c7886726a9adfc9f940ba857d51ed7977416f4c0ef3c47"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/economic-analysis.md",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 428,
+      "sha256": "2ed3126520b1697a24b4c1cabd93c6e6c01edaea33638ff8db5f524467e3d494"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/manifest.json",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 2174,
+      "sha256": "2250fbb39230f34d036362d586bdec49b656693c71eee023372ff66aa20730b7"
+    },
+    {
+      "path": "capabilities/C9/paired-adaptive-economics/records.jsonl",
+      "capability": "C9",
+      "instrument": "paired-adaptive-economics",
+      "size_bytes": 42182,
+      "sha256": "075a7cef0d57e94fa32f574849747d5a79bd3578fb1917c7883933bb67011bbf"
+    },
+    {
+      "path": "capabilities/C10/natural-online/final.json",
+      "capability": "C10",
+      "instrument": "natural-online",
+      "size_bytes": 21072,
+      "sha256": "1fde26b486e929d6a317359b797a89df3539d64f46b641be56feae4972c95ccc"
+    },
+    {
+      "path": "capabilities/C10/natural-online/final__20260906-215634.json",
+      "capability": "C10",
+      "instrument": "natural-online",
+      "size_bytes": 3450,
+      "sha256": "26f576936a35ed57e8d97acef38fcd73dae7105bdab73b89a9e5de645ef5601e"
+    },
+    {
+      "path": "capabilities/C10/natural-online/manifest.json",
+      "capability": "C10",
+      "instrument": "natural-online",
+      "size_bytes": 851,
+      "sha256": "0c808abb3fe281f5f3b1b155c3fa260e43b7636b71db3c8f85beb778432f7d83"
+    },
+    {
+      "path": "capabilities/C10/natural-online/manifest__20260906-215634.json",
+      "capability": "C10",
+      "instrument": "natural-online",
+      "size_bytes": 745,
+      "sha256": "bdd55fc187039430df192f3f1d2a595eccdb3a773677668f1705abb0c252a2ef"
+    },
+    {
+      "path": "capabilities/C10/natural-online/records.jsonl",
+      "capability": "C10",
+      "instrument": "natural-online",
+      "size_bytes": 191420,
+      "sha256": "775449c56f9dab73c6520322bd021e073bdbc7889909f033d6890d1052805da2"
+    },
+    {
+      "path": "capabilities/C10/natural-online/records__20260906-215634.jsonl",
+      "capability": "C10",
+      "instrument": "natural-online",
+      "size_bytes": 166043,
+      "sha256": "76a3a0c8b63b2d0853f5406b159add6d454d08e13ad614fee885be0938830bd1"
+    },
+    {
+      "path": "capabilities/C10/temporal-authority/manifest.json",
+      "capability": "C10",
+      "instrument": "temporal-authority",
+      "size_bytes": 1560,
+      "sha256": "d10c91b78700b470c724ad9f19b029816d028aa570bc4f2b0cd7ffd312f90b0d"
+    },
+    {
+      "path": "capabilities/C10/temporal-authority/records.jsonl",
+      "capability": "C10",
+      "instrument": "temporal-authority",
+      "size_bytes": 6307,
+      "sha256": "8500c35095ea361102281dc45ba17c79bdc86559f069bcbc2d247578fbf37db2"
+    },
+    {
+      "path": "capabilities/C10/temporal-authority/summary.json",
+      "capability": "C10",
+      "instrument": "temporal-authority",
+      "size_bytes": 207,
+      "sha256": "c2ca6c4c3f2352cfdb06350840ed6c9bf8ab837f12384af6ddbeea1d107c584a"
+    },
+    {
+      "path": "capabilities/C11/frontier-recovery/manifest.json",
+      "capability": "C11",
+      "instrument": "frontier-recovery",
+      "size_bytes": 2240,
+      "sha256": "c190f5f784a07d36b89620fc715433fd247acbbca37c8058830b841033acecad"
+    },
+    {
+      "path": "capabilities/C11/frontier-recovery/records.jsonl",
+      "capability": "C11",
+      "instrument": "frontier-recovery",
+      "size_bytes": 5101,
+      "sha256": "1a5093b620f9520ceb12a7347655f4d025a90192674534320dbcd1cb86718b5f"
+    },
+    {
+      "path": "capabilities/C11/frontier-recovery/summary.json",
+      "capability": "C11",
+      "instrument": "frontier-recovery",
+      "size_bytes": 1638,
+      "sha256": "5601d1313503219d070fcd0bb6ff168cce24e9999a551a3624f7798084b41595"
+    },
+    {
+      "path": "capabilities/C11/handoff-contract/manifest.json",
+      "capability": "C11",
+      "instrument": "handoff-contract",
+      "size_bytes": 1509,
+      "sha256": "5c5f6f4db16e928ad5030e304e65505f976a76a958c39191079b2e017935a2fe"
+    },
+    {
+      "path": "capabilities/C11/handoff-contract/records.jsonl",
+      "capability": "C11",
+      "instrument": "handoff-contract",
+      "size_bytes": 2367,
+      "sha256": "ef7766544f2c45c7ebde8604abdd2b11022b6dd5ed0ef5406d2cb12913e3978f"
+    },
+    {
+      "path": "capabilities/C11/handoff-contract/summary.json",
+      "capability": "C11",
+      "instrument": "handoff-contract",
+      "size_bytes": 308,
+      "sha256": "a9d72596fa4bbd4336403f4a9e67590d70882089e64b19302fb4bea3bed6d237"
+    },
+    {
+      "path": "capabilities/C12/servant-robot/manifest.json",
+      "capability": "C12",
+      "instrument": "servant-robot",
+      "size_bytes": 2476,
+      "sha256": "b809afb3af225b76b6a3b16ab4081416625dcc374999960147abaee55500e793"
+    },
+    {
+      "path": "capabilities/C12/servant-robot/records.jsonl",
+      "capability": "C12",
+      "instrument": "servant-robot",
+      "size_bytes": 8124,
+      "sha256": "e9843d10e23e6f7693961284424585bdad91ec20df85f80f93244e77dd7d07ae"
+    },
+    {
+      "path": "capabilities/C12/servant-robot/summary.json",
+      "capability": "C12",
+      "instrument": "servant-robot",
+      "size_bytes": 2304,
+      "sha256": "d6cee07ec2466d846f11b17cd2bb1571c23812b4ebce7b45a35f2fa452a02d43"
+    }
+  ]
+}

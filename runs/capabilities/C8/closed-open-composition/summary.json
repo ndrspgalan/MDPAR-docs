@@ -1,0 +1,27 @@
+{
+  "record_count": 10,
+  "case_count": 3,
+  "ownership_exact_count": 10,
+  "all_ownership_exact": true,
+  "status_exact_count": 10,
+  "all_status_exact": true,
+  "text_count": 8,
+  "typed_count": 2,
+  "closed_owned_count": 6,
+  "closed_unowned_count": 1,
+  "open_routed_count": 3,
+  "open_valid_count": 3,
+  "open_invalid_count": 0,
+  "conflict_resolved_count": 1,
+  "longitudinal_interaction_preserved": true,
+  "provider_usage": {
+    "input_tokens": 6447,
+    "cached_input_tokens": 2144,
+    "output_tokens": 387,
+    "reasoning_tokens": 0,
+    "total_tokens": 6834,
+    "request_count": 3
+  },
+  "routing_authority": "MDPAR_ONLY",
+  "aggregate_score_prohibited": true
+}

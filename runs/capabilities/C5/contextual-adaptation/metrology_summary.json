@@ -1,0 +1,13 @@
+{
+  "run_dir": "runs\\contextual-adaptation-20260906-120259",
+  "record_count": 24,
+  "unevaluable_checkpoint_count": 10,
+  "direct_failure_checkpoint_count": 4,
+  "upstream_censored_checkpoint_count": 6,
+  "unclassified_unevaluable_checkpoint_count": 0,
+  "unevaluable_by_reason": {
+    "invariant_violation": 6,
+    "upstream_structural_identification_invalid": 4
+  },
+  "classification_rule": "DIRECT_FAILURE iff structural_failure_turn_index == turn_index; UPSTREAM_CENSORED iff structural_failure_turn_index < turn_index."
+}

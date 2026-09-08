@@ -1,0 +1,35 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.0.0",
+  "adapter_version": "0.9.2",
+  "adapter_source_sha256": "cd57b00cefac29198518b229cdba89b104178902dc4565ecd6daa9561ce6c97d",
+  "protocol": "C3_DIRECTIONAL_CONTINUITY_V1",
+  "capabilities": [
+    "C3"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Does MDPAR preserve exact ThoughtDirection continuity, isolation and restart persistence on deterministic structural fixtures?",
+  "started_at_utc": "2026-09-05T17:46:59Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.0.0.jar",
+  "mdpar_jar_sha256": "036960d2e3324b77325a93ad2c3abbf56661f61c0aaa70e60580bab8ced61165",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\open\\directional_engine_v1.jsonl",
+  "corpus_sha256": "025e0b20888983b6c1f4b518b1cd64451559d9ded182af22da8629bc09811ab3",
+  "case_count": 7,
+  "step_count": 16,
+  "neural_calls": 0,
+  "weighted_aggregate": false,
+  "persistent_restart_exercised": true,
+  "finished_at_utc": "2026-09-05T17:46:59Z"
+}

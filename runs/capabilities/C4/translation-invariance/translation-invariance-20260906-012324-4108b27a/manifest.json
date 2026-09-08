@@ -1,0 +1,62 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.0.0",
+  "adapter_version": "0.9.2",
+  "adapter_source_sha256": "9d70cd2b08fba277de5552dbd78debb2e0bca2c5b8beb7593515f66137e9b341",
+  "protocol": "C4_TRANSLATION_INVARIANCE_V1",
+  "capabilities": [
+    "C4"
+  ],
+  "scientific_axes": [
+    "G"
+  ],
+  "economic_dimensions": [],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Across controlled language transformations, how much of the lossless SCC fingerprint and current non-ordinal ENGINE publication remains invariant?",
+  "started_at_utc": "2026-09-05T23:23:24Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.0.0.jar",
+  "mdpar_jar_sha256": "036960d2e3324b77325a93ad2c3abbf56661f61c0aaa70e60580bab8ced61165",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\invariance\\translation_v2.jsonl",
+  "corpus_sha256": "59c97711857151a13f106ce1575e2fb62c01e1514503f8d0a4a8267023d441ec",
+  "run_id": "translation-20260906-012324-4108b27a",
+  "provider": "openai",
+  "model": "gpt-5.6-sol",
+  "inference_settings": {
+    "reasoning_effort": "high",
+    "max_output_tokens": 128000,
+    "timeout_seconds": 86400.0,
+    "store": false,
+    "api": "responses",
+    "structured_outputs": true
+  },
+  "case_count": 12,
+  "metric_policy": "V2_ENGINE_PROPERTY_VECTOR_NO_WEIGHTED_AGGREGATE",
+  "engine_basis": {
+    "nullable_properties": [
+      "structural_compatibility",
+      "structural_brittleness",
+      "weakest_legibility",
+      "legibility_spread",
+      "cognitive_remembrance"
+    ],
+    "non_ordinal_mark": "StructuralMark(U,K,R,L)",
+    "comparison": "like-for-like estimable absolute differences + categorical preservation + partial Pareto relation; absence is never zero drift"
+  },
+  "stress_policy": {
+    "case_failure": "record_and_continue",
+    "final_only_is_not_sufficient": true,
+    "intermediate_hops": "strict first drift + observed-structure first drift + exact preservation + Pareto relation; partial chains are retained"
+  },
+  "measurement_note": "Both conditions are re-identified and executed by the same MDPAR v2.0.0 OPEN engine after every translation hop. No weighted retention score is used. FULLY_ESTIMABLE_EXACT is kept distinct from OBSERVED_STRUCTURE_PRESERVED: the latter permits stable None->None non-estimability but never treats it as zero.",
+  "finished_at_utc": "2026-09-06T01:11:18Z"
+}

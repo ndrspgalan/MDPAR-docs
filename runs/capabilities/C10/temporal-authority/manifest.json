@@ -1,0 +1,38 @@
+{
+  "protocol": "C10_TEMPORAL_AUTHORITY_EMBODIMENT_V1",
+  "capabilities": [
+    "C10"
+  ],
+  "scientific_axes": [
+    "P",
+    "A"
+  ],
+  "economic_dimensions": [
+    "T",
+    "Q"
+  ],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "contract_version": "ONLINE-C1",
+  "evaluation_regime": "ONLINE_EMBODIMENT",
+  "experimental_question": "Do the canonical temporal contract and provider authority invariants separate contextual urgency, OPEN authorization, certified local fallback, foreground expiry and background continuation without neural calls?",
+  "status": "DEVELOPMENT",
+  "case_count": 11,
+  "neural_calls": 0,
+  "weighted_aggregate": false,
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\online\\authority_invariants_v1.jsonl",
+  "corpus_sha256": "e5bde53e7066c9084d92b421ad925d3305895619e22d749ee66e00638c6ffb44",
+  "mdpar_jar_sha256": "036960d2e3324b77325a93ad2c3abbf56661f61c0aaa70e60580bab8ced61165",
+  "frontier_model": "gpt-5.6-sol",
+  "frontier_online_reasoning_effort": "low",
+  "frontier_max_output_tokens_policy": "maximum model allowance; current adapter default 128000",
+  "local_profile": "qwen3-4b-contract7-local-open-v1",
+  "local_context_note": "8192 local context remains a development-hardware constraint, not a canonical MDPAR deadline.",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": "C10-TEMPORAL-AUTHORITY-V1",
+    "hardware_profile_id": null
+  }
+}

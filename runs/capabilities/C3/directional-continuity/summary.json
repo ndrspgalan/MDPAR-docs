@@ -1,0 +1,36 @@
+{
+  "case_count": 7,
+  "step_count": 16,
+  "exact_step_count": 16,
+  "all_exact": true,
+  "by_phenomenon": {
+    "DIRECTIONAL_TAKEOVER": {
+      "steps": 2,
+      "exact": 2
+    },
+    "INITIAL_ANCHOR_AND_CONTINUITY": {
+      "steps": 2,
+      "exact": 2
+    },
+    "INTERACTION_ISOLATION": {
+      "steps": 3,
+      "exact": 3
+    },
+    "RESTART_PERSISTENCE": {
+      "steps": 2,
+      "exact": 2
+    },
+    "SIGNIFICANT_ANCHOR_LOSS_REANCHOR": {
+      "steps": 3,
+      "exact": 3
+    },
+    "UNANCHORED_WEAK_ONLY": {
+      "steps": 1,
+      "exact": 1
+    },
+    "UNKNOWN_SIGNIFICANT_ANCHOR_LOSS": {
+      "steps": 3,
+      "exact": 3
+    }
+  }
+}

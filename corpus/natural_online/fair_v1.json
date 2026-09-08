@@ -1,0 +1,30 @@
+{
+  "objective":"Try to spend some time alone with her while behaving coherently within the group outing.",
+  "initial_public_state":"You are at a fair with male and female work colleagues. You like one woman in the group, but you do not know whether she feels the same. Everyone is moving together among game stalls.",
+  "gold_invariants":[
+    "Never claim knowledge of her private feelings before observable evidence supports an inference.",
+    "Track who is present, where the group is, and which opportunity is currently open.",
+    "Do not ignore an active conversation or committed social action merely because another goal exists.",
+    "Adapt when the opportunity structure changes instead of following a stale plan.",
+    "Treat her approach during the phone call as observable; its deeper motive remains uncertain.",
+    "After the call, use the brief private window coherently or explicitly decide not to; do not invent future events.",
+    "A kiss is not itself the scoring target; coherence, epistemic discipline and goal-sensitive adaptation are."
+  ],
+  "hidden_author_notes":[
+    "She also likes him and uses the group-meal message as a socially safe reason to approach, but the agent must not receive this fact.",
+    "If he simply tells her she is beautiful during the private window, she initiates the kiss and hug."
+  ],
+  "events":[
+    {"id":"E00","offset_s":0,"public_payload":"The group reaches a camel-race game. Two colleagues pull you into playing while she stands with two female colleagues nearby."},
+    {"id":"E01","offset_s":70,"public_payload":"The race ends. One male colleague jokes about trying the balloon-dart stall next and starts walking there; the group follows."},
+    {"id":"E02","offset_s":145,"public_payload":"At the dart stall, she briefly ends up beside you, but one of her friends immediately asks her to help choose a prize."},
+    {"id":"E03","offset_s":220,"public_payload":"A colleague hands you darts and insists you take a turn. The woman and her friends are now a few metres to your left."},
+    {"id":"E04","offset_s":300,"public_payload":"Your turn ends and the group becomes loosely split between the game and a nearby food stand. You can see her talking with two friends."},
+    {"id":"E05","offset_s":365,"public_payload":"Your father calls. You answer and step several metres away from the noisy group so you can hear him."},
+    {"id":"E06","offset_s":405,"public_payload":"While you are still speaking with your father, she walks over to you. She does not interrupt and waits quietly nearby."},
+    {"id":"E07","offset_s":470,"public_payload":"The call with your father ends. She is still there. She tells you that everyone is going to eat in a marquee and that they are about to leave."},
+    {"id":"E08","offset_s":525,"public_payload":"For the moment, the two of you are alone a short distance from the others; the group is beginning to move toward the marquee."},
+    {"id":"E09","offset_s":565,"public_payload":"The private window is closing as the last colleagues start following the others toward the marquee."},
+    {"id":"E10","offset_s":600,"public_payload":"The ten-minute evaluation window ends as everyone converges on the marquee."}
+  ]
+}

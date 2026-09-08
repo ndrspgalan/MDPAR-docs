@@ -1,0 +1,19 @@
+# MDPAR AI Adapter — reproducible direct dependencies
+# Baseline audited against Python 3.14.7 on 2026-09-01.
+
+# API runtime
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+pydantic==2.13.5
+httpx==0.28.1
+python-multipart==0.0.32
+
+# MDPAR Java bridge
+JPype1==1.7.1
+
+# Manual document ingress
+python-docx==1.2.0
+pypdf==6.16.2
+
+# Test tooling
+pytest==9.1.1

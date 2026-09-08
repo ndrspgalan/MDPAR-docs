@@ -1,0 +1,58 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.0.0",
+  "adapter_version": "0.9.2",
+  "adapter_source_sha256": "2c3cd28ae4d78f190627b92ec4ad6a0b3ce307d7d3933aa79697b7e024f948e1",
+  "protocol": "C11_FRONTIER_DEGRADATION_RECOVERY_V1",
+  "capabilities": [
+    "C11"
+  ],
+  "scientific_axes": [
+    "P",
+    "A"
+  ],
+  "economic_dimensions": [
+    "C",
+    "T",
+    "I",
+    "Q"
+  ],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "ONLINE_EMBODIMENT",
+  "experimental_question": "Across frontier loss/restoration, can the certified Qwen3 4B non-thinking local OPEN profile serve both temporal foreground and FUTURE_STATE_ONLY background roles, while CLOSED remains available and failed/late local work becomes traceable cognitive debt rather than retroactive authority?",
+  "started_at_utc": "2026-09-06T22:53:54Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.0.0.jar",
+  "mdpar_jar_sha256": "036960d2e3324b77325a93ad2c3abbf56661f61c0aaa70e60580bab8ced61165",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\cooperative\\c11_frontier_recovery_dev_v1.json",
+  "corpus_sha256": "a80cc63004d877ff78b8738a6d9359b90857a040d6e9d1a662beb6e4ab120127",
+  "frontier_fault_injected": true,
+  "frontier_provider": "openai",
+  "frontier_model": "gpt-5.6-sol",
+  "local_provider": "ollama",
+  "local_model": "qwen3:4b",
+  "local_profile": "qwen3-4b-contract7-local-open-v1",
+  "local_inference_settings": {
+    "temperature": 0,
+    "seed": 881,
+    "num_ctx": 8192,
+    "num_predict": 2048,
+    "think": false,
+    "thinking_mode": "disabled",
+    "timeout_seconds": 1800.0
+  },
+  "local_thinking_required": false,
+  "hidden_model_state_migration_claimed": false,
+  "local_gate": "STRUCTURAL_IDENTIFICATION",
+  "local_foreground_authority": "GATE_AND_TEMPORAL_LEASE_BOUNDED",
+  "local_background_authority": "FUTURE_STATE_ONLY",
+  "finished_at_utc": "2026-09-06T22:54:55Z"
+}

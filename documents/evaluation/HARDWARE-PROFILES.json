@@ -1,0 +1,22 @@
+{
+  "schema": "MDPAR-HARDWARE-PROFILES-V1",
+  "profiles": [
+    {
+      "profile_id": "andres-reference-laptop-2026",
+      "role": "LOCAL_REFERENCE_BASELINE",
+      "machine": "ASUS TUF Gaming A15 FA507RR",
+      "cpu": "AMD Ryzen 7 6800H",
+      "system_memory": "16 GB nominal DDR5",
+      "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU",
+      "physical_vram": "8 GB GDDR6",
+      "measurement_note": "The machine profile records 8 GB physical GDDR6 VRAM for the RTX 3070 Laptop GPU.",
+      "local_open_constraints": {
+        "ollama_num_ctx_reference_default": 8192,
+        "validated_minimum_model": "Qwen3 4B",
+        "minimum_model_scope": "Qwen3 4B is the certified local model for the STRUCTURAL_IDENTIFICATION gate on this profile; it is not a universal intelligence or embodiment threshold.",
+        "realtime_limitation": "Foreground authority remains gate- and lease-bounded; a valid local completion that misses its deadline does not acquire action authority."
+      },
+      "claim_policy": "Any local-model P/E result must bind this profile_id or a newly measured hardware profile. Hardware-specific failure or success must not be generalized to MDPAR itself."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "protocol": "C9_ADAPTIVE_CONCURRENT_COGNITION_ANALYSIS_V1",
+  "capabilities": [
+    "C9"
+  ],
+  "scientific_axes": [
+    "P"
+  ],
+  "economic_dimensions": [
+    "C",
+    "T",
+    "I",
+    "Q"
+  ],
+  "primary_quantity": "NEURAL_LATENCY_HIDDEN_AT_RETAINED_POSTHOC_CAPABILITY",
+  "max_background_workers": 1,
+  "levels": {
+    "L4": {
+      "case_count": 13,
+      "arm_order": [
+        "ADAPTIVE_CONCURRENT",
+        "ADAPTIVE_SEQUENTIAL"
+      ],
+      "sequential_high_escalations": 3,
+      "concurrent_high_escalations": 3,
+      "matched_escalation_case_count": 11,
+      "matched_escalation_fraction": 0.8461538461538461,
+      "sequential_structurally_sufficient": 12,
+      "concurrent_structurally_sufficient": 13,
+      "sequential_posthoc_gold": {
+        "checkpoint_count": 24,
+        "evaluable_checkpoint_count": 20,
+        "correct_count": 19,
+        "coverage": 0.8333333333333334,
+        "conditional_accuracy": 0.95,
+        "overall_accuracy": 0.7916666666666666
+      },
+      "concurrent_posthoc_gold": {
+        "checkpoint_count": 24,
+        "evaluable_checkpoint_count": 24,
+        "correct_count": 24,
+        "coverage": 1.0,
+        "conditional_accuracy": 1.0,
+        "overall_accuracy": 1.0
+      },
+      "background_failure_cases": [],
+      "sequential_campaign_wall_seconds": 726.6380472,
+      "concurrent_campaign_wall_seconds": 471.6140026,
+      "ecological_wall_delta_seconds_seq_minus_concurrent": 255.02404459999997,
+      "ecological_wall_reduction_fraction": 0.3509643426774859,
+      "same_run_serialized_neural_wall_seconds": 588.6653503002599,
+      "same_run_concurrent_wall_seconds": 471.6140026,
+      "same_run_latency_hidden_seconds": 117.0513477002599,
+      "same_run_latency_hidden_fraction": 0.19884191865642448,
+      "foreground_stream_wall_seconds": 185.4585424,
+      "exposed_tail_after_foreground_seconds": 286.1554602,
+      "mean_high_queue_delay_seconds": 35.751792933333334,
+      "max_high_queue_delay_seconds": 107.2548523,
+      "concurrency_pressure": {
+        "max_pending_high": 2,
+        "max_active_high": 1,
+        "max_concurrent_neural_tasks": 2,
+        "mean_event_sampled_pending_high": 0.717948717948718
+      },
+      "sequential_provider_usage": {
+        "input_tokens": 143195,
+        "cached_input_tokens": 118247,
+        "output_tokens": 47308,
+        "reasoning_tokens": 34954,
+        "total_tokens": 190503,
+        "request_count": 83
+      },
+      "concurrent_provider_usage": {
+        "input_tokens": 143479,
+        "cached_input_tokens": 62332,
+        "output_tokens": 36639,
+        "reasoning_tokens": 24978,
+        "total_tokens": 180118,
+        "request_count": 86
+      },
+      "provider_usage_delta_concurrent_minus_sequential": {
+        "input_tokens": 284,
+        "cached_input_tokens": -55915,
+        "output_tokens": -10669,
+        "reasoning_tokens": -9976,
+        "total_tokens": -10385,
+        "request_count": 3
+      },
+      "interpretation_guardrail": "same-run latency hiding is the primary scheduling estimate; independent sequential-vs-concurrent wall is ecological and provider/stochastic-sensitive. No token reduction is attributed to concurrency itself."
+    },
+    "L6": {
+      "case_count": 13,
+      "arm_order": [
+        "ADAPTIVE_CONCURRENT",
+        "ADAPTIVE_SEQUENTIAL"
+      ],
+      "sequential_high_escalations": 6,
+      "concurrent_high_escalations": 3,
+      "matched_escalation_case_count": 8,
+      "matched_escalation_fraction": 0.6153846153846154,
+      "sequential_structurally_sufficient": 10,
+      "concurrent_structurally_sufficient": 12,
+      "sequential_posthoc_gold": {
+        "checkpoint_count": 24,
+        "evaluable_checkpoint_count": 18,
+        "correct_count": 17,
+        "coverage": 0.75,
+        "conditional_accuracy": 0.9444444444444444,
+        "overall_accuracy": 0.7083333333333334
+      },
+      "concurrent_posthoc_gold": {
+        "checkpoint_count": 24,
+        "evaluable_checkpoint_count": 21,
+        "correct_count": 20,
+        "coverage": 0.875,
+        "conditional_accuracy": 0.9523809523809523,
+        "overall_accuracy": 0.8333333333333334
+      },
+      "background_failure_cases": [],
+      "sequential_campaign_wall_seconds": 1933.2963414,
+      "concurrent_campaign_wall_seconds": 865.898832,
+      "ecological_wall_delta_seconds_seq_minus_concurrent": 1067.3975094000002,
+      "ecological_wall_reduction_fraction": 0.5521127240260758,
+      "same_run_serialized_neural_wall_seconds": 1041.0621304982342,
+      "same_run_concurrent_wall_seconds": 865.898832,
+      "same_run_latency_hidden_seconds": 175.1632984982342,
+      "same_run_latency_hidden_fraction": 0.16825441380180078,
+      "foreground_stream_wall_seconds": 357.887629,
+      "exposed_tail_after_foreground_seconds": 508.01120299999997,
+      "mean_high_queue_delay_seconds": 21.451874066666665,
+      "max_high_queue_delay_seconds": 64.3551376,
+      "concurrency_pressure": {
+        "max_pending_high": 2,
+        "max_active_high": 1,
+        "max_concurrent_neural_tasks": 2,
+        "mean_event_sampled_pending_high": 0.6666666666666666
+      },
+      "sequential_provider_usage": {
+        "input_tokens": 248809,
+        "cached_input_tokens": 94638,
+        "output_tokens": 132075,
+        "reasoning_tokens": 102829,
+        "total_tokens": 380884,
+        "request_count": 165
+      },
+      "concurrent_provider_usage": {
+        "input_tokens": 211139,
+        "cached_input_tokens": 111804,
+        "output_tokens": 68835,
+        "reasoning_tokens": 42754,
+        "total_tokens": 279974,
+        "request_count": 140
+      },
+      "provider_usage_delta_concurrent_minus_sequential": {
+        "input_tokens": -37670,
+        "cached_input_tokens": 17166,
+        "output_tokens": -63240,
+        "reasoning_tokens": -60075,
+        "total_tokens": -100910,
+        "request_count": -25
+      },
+      "interpretation_guardrail": "same-run latency hiding is the primary scheduling estimate; independent sequential-vs-concurrent wall is ecological and provider/stochastic-sensitive. No token reduction is attributed to concurrency itself."
+    }
+  }
+}

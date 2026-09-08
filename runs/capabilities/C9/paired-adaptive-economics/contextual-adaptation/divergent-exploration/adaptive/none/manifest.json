@@ -1,0 +1,44 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.0.0",
+  "adapter_version": "0.9.2",
+  "adapter_source_sha256": "7177275d407159e07b21e487f5103cc0ecf734b6dfe906584ddde693ca333586",
+  "protocol": "C5_CONTEXTUAL_ADAPTATION_V1",
+  "capabilities": [
+    "C5"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Can the cooperative OPEN circuit identify, contextualize, realize, structurally verify and, when authorized, transform a candidate contribution under the v2.0.0 structural contract?",
+  "started_at_utc": "2026-09-06T19:03:58Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": "C9-PAIRED-ADAPTIVE-ECONOMICS-V1",
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.0.0.jar",
+  "mdpar_jar_sha256": "036960d2e3324b77325a93ad2c3abbf56661f61c0aaa70e60580bab8ced61165",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\runs\\capabilities\\C9\\paired-adaptive-economics\\contextual_adaptation\\_case_corpora\\divergent-exploration.jsonl",
+  "corpus_sha256": "d645a82635191806348c9c9bb9908a4554e8914865aed11be23215d4af2d437d",
+  "campaign_id": "C9-PAIRED-ADAPTIVE-ECONOMICS-V1",
+  "provider": "openai",
+  "model": "gpt-5.6-sol",
+  "inference_settings": {
+    "reasoning_effort": "none",
+    "max_output_tokens": 128000,
+    "timeout_seconds": 86400.0,
+    "store": false,
+    "api": "responses",
+    "structured_outputs": true
+  },
+  "single_neural_claim_per_gate": true,
+  "transport_retries_are_not_neural_retries": true,
+  "metrics": "vector only; no weighted aggregate",
+  "finished_at_utc": "2026-09-06T19:04:02Z"
+}

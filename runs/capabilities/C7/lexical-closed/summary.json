@@ -1,0 +1,254 @@
+{
+  "case_count": 10,
+  "record_count": 200,
+  "by_case": {
+    "payment-auth-timeout": {
+      "route_passes": 20,
+      "report_passes": 20,
+      "repetitions": 20,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 147.0633,
+        "median_ms": 149.9696005,
+        "p95_ms": 158.7898,
+        "p99_ms": 160.1623,
+        "max_ms": 160.1623,
+        "mean_ms": 151.88802505
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 147.3592,
+        "median_ms": 152.3898,
+        "p95_ms": 159.0714,
+        "p99_ms": 160.419,
+        "max_ms": 160.419,
+        "mean_ms": 152.737095
+      }
+    },
+    "api-auth-failure": {
+      "route_passes": 20,
+      "report_passes": 20,
+      "repetitions": 20,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 88.9634,
+        "median_ms": 92.0169,
+        "p95_ms": 96.6232,
+        "p99_ms": 98.8483,
+        "max_ms": 98.8483,
+        "mean_ms": 92.88467995
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 89.2051,
+        "median_ms": 92.6555,
+        "p95_ms": 96.8526,
+        "p99_ms": 99.0895,
+        "max_ms": 99.0895,
+        "mean_ms": 93.342105
+      }
+    },
+    "queue-backlog": {
+      "route_passes": 20,
+      "report_passes": 20,
+      "repetitions": 20,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 91.305101,
+        "median_ms": 96.9458995,
+        "p95_ms": 101.3828,
+        "p99_ms": 107.539,
+        "max_ms": 107.539,
+        "mean_ms": 97.07026979999999
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 91.5379,
+        "median_ms": 97.1909,
+        "p95_ms": 101.6273,
+        "p99_ms": 107.7783,
+        "max_ms": 107.7783,
+        "mean_ms": 97.39488
+      }
+    },
+    "inventory-sync": {
+      "route_passes": 20,
+      "report_passes": 20,
+      "repetitions": 20,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 91.1904,
+        "median_ms": 93.80895,
+        "p95_ms": 98.3555,
+        "p99_ms": 99.294701,
+        "max_ms": 99.294701,
+        "mean_ms": 94.52318495
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 91.4181,
+        "median_ms": 94.0826,
+        "p95_ms": 98.5891,
+        "p99_ms": 99.5221,
+        "max_ms": 99.5221,
+        "mean_ms": 94.76394
+      }
+    },
+    "observability-gap": {
+      "route_passes": 0,
+      "report_passes": 0,
+      "repetitions": 20,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 29.735201,
+        "median_ms": 31.1762505,
+        "p95_ms": 32.2547,
+        "p99_ms": 32.916801,
+        "max_ms": 32.916801,
+        "mean_ms": 31.16291995
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 29.905,
+        "median_ms": 31.40145,
+        "p95_ms": 33.0914,
+        "p99_ms": 33.7727,
+        "max_ms": 33.7727,
+        "mean_ms": 31.500685
+      }
+    },
+    "returns-workflow": {
+      "route_passes": 20,
+      "report_passes": 20,
+      "repetitions": 20,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 95.5327,
+        "median_ms": 97.9099505,
+        "p95_ms": 102.305599,
+        "p99_ms": 104.355701,
+        "max_ms": 104.355701,
+        "mean_ms": 98.65630505
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 95.773,
+        "median_ms": 98.6013,
+        "p95_ms": 102.5452,
+        "p99_ms": 104.5995,
+        "max_ms": 104.5995,
+        "mean_ms": 98.961045
+      }
+    },
+    "spanish-rejected": {
+      "route_passes": 20,
+      "report_passes": 20,
+      "repetitions": 20,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 0.047399,
+        "median_ms": 0.04885,
+        "p95_ms": 0.0849,
+        "p99_ms": 0.108599,
+        "max_ms": 0.108599,
+        "mean_ms": 0.054229849999999996
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 0.1079,
+        "median_ms": 0.1117,
+        "p95_ms": 0.1534,
+        "p99_ms": 0.2323,
+        "max_ms": 0.2323,
+        "mean_ms": 0.121375
+      }
+    },
+    "german-rejected": {
+      "route_passes": 20,
+      "report_passes": 20,
+      "repetitions": 20,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 0.0505,
+        "median_ms": 0.052749,
+        "p95_ms": 0.065001,
+        "p99_ms": 0.069801,
+        "max_ms": 0.069801,
+        "mean_ms": 0.054835
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 0.1066,
+        "median_ms": 0.1136,
+        "p95_ms": 0.1489,
+        "p99_ms": 0.202,
+        "max_ms": 0.202,
+        "mean_ms": 0.122395
+      }
+    },
+    "french-rejected": {
+      "route_passes": 20,
+      "report_passes": 20,
+      "repetitions": 20,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 0.0512,
+        "median_ms": 0.0532,
+        "p95_ms": 0.065101,
+        "p99_ms": 0.067301,
+        "max_ms": 0.067301,
+        "mean_ms": 0.055714900000000005
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 0.1111,
+        "median_ms": 0.1155,
+        "p95_ms": 0.1338,
+        "p99_ms": 0.1374,
+        "max_ms": 0.1374,
+        "mean_ms": 0.1184
+      }
+    },
+    "noise-rejected": {
+      "route_passes": 20,
+      "report_passes": 20,
+      "repetitions": 20,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 0.0221,
+        "median_ms": 0.0231505,
+        "p95_ms": 0.0363,
+        "p99_ms": 0.037801,
+        "max_ms": 0.037801,
+        "mean_ms": 0.0258302
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 0.075,
+        "median_ms": 0.07795,
+        "p95_ms": 0.1006,
+        "p99_ms": 0.1063,
+        "max_ms": 0.1063,
+        "mean_ms": 0.082715
+      }
+    }
+  },
+  "native_latency_all": {
+    "count": 200,
+    "min_ms": 0.0221,
+    "median_ms": 60.9401005,
+    "p95_ms": 149.8443,
+    "p99_ms": 158.4985,
+    "max_ms": 160.1623,
+    "mean_ms": 56.63759947
+  },
+  "bridge_wall_latency_all": {
+    "count": 200,
+    "min_ms": 0.075,
+    "median_ms": 61.4889,
+    "p95_ms": 151.3533,
+    "p99_ms": 158.7964,
+    "max_ms": 160.419,
+    "mean_ms": 56.9144635
+  }
+}

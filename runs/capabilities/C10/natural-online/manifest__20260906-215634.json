@@ -1,0 +1,28 @@
+{
+  "protocol": "C10_NATURAL_ONLINE_SYSTEM_V1",
+  "capabilities": [
+    "C10"
+  ],
+  "scientific_axes": [
+    "P",
+    "A"
+  ],
+  "economic_dimensions": [
+    "C",
+    "T",
+    "Q"
+  ],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "ONLINE_EMBODIMENT",
+  "episode": "c10-fair-v1",
+  "limit_s": 600.0,
+  "world_clock": "simulated_external_timeline",
+  "model": "gpt-5.6-sol",
+  "background_workers": 1,
+  "status": "COMPLETED",
+  "terminal_event_has_no_action": true,
+  "mdpar_jar_sha256": "036960d2e3324b77325a93ad2c3abbf56661f61c0aaa70e60580bab8ced61165",
+  "corpus_sha256": "6caa52ddfa7964af39908f297e18f9463340820c91a2e93c4ae5b2751ff1f7d9",
+  "events_completed": 11
+}

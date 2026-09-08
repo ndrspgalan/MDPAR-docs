@@ -1,0 +1,33 @@
+{
+  "protocol": "C10_NATURAL_ONLINE_SYSTEM_V1",
+  "capabilities": [
+    "C10"
+  ],
+  "scientific_axes": [
+    "P",
+    "A"
+  ],
+  "economic_dimensions": [
+    "C",
+    "T",
+    "Q"
+  ],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "ONLINE_EMBODIMENT",
+  "status": "COMPLETED",
+  "episode": "c10-exam-v1",
+  "limit_s": 3000.0,
+  "submitted_at_s": 182.61887660017237,
+  "model": "gpt-5.6-sol",
+  "background_workers": 1,
+  "mdpar_jar_sha256": "036960d2e3324b77325a93ad2c3abbf56661f61c0aaa70e60580bab8ced61165",
+  "corpus_sha256": "101058ba87b2e11e2ea7acac6a0c1a2bde30c7eb89baa355d2759e69b29a92a1",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  }
+}

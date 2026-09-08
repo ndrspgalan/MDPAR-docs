@@ -1,0 +1,74 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.0.0",
+  "adapter_version": "0.9.2",
+  "adapter_source_sha256": "9d70cd2b08fba277de5552dbd78debb2e0bca2c5b8beb7593515f66137e9b341",
+  "protocol": "C4_PERMUTATION_REALIZATION_V1",
+  "capabilities": [
+    "C4"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Can a frozen MDPAR permutation target be realized in another language and re-identified as the exact target occurrence/relation structure?",
+  "started_at_utc": "2026-09-05T22:17:30Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.0.0.jar",
+  "mdpar_jar_sha256": "036960d2e3324b77325a93ad2c3abbf56661f61c0aaa70e60580bab8ced61165",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\permutation\\interlingua_c4_dev_v1.jsonl",
+  "corpus_sha256": "b624d86c123a84e5ad4a7c2984cd9af8bc1d7e7fcf8a62609a0638f3fcfb3b3d",
+  "campaign_id": null,
+  "provider": "openai",
+  "model": "gpt-5.6-sol",
+  "inference_settings": {
+    "reasoning_effort": "none",
+    "max_output_tokens": 128000,
+    "timeout_seconds": 86400.0,
+    "store": false,
+    "api": "responses",
+    "structured_outputs": true
+  },
+  "case_count": 6,
+  "conditions": [
+    "DIRECTION_ONLY",
+    "TARGET_SCC",
+    "PERMUTATION_SURFACE"
+  ],
+  "condition_order_policy": "deterministic permutation-id rotation; identical instruction and payload shape across conditions",
+  "target_policy": "frozen MDPAR permutation targets; the evaluated LLM does not construct or gate probe eligibility",
+  "canonical_anchor_provenance": [
+    "Migrated development fixture from frozen MDPAR-exported permutation anchors originally captured in run permutation-interlingua-20260825-195120. The original producing JAR hash is preserved separately. C4 v2.0.0 uses these immutable targets to measure realization and re-identification identity; it does not retroactively claim that the current runtime generated the historical anchor."
+  ],
+  "canonical_anchor_mdpar_jar_sha256": [
+    "d2d0044283dd6ecbd04573311561c089393aff14316065dd41f8c5ebc270c4da"
+  ],
+  "source_diagnostic_enabled": false,
+  "metric_policy": "EXACT_TYPED_TARGET_IDENTITY_VECTOR_NO_WEIGHTED_AGGREGATE",
+  "fingerprint_policy": "LOSSLESS_RANGES_AND_RELATION_OCCURRENCE_ENDPOINTS_REQUIRED",
+  "prompt_sha256": "99e2007617dbd25040073c8814c0b814fb84738f5c8da8b41b7a99760b15434d",
+  "max_permutations_per_case": null,
+  "measurement_note": "Source permutation equivalence is owned by MDPAR's Java permutation report. This realization benchmark independently tests exact identity between the frozen target fingerprint and the re-identified realization; no historical ordinal retired ordinal equivalence class is used as authority.",
+  "setup_usage": {},
+  "source_diagnostic_usage": {},
+  "source_diagnostic_count": 0,
+  "source_diagnostic_failure_count": 0,
+  "source_setup_failure_count": 0,
+  "source_setup_failures": [],
+  "last_resumed_at_utc": "2026-09-05T22:17:30Z",
+  "permutation_probe_count": 9,
+  "completed_record_count": 27,
+  "expected_record_count": 27,
+  "evaluable_record_count": 19,
+  "unevaluable_record_count": 8,
+  "finished_at_utc": "2026-09-05T22:20:07Z",
+  "last_segment_duration_seconds": 157.33562740008347
+}

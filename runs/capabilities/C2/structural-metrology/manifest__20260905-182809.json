@@ -1,0 +1,50 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.0.0",
+  "adapter_version": "0.9.2",
+  "adapter_source_sha256": "e03d92738a40d09923d9fc317bb0ae6532979680f77ca54ca655b9eef4ad6673",
+  "protocol": "C2_STRUCTURAL_METROLOGY_V1",
+  "capabilities": [
+    "C2"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Can the external OPEN identification instrument remain repeatable and discriminative while v2.0.0 preserves non-estimability explicitly?",
+  "started_at_utc": "2026-09-05T16:28:09Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": "andres-development-laptop-2026"
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.0.0.jar",
+  "mdpar_jar_sha256": "23329055d03a9d1ba7a7bce7528c94b80f0b41c8e07ecd545e42616c99785201",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\open\\identification_metrology_dev_v2.jsonl",
+  "corpus_sha256": "5a9a6aa2c184098a74c11fe134dd02bd09df5d006bd3cd573c48fa0d31e61e2c",
+  "provider": "ollama",
+  "model": "qwen3:4b",
+  "inference_settings": {
+    "temperature": 0,
+    "seed": 881,
+    "num_ctx": 8192,
+    "num_predict": 2048,
+    "think": true,
+    "thinking_mode": "enabled",
+    "timeout_seconds": 1800.0
+  },
+  "case_count": 12,
+  "contrast_count": 6,
+  "repeats": 3,
+  "metric_policy": "EXACT_SCC_REPEATABILITY_AND_SUPPORT_SET_DISCRIMINABILITY_NO_WEIGHTED_AGGREGATE",
+  "repeatability_definition": "same immutable input text and language; exact lossless SCC fingerprint equality across independent OPEN identifications",
+  "discriminability_definition": "paired deliberately structurally distinct texts; complete SCC fingerprint support sets must be disjoint across repeats",
+  "not_estimable_policy": "nullable ENGINE properties remain absent and are never replaced by synthetic zero, one or neutral values",
+  "finished_at_utc": "2026-09-05T16:43:16Z",
+  "run_duration_seconds": 906.5968357999809,
+  "observation_count": 36
+}

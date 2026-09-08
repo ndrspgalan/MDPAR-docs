@@ -1,0 +1,1038 @@
+{
+  "question_count": 130,
+  "graded_observations": 112,
+  "graded_questions": 112,
+  "semantic_coverage": 0.8615384615384616,
+  "ungraded_questions": 18,
+  "ungraded": [
+    {
+      "question_id": "RO8",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "RO9",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "RO13",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "JF3",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "VM2",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "VM5",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "VM6",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "VM7",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "VM8",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "VM9",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "VM11",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "VM12",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "VM13",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "VM14",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "VM15",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "VM16",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "VM17",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    },
+    {
+      "question_id": "VM18",
+      "reason": "NO_NON_HARNESS_REVISION",
+      "final_state": "UNRESOLVED_AT_END",
+      "current_answer": ""
+    }
+  ],
+  "mean_score": 0.6625892857142857,
+  "by_grade": {
+    "GOLD_EXACT": 22,
+    "STRONG_COMPATIBLE_INFERENCE": 34,
+    "PLAUSIBLE_INFERENCE": 22,
+    "JUSTIFIED_UNKNOWN": 7,
+    "INCOMPATIBLE_INFERENCE": 6,
+    "HALLUCINATION": 21
+  },
+  "premature": 49,
+  "evaluator": {
+    "provider": "openai",
+    "model": "gpt-5.6-sol",
+    "reasoning_effort": "high"
+  },
+  "usage": {
+    "input_tokens": 45180,
+    "cached_input_tokens": 0,
+    "output_tokens": 35862,
+    "reasoning_tokens": 26329,
+    "total_tokens": 81042,
+    "request_count": 112
+  },
+  "rows": [
+    {
+      "question_id": "S1",
+      "segment_id": "S0001",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.9,
+      "epistemically_premature": false,
+      "reason": "Identifica correctamente Vacío, Santo y Eiyen, y explica que Eiyen surge de los dos primeros y posibilita la autocontemplación. Sin embargo, omite la función específica del Vacío y no caracteriza explícitamente al Santo como singularidad."
+    },
+    {
+      "question_id": "S2",
+      "segment_id": "S0001",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.84,
+      "epistemically_premature": false,
+      "reason": "Recoge correctamente la cosmología central: fragmentación en multiplicidad, decadencia, resurgimiento y retorno al Uno. Sin embargo, añade «Dios», «infinitos seres» y ciclos continuos, y omite explicitar supervivencia y síntesis; por ello no es una formulación canónica exacta."
+    },
+    {
+      "question_id": "S3",
+      "segment_id": "S0001",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.82,
+      "epistemically_premature": false,
+      "reason": "Capta correctamente la dimensión de síntesis metafísica y la presenta como hipótesis compatible, pero omite la equivalencia material canónica: tener un hijo."
+    },
+    {
+      "question_id": "D1",
+      "segment_id": "S0002",
+      "grade": "HALLUCINATION",
+      "score": 0.0,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide con la respuesta textual posterior, se afirmó antes de que el texto permitiera saber que los ojos azulados eran el estigma; por tanto, fue un acierto no sustentado en ese momento."
+    },
+    {
+      "question_id": "D2",
+      "segment_id": "S0028",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.88,
+      "epistemically_premature": false,
+      "reason": "«La libertad» recoge el núcleo de la promesa: liberarse del estigma y poder iniciar una vida propia. La referencia al final de la Segunda Marcha Exaltada añade una precisión no incluida en el criterio, por lo que no alcanza GOLD_EXACT."
+    },
+    {
+      "question_id": "D3",
+      "segment_id": "S0048",
+      "grade": "GOLD_EXACT",
+      "score": 0.97,
+      "epistemically_premature": false,
+      "reason": "Coincide con el criterio: al inicio, Kenan carece de autonomía práctica porque sigue subordinado a órdenes, disciplina y autoridad. La referencia posterior a su elección en Dorme sustenta adecuadamente el contraste."
+    },
+    {
+      "question_id": "D4",
+      "segment_id": "S0005",
+      "grade": "GOLD_EXACT",
+      "score": 1,
+      "epistemically_premature": false,
+      "reason": "Coincide con el criterio: sí sienten miedo y muestran trauma y vulnerabilidad; su aparente intrepidez proviene del entrenamiento y la disciplina."
+    },
+    {
+      "question_id": "DB1",
+      "segment_id": "S0005",
+      "grade": "HALLUCINATION",
+      "score": 0.05,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide con la respuesta final, en S0005 el texto aún no permitía identificar esa pérdida. La mención precisa de Dominic y de décadas de amistad es información no sustentada en ese momento, por lo que sería una conjetura afortunada, no GOLD."
+    },
+    {
+      "question_id": "DB2",
+      "segment_id": "S0018",
+      "grade": "GOLD_EXACT",
+      "score": 0.97,
+      "epistemically_premature": false,
+      "reason": "Expresa con precisión que, sin órdenes, Kenan carece de propósito, identidad y criterio propios y debe construir una voluntad autónoma. Coincide plenamente con el criterio y está respaldado por el texto disponible."
+    },
+    {
+      "question_id": "DB3",
+      "segment_id": "S0006",
+      "grade": "GOLD_EXACT",
+      "score": 0.97,
+      "epistemically_premature": false,
+      "reason": "Coincide con el criterio: rechaza un deseo suicida simple y entiende que Kenan entrega la decisión sobre su vida a la voluntad/autoridad de Marcus."
+    },
+    {
+      "question_id": "HC1",
+      "segment_id": "S0010",
+      "grade": "HALLUCINATION",
+      "score": 0.08,
+      "epistemically_premature": true,
+      "reason": "La respuesta anticipa datos biográficos específicos antes de que el texto publicado permitiera responder. Aunque menciona el nombre propio —parte del criterio final—, presenta como hechos información aún no sustentada y omite varios rasgos centrales: sociabilidad, curiosidad, intereses y proyecto de vida."
+    },
+    {
+      "question_id": "HC2",
+      "segment_id": "S0009",
+      "grade": "HALLUCINATION",
+      "score": 0.05,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide con el criterio final, se formuló antes de que el texto liberado permitiera inferirlo; es un acierto anticipado sin apoyo disponible."
+    },
+    {
+      "question_id": "HC3",
+      "segment_id": "S0009",
+      "grade": "JUSTIFIED_UNKNOWN",
+      "score": 1.0,
+      "epistemically_premature": false,
+      "reason": "En S0009, antes de que la respuesta fuera accesible, el texto solo mostraba la diferencia cromática sin explicar su significado. La respuesta declara correctamente que era desconocido en ese checkpoint, sin anticipar el canon autoral."
+    },
+    {
+      "question_id": "HC4",
+      "segment_id": "S0010",
+      "grade": "HALLUCINATION",
+      "score": 0.1,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide estrechamente con la respuesta revelada después, se formuló antes de que el texto permitiera responderla; por tanto, fue un acierto no sustentado en ese momento."
+    },
+    {
+      "question_id": "HC5",
+      "segment_id": "S0012",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.84,
+      "epistemically_premature": false,
+      "reason": "Identifica correctamente «Lara» como la clave simbólica y el vínculo con Isaiah. Sin embargo, omite la consecuencia central: Kenan acaba llamando Lara a su hija."
+    },
+    {
+      "question_id": "HC6",
+      "segment_id": "S0012",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.9,
+      "epistemically_premature": false,
+      "reason": "Identifica correctamente al ébano como factor causal y lo sustenta con indicios observables, además de reconocer que el mecanismo exacto se desconoce. Es compatible con el canon, pero incompleto: falta la interacción con el Intersticio dentro de la herida del mundo."
+    },
+    {
+      "question_id": "HC7",
+      "segment_id": "S0011",
+      "grade": "JUSTIFIED_UNKNOWN",
+      "score": 1.0,
+      "epistemically_premature": false,
+      "reason": "En S0011, antes de que la explicación sea accesible, el texto solo señala el rasgo sin revelar su causa o significado. La respuesta UNKNOWN es epistemológicamente correcta."
+    },
+    {
+      "question_id": "HC8",
+      "segment_id": "S0014",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.9,
+      "epistemically_premature": false,
+      "reason": "Identifica correctamente que no son heridas normales y las vincula con una interacción anómala del ébano. Es compatible con el criterio, aunque omite la conexión específica con el Caldero."
+    },
+    {
+      "question_id": "HC9",
+      "segment_id": "S0012",
+      "grade": "JUSTIFIED_UNKNOWN",
+      "score": 0.97,
+      "epistemically_premature": false,
+      "reason": "En S0012, antes de que el texto permitiera responder, era correcto señalar que la identificación como ébano no estaba confirmada. La revelación posterior no vuelve injustificada esa cautela."
+    },
+    {
+      "question_id": "HC10",
+      "segment_id": "S0015",
+      "grade": "INCOMPATIBLE_INFERENCE",
+      "score": 0.05,
+      "epistemically_premature": false,
+      "reason": "La frase ya era interpretable con el texto publicado: Kenan se pone el brazal de Isaiah y promete continuar su sueño. Declarar que faltan la frase y el contexto contradice la evidencia disponible."
+    },
+    {
+      "question_id": "CS1",
+      "segment_id": "S0014",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.86,
+      "epistemically_premature": true,
+      "reason": "La hipótesis acierta en lo esencial: el médico detecta una correspondencia anómala entre las quemaduras y las zonas protegidas por la armadura. No es GOLD porque se formula antes de que el texto lo permita y añade detalles no exigidos, como el desgaste y la comprobación de sensibilidad."
+    },
+    {
+      "question_id": "CS2",
+      "segment_id": "S0015",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.68,
+      "epistemically_premature": true,
+      "reason": "Capta el contraste general entre triunfo colectivo y desolación personal, pero antes de ser plenamente sustentable y sin alcanzar la ironía central: se proclama la libertad aunque Kenan y la sociedad aún ignoran qué significa vivir libremente."
+    },
+    {
+      "question_id": "CS3",
+      "segment_id": "S0016",
+      "grade": "HALLUCINATION",
+      "score": 0.1,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide con la respuesta revelada después, en S0016 aún no era deducible del texto. Es una anticipación específica sin apoyo disponible, con detalles adicionales no establecidos."
+    },
+    {
+      "question_id": "CS4",
+      "segment_id": "S0017",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.88,
+      "epistemically_premature": false,
+      "reason": "Identifica correctamente los arcos negros y la capacidad técnica reflejada en el armamento, que son elementos centrales de la pista. Omite la disciplina y amplía la conexión a otras armas, por lo que no es exacta al criterio completo."
+    },
+    {
+      "question_id": "CS5",
+      "segment_id": "S0017",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.93,
+      "epistemically_premature": false,
+      "reason": "Reconoce correctamente que su identidad, procedencia y misión siguen sin revelarse, y los caracteriza de forma compatible con el texto como un grupo disciplinado, armado y tecnológicamente inusual."
+    },
+    {
+      "question_id": "SU1",
+      "segment_id": "S0018",
+      "grade": "GOLD_EXACT",
+      "score": 1.0,
+      "epistemically_premature": false,
+      "reason": "Coincide exactamente con el criterio textual: asumir su nombre, Kenan, y dejar atrás la designación militar 25399 («Solo Kenan, al fin»)."
+    },
+    {
+      "question_id": "SU2",
+      "segment_id": "S0019",
+      "grade": "GOLD_EXACT",
+      "score": 0.99,
+      "epistemically_premature": false,
+      "reason": "Coincide con el criterio: no es libertad plena, sino el inicio de un proceso de autonomía. Los matices añadidos son compatibles con esa lectura."
+    },
+    {
+      "question_id": "CP1",
+      "segment_id": "S0019",
+      "grade": "HALLUCINATION",
+      "score": 0.1,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide parcialmente con la respuesta posterior, en S0019 aún no había texto suficiente para identificar a Marco ni sostener esos detalles; los afirma como hechos de forma prematura."
+    },
+    {
+      "question_id": "CP2",
+      "segment_id": "S0025",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.58,
+      "epistemically_premature": true,
+      "reason": "Coincide estrechamente con la respuesta final, pero fue formulada antes de que el texto permitiera sostenerla. En ese momento era una hipótesis plausible, no una conclusión suficientemente respaldada."
+    },
+    {
+      "question_id": "CP3",
+      "segment_id": "S0031",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.84,
+      "epistemically_premature": false,
+      "reason": "La conclusión de que Marco lo reconoce como socio está respaldada por «Socios» y es compatible con la reciprocidad final. No alcanza GOLD porque omite que la relación comienza de forma instrumental y evoluciona hacia afecto genuino."
+    },
+    {
+      "question_id": "CP4",
+      "segment_id": "S0026",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.58,
+      "epistemically_premature": true,
+      "reason": "Coincide con el criterio final, pero se formuló antes de que el texto permitiera sostenerlo e incluye detalles específicos aún no establecidos. Es una hipótesis compatible, no una respuesta canónica respaldada en ese momento."
+    },
+    {
+      "question_id": "CP5",
+      "segment_id": "S0026",
+      "grade": "GOLD_EXACT",
+      "score": 1.0,
+      "epistemically_premature": false,
+      "reason": "Coincide exactamente con el criterio: la multitud no lo sabe, sino que lo infiere erróneamente porque su supervivencia contradice la versión oficial."
+    },
+    {
+      "question_id": "CP6",
+      "segment_id": "S0026",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.7,
+      "epistemically_premature": true,
+      "reason": "Coincide exactamente con el criterio final, pero fue formulada antes de que el texto liberado permitiera sostener plenamente esa conclusión. Es una hipótesis compatible y finalmente correcta, no GOLD en ese momento epistémico."
+    },
+    {
+      "question_id": "CP7",
+      "segment_id": "S0041",
+      "grade": "INCOMPATIBLE_INFERENCE",
+      "score": 0.08,
+      "epistemically_premature": false,
+      "reason": "La respuesta ya era inferible del texto publicado: identificar el brazal demuestra el vínculo con Isaiah, conecta a Kenan con su familia y provoca consecuencias políticas. Declararlo indeterminable contradice la evidencia disponible."
+    },
+    {
+      "question_id": "PA1",
+      "segment_id": "S0033",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.62,
+      "epistemically_premature": true,
+      "reason": "Capta el condicionamiento progresivo y técnicas concretas, pero omite la enseñanza central: el intercambio bidireccional de conocimiento entre Kenan y el caballo. Además, fue formulada antes de que el texto permitiera responder."
+    },
+    {
+      "question_id": "PA2",
+      "segment_id": "S0035",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.84,
+      "epistemically_premature": true,
+      "reason": "Coincide con el criterio central: Kenan busca conservar independencia y autonomía frente a la nueva autoridad. Sin embargo, se formuló antes de que el texto permitiera establecerlo plenamente, y los detalles sobre ser reconocible/localizable son más específicos de lo justificable en ese momento."
+    },
+    {
+      "question_id": "PA3",
+      "segment_id": "S0034",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.84,
+      "epistemically_premature": true,
+      "reason": "Coincide con el criterio final: Kenan conserva una elección formal, pero queda sujeto a una relación jerárquica. No es GOLD porque se formuló antes de que el texto liberado permitiera sostener plenamente esa conclusión."
+    },
+    {
+      "question_id": "PA4",
+      "segment_id": "S0038",
+      "grade": "INCOMPATIBLE_INFERENCE",
+      "score": 0.3,
+      "epistemically_premature": true,
+      "reason": "La conclusión de Kenan coincide («el dinero es poder»), pero la explicación atribuida a Marco sustituye la conversión socialmente regulada de tiempo/actividad por una historia de sobornos y guardias mal pagados. Además, se formuló antes de que el texto permitiera responder."
+    },
+    {
+      "question_id": "PA5",
+      "segment_id": "S0039",
+      "grade": "HALLUCINATION",
+      "score": 0.05,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide en gran medida con la respuesta posterior, se formuló antes de que el texto publicado permitiera responder y aporta detalles específicos aún no sustentados; no puede premiarse como acierto canónico."
+    },
+    {
+      "question_id": "PA6",
+      "segment_id": "S0039",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.88,
+      "epistemically_premature": false,
+      "reason": "Concluye correctamente que no es aleatorio y lo sustenta con indicios del texto: emboscada, conocimiento de Kenan y alusiones a su pasado. No identifica explícitamente a la organización de los «marineros», y que el objetivo sea «personal» es algo más específico que lo establecido."
+    },
+    {
+      "question_id": "PA7",
+      "segment_id": "S0039",
+      "grade": "JUSTIFIED_UNKNOWN",
+      "score": 0.98,
+      "epistemically_premature": false,
+      "reason": "En S0039, antes de que la respuesta sea inferible, el texto solo muestra que el arquero conoce el nombre; no revela el vínculo previo entre los marineros/OGC y Kenan. La abstención está plenamente justificada."
+    },
+    {
+      "question_id": "PA8",
+      "segment_id": "S0040",
+      "grade": "GOLD_EXACT",
+      "score": 1.0,
+      "epistemically_premature": false,
+      "reason": "La respuesta coincide exactamente con el criterio: el arco negro está hecho de ébano, y en este punto ya es inferible/confirmado por el texto publicado."
+    },
+    {
+      "question_id": "PA9",
+      "segment_id": "S0040",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.9,
+      "epistemically_premature": false,
+      "reason": "La clasificación exacta como criatura del Intersticio aún no era accesible. La descripción arácnida y la cautela sobre su naturaleza encajan sólidamente con una entidad sobrenatural todavía incierta."
+    },
+    {
+      "question_id": "PA10",
+      "segment_id": "S0045",
+      "grade": "GOLD_EXACT",
+      "score": 1.0,
+      "epistemically_premature": false,
+      "reason": "Identifica correctamente al caballero de blanco como Jacob, coincidiendo exactamente con el criterio de respuesta y apoyándose en indicios del texto ya publicado."
+    },
+    {
+      "question_id": "PA11",
+      "segment_id": "S0045",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.68,
+      "epistemically_premature": true,
+      "reason": "Coincide con el criterio final, pero se formuló antes de que el texto permitiera establecer con seguridad que no existía animadversión personal previa. Es una hipótesis compatible y plausible, no una respuesta GOLD aún sustentada."
+    },
+    {
+      "question_id": "PA12",
+      "segment_id": "S0046",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.68,
+      "epistemically_premature": true,
+      "reason": "La lectura está apoyada por sus enfrentamientos y el respeto mostrado, pero en S0046 aún no podía concluirse su relación a lo largo de toda la obra. Además, «conflictiva» se aparta del canon de que siempre se llevan bien."
+    },
+    {
+      "question_id": "PA13",
+      "segment_id": "S0046",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.58,
+      "epistemically_premature": true,
+      "reason": "Coincide exactamente con la explicación posterior, pero en S0046 aún no era deducible del texto. Al presentarse como hipótesis es compatible, aunque el mecanismo específico del corazón resulta prematuro y no merece GOLD."
+    },
+    {
+      "question_id": "PA14",
+      "segment_id": "S0047",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.58,
+      "epistemically_premature": true,
+      "reason": "Coincide estrechamente con el criterio: Jacob moviliza voluntades y combina dimensiones sociales, políticas y estratégicas. Sin embargo, fue formulado antes de que el texto permitiera sostener esa conclusión; los detalles concretos y la seguridad exceden la evidencia disponible entonces."
+    },
+    {
+      "question_id": "PR1",
+      "segment_id": "S0049",
+      "grade": "GOLD_EXACT",
+      "score": 1.0,
+      "epistemically_premature": false,
+      "reason": "Coincide exactamente con el criterio: una familia elegida, unida por amor incondicional y no necesariamente por parentesco."
+    },
+    {
+      "question_id": "PR2",
+      "segment_id": "S0049",
+      "grade": "GOLD_EXACT",
+      "score": 0.98,
+      "epistemically_premature": false,
+      "reason": "Coincide con el criterio: Kenan elige y protege un mundo formado por las personas que ama. La conexión con la enseñanza y el gesto de su padre es una ampliación compatible."
+    },
+    {
+      "question_id": "PR3",
+      "segment_id": "S0049",
+      "grade": "GOLD_EXACT",
+      "score": 1.0,
+      "epistemically_premature": false,
+      "reason": "La respuesta coincide exactamente con el criterio: niega que el recuerdo sea una transcripción histórica exacta y se apoya en la admisión explícita de Kenan de que quizá la conversación no ocurrió literalmente así."
+    },
+    {
+      "question_id": "IN1",
+      "segment_id": "S0051",
+      "grade": "HALLUCINATION",
+      "score": 0.15,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide con la respuesta posterior, fue formulada antes de que el texto permitiera inferirla. Afirma con certeza la subordinación a Jacob y sus implicaciones, por lo que no merece GOLD por acierto retrospectivo."
+    },
+    {
+      "question_id": "IN2",
+      "segment_id": "S0050",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.6,
+      "epistemically_premature": true,
+      "reason": "Coincide estrechamente con el criterio final, pero fue formulada antes de que el texto disponible permitiera sostenerla. Es una hipótesis acertada, no un GOLD respaldado en ese momento."
+    },
+    {
+      "question_id": "IN3",
+      "segment_id": "S0050",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.68,
+      "epistemically_premature": true,
+      "reason": "Coincide estrechamente con el criterio final: la libertad no crea una ética y Kenan recurre a su formación violenta. Sin embargo, fue formulada antes de que el texto permitiera establecer esa explicación, por lo que entonces era una hipótesis compatible, no una respuesta canónica sustentada."
+    },
+    {
+      "question_id": "VI1",
+      "segment_id": "S0053",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.9,
+      "epistemically_premature": false,
+      "reason": "Identifica correctamente que aprendió a leer y escribir y relaciona ese aprendizaje con memorias, ideas y autonomía. Es compatible con el criterio, aunque no explicita el proyecto de conservar memorias e historias."
+    },
+    {
+      "question_id": "VI2",
+      "segment_id": "S0053",
+      "grade": "GOLD_EXACT",
+      "score": 1.0,
+      "epistemically_premature": false,
+      "reason": "Coincide con el criterio: no es traición, sino una independencia abierta y coherente con la libertad que ambos reconocen. Los detalles citados refuerzan esa lectura."
+    },
+    {
+      "question_id": "VI3",
+      "segment_id": "S0053",
+      "grade": "GOLD_EXACT",
+      "score": 0.97,
+      "epistemically_premature": false,
+      "reason": "Coincide con el criterio canónico: vivir es construir una vida elegida junto a otros, con autonomía, vínculos y esperanza, en vez de existir como instrumento de combate u obediencia."
+    },
+    {
+      "question_id": "VI4",
+      "segment_id": "S0053",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.82,
+      "epistemically_premature": false,
+      "reason": "Acertó la consecuencia política central: el brazal evita la batalla y el derramamiento de sangre mediante su valor diplomático. Omite que el noble es el padre de Isaiah y que luego ambos cooperan como iguales."
+    },
+    {
+      "question_id": "AN1",
+      "segment_id": "S0055",
+      "grade": "HALLUCINATION",
+      "score": 0.15,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide con la respuesta revelada después, en S0055 aún no era contestable. Afirma prematuramente y con detalles específicos no sustentados entonces (tesis, Valerian y testimonio), por lo que no puede recibir crédito por acertar el hecho oculto."
+    },
+    {
+      "question_id": "AN2",
+      "segment_id": "S0058",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.82,
+      "epistemically_premature": false,
+      "reason": "Identifica correctamente el cuidado activo como el paso fuera de la observación y lo sitúa en un proceso de ocho días, aunque simplifica la evolución gradual posterior hacia intimidad y proyecto compartido."
+    },
+    {
+      "question_id": "AN3",
+      "segment_id": "S0055",
+      "grade": "HALLUCINATION",
+      "score": 0.15,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide con el criterio final, se afirmó antes de que el texto disponible permitiera inferirlo; además añade confianza, viaje y tesis sin apoyo verificable en ese momento."
+    },
+    {
+      "question_id": "AN4",
+      "segment_id": "S0054",
+      "grade": "HALLUCINATION",
+      "score": 0.1,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide con la respuesta revelada después, en S0054 aún no era inferible del texto. Es una afirmación correcta por anticipación, no una respuesta sustentada en ese momento."
+    },
+    {
+      "question_id": "AN5",
+      "segment_id": "S0057",
+      "grade": "INCOMPATIBLE_INFERENCE",
+      "score": 0.15,
+      "epistemically_premature": false,
+      "reason": "La respuesta canónica lo identifica como jefe de los «marineros», no de los cinco jinetes. Además añade funciones y afiliaciones no respaldadas por el criterio."
+    },
+    {
+      "question_id": "AN6",
+      "segment_id": "S0057",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.9,
+      "epistemically_premature": false,
+      "reason": "Coincide en el castigo central: la amputación de la mano derecha mediante un arma llameante. No es exacta porque atribuye al Protector la orden y describe la cauterización, mientras el criterio especifica que uno de sus consortes ejecuta directamente la amputación."
+    },
+    {
+      "question_id": "AN7",
+      "segment_id": "S0057",
+      "grade": "INCOMPATIBLE_INFERENCE",
+      "score": 0.05,
+      "epistemically_premature": false,
+      "reason": "Contradice el criterio: Kenan sí actúa por voluntad propia, aunque en un estado de flow absoluto; no es un mero espectador de un cuerpo autónomo."
+    },
+    {
+      "question_id": "AN8",
+      "segment_id": "S0057",
+      "grade": "GOLD_EXACT",
+      "score": 0.97,
+      "epistemically_premature": false,
+      "reason": "Identifica correctamente Pulsión, Explosión y Optimización, además de la liberación sobrehumana del potencial de Kenan. Los límites añadidos son compatibles y no contradicen el criterio."
+    },
+    {
+      "question_id": "AN9",
+      "segment_id": "S0059",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.68,
+      "epistemically_premature": false,
+      "reason": "Es compatible al negar que la escena demuestre posesión, pero queda indebidamente agnóstica. El texto ya permite concluir que no hay otra entidad: es Kenan actuando en flow absoluto."
+    },
+    {
+      "question_id": "SE1",
+      "segment_id": "S0059",
+      "grade": "HALLUCINATION",
+      "score": 0.1,
+      "epistemically_premature": true,
+      "reason": "Aunque anticipa correctamente la pérdida de la mano derecha, se formuló antes de que el texto permitiera saberlo y añade sin apoyo que la cauterización impide una prótesis funcional. Es una revelación acertada por azar, no una respuesta justificable en ese momento."
+    },
+    {
+      "question_id": "SE2",
+      "segment_id": "S0060",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.58,
+      "epistemically_premature": true,
+      "reason": "La interpretación sobre autoría, colaboración y recuperación de agencia es compatible, pero omite el vínculo decisivo con el sueño de Isaiah y la futura preservación de la historia. Además, se formuló antes de que ese sentido fuera plenamente sustentable por el texto publicado."
+    },
+    {
+      "question_id": "SE3",
+      "segment_id": "S0063",
+      "grade": "GOLD_EXACT",
+      "score": 1,
+      "epistemically_premature": false,
+      "reason": "Coincide exactamente con el criterio: la deuda influye, pero no agota el vínculo, que también se funda en amor, cuidado y reciprocidad confirmados por el desenlace."
+    },
+    {
+      "question_id": "SE4",
+      "segment_id": "S0060",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.82,
+      "epistemically_premature": true,
+      "reason": "Capta que Kiara impone límites éticos y afectivos a la conducta protectora de Kenan y que él termina aceptando una relación cooperativa. Sin embargo, reformula su lógica instrumental de supervivencia principalmente como paternalismo y autonomía; además, se anticipa al punto en que la respuesta queda plenamente sustentada."
+    },
+    {
+      "question_id": "SE5",
+      "segment_id": "S0063",
+      "grade": "GOLD_EXACT",
+      "score": 0.98,
+      "epistemically_premature": false,
+      "reason": "Coincide plenamente con el criterio: reciprocidad afectiva, cuidado no utilitario, respeto de límites y una relación igualitaria que preserva la voluntad y autonomía de Kiara."
+    },
+    {
+      "question_id": "RO1",
+      "segment_id": "S0064",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.68,
+      "epistemically_premature": true,
+      "reason": "Coincide con el núcleo de la respuesta: busca poder permanecer junto a Kiara. Sin embargo, antes de que el texto lo hiciera contestable, afirma prematuramente que ganar es la única vía y añade restricciones gremiales y matrimoniales no establecidas."
+    },
+    {
+      "question_id": "RO2",
+      "segment_id": "S0064",
+      "grade": "HALLUCINATION",
+      "score": 0.1,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide con la respuesta canónica posterior, se afirmó antes de que el texto permitiera identificarla; los nombres y detalles específicos eran aún injustificados."
+    },
+    {
+      "question_id": "RO3",
+      "segment_id": "S0064",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.72,
+      "epistemically_premature": true,
+      "reason": "La respuesta capta las consecuencias privadas, sociales y afectivas de los Juegos para Kenan y Kiara, pero omite su función central como espectáculo de la historia política y la jerarquía del mundo. Además, se formula antes de que el texto permitiera sostener plenamente detalles como que ganarlos era la «única vía»."
+    },
+    {
+      "question_id": "RO4",
+      "segment_id": "S0064",
+      "grade": "HALLUCINATION",
+      "score": 0.05,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide exactamente con el criterio final, se formuló antes de que el texto permitiera conocer esos nombres; es acierto prematuro no sustentado."
+    },
+    {
+      "question_id": "RO5",
+      "segment_id": "S0066",
+      "grade": "HALLUCINATION",
+      "score": 0.1,
+      "epistemically_premature": true,
+      "reason": "Antes del primer segmento resolutivo, atribuye funciones específicas no sustentadas (preparadora, equipamiento y enlace organizativo). Además, no recoge el núcleo esperado: convertir la competencia en cooperación real."
+    },
+    {
+      "question_id": "RO6",
+      "segment_id": "S0068",
+      "grade": "HALLUCINATION",
+      "score": 0.05,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide retrospectivamente con la respuesta final (mantícora e «injertos»), se produjo antes de que el texto permitiera conocer esos hechos. Son afirmaciones específicas no justificadas en ese momento."
+    },
+    {
+      "question_id": "RO7",
+      "segment_id": "S0069",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.68,
+      "epistemically_premature": true,
+      "reason": "Coincide con el criterio: la violencia ya no define por completo a Kenan. Sin embargo, se afirmó antes de que el texto permitiera sostener esa conclusión, por lo que no merece GOLD pese a su compatibilidad posterior."
+    },
+    {
+      "question_id": "RO10",
+      "segment_id": "S0071",
+      "grade": "GOLD_EXACT",
+      "score": 1.0,
+      "epistemically_premature": false,
+      "reason": "Coincide con el criterio: el cuerpo parece ser de piedra, probablemente ónice, según la inferencia perceptiva de Kenan, y además preserva correctamente la incertidumbre."
+    },
+    {
+      "question_id": "RO11",
+      "segment_id": "S0070",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.92,
+      "epistemically_premature": true,
+      "reason": "Coincide con el criterio final y mantiene UNKNOWN la naturaleza exacta. No es GOLD porque se formuló antes de que el texto hiciera la cuestión plenamente respondible."
+    },
+    {
+      "question_id": "RO12",
+      "segment_id": "S0071",
+      "grade": "JUSTIFIED_UNKNOWN",
+      "score": 0.93,
+      "epistemically_premature": false,
+      "reason": "Reconoce correctamente que la naturaleza ontológica exacta no puede determinarse en la novela. No alcanza GOLD porque omite la caracterización canónica de «Anciano» y añade posibilidades especulativas."
+    },
+    {
+      "question_id": "JF1",
+      "segment_id": "S0073",
+      "grade": "GOLD_EXACT",
+      "score": 1,
+      "epistemically_premature": false,
+      "reason": "Coincide exactamente con el criterio: Kenan cree estar hablando con Marcus. El añadido «su general» no altera la respuesta."
+    },
+    {
+      "question_id": "JF2",
+      "segment_id": "S0073",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.82,
+      "epistemically_premature": false,
+      "reason": "No identifica al Padre de Todos, pero rechaza implícitamente una identidad simple con Marcus y formula una inferencia bien apoyada por las pistas, compatible con la revelación final."
+    },
+    {
+      "question_id": "JF4",
+      "segment_id": "S0073",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.82,
+      "epistemically_premature": false,
+      "reason": "Capta correctamente la superposición de identidad/control mental entre Kenan y Marcus/Padre de Todos, compatible con el enmarañamiento canónico. No es GOLD_EXACT porque deja abiertas opciones como posesión o sucesión en vez de afirmar dos mentes parcialmente superpuestas."
+    },
+    {
+      "question_id": "UL1",
+      "segment_id": "S0074",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.62,
+      "epistemically_premature": true,
+      "reason": "La muerte es una interpretación compatible, pero no está confirmada: el texto solo permite afirmar que Kenan fue dado por muerto y luego reapareció. Atribuirlo a restauración o resurrección excede la evidencia disponible."
+    },
+    {
+      "question_id": "UL2",
+      "segment_id": "S0074",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.7,
+      "epistemically_premature": true,
+      "reason": "Coincide sustancialmente con el criterio final —Kiara y la vida/familia construida con ella—, pero se formuló antes de que el texto permitiera responderlo; por ello es una anticipación plausible, no una respuesta GOLD sustentada."
+    },
+    {
+      "question_id": "UL3",
+      "segment_id": "S0074",
+      "grade": "HALLUCINATION",
+      "score": 0.05,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide retrospectivamente con el desenlace textual, fue formulado antes de que el texto lo hiciera inferible y añade detalles no respaldados. Es una conjetura acertada, no una respuesta sustentada."
+    },
+    {
+      "question_id": "UL4",
+      "segment_id": "S0075",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.85,
+      "epistemically_premature": false,
+      "reason": "Identifica correctamente a Kenan como quien escribe la historia, pero atribuye su cumplimiento conjuntamente a Kiara, mientras el criterio señala específicamente a Kenan escribiéndola en el cuaderno de Kiara."
+    },
+    {
+      "question_id": "UL5",
+      "segment_id": "S0075",
+      "grade": "GOLD_EXACT",
+      "score": 0.97,
+      "epistemically_premature": false,
+      "reason": "Coincide con el criterio: Marco es testigo de la transformación de Kenan y parte del entramado afectivo que sostiene su nueva vida. «Cronista» es una formulación adicional compatible."
+    },
+    {
+      "question_id": "UL6",
+      "segment_id": "S0074",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.58,
+      "epistemically_premature": true,
+      "reason": "Coincide con la lectura final —Kiara y Lara como núcleo y vínculos ampliados posibles—, pero se formuló antes de que el texto permitiera establecerla. Por ello no merece GOLD: era una hipótesis compatible, aunque demasiado afirmativa y específica en ese momento."
+    },
+    {
+      "question_id": "UL7",
+      "segment_id": "S0075",
+      "grade": "GOLD_EXACT",
+      "score": 0.98,
+      "epistemically_premature": false,
+      "reason": "Coincide con el criterio: Kenan comprende que combatir no era un fin heroico en sí mismo, sino un medio para proteger a quienes ama. El énfasis en volver y vivir por Kiara y Lara expresa correctamente esa corrección."
+    },
+    {
+      "question_id": "UL8",
+      "segment_id": "S0075",
+      "grade": "GOLD_EXACT",
+      "score": 1,
+      "epistemically_premature": false,
+      "reason": "Responde exactamente «No» y la explicación es coherente con el texto liberado: las pesadillas persisten pese al apoyo familiar."
+    },
+    {
+      "question_id": "VM1",
+      "segment_id": "S0076",
+      "grade": "HALLUCINATION",
+      "score": 0.05,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide con la respuesta revelada posteriormente, en S0076 aún no era deducible del texto. La identificación específica y su función son una anticipación no sustentada, no GOLD."
+    },
+    {
+      "question_id": "VM3",
+      "segment_id": "S0076",
+      "grade": "HALLUCINATION",
+      "score": 0.1,
+      "epistemically_premature": true,
+      "reason": "Aunque coincide con la respuesta final, se formuló antes de que el texto permitiera conocerla; es un acierto no sustentado en ese momento."
+    },
+    {
+      "question_id": "VM4",
+      "segment_id": "S0076",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.56,
+      "epistemically_premature": true,
+      "reason": "Coincide con el motivo final de proteger lo elegido, pero en S0076 aún no era respondible y afirma prematuramente detalles concretos sobre Kiara, Lara y la familia."
+    },
+    {
+      "question_id": "VM10",
+      "segment_id": "S0076",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.62,
+      "epistemically_premature": true,
+      "reason": "Coincide con el desenlace funcional exigido: Kenan cae primero y Jacob muere después. Sin embargo, en S0076 aún no era respondible; afirmar esos detalles como hechos fue una anticipación, no una respuesta canónica sustentada entonces."
+    },
+    {
+      "question_id": "L1",
+      "segment_id": "S0009",
+      "grade": "INCOMPATIBLE_INFERENCE",
+      "score": 0.2,
+      "epistemically_premature": false,
+      "reason": "El texto ya permitía inferir que verdes y azules corresponden a familias distintas de talentos, que el cian es una variante azul menos intensa y que los marrones carecen de potencial. La respuesta se centra en un supuesto estigma social y declara desconocido el significado central."
+    },
+    {
+      "question_id": "L2",
+      "segment_id": "S0003",
+      "grade": "JUSTIFIED_UNKNOWN",
+      "score": 0.96,
+      "epistemically_premature": false,
+      "reason": "En S0003 aún no se había revelado la naturaleza canónica del ébano. La respuesta se limita a rasgos disponibles o compatibles y reconoce que falta una definición completa, sin adivinar prematuramente su vínculo con el Árbol del Mundo ni la maldición."
+    },
+    {
+      "question_id": "L3",
+      "segment_id": "S0052",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.84,
+      "epistemically_premature": false,
+      "reason": "Es una inferencia textual sólida para ese punto: reconoce que el control cambia y sitúa el dominio actual en Jacob. Es compatible con la evolución canónica, aunque aún no podía incluir el control final del Padre de Todos."
+    },
+    {
+      "question_id": "L4",
+      "segment_id": "S0050",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.78,
+      "epistemically_premature": true,
+      "reason": "Aunque contradice el canon final, en S0050 la conclusión está bien apoyada por la aparente subordinación de Kenan a Jacob. Sin embargo, afirmar definitivamente que no será libre es prematuro antes de que el desenlace sea discernible."
+    },
+    {
+      "question_id": "L5",
+      "segment_id": "S0063",
+      "grade": "PLAUSIBLE_INFERENCE",
+      "score": 0.58,
+      "epistemically_premature": true,
+      "reason": "Coincide parcialmente con la meta posterior de amar sin perder la libertad ni una vida propia, pero la reduce específicamente a Kiara y a un amor duradero. Además, en S0063 aún no era contestable con suficiente respaldo textual."
+    },
+    {
+      "question_id": "L6",
+      "segment_id": "S0063",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.9,
+      "epistemically_premature": false,
+      "reason": "La respuesta distingue adecuadamente entre familia confirmada (su padre y Kiara) y vínculos significativos pero menos seguros (Marco, Isaiah y Jacob), conforme a la evidencia disponible en S0063 y sin anticipación aparente."
+    },
+    {
+      "question_id": "L7",
+      "segment_id": "S0061",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.88,
+      "epistemically_premature": false,
+      "reason": "Coincide en supervivencia, hábito militar y protección de Kiara, y ofrece una lectura moral apoyada por el texto. No explicita del todo las órdenes ni la evolución temporal del motivo, por lo que no alcanza GOLD_EXACT."
+    },
+    {
+      "question_id": "L8",
+      "segment_id": "S0052",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.82,
+      "epistemically_premature": false,
+      "reason": "Capta correctamente a Jacob como autoridad y contrapunto de la voluntad/libertad de Kenan. Es compatible con el criterio, pero omite su dimensión de rival circunstancial, aliado y amigo/igual, así como que no es un enemigo personal convencional."
+    },
+    {
+      "question_id": "L9",
+      "segment_id": "S0045",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.9,
+      "epistemically_premature": false,
+      "reason": "Coincide en que no existe antagonismo personal y distingue correctamente el conflicto circunstancial. «Todavía no» introduce una posibilidad futura ausente del canon, por lo que no es GOLD_EXACT."
+    },
+    {
+      "question_id": "L10",
+      "segment_id": "S0029",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.86,
+      "epistemically_premature": true,
+      "reason": "Coincide con la función central de preservar identidad y memoria, y el brazalete sustenta la dimensión probatoria. Sin embargo, se formuló antes de que la respuesta completa fuera discernible y omite manifestaciones posteriores como los cuadernos, Kiara, el aprendizaje de Kenan y el relato final."
+    },
+    {
+      "question_id": "L11",
+      "segment_id": "S0048",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.82,
+      "epistemically_premature": false,
+      "reason": "Distingue correctamente la autocaracterización de Kenan de un villano objetivo y es compatible con que no haya villano absoluto, pero concluye que sigue siendo desconocido en vez de afirmar la respuesta canónica: existen voluntades en conflicto."
+    },
+    {
+      "question_id": "L12",
+      "segment_id": "S0001",
+      "grade": "HALLUCINATION",
+      "score": 0.02,
+      "epistemically_premature": false,
+      "reason": "La respuesta textual es «el Sol». El candidato no lo identifica así y añade una cosmología no sustentada sobre una singularidad, el Vacío y Eiyen."
+    },
+    {
+      "question_id": "L13",
+      "segment_id": "S0042",
+      "grade": "JUSTIFIED_UNKNOWN",
+      "score": 0.97,
+      "epistemically_premature": false,
+      "reason": "Reconoce correctamente que la novela no determina la naturaleza de las anomalías y presenta las explicaciones solo como posibilidades, sin afirmar una verdad autoral ausente."
+    },
+    {
+      "question_id": "L14",
+      "segment_id": "S0028",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.82,
+      "epistemically_premature": false,
+      "reason": "Reconoce que la versión institucional no debe sustituirse por otra verdad absoluta y limita la falsedad a un punto concreto. Aunque no formula explícitamente que es «verdadera desde cierto punto de vista», mantiene la ambigüedad perspectival central."
+    },
+    {
+      "question_id": "L15",
+      "segment_id": "S0022",
+      "grade": "STRONG_COMPATIBLE_INFERENCE",
+      "score": 0.82,
+      "epistemically_premature": false,
+      "reason": "Relaciona directamente idea y sueño mediante la conversión de lo abstracto en imagen onírica y mantiene cautela interpretativa. Es compatible con el criterio, pero no aísla explícitamente la distinción textual canónica, por lo que no alcanza GOLD_EXACT."
+    }
+  ]
+}

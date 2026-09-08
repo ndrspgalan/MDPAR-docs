@@ -1,0 +1,55 @@
+{
+  "protocol": "C4_PERMUTATION_DISCREPANCY_AUDIT_V1",
+  "source_record_count": 27,
+  "record_count": 19,
+  "unevaluable_record_count": 8,
+  "unevaluable_by_reason": {
+    "neural_structural_identification_invalid": 8
+  },
+  "by_condition": {
+    "DIRECTION_ONLY": {
+      "state_count_exact": 1,
+      "relation_count_exact": 2,
+      "relation_occurrences_exact": 1,
+      "trajectory_boundaries_exact": 1,
+      "trajectory_ranges_exact": 1
+    },
+    "PERMUTATION_SURFACE": {
+      "state_count_exact": 2,
+      "state_multiplicity_exact": 1,
+      "state_sequence_exact": 1,
+      "relation_count_exact": 1,
+      "relation_skeleton_exact": 1,
+      "relation_explicitness_only_mismatch": 1,
+      "relation_occurrences_exact": 1,
+      "trajectory_boundaries_exact": 1,
+      "trajectory_ranges_exact": 1
+    },
+    "TARGET_SCC": {
+      "state_count_exact": 1,
+      "relation_count_exact": 1,
+      "relation_occurrences_exact": 1,
+      "trajectory_boundaries_exact": 1,
+      "trajectory_ranges_exact": 1
+    }
+  },
+  "global_counts": {
+    "state_count_exact": 4,
+    "relation_count_exact": 4,
+    "relation_occurrences_exact": 3,
+    "trajectory_boundaries_exact": 3,
+    "trajectory_ranges_exact": 3,
+    "state_multiplicity_exact": 1,
+    "state_sequence_exact": 1,
+    "relation_skeleton_exact": 1,
+    "relation_explicitness_only_mismatch": 1
+  },
+  "sentinel_record_keys": [
+    "perm-multitrajectory-dev|0|PERMUTATION_SURFACE",
+    "perm-necessary-sufficient-dev|0|DIRECTION_ONLY",
+    "perm-necessary-sufficient-dev|0|PERMUTATION_SURFACE",
+    "perm-necessary-sufficient-dev|0|TARGET_SCC",
+    "perm-correlation-causation-dev|0|TARGET_SCC",
+    "perm-correlation-causation-dev|1|TARGET_SCC"
+  ]
+}

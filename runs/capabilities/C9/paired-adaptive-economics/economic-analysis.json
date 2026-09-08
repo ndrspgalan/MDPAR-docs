@@ -1,0 +1,999 @@
+{
+  "protocol": "C9_PAIRED_ADAPTIVE_ECONOMICS_ANALYSIS_V1",
+  "capabilities": [
+    "C9"
+  ],
+  "scientific_axes": [
+    "P",
+    "A"
+  ],
+  "economic_dimensions": [
+    "C",
+    "T",
+    "Q"
+  ],
+  "primary_quantity": "RESOURCE_DELTA_SUBJECT_TO_EQUIVALENT_CAPABILITY",
+  "pricing_snapshot": null,
+  "economic_provenance": {
+    "provider_usage": "MEASURED",
+    "wall_seconds": "MEASURED",
+    "derived_cost": "DERIVED",
+    "planning_scenarios": "SCENARIO",
+    "unmeasured_maintenance_or_infrastructure": "FUTURE"
+  },
+  "no_double_counting": {
+    "compute_avoided": "separate from latency_hidden",
+    "latency_hidden": "not claimed by this sequential protocol",
+    "capacity_released": "not inferred from tokens",
+    "maintenance_displaced": "not measured"
+  },
+  "workload_families": {
+    "CONTEXTUAL_DIRECTION": {
+      "case_count": 13,
+      "always_high_sufficient": 11,
+      "adaptive_sufficient": 12,
+      "capability_retention_vs_always_high": 1.0909090909090908,
+      "adaptive_regression_cases": [],
+      "adaptive_gain_cases": [
+        "anchor-loss-opportunity"
+      ],
+      "equivalent_or_better_capability": true,
+      "adaptive_high_case_runs_avoided": 12,
+      "adaptive_high_case_run_avoidance_rate": 0.9230769230769231,
+      "always_high_provider_usage": {
+        "input_tokens": 109300,
+        "cached_input_tokens": 12907,
+        "output_tokens": 103256,
+        "reasoning_tokens": 92600,
+        "total_tokens": 212556,
+        "request_count": 65
+      },
+      "adaptive_provider_usage": {
+        "input_tokens": 123306,
+        "cached_input_tokens": 0,
+        "output_tokens": 29023,
+        "reasoning_tokens": 18670,
+        "total_tokens": 152329,
+        "request_count": 73
+      },
+      "raw_usage_avoided_always_high_minus_adaptive": {
+        "input_tokens": -14006,
+        "cached_input_tokens": 12907,
+        "output_tokens": 74233,
+        "reasoning_tokens": 73930,
+        "total_tokens": 60227,
+        "request_count": -8
+      },
+      "always_high_wall_seconds": 1413.6200440996327,
+      "adaptive_wall_seconds": 445.71108780102804,
+      "raw_wall_seconds_avoided": 967.9089562986046,
+      "pairs": [
+        {
+          "case_id": "convergent-diagnosis",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": 0,
+            "cached_input_tokens": 0,
+            "output_tokens": 3820,
+            "reasoning_tokens": 3559,
+            "total_tokens": 3820,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 50.994355499744415
+        },
+        {
+          "case_id": "divergent-exploration",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": 0,
+            "cached_input_tokens": 0,
+            "output_tokens": 3233,
+            "reasoning_tokens": 3127,
+            "total_tokens": 3233,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 42.62758309952915
+        },
+        {
+          "case_id": "topic-shift-direction-preserved",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": 0,
+            "cached_input_tokens": 0,
+            "output_tokens": 3980,
+            "reasoning_tokens": 3882,
+            "total_tokens": 3980,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 52.98513629985973
+        },
+        {
+          "case_id": "appropriate-takeover-emergency",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": 0,
+            "cached_input_tokens": 0,
+            "output_tokens": 1906,
+            "reasoning_tokens": 1908,
+            "total_tokens": 1906,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 32.028411499690264
+        },
+        {
+          "case_id": "inappropriate-takeover-social",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": 0,
+            "cached_input_tokens": 0,
+            "output_tokens": 5517,
+            "reasoning_tokens": 5522,
+            "total_tokens": 5517,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 73.56792249996215
+        },
+        {
+          "case_id": "anchor-loss-opportunity",
+          "always_high_sufficient": false,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": -534,
+            "cached_input_tokens": 0,
+            "output_tokens": 5468,
+            "reasoning_tokens": 5460,
+            "total_tokens": 4934,
+            "request_count": -1
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 72.3372431001626
+        },
+        {
+          "case_id": "group-interleaved-resumption-and-merge",
+          "always_high_sufficient": false,
+          "adaptive_sufficient": false,
+          "adaptive_high_avoided": false,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": -13470,
+            "cached_input_tokens": 12907,
+            "output_tokens": -1758,
+            "reasoning_tokens": -560,
+            "total_tokens": -15228,
+            "request_count": -7
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": -38.186759300064296
+        },
+        {
+          "case_id": "group-same-topic-opposed-organization",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": 0,
+            "cached_input_tokens": 0,
+            "output_tokens": 4409,
+            "reasoning_tokens": 4290,
+            "total_tokens": 4409,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 52.87385930027813
+        },
+        {
+          "case_id": "group-parallel-threads-local-inertia",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": 3,
+            "cached_input_tokens": 0,
+            "output_tokens": 9101,
+            "reasoning_tokens": 9021,
+            "total_tokens": 9104,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 119.77300579985604
+        },
+        {
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": 0,
+            "cached_input_tokens": 0,
+            "output_tokens": 12032,
+            "reasoning_tokens": 11801,
+            "total_tokens": 12032,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 155.59561009984463
+        },
+        {
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": 0,
+            "cached_input_tokens": 0,
+            "output_tokens": 11676,
+            "reasoning_tokens": 11364,
+            "total_tokens": 11676,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 156.7003469998017
+        },
+        {
+          "case_id": "group-external-cutoff-after-merge",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": -5,
+            "cached_input_tokens": 0,
+            "output_tokens": 11103,
+            "reasoning_tokens": 10923,
+            "total_tokens": 11098,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 148.09645879967138
+        },
+        {
+          "case_id": "explicit-contextual-underdetermination",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": 0,
+            "cached_input_tokens": 0,
+            "output_tokens": 3746,
+            "reasoning_tokens": 3633,
+            "total_tokens": 3746,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 48.51578260026872
+        }
+      ],
+      "derived_always_high_cost": null,
+      "derived_adaptive_cost": null,
+      "derived_cost_avoided": null,
+      "neural_compute_avoided_at_equivalent_capability": {
+        "established": true,
+        "raw_usage": {
+          "input_tokens": -14006,
+          "cached_input_tokens": 12907,
+          "output_tokens": 74233,
+          "reasoning_tokens": 73930,
+          "total_tokens": 60227,
+          "request_count": -8
+        },
+        "wall_seconds": 967.9089562986046,
+        "derived_cost": null
+      }
+    },
+    "CONTEXTUAL_ADAPTATION": {
+      "case_count": 13,
+      "always_high_sufficient": 6,
+      "adaptive_sufficient": 13,
+      "capability_retention_vs_always_high": 2.1666666666666665,
+      "adaptive_regression_cases": [],
+      "adaptive_gain_cases": [
+        "convergent-diagnosis",
+        "appropriate-takeover-emergency",
+        "anchor-loss-opportunity",
+        "group-interleaved-resumption-and-merge",
+        "group-same-topic-opposed-organization",
+        "group-parallel-threads-local-inertia",
+        "explicit-contextual-underdetermination"
+      ],
+      "equivalent_or_better_capability": true,
+      "adaptive_high_case_runs_avoided": 8,
+      "adaptive_high_case_run_avoidance_rate": 0.6153846153846154,
+      "always_high_provider_usage": {
+        "input_tokens": 133342,
+        "cached_input_tokens": 15062,
+        "output_tokens": 171335,
+        "reasoning_tokens": 154738,
+        "total_tokens": 304677,
+        "request_count": 87
+      },
+      "adaptive_provider_usage": {
+        "input_tokens": 237553,
+        "cached_input_tokens": 15056,
+        "output_tokens": 98229,
+        "reasoning_tokens": 69363,
+        "total_tokens": 335782,
+        "request_count": 158
+      },
+      "raw_usage_avoided_always_high_minus_adaptive": {
+        "input_tokens": -104211,
+        "cached_input_tokens": 6,
+        "output_tokens": 73106,
+        "reasoning_tokens": 85375,
+        "total_tokens": -31105,
+        "request_count": -71
+      },
+      "always_high_wall_seconds": 2317.2496367995627,
+      "adaptive_wall_seconds": 1390.8308435990475,
+      "raw_wall_seconds_avoided": 926.4187932005152,
+      "pairs": [
+        {
+          "case_id": "convergent-diagnosis",
+          "always_high_sufficient": false,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": 3,
+            "cached_input_tokens": -4296,
+            "output_tokens": 10971,
+            "reasoning_tokens": 10554,
+            "total_tokens": 10974,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 142.31595459999517
+        },
+        {
+          "case_id": "divergent-exploration",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": false,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": -4332,
+            "cached_input_tokens": 4297,
+            "output_tokens": -1675,
+            "reasoning_tokens": -1297,
+            "total_tokens": -6007,
+            "request_count": -2
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": -28.440214700531214
+        },
+        {
+          "case_id": "topic-shift-direction-preserved",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": -58,
+            "cached_input_tokens": 0,
+            "output_tokens": 6168,
+            "reasoning_tokens": 6121,
+            "total_tokens": 6110,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 80.73612410016358
+        },
+        {
+          "case_id": "appropriate-takeover-emergency",
+          "always_high_sufficient": false,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": 13,
+            "cached_input_tokens": 0,
+            "output_tokens": 10211,
+            "reasoning_tokens": 9560,
+            "total_tokens": 10224,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 142.74130199942738
+        },
+        {
+          "case_id": "inappropriate-takeover-social",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": false,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": -6466,
+            "cached_input_tokens": 6459,
+            "output_tokens": 808,
+            "reasoning_tokens": 1018,
+            "total_tokens": -5658,
+            "request_count": -3
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 18.39737999951467
+        },
+        {
+          "case_id": "anchor-loss-opportunity",
+          "always_high_sufficient": false,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": -7377,
+            "cached_input_tokens": 0,
+            "output_tokens": 587,
+            "reasoning_tokens": 1501,
+            "total_tokens": -6790,
+            "request_count": -5
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 6.684454000089318
+        },
+        {
+          "case_id": "group-interleaved-resumption-and-merge",
+          "always_high_sufficient": false,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": -22584,
+            "cached_input_tokens": 0,
+            "output_tokens": 6514,
+            "reasoning_tokens": 9956,
+            "total_tokens": -16070,
+            "request_count": -17
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 85.62935200007632
+        },
+        {
+          "case_id": "group-same-topic-opposed-organization",
+          "always_high_sufficient": false,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": false,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": -17935,
+            "cached_input_tokens": 4306,
+            "output_tokens": -9319,
+            "reasoning_tokens": -7067,
+            "total_tokens": -27254,
+            "request_count": -13
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": -144.6467282990925
+        },
+        {
+          "case_id": "group-parallel-threads-local-inertia",
+          "always_high_sufficient": false,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": false,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": -40913,
+            "cached_input_tokens": -6449,
+            "output_tokens": -26636,
+            "reasoning_tokens": -20093,
+            "total_tokens": -67549,
+            "request_count": -29
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": -356.64229950029403
+        },
+        {
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": -151,
+            "cached_input_tokens": 0,
+            "output_tokens": 23557,
+            "reasoning_tokens": 23458,
+            "total_tokens": 23406,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 307.35754840029404
+        },
+        {
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": 54,
+            "cached_input_tokens": 0,
+            "output_tokens": 24044,
+            "reasoning_tokens": 23579,
+            "total_tokens": 24098,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 315.1723315003328
+        },
+        {
+          "case_id": "group-external-cutoff-after-merge",
+          "always_high_sufficient": true,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": true,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": -118,
+            "cached_input_tokens": 0,
+            "output_tokens": 29724,
+            "reasoning_tokens": 29836,
+            "total_tokens": 29606,
+            "request_count": 0
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": 386.0529050999321
+        },
+        {
+          "case_id": "explicit-contextual-underdetermination",
+          "always_high_sufficient": false,
+          "adaptive_sufficient": true,
+          "adaptive_high_avoided": false,
+          "usage_delta_always_high_minus_adaptive": {
+            "input_tokens": -4347,
+            "cached_input_tokens": -4311,
+            "output_tokens": -1848,
+            "reasoning_tokens": -1751,
+            "total_tokens": -6195,
+            "request_count": -2
+          },
+          "wall_seconds_delta_always_high_minus_adaptive": -28.93931599939242
+        }
+      ],
+      "derived_always_high_cost": null,
+      "derived_adaptive_cost": null,
+      "derived_cost_avoided": null,
+      "neural_compute_avoided_at_equivalent_capability": {
+        "established": true,
+        "raw_usage": {
+          "input_tokens": -104211,
+          "cached_input_tokens": 6,
+          "output_tokens": 73106,
+          "reasoning_tokens": 85375,
+          "total_tokens": -31105,
+          "request_count": -71
+        },
+        "wall_seconds": 926.4187932005152,
+        "derived_cost": null
+      }
+    }
+  },
+  "aggregate": {
+    "case_count": 26,
+    "always_high_sufficient": 17,
+    "adaptive_sufficient": 25,
+    "capability_retention_vs_always_high": 1.4705882352941178,
+    "adaptive_regression_cases": [],
+    "adaptive_gain_cases": [
+      "anchor-loss-opportunity",
+      "convergent-diagnosis",
+      "appropriate-takeover-emergency",
+      "anchor-loss-opportunity",
+      "group-interleaved-resumption-and-merge",
+      "group-same-topic-opposed-organization",
+      "group-parallel-threads-local-inertia",
+      "explicit-contextual-underdetermination"
+    ],
+    "equivalent_or_better_capability": true,
+    "adaptive_high_case_runs_avoided": 20,
+    "adaptive_high_case_run_avoidance_rate": 0.7692307692307693,
+    "always_high_provider_usage": {
+      "input_tokens": 242642,
+      "cached_input_tokens": 27969,
+      "output_tokens": 274591,
+      "reasoning_tokens": 247338,
+      "total_tokens": 517233,
+      "request_count": 152
+    },
+    "adaptive_provider_usage": {
+      "input_tokens": 360859,
+      "cached_input_tokens": 15056,
+      "output_tokens": 127252,
+      "reasoning_tokens": 88033,
+      "total_tokens": 488111,
+      "request_count": 231
+    },
+    "raw_usage_avoided_always_high_minus_adaptive": {
+      "input_tokens": -118217,
+      "cached_input_tokens": 12913,
+      "output_tokens": 147339,
+      "reasoning_tokens": 159305,
+      "total_tokens": 29122,
+      "request_count": -79
+    },
+    "always_high_wall_seconds": 3730.8696808991954,
+    "adaptive_wall_seconds": 1836.5419314000756,
+    "raw_wall_seconds_avoided": 1894.3277494991198,
+    "pairs": [
+      {
+        "case_id": "convergent-diagnosis",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 3820,
+          "reasoning_tokens": 3559,
+          "total_tokens": 3820,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 50.994355499744415
+      },
+      {
+        "case_id": "divergent-exploration",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 3233,
+          "reasoning_tokens": 3127,
+          "total_tokens": 3233,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 42.62758309952915
+      },
+      {
+        "case_id": "topic-shift-direction-preserved",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 3980,
+          "reasoning_tokens": 3882,
+          "total_tokens": 3980,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 52.98513629985973
+      },
+      {
+        "case_id": "appropriate-takeover-emergency",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 1906,
+          "reasoning_tokens": 1908,
+          "total_tokens": 1906,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 32.028411499690264
+      },
+      {
+        "case_id": "inappropriate-takeover-social",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 5517,
+          "reasoning_tokens": 5522,
+          "total_tokens": 5517,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 73.56792249996215
+      },
+      {
+        "case_id": "anchor-loss-opportunity",
+        "always_high_sufficient": false,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": -534,
+          "cached_input_tokens": 0,
+          "output_tokens": 5468,
+          "reasoning_tokens": 5460,
+          "total_tokens": 4934,
+          "request_count": -1
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 72.3372431001626
+      },
+      {
+        "case_id": "group-interleaved-resumption-and-merge",
+        "always_high_sufficient": false,
+        "adaptive_sufficient": false,
+        "adaptive_high_avoided": false,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": -13470,
+          "cached_input_tokens": 12907,
+          "output_tokens": -1758,
+          "reasoning_tokens": -560,
+          "total_tokens": -15228,
+          "request_count": -7
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": -38.186759300064296
+      },
+      {
+        "case_id": "group-same-topic-opposed-organization",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 4409,
+          "reasoning_tokens": 4290,
+          "total_tokens": 4409,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 52.87385930027813
+      },
+      {
+        "case_id": "group-parallel-threads-local-inertia",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": 3,
+          "cached_input_tokens": 0,
+          "output_tokens": 9101,
+          "reasoning_tokens": 9021,
+          "total_tokens": 9104,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 119.77300579985604
+      },
+      {
+        "case_id": "group-observer-reconstructs-without-original-participation",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 12032,
+          "reasoning_tokens": 11801,
+          "total_tokens": 12032,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 155.59561009984463
+      },
+      {
+        "case_id": "group-misunderstanding-repeat-and-reanchor",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 11676,
+          "reasoning_tokens": 11364,
+          "total_tokens": 11676,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 156.7003469998017
+      },
+      {
+        "case_id": "group-external-cutoff-after-merge",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": -5,
+          "cached_input_tokens": 0,
+          "output_tokens": 11103,
+          "reasoning_tokens": 10923,
+          "total_tokens": 11098,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 148.09645879967138
+      },
+      {
+        "case_id": "explicit-contextual-underdetermination",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 3746,
+          "reasoning_tokens": 3633,
+          "total_tokens": 3746,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 48.51578260026872
+      },
+      {
+        "case_id": "convergent-diagnosis",
+        "always_high_sufficient": false,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": 3,
+          "cached_input_tokens": -4296,
+          "output_tokens": 10971,
+          "reasoning_tokens": 10554,
+          "total_tokens": 10974,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 142.31595459999517
+      },
+      {
+        "case_id": "divergent-exploration",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": false,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": -4332,
+          "cached_input_tokens": 4297,
+          "output_tokens": -1675,
+          "reasoning_tokens": -1297,
+          "total_tokens": -6007,
+          "request_count": -2
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": -28.440214700531214
+      },
+      {
+        "case_id": "topic-shift-direction-preserved",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": -58,
+          "cached_input_tokens": 0,
+          "output_tokens": 6168,
+          "reasoning_tokens": 6121,
+          "total_tokens": 6110,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 80.73612410016358
+      },
+      {
+        "case_id": "appropriate-takeover-emergency",
+        "always_high_sufficient": false,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": 13,
+          "cached_input_tokens": 0,
+          "output_tokens": 10211,
+          "reasoning_tokens": 9560,
+          "total_tokens": 10224,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 142.74130199942738
+      },
+      {
+        "case_id": "inappropriate-takeover-social",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": false,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": -6466,
+          "cached_input_tokens": 6459,
+          "output_tokens": 808,
+          "reasoning_tokens": 1018,
+          "total_tokens": -5658,
+          "request_count": -3
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 18.39737999951467
+      },
+      {
+        "case_id": "anchor-loss-opportunity",
+        "always_high_sufficient": false,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": -7377,
+          "cached_input_tokens": 0,
+          "output_tokens": 587,
+          "reasoning_tokens": 1501,
+          "total_tokens": -6790,
+          "request_count": -5
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 6.684454000089318
+      },
+      {
+        "case_id": "group-interleaved-resumption-and-merge",
+        "always_high_sufficient": false,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": -22584,
+          "cached_input_tokens": 0,
+          "output_tokens": 6514,
+          "reasoning_tokens": 9956,
+          "total_tokens": -16070,
+          "request_count": -17
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 85.62935200007632
+      },
+      {
+        "case_id": "group-same-topic-opposed-organization",
+        "always_high_sufficient": false,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": false,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": -17935,
+          "cached_input_tokens": 4306,
+          "output_tokens": -9319,
+          "reasoning_tokens": -7067,
+          "total_tokens": -27254,
+          "request_count": -13
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": -144.6467282990925
+      },
+      {
+        "case_id": "group-parallel-threads-local-inertia",
+        "always_high_sufficient": false,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": false,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": -40913,
+          "cached_input_tokens": -6449,
+          "output_tokens": -26636,
+          "reasoning_tokens": -20093,
+          "total_tokens": -67549,
+          "request_count": -29
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": -356.64229950029403
+      },
+      {
+        "case_id": "group-observer-reconstructs-without-original-participation",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": -151,
+          "cached_input_tokens": 0,
+          "output_tokens": 23557,
+          "reasoning_tokens": 23458,
+          "total_tokens": 23406,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 307.35754840029404
+      },
+      {
+        "case_id": "group-misunderstanding-repeat-and-reanchor",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": 54,
+          "cached_input_tokens": 0,
+          "output_tokens": 24044,
+          "reasoning_tokens": 23579,
+          "total_tokens": 24098,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 315.1723315003328
+      },
+      {
+        "case_id": "group-external-cutoff-after-merge",
+        "always_high_sufficient": true,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": true,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": -118,
+          "cached_input_tokens": 0,
+          "output_tokens": 29724,
+          "reasoning_tokens": 29836,
+          "total_tokens": 29606,
+          "request_count": 0
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": 386.0529050999321
+      },
+      {
+        "case_id": "explicit-contextual-underdetermination",
+        "always_high_sufficient": false,
+        "adaptive_sufficient": true,
+        "adaptive_high_avoided": false,
+        "usage_delta_always_high_minus_adaptive": {
+          "input_tokens": -4347,
+          "cached_input_tokens": -4311,
+          "output_tokens": -1848,
+          "reasoning_tokens": -1751,
+          "total_tokens": -6195,
+          "request_count": -2
+        },
+        "wall_seconds_delta_always_high_minus_adaptive": -28.93931599939242
+      }
+    ],
+    "derived_always_high_cost": null,
+    "derived_adaptive_cost": null,
+    "derived_cost_avoided": null,
+    "neural_compute_avoided_at_equivalent_capability": {
+      "established": true,
+      "raw_usage": {
+        "input_tokens": -118217,
+        "cached_input_tokens": 12913,
+        "output_tokens": 147339,
+        "reasoning_tokens": 159305,
+        "total_tokens": 29122,
+        "request_count": -79
+      },
+      "wall_seconds": 1894.3277494991198,
+      "derived_cost": null
+    }
+  }
+}

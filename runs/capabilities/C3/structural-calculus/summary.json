@@ -1,0 +1,13 @@
+{
+  "protocol": "C3_STRUCTURAL_CALCULUS_V1",
+  "case_count": 5,
+  "exact_case_count": 5,
+  "all_exact": true,
+  "phenomena": [
+    "CONTEXTUAL_ORBITAL_BAND",
+    "PROJECTED_CLOSURE_WITHOUT_OCCURRENCE_CYCLE",
+    "RADIAL_PSEUDOMETRIC",
+    "RELATIONAL_BRANCHING",
+    "UNKNOWN_GAP_TOPOLOGY"
+  ]
+}

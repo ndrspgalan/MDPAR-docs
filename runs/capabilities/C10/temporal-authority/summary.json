@@ -1,0 +1,9 @@
+{
+  "case_count": 11,
+  "exact_count": 11,
+  "all_exact": true,
+  "frontier_authority_count": 4,
+  "local_authority_count": 1,
+  "denied_or_abstained_count": 6,
+  "background_continuation_cases": 3
+}

@@ -1,0 +1,51 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.0.0",
+  "adapter_version": "0.9.2",
+  "adapter_source_sha256": "9d70cd2b08fba277de5552dbd78debb2e0bca2c5b8beb7593515f66137e9b341",
+  "protocol": "C4_PERMUTATION_REIDENTIFICATION_V1",
+  "capabilities": [
+    "C4"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Does repeated OPEN re-identification of an immutable C4 permutation realization remain structurally stable, and does it recover the prospectively frozen target?",
+  "started_at_utc": "2026-09-05T22:20:08Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.0.0.jar",
+  "mdpar_jar_sha256": "036960d2e3324b77325a93ad2c3abbf56661f61c0aaa70e60580bab8ced61165",
+  "provider": "openai",
+  "model": "gpt-5.6-sol",
+  "inference_settings": {
+    "reasoning_effort": "none",
+    "max_output_tokens": 128000,
+    "timeout_seconds": 86400.0,
+    "store": false,
+    "api": "responses",
+    "structured_outputs": true
+  },
+  "source_records": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\runs\\permutation-interlingua-20260906-001730\\records.jsonl",
+  "source_records_sha256": "c2e0bb50c9c85df389af62ed9cfb3c29e1348742954281b2c4ddc43992df105e",
+  "sentinel_record_keys": [
+    "perm-multitrajectory-dev|0|PERMUTATION_SURFACE",
+    "perm-necessary-sufficient-dev|0|DIRECTION_ONLY",
+    "perm-necessary-sufficient-dev|0|PERMUTATION_SURFACE",
+    "perm-necessary-sufficient-dev|0|TARGET_SCC",
+    "perm-correlation-causation-dev|0|TARGET_SCC",
+    "perm-correlation-causation-dev|1|TARGET_SCC"
+  ],
+  "repeats": 3,
+  "repetition_policy": "Repeated independent OPEN identification of the same immutable realization; repetition is the measured phenomenon, not a semantic retry.",
+  "metric_policy": "EXACT_FINGERPRINT_STABILITY_AND_TARGET_RECOVERY_NO_SCORE",
+  "finished_at_utc": "2026-09-05T22:21:07Z"
+}

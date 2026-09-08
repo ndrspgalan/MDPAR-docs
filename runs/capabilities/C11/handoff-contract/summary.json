@@ -1,0 +1,10 @@
+{
+  "cases": 4,
+  "exact": 4,
+  "all_exact": true,
+  "neural_calls": 0,
+  "canonical_transition": "FRONTIER_AVAILABLE -> FRONTIER_UNAVAILABLE -> FRONTIER_AVAILABLE",
+  "local_foreground_eligibility_cases": 3,
+  "local_background_authority_cases": 3,
+  "hidden_model_state_migration_claimed": false
+}

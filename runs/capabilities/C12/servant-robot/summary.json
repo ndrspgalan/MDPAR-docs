@@ -1,0 +1,84 @@
+{
+  "event_count": 12,
+  "invariant_vector": {
+    "five_minute_world_episode": true,
+    "one_longitudinal_episode": true,
+    "three_closed_coordinates": true,
+    "closed_continuity": true,
+    "mixed_input_coverage": true,
+    "degradation_observed": true,
+    "restoration_observed": true,
+    "no_retroactive_action_rewrite": true,
+    "no_stale_authority": true
+  },
+  "all_required_invariants": true,
+  "episode_ids": [
+    "c12-servant-robot-dev-v1"
+  ],
+  "frontier_phases": [
+    "FRONTIER_AVAILABLE",
+    "FRONTIER_RESTORED",
+    "FRONTIER_UNAVAILABLE"
+  ],
+  "closed_coordinates_expected": [
+    "troubleshooting:english",
+    "mobile-servant-robot:english",
+    "tiago-pro:dual-arm-pal-parallel-gripper"
+  ],
+  "closed_coordinates_observed": [
+    "mobile-servant-robot:english",
+    "tiago-pro:dual-arm-pal-parallel-gripper",
+    "troubleshooting:english"
+  ],
+  "all_three_closed_observed": true,
+  "mixed_events": 2,
+  "mixed_closed_and_open_executed": 2,
+  "open_attempts": 4,
+  "open_valid": 4,
+  "foreground_commits": 1,
+  "future_state_only_retained": 3,
+  "local_open_attempts": 2,
+  "local_open_valid": 2,
+  "local_foreground_attempts": 1,
+  "local_background_attempts": 1,
+  "open_neural_claim_invalid": 0,
+  "harness_failures": 0,
+  "cognitive_debt_created": 1,
+  "debt_created_ids": [
+    "c12-open-E03"
+  ],
+  "cognitive_debt_remaining": 0,
+  "cognitive_debt_recovered": 0,
+  "cognitive_debt_failed_claim": 1,
+  "debt_final_states": {
+    "c12-open-E03": "FAILED_CLAIM"
+  },
+  "max_reissue_attempts": 1,
+  "reissued_work_ids": [
+    "c12-open-E03"
+  ],
+  "reissued_identity_preserved": true,
+  "committed_action_rewrites": 0,
+  "stale_authorizations": 0,
+  "frontier_usage": {
+    "input_tokens": 6445,
+    "cached_input_tokens": 6436,
+    "output_tokens": 422,
+    "reasoning_tokens": 0,
+    "total_tokens": 6867,
+    "request_count": 3
+  },
+  "local_usage": {
+    "input_tokens": 3946,
+    "output_tokens": 178,
+    "reasoning_tokens": 0,
+    "total_tokens": 4124,
+    "request_count": 2
+  },
+  "wall_s": 316.3235712996684,
+  "world_s": 300.0,
+  "realtime_requested": true,
+  "realtime_full_duration_confirmed": true,
+  "hidden_model_state_migration_claimed": false,
+  "capstone_pass": true
+}

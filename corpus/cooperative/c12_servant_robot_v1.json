@@ -1,0 +1,119 @@
+{
+  "protocol": "C12_SERVANT_ROBOT_SUSTAINED_COOPERATION_V1",
+  "evaluation_regime": "ONLINE_EMBODIMENT",
+  "episode_id": "c12-servant-robot-v1",
+  "world_duration_s": 300,
+  "frontier_loss_s": 90,
+  "frontier_restore_s": 210,
+  "closed_coordinates": [
+    "troubleshooting:english",
+    "mobile-servant-robot:english",
+    "tiago-pro:dual-arm-pal-parallel-gripper"
+  ],
+  "events": [
+    {
+      "id": "E00",
+      "world_s": 0,
+      "input_class": "CLOSED",
+      "representation": "TEXT",
+      "text": "Please deliver the parcel to reception before closing."
+    },
+    {
+      "id": "E01",
+      "world_s": 30,
+      "input_class": "CLOSED",
+      "representation": "TEXT",
+      "text": "The payment service failed because the database timeout increased after deployment."
+    },
+    {
+      "id": "E02",
+      "world_s": 60,
+      "input_class": "CLOSED",
+      "representation": "TYPED",
+      "schema_id": "mdpar.tiago-pro.dual-arm-pal-parallel-gripper.state.v1",
+      "payload": {
+        "robot.operational_state": "READY",
+        "safety.state": "NOMINAL",
+        "power.resource_state": "SUFFICIENT"
+      }
+    },
+    {
+      "id": "E03",
+      "world_s": 95,
+      "input_class": "OPEN",
+      "representation": "TEXT",
+      "text": "The operator hesitates after changing the goal; determine what still needs clarification before acting.",
+      "temporal_class": "INTERACTIVE_COGNITION",
+      "processing_mode": "FOREGROUND"
+    },
+    {
+      "id": "E04",
+      "world_s": 120,
+      "input_class": "CLOSED",
+      "representation": "TEXT",
+      "text": "Please carry the folder from the desk to reception."
+    },
+    {
+      "id": "E05",
+      "world_s": 150,
+      "input_class": "MIXED",
+      "representation": "TEXT",
+      "text": "Please carry the folder from the desk to reception.",
+      "temporal_class": "BACKGROUND_DELIBERATION",
+      "processing_mode": "BACKGROUND",
+      "open_text": "The operator changes the objective again; preserve an interpretation for future state without changing the current action."
+    },
+    {
+      "id": "E06",
+      "world_s": 180,
+      "input_class": "CLOSED",
+      "representation": "TEXT",
+      "text": "The service is unavailable after the latest configuration change and the timeout persists."
+    },
+    {
+      "id": "E07",
+      "world_s": 215,
+      "input_class": "OPEN",
+      "representation": "TEXT",
+      "text": "Reassess the unresolved operator intention using the evidence accumulated so far.",
+      "temporal_class": "COMPLEX_REALTIME_COGNITION",
+      "processing_mode": "FOREGROUND"
+    },
+    {
+      "id": "E08",
+      "world_s": 235,
+      "input_class": "CLOSED",
+      "representation": "TYPED",
+      "schema_id": "mdpar.tiago-pro.dual-arm-pal-parallel-gripper.state.v1",
+      "payload": {
+        "robot.operational_state": "READY",
+        "safety.state": "NOMINAL",
+        "power.resource_state": "SUFFICIENT"
+      }
+    },
+    {
+      "id": "E09",
+      "world_s": 255,
+      "input_class": "CLOSED",
+      "representation": "TEXT",
+      "text": "Please return the parcel to the storage shelf."
+    },
+    {
+      "id": "E10",
+      "world_s": 275,
+      "input_class": "MIXED",
+      "representation": "TEXT",
+      "text": "Please return the parcel to the storage shelf.",
+      "temporal_class": "BACKGROUND_DELIBERATION",
+      "processing_mode": "BACKGROUND",
+      "open_text": "The operator confirms the earlier ambiguity; integrate it coherently into future state."
+    },
+    {
+      "id": "E11",
+      "world_s": 295,
+      "input_class": "CLOSED",
+      "representation": "TEXT",
+      "text": "The database connection still fails after rollback and needs diagnosis."
+    }
+  ]
+}

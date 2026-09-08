@@ -1,0 +1,28 @@
+{
+  "protocol_id": "C6_LONGITUDINAL_NARRATIVE_V1",
+  "corpus_id": "la-idea-del-mundo-v1",
+  "language": "spanish",
+  "mode": "OFFLINE_LONGITUDINAL",
+  "source": {
+    "filename": "El Portador de Sueños v2(2).pdf",
+    "sha256": "54bf4bb8c778361fe987b1b70f531c5ca0dfd982086b980c77ca84b9189157fa",
+    "pages": 277
+  },
+  "question_source": {
+    "artifact": "Corpus_Preguntas_La_Idea_del_Mundo",
+    "sha256": "b323523b401efa8c37c9387164bfe7d7442090068792528fcf6df6dd62c711d0"
+  },
+  "segment_count": 77,
+  "question_count": 130,
+  "background_workers": 1,
+  "invariants": [
+    "Primary reading is question-blind.",
+    "No future segment or future chapter title is exposed.",
+    "Gold and author-only truth are evaluator-only.",
+    "UNKNOWN is a valid epistemic state.",
+    "Background cognition has FUTURE_STATE_ONLY authority.",
+    "Semantic relevance and reread targeting are external to MDPAR."
+  ],
+  "capability": "C6",
+  "evidence_stage": "DEVELOPMENT"
+}

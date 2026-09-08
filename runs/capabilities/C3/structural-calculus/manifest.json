@@ -1,0 +1,33 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.0.0",
+  "adapter_version": "0.9.2",
+  "adapter_source_sha256": "bd61eff2422089498009feb51d4076dd6f1ac98476fc45ea53d415ea3a979a17",
+  "protocol": "C3_STRUCTURAL_CALCULUS_V1",
+  "capabilities": [
+    "C3"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Does canonical mdpar_core expose the prospectively specified radial, orbital, closure, topology and UNKNOWN-gap properties without neural calls?",
+  "started_at_utc": "2026-09-05T17:21:26Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": "andres-development-laptop-2026"
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.0.0.jar",
+  "mdpar_jar_sha256": "23329055d03a9d1ba7a7bce7528c94b80f0b41c8e07ecd545e42616c99785201",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\open\\structural_calculus_v1.jsonl",
+  "corpus_sha256": "a0b3b21e56b7d50e32ddb64d9f547436838dad809f95cd869433bc496ea16fe4",
+  "neural_calls": 0,
+  "comparison": "EXACT_PROSPECTIVE_PROPERTY_ASSERTIONS_NO_SCORE",
+  "case_count": 5,
+  "finished_at_utc": "2026-09-05T17:21:27Z"
+}

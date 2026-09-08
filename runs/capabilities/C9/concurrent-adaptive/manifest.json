@@ -1,0 +1,62 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.0.0",
+  "adapter_version": "0.9.2",
+  "adapter_source_sha256": "7177275d407159e07b21e487f5103cc0ecf734b6dfe906584ddde693ca333586",
+  "protocol": "C9_ADAPTIVE_CONCURRENT_COGNITION_V1",
+  "capabilities": [
+    "C9"
+  ],
+  "scientific_axes": [
+    "P"
+  ],
+  "economic_dimensions": [
+    "C",
+    "T",
+    "I",
+    "Q"
+  ],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Can MDPAR schedule adaptive NONE/HIGH cognition with one bounded HIGH background worker, preserving work identity and separating scheduling/latency hiding from structural quality?",
+  "started_at_utc": "2026-09-06T20:03:21Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": "C9-CONCURRENT-ADAPTIVE-DEVELOPMENT",
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.0.0.jar",
+  "mdpar_jar_sha256": "036960d2e3324b77325a93ad2c3abbf56661f61c0aaa70e60580bab8ced61165",
+  "model": "gpt-5.6-sol",
+  "historical_workload_levels": [
+    "L4",
+    "L6"
+  ],
+  "max_background_workers": 1,
+  "worker_rationale": "one serial foreground cognitive stream plus one serial HIGH background worker and an explicit queue; fixed prospectively to avoid backend-parallelism fishing",
+  "offline_trigger": "deterministic structural rejection/insufficiency of NONE; no temporal deadline exists in this regime",
+  "online_boundary": "C9 scheduling isolation excludes semantic foreground-background interaction to isolate scheduling; semantic re-entry and cross-task cognition may be evaluated separately in OFFLINE, while ONLINE additionally imposes deadlines, temporal authority, freshness, committed-action protection and embodiment causality",
+  "arms": {
+    "ADAPTIVE_SEQUENTIAL": "NONE -> gate -> if rejected HIGH -> gate -> next case",
+    "ADAPTIVE_CONCURRENT": "NONE -> gate -> if rejected queue HIGH background -> immediately continue foreground NONE stream; collect HIGH only after foreground exhaustion"
+  },
+  "primary_same_run_quantity": "NEURAL_LATENCY_HIDDEN_WITHIN_IDENTICAL_CONCURRENT_EXECUTIONS",
+  "ecological_control": "independent ADAPTIVE_SEQUENTIAL arm; stochastic/provider differences are reported rather than treated as the sole causal estimate",
+  "gold_guardrail": "gold metrics are post-hoc only and never control escalation, queueing, collection or authority",
+  "compute_guardrail": "latency hiding is not compute avoidance; raw provider usage is preserved separately",
+  "corpora": {
+    "L4": {
+      "path": "corpus/open/contextual_direction_v2.jsonl",
+      "sha256": "f74a7a1a4ef83c72f4e42f5f3948c06dbf92f36e9e1ac66a42acd84ae3a83bf8"
+    },
+    "L6": {
+      "path": "corpus/open/contextual_direction_v2.jsonl",
+      "sha256": "f74a7a1a4ef83c72f4e42f5f3948c06dbf92f36e9e1ac66a42acd84ae3a83bf8"
+    }
+  },
+  "finished_at_utc": "2026-09-06T21:09:58Z"
+}

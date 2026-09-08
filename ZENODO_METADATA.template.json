@@ -1,0 +1,29 @@
+{
+  "title": "MDPAR-docs: Documentation and C0-C12 Evidence Package",
+  "upload_type": "dataset",
+  "publication_date": "2026-09-08",
+  "version": "2.0.0",
+  "description": "Public documentation, canonical corpora, retained C0-C12 benchmark evidence, and integrity-verification materials for MDPAR 2.0.0. The proprietary production runtime is not distributed in this package.",
+  "creators": [
+    {
+      "name": "Pérez Galán, Andrés",
+      "orcid": "REPLACE_OR_REMOVE"
+    }
+  ],
+  "keywords": [
+    "MDPAR",
+    "reasoning structure",
+    "structural universality",
+    "auditable AI",
+    "reasoning evaluation",
+    "neuro-symbolic AI"
+  ],
+  "notes": "Copyright © 2026 Andrés Pérez Galán. All rights reserved. Repository contents are governed by the proprietary LICENSE included with the package.",
+  "related_identifiers": [
+    {
+      "identifier": "REPLACE_WITH_PUBLIC_GITHUB_URL",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

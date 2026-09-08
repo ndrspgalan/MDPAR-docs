@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use or discuss this evidence package, cite the archived MDPAR-docs release."
+title: "MDPAR-docs: Documentation and C0-C12 Evidence Package"
+version: "2.0.0"
+date-released: "2026-09-08"
+type: dataset
+authors:
+  - family-names: "Pérez Galán"
+    given-names: "Andrés"
+    orcid: "REPLACE_OR_REMOVE"
+repository-code: "REPLACE_WITH_PUBLIC_GITHUB_URL"
+doi: "REPLACE_WITH_ZENODO_DOI"

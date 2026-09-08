@@ -1,0 +1,761 @@
+{
+  "corpus_id": "la-idea-del-mundo-v1",
+  "segment_pages": 4,
+  "chapters": [
+    {
+      "id": "SYNOPSIS",
+      "title": "Sinopsis",
+      "start_page": 2,
+      "end_page": 2,
+      "segments": [
+        "S0001"
+      ]
+    },
+    {
+      "id": "DESEMBARCO",
+      "title": "Desembarco",
+      "start_page": 3,
+      "end_page": 12,
+      "segments": [
+        "S0002",
+        "S0003",
+        "S0004"
+      ]
+    },
+    {
+      "id": "DESEQUILIBRANDO",
+      "title": "Desequilibrando la balanza",
+      "start_page": 13,
+      "end_page": 19,
+      "segments": [
+        "S0005",
+        "S0006"
+      ]
+    },
+    {
+      "id": "HIJOS_CENIZA",
+      "title": "Hijos de La Ceniza",
+      "start_page": 20,
+      "end_page": 45,
+      "segments": [
+        "S0007",
+        "S0008",
+        "S0009",
+        "S0010",
+        "S0011",
+        "S0012",
+        "S0013"
+      ]
+    },
+    {
+      "id": "CABOS_SUELTOS",
+      "title": "Cabos sueltos",
+      "start_page": 46,
+      "end_page": 61,
+      "segments": [
+        "S0014",
+        "S0015",
+        "S0016",
+        "S0017"
+      ]
+    },
+    {
+      "id": "SUBSISTIR",
+      "title": "Subsistir",
+      "start_page": 62,
+      "end_page": 63,
+      "segments": [
+        "S0018"
+      ]
+    },
+    {
+      "id": "CUESTION_PERSPECTIVA",
+      "title": "Cuestión de perspectiva",
+      "start_page": 64,
+      "end_page": 112,
+      "segments": [
+        "S0019",
+        "S0020",
+        "S0021",
+        "S0022",
+        "S0023",
+        "S0024",
+        "S0025",
+        "S0026",
+        "S0027",
+        "S0028",
+        "S0029",
+        "S0030",
+        "S0031"
+      ]
+    },
+    {
+      "id": "PODER_ABSOLUTO",
+      "title": "El poder es un absoluto",
+      "start_page": 113,
+      "end_page": 178,
+      "segments": [
+        "S0032",
+        "S0033",
+        "S0034",
+        "S0035",
+        "S0036",
+        "S0037",
+        "S0038",
+        "S0039",
+        "S0040",
+        "S0041",
+        "S0042",
+        "S0043",
+        "S0044",
+        "S0045",
+        "S0046",
+        "S0047",
+        "S0048"
+      ]
+    },
+    {
+      "id": "PRODUCTO_RECUERDO",
+      "title": "El producto de un recuerdo",
+      "start_page": 179,
+      "end_page": 180,
+      "segments": [
+        "S0049"
+      ]
+    },
+    {
+      "id": "INERCIA",
+      "title": "Inercia",
+      "start_page": 181,
+      "end_page": 190,
+      "segments": [
+        "S0050",
+        "S0051",
+        "S0052"
+      ]
+    },
+    {
+      "id": "VIVIR",
+      "title": "Vivir",
+      "start_page": 191,
+      "end_page": 194,
+      "segments": [
+        "S0053"
+      ]
+    },
+    {
+      "id": "ANATEMA",
+      "title": "Anatema",
+      "start_page": 195,
+      "end_page": 209,
+      "segments": [
+        "S0054",
+        "S0055",
+        "S0056",
+        "S0057"
+      ]
+    },
+    {
+      "id": "SENTIR",
+      "title": "Sentir",
+      "start_page": 210,
+      "end_page": 230,
+      "segments": [
+        "S0058",
+        "S0059",
+        "S0060",
+        "S0061",
+        "S0062",
+        "S0063"
+      ]
+    },
+    {
+      "id": "REDUCCION",
+      "title": "Reducción objetiva orquestada",
+      "start_page": 231,
+      "end_page": 264,
+      "segments": [
+        "S0064",
+        "S0065",
+        "S0066",
+        "S0067",
+        "S0068",
+        "S0069",
+        "S0070",
+        "S0071",
+        "S0072"
+      ]
+    },
+    {
+      "id": "JUGADA_FINAL",
+      "title": "La jugada final",
+      "start_page": 265,
+      "end_page": 266,
+      "segments": [
+        "S0073"
+      ]
+    },
+    {
+      "id": "ULTIMA_LUZ",
+      "title": "La última luz",
+      "start_page": 267,
+      "end_page": 272,
+      "segments": [
+        "S0074",
+        "S0075"
+      ]
+    },
+    {
+      "id": "VOLUNTAD_MAYOR",
+      "title": "La Voluntad Mayor",
+      "start_page": 273,
+      "end_page": 277,
+      "segments": [
+        "S0076",
+        "S0077"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "S0001",
+      "path": "segments/S0001.json",
+      "chapter_id": "SYNOPSIS",
+      "start_page": 2,
+      "end_page": 2
+    },
+    {
+      "id": "S0002",
+      "path": "segments/S0002.json",
+      "chapter_id": "DESEMBARCO",
+      "start_page": 3,
+      "end_page": 6
+    },
+    {
+      "id": "S0003",
+      "path": "segments/S0003.json",
+      "chapter_id": "DESEMBARCO",
+      "start_page": 7,
+      "end_page": 10
+    },
+    {
+      "id": "S0004",
+      "path": "segments/S0004.json",
+      "chapter_id": "DESEMBARCO",
+      "start_page": 11,
+      "end_page": 12
+    },
+    {
+      "id": "S0005",
+      "path": "segments/S0005.json",
+      "chapter_id": "DESEQUILIBRANDO",
+      "start_page": 13,
+      "end_page": 16
+    },
+    {
+      "id": "S0006",
+      "path": "segments/S0006.json",
+      "chapter_id": "DESEQUILIBRANDO",
+      "start_page": 17,
+      "end_page": 19
+    },
+    {
+      "id": "S0007",
+      "path": "segments/S0007.json",
+      "chapter_id": "HIJOS_CENIZA",
+      "start_page": 20,
+      "end_page": 23
+    },
+    {
+      "id": "S0008",
+      "path": "segments/S0008.json",
+      "chapter_id": "HIJOS_CENIZA",
+      "start_page": 24,
+      "end_page": 27
+    },
+    {
+      "id": "S0009",
+      "path": "segments/S0009.json",
+      "chapter_id": "HIJOS_CENIZA",
+      "start_page": 28,
+      "end_page": 31
+    },
+    {
+      "id": "S0010",
+      "path": "segments/S0010.json",
+      "chapter_id": "HIJOS_CENIZA",
+      "start_page": 32,
+      "end_page": 35
+    },
+    {
+      "id": "S0011",
+      "path": "segments/S0011.json",
+      "chapter_id": "HIJOS_CENIZA",
+      "start_page": 36,
+      "end_page": 39
+    },
+    {
+      "id": "S0012",
+      "path": "segments/S0012.json",
+      "chapter_id": "HIJOS_CENIZA",
+      "start_page": 40,
+      "end_page": 43
+    },
+    {
+      "id": "S0013",
+      "path": "segments/S0013.json",
+      "chapter_id": "HIJOS_CENIZA",
+      "start_page": 44,
+      "end_page": 45
+    },
+    {
+      "id": "S0014",
+      "path": "segments/S0014.json",
+      "chapter_id": "CABOS_SUELTOS",
+      "start_page": 46,
+      "end_page": 49
+    },
+    {
+      "id": "S0015",
+      "path": "segments/S0015.json",
+      "chapter_id": "CABOS_SUELTOS",
+      "start_page": 50,
+      "end_page": 53
+    },
+    {
+      "id": "S0016",
+      "path": "segments/S0016.json",
+      "chapter_id": "CABOS_SUELTOS",
+      "start_page": 54,
+      "end_page": 57
+    },
+    {
+      "id": "S0017",
+      "path": "segments/S0017.json",
+      "chapter_id": "CABOS_SUELTOS",
+      "start_page": 58,
+      "end_page": 61
+    },
+    {
+      "id": "S0018",
+      "path": "segments/S0018.json",
+      "chapter_id": "SUBSISTIR",
+      "start_page": 62,
+      "end_page": 63
+    },
+    {
+      "id": "S0019",
+      "path": "segments/S0019.json",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "start_page": 64,
+      "end_page": 67
+    },
+    {
+      "id": "S0020",
+      "path": "segments/S0020.json",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "start_page": 68,
+      "end_page": 71
+    },
+    {
+      "id": "S0021",
+      "path": "segments/S0021.json",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "start_page": 72,
+      "end_page": 75
+    },
+    {
+      "id": "S0022",
+      "path": "segments/S0022.json",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "start_page": 76,
+      "end_page": 79
+    },
+    {
+      "id": "S0023",
+      "path": "segments/S0023.json",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "start_page": 80,
+      "end_page": 83
+    },
+    {
+      "id": "S0024",
+      "path": "segments/S0024.json",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "start_page": 84,
+      "end_page": 87
+    },
+    {
+      "id": "S0025",
+      "path": "segments/S0025.json",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "start_page": 88,
+      "end_page": 91
+    },
+    {
+      "id": "S0026",
+      "path": "segments/S0026.json",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "start_page": 92,
+      "end_page": 95
+    },
+    {
+      "id": "S0027",
+      "path": "segments/S0027.json",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "start_page": 96,
+      "end_page": 99
+    },
+    {
+      "id": "S0028",
+      "path": "segments/S0028.json",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "start_page": 100,
+      "end_page": 103
+    },
+    {
+      "id": "S0029",
+      "path": "segments/S0029.json",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "start_page": 104,
+      "end_page": 107
+    },
+    {
+      "id": "S0030",
+      "path": "segments/S0030.json",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "start_page": 108,
+      "end_page": 111
+    },
+    {
+      "id": "S0031",
+      "path": "segments/S0031.json",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "start_page": 112,
+      "end_page": 112
+    },
+    {
+      "id": "S0032",
+      "path": "segments/S0032.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 113,
+      "end_page": 116
+    },
+    {
+      "id": "S0033",
+      "path": "segments/S0033.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 117,
+      "end_page": 120
+    },
+    {
+      "id": "S0034",
+      "path": "segments/S0034.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 121,
+      "end_page": 124
+    },
+    {
+      "id": "S0035",
+      "path": "segments/S0035.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 125,
+      "end_page": 128
+    },
+    {
+      "id": "S0036",
+      "path": "segments/S0036.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 129,
+      "end_page": 132
+    },
+    {
+      "id": "S0037",
+      "path": "segments/S0037.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 133,
+      "end_page": 136
+    },
+    {
+      "id": "S0038",
+      "path": "segments/S0038.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 137,
+      "end_page": 140
+    },
+    {
+      "id": "S0039",
+      "path": "segments/S0039.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 141,
+      "end_page": 144
+    },
+    {
+      "id": "S0040",
+      "path": "segments/S0040.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 145,
+      "end_page": 148
+    },
+    {
+      "id": "S0041",
+      "path": "segments/S0041.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 149,
+      "end_page": 152
+    },
+    {
+      "id": "S0042",
+      "path": "segments/S0042.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 153,
+      "end_page": 156
+    },
+    {
+      "id": "S0043",
+      "path": "segments/S0043.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 157,
+      "end_page": 160
+    },
+    {
+      "id": "S0044",
+      "path": "segments/S0044.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 161,
+      "end_page": 164
+    },
+    {
+      "id": "S0045",
+      "path": "segments/S0045.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 165,
+      "end_page": 168
+    },
+    {
+      "id": "S0046",
+      "path": "segments/S0046.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 169,
+      "end_page": 172
+    },
+    {
+      "id": "S0047",
+      "path": "segments/S0047.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 173,
+      "end_page": 176
+    },
+    {
+      "id": "S0048",
+      "path": "segments/S0048.json",
+      "chapter_id": "PODER_ABSOLUTO",
+      "start_page": 177,
+      "end_page": 178
+    },
+    {
+      "id": "S0049",
+      "path": "segments/S0049.json",
+      "chapter_id": "PRODUCTO_RECUERDO",
+      "start_page": 179,
+      "end_page": 180
+    },
+    {
+      "id": "S0050",
+      "path": "segments/S0050.json",
+      "chapter_id": "INERCIA",
+      "start_page": 181,
+      "end_page": 184
+    },
+    {
+      "id": "S0051",
+      "path": "segments/S0051.json",
+      "chapter_id": "INERCIA",
+      "start_page": 185,
+      "end_page": 188
+    },
+    {
+      "id": "S0052",
+      "path": "segments/S0052.json",
+      "chapter_id": "INERCIA",
+      "start_page": 189,
+      "end_page": 190
+    },
+    {
+      "id": "S0053",
+      "path": "segments/S0053.json",
+      "chapter_id": "VIVIR",
+      "start_page": 191,
+      "end_page": 194
+    },
+    {
+      "id": "S0054",
+      "path": "segments/S0054.json",
+      "chapter_id": "ANATEMA",
+      "start_page": 195,
+      "end_page": 198
+    },
+    {
+      "id": "S0055",
+      "path": "segments/S0055.json",
+      "chapter_id": "ANATEMA",
+      "start_page": 199,
+      "end_page": 202
+    },
+    {
+      "id": "S0056",
+      "path": "segments/S0056.json",
+      "chapter_id": "ANATEMA",
+      "start_page": 203,
+      "end_page": 206
+    },
+    {
+      "id": "S0057",
+      "path": "segments/S0057.json",
+      "chapter_id": "ANATEMA",
+      "start_page": 207,
+      "end_page": 209
+    },
+    {
+      "id": "S0058",
+      "path": "segments/S0058.json",
+      "chapter_id": "SENTIR",
+      "start_page": 210,
+      "end_page": 213
+    },
+    {
+      "id": "S0059",
+      "path": "segments/S0059.json",
+      "chapter_id": "SENTIR",
+      "start_page": 214,
+      "end_page": 217
+    },
+    {
+      "id": "S0060",
+      "path": "segments/S0060.json",
+      "chapter_id": "SENTIR",
+      "start_page": 218,
+      "end_page": 221
+    },
+    {
+      "id": "S0061",
+      "path": "segments/S0061.json",
+      "chapter_id": "SENTIR",
+      "start_page": 222,
+      "end_page": 225
+    },
+    {
+      "id": "S0062",
+      "path": "segments/S0062.json",
+      "chapter_id": "SENTIR",
+      "start_page": 226,
+      "end_page": 229
+    },
+    {
+      "id": "S0063",
+      "path": "segments/S0063.json",
+      "chapter_id": "SENTIR",
+      "start_page": 230,
+      "end_page": 230
+    },
+    {
+      "id": "S0064",
+      "path": "segments/S0064.json",
+      "chapter_id": "REDUCCION",
+      "start_page": 231,
+      "end_page": 234
+    },
+    {
+      "id": "S0065",
+      "path": "segments/S0065.json",
+      "chapter_id": "REDUCCION",
+      "start_page": 235,
+      "end_page": 238
+    },
+    {
+      "id": "S0066",
+      "path": "segments/S0066.json",
+      "chapter_id": "REDUCCION",
+      "start_page": 239,
+      "end_page": 242
+    },
+    {
+      "id": "S0067",
+      "path": "segments/S0067.json",
+      "chapter_id": "REDUCCION",
+      "start_page": 243,
+      "end_page": 246
+    },
+    {
+      "id": "S0068",
+      "path": "segments/S0068.json",
+      "chapter_id": "REDUCCION",
+      "start_page": 247,
+      "end_page": 250
+    },
+    {
+      "id": "S0069",
+      "path": "segments/S0069.json",
+      "chapter_id": "REDUCCION",
+      "start_page": 251,
+      "end_page": 254
+    },
+    {
+      "id": "S0070",
+      "path": "segments/S0070.json",
+      "chapter_id": "REDUCCION",
+      "start_page": 255,
+      "end_page": 258
+    },
+    {
+      "id": "S0071",
+      "path": "segments/S0071.json",
+      "chapter_id": "REDUCCION",
+      "start_page": 259,
+      "end_page": 262
+    },
+    {
+      "id": "S0072",
+      "path": "segments/S0072.json",
+      "chapter_id": "REDUCCION",
+      "start_page": 263,
+      "end_page": 264
+    },
+    {
+      "id": "S0073",
+      "path": "segments/S0073.json",
+      "chapter_id": "JUGADA_FINAL",
+      "start_page": 265,
+      "end_page": 266
+    },
+    {
+      "id": "S0074",
+      "path": "segments/S0074.json",
+      "chapter_id": "ULTIMA_LUZ",
+      "start_page": 267,
+      "end_page": 270
+    },
+    {
+      "id": "S0075",
+      "path": "segments/S0075.json",
+      "chapter_id": "ULTIMA_LUZ",
+      "start_page": 271,
+      "end_page": 272
+    },
+    {
+      "id": "S0076",
+      "path": "segments/S0076.json",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "start_page": 273,
+      "end_page": 276
+    },
+    {
+      "id": "S0077",
+      "path": "segments/S0077.json",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "start_page": 277,
+      "end_page": 277
+    }
+  ],
+  "public_release_rule": "Only segments already released may be shown to any reader/supervisor. Future structure is harness-private."
+}

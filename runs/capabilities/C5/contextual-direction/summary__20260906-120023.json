@@ -1,0 +1,162 @@
+{
+  "model": "gpt-5.6-sol",
+  "checkpoint_count": 24,
+  "evaluable_checkpoint_count": 22,
+  "unevaluable_checkpoint_count": 2,
+  "exact_count": 21,
+  "exact_rate": 0.9545454545454546,
+  "by_phenomenon": {
+    "APPROPRIATE_DIRECTIONAL_TAKEOVER": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "CONVERGENT_CONTINUITY": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "DIVERGENT_CONTINUITY": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "EXPLICIT_CONTEXTUAL_UNDERDETERMINATION": {
+      "count": 1,
+      "evaluable": 0,
+      "unevaluable": 1,
+      "exact": 0
+    },
+    "GROUP_CLARIFICATION_REQUEST": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "GROUP_COUNTER_TAKEOVER": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "GROUP_CROSS_THREAD_REFRAMING": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "GROUP_EXPLICIT_DUAL_DIRECTION_MERGE": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "GROUP_EXTERNAL_SCENE_CUTOFF": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "GROUP_LATE_OBSERVER_CLARIFICATION": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 0
+    },
+    "GROUP_LATE_OBSERVER_RESUMPTION": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "GROUP_MISUNDERSTANDING_REQUEST": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "GROUP_NATURAL_LATE_CONVERGENCE": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "GROUP_PARALLEL_THREAD_CLOSURE": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "GROUP_PARALLEL_THREAD_RESUMPTION": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "GROUP_PARTIAL_CLOSURE_WITH_OPEN_PARENT": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "GROUP_POST_CLARIFICATION_RESUMPTION": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "GROUP_RESUMPTION_AFTER_INTERRUPTION": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "GROUP_TOPIC_MERGE": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "INAPPROPRIATE_DIRECTIONAL_TAKEOVER": {
+      "count": 1,
+      "evaluable": 0,
+      "unevaluable": 1,
+      "exact": 0
+    },
+    "SAME_TOPIC_DIRECTIONAL_TAKEOVER": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "SCENE_CUTOFF": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "SIGNIFICANT_ANCHOR_LOSS_REANCHOR": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    },
+    "TOPIC_SHIFT_WITHOUT_DIRECTION_SHIFT": {
+      "count": 1,
+      "evaluable": 1,
+      "unevaluable": 0,
+      "exact": 1
+    }
+  },
+  "provider_usage": {
+    "input_tokens": 111288,
+    "cached_input_tokens": 0,
+    "output_tokens": 8497,
+    "reasoning_tokens": 0,
+    "total_tokens": 119785,
+    "request_count": 68
+  }
+}

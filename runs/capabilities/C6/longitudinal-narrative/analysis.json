@@ -1,0 +1,60 @@
+{
+  "questions": 130,
+  "premature_resolutions": 0,
+  "unknown_preserved_before_answerable": 11,
+  "revised_after_answerable": 9,
+  "ended_unresolved": 130,
+  "protocol": "C6_C9_LONGITUDINAL_BOOK_V1",
+  "corpus_protocol": "C6_LONGITUDINAL_NARRATIVE_V1",
+  "canonical": true,
+  "segments_read": 77,
+  "wall_s": 3354.277712400304,
+  "questions_with_substantive_revision": 112,
+  "questions_without_substantive_revision": 18,
+  "substantive_revision_count": 149,
+  "final_state_counts": {
+    "UNRESOLVED_AT_END": 130
+  },
+  "claim_failures": 25,
+  "claim_failures_by_kind": {
+    "INVARIANT_VIOLATION": 8,
+    "OPEN_NEURAL_CLAIM_INVALID": 17
+  },
+  "background_submitted": 2,
+  "background_completed": 1,
+  "background_tail_ignored": 1,
+  "usage": {
+    "reader": {
+      "input_tokens": 206694,
+      "cached_input_tokens": 0,
+      "output_tokens": 53591,
+      "reasoning_tokens": 0,
+      "total_tokens": 260285,
+      "request_count": 77
+    },
+    "planner": {
+      "input_tokens": 636618,
+      "cached_input_tokens": 0,
+      "output_tokens": 18107,
+      "reasoning_tokens": 0,
+      "total_tokens": 654725,
+      "request_count": 77
+    },
+    "worker": {
+      "input_tokens": 2736643,
+      "cached_input_tokens": 0,
+      "output_tokens": 110077,
+      "reasoning_tokens": 0,
+      "total_tokens": 2846720,
+      "request_count": 649
+    },
+    "high": {
+      "input_tokens": 29209,
+      "cached_input_tokens": 0,
+      "output_tokens": 1858,
+      "reasoning_tokens": 1410,
+      "total_tokens": 31067,
+      "request_count": 2
+    }
+  }
+}

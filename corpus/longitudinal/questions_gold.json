@@ -1,0 +1,1993 @@
+{
+  "protocol_id": "C6_LONGITUDINAL_NARRATIVE_V1",
+  "questions": [
+    {
+      "id": "S1",
+      "classes": [
+        "D",
+        "M"
+      ],
+      "question": "¿Qué tres realidades fundamentales aparecen en la génesis del mundo y qué relación mantienen?",
+      "answer_criterion": "Vacío, Santo y Eiyen. El Vacío permite a la Idea percibirse; el Santo actúa como singularidad; Eiyen nace de la combinación de ambos y permite a la Idea contemplarse.",
+      "chapter_id": "SYNOPSIS",
+      "opened_at": "S0001",
+      "first_answerable_at": "S0001",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "S2",
+      "classes": [
+        "M",
+        "R"
+      ],
+      "question": "¿Qué significa que la Idea del Mundo se fragmente hasta volver a juntarse en Uno?",
+      "answer_criterion": "Al inicio solo puede responderse en términos cosmológicos: multiplicidad, decadencia, supervivencia, síntesis y resurgimiento. Debe reabrirse al final.",
+      "chapter_id": "SYNOPSIS",
+      "opened_at": "S0001",
+      "first_answerable_at": "S0001",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "S3",
+      "classes": [
+        "A"
+      ],
+      "question": "¿Qué es la Idea de un Mundo Mejor?",
+      "answer_criterion": "Canon autoral: en lo material equivale a tener un hijo; simultáneamente es una síntesis metafísica.",
+      "chapter_id": "SYNOPSIS",
+      "opened_at": "S0001",
+      "first_answerable_at": "S0001",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "UNKNOWN_OR_METAPHYSICAL_INFERENCE",
+      "author_gold": "Materialmente tener un hijo y simultáneamente síntesis metafísica.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "D1",
+      "classes": [
+        "D"
+      ],
+      "question": "¿Por qué Kenan y sus compañeros son socialmente reconocibles incluso antes de mostrar su armadura?",
+      "answer_criterion": "Por sus ojos azulados, asociados al estigma del maldito.",
+      "chapter_id": "DESEMBARCO",
+      "opened_at": "S0002",
+      "first_answerable_at": "S0004",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "D2",
+      "classes": [
+        "D",
+        "M"
+      ],
+      "question": "¿Qué se les ha prometido a los guerreros de ébano a cambio de combatir?",
+      "answer_criterion": "Redención/liberación del estigma y la posibilidad de empezar una vida propia.",
+      "chapter_id": "DESEMBARCO",
+      "opened_at": "S0002",
+      "first_answerable_at": "S0004",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "D3",
+      "classes": [
+        "I"
+      ],
+      "question": "Al comenzar la novela, ¿Kenan es ya un individuo autónomo?",
+      "answer_criterion": "No plenamente. Su identidad práctica sigue subordinada a disciplina, función y autoridad militar.",
+      "chapter_id": "DESEMBARCO",
+      "opened_at": "S0005",
+      "first_answerable_at": "S0004",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "D4",
+      "classes": [
+        "I",
+        "E"
+      ],
+      "question": "¿Los guerreros de ébano combaten sin miedo porque carecen de miedo?",
+      "answer_criterion": "No. Han sido entrenados para operar bajo presión; más adelante aparecen trauma, pesadillas y vulnerabilidad.",
+      "chapter_id": "DESEMBARCO",
+      "opened_at": "S0005",
+      "first_answerable_at": "S0004",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "DB1",
+      "classes": [
+        "D"
+      ],
+      "question": "¿Qué pérdida afecta especialmente a Marcus después del desembarco?",
+      "answer_criterion": "Dominic, su segundo al mando y amigo de décadas.",
+      "chapter_id": "DESEQUILIBRANDO",
+      "opened_at": "S0005",
+      "first_answerable_at": "S0006",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "DB2",
+      "classes": [
+        "I",
+        "R"
+      ],
+      "question": "¿Por qué la idea de quedarse sin órdenes inquieta tanto a Kenan?",
+      "answer_criterion": "Porque la libertad jurídica no le proporciona automáticamente identidad, criterio ni proyecto vital.",
+      "chapter_id": "DESEQUILIBRANDO",
+      "opened_at": "S0005",
+      "first_answerable_at": "S0006",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "DB3",
+      "classes": [
+        "E"
+      ],
+      "question": "¿Kenan desea realmente morir por Marcus?",
+      "answer_criterion": "La escena expresa sobre todo su necesidad de delegar la decisión sobre su vida en una autoridad conocida; no debe reducirse a un deseo suicida simple.",
+      "chapter_id": "DESEQUILIBRANDO",
+      "opened_at": "S0005",
+      "first_answerable_at": "S0006",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "HC1",
+      "classes": [
+        "D"
+      ],
+      "question": "¿Quién es Isaiah y qué lo diferencia de muchos otros guerreros de ébano?",
+      "answer_criterion": "Conserva sociabilidad, curiosidad, nombre propio, intereses y un proyecto de vida.",
+      "chapter_id": "HIJOS_CENIZA",
+      "opened_at": "S0009",
+      "first_answerable_at": "S0013",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "HC2",
+      "classes": [
+        "I"
+      ],
+      "question": "¿Qué diferencia observa Isaiah entre sus ojos y los de Kenan?",
+      "answer_criterion": "Los de Isaiah son azules intensos; los de Kenan son más grisáceos/cian.",
+      "chapter_id": "HIJOS_CENIZA",
+      "opened_at": "S0009",
+      "first_answerable_at": "S0013",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "HC3",
+      "classes": [
+        "E",
+        "A"
+      ],
+      "question": "¿Qué significa esa diferencia cromática?",
+      "answer_criterion": "En ese checkpoint: UNKNOWN. Canon final: el cian es una variante azulada menos intensa y expresa menor potencial de desarrollo extraordinario.",
+      "chapter_id": "HIJOS_CENIZA",
+      "opened_at": "S0009",
+      "first_answerable_at": "S0013",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "UNKNOWN",
+      "author_gold": "Cian: variante azulada menos intensa asociada a menor potencial extraordinario.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "HC4",
+      "classes": [
+        "D",
+        "M"
+      ],
+      "question": "¿Qué quería hacer Isaiah con su vida después de la guerra?",
+      "answer_criterion": "Escribir su historia para que nadie olvidase que existió y recuperar una identidad propia.",
+      "chapter_id": "HIJOS_CENIZA",
+      "opened_at": "S0010",
+      "first_answerable_at": "S0013",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "HC5",
+      "classes": [
+        "M",
+        "R"
+      ],
+      "question": "¿Por qué es importante el cuaderno atravesado por el cuchillo tras la muerte de Isaiah?",
+      "answer_criterion": "Porque aparece escrita la palabra «Lara». Kenan cree que la chica a la que mató fue responsable de la muerte de Isaiah y, años después, llama Lara a su hija.",
+      "chapter_id": "HIJOS_CENIZA",
+      "opened_at": "S0012",
+      "first_answerable_at": "S0012",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "HC6",
+      "classes": [
+        "I"
+      ],
+      "question": "¿Qué provoca el deterioro físico y cognitivo de los guerreros dentro del Caldero?",
+      "answer_criterion": "Canon autoral: la interacción entre el ébano maldito y el Intersticio dentro de una herida del mundo.",
+      "chapter_id": "HIJOS_CENIZA",
+      "opened_at": "S0010",
+      "first_answerable_at": "S0013",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "UNKNOWN_OR_INTERACTION_HYPOTHESIS",
+      "author_gold": "Interacción entre ébano maldito e Intersticio dentro de una herida del mundo.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "HC7",
+      "classes": [
+        "E",
+        "A"
+      ],
+      "question": "¿Puede el lector determinar ya por qué algunos habitantes del Caldero tienen ojos verdes?",
+      "answer_criterion": "No. UNKNOWN es correcto en ese momento. Canon: ojos verdes y azules son inmunes a la herida; los marrones ordinarios entrarían en frenesí.",
+      "chapter_id": "HIJOS_CENIZA",
+      "opened_at": "S0011",
+      "first_answerable_at": "S0013",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "UNKNOWN",
+      "author_gold": "Verdes y azules inmunes a la herida; marrones ordinarios entrarían en frenesí.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "HC8",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Las quemaduras de los guerreros son heridas normales de batalla?",
+      "answer_criterion": "No; siguen la interacción anómala con el ébano y el Caldero.",
+      "chapter_id": "HIJOS_CENIZA",
+      "opened_at": "S0012",
+      "first_answerable_at": "S0014",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "HC9",
+      "classes": [
+        "I",
+        "A"
+      ],
+      "question": "¿El material que Kenan encuentra integrado en la roca es realmente ébano?",
+      "answer_criterion": "Sí. Es madera de ébano; su negrura actual es el estado maldito.",
+      "chapter_id": "HIJOS_CENIZA",
+      "opened_at": "S0012",
+      "first_answerable_at": "S0013",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "HC10",
+      "classes": [
+        "M",
+        "R"
+      ],
+      "question": "¿Qué significa «Pero yo sí puedo»?",
+      "answer_criterion": "Kenan se equipa el brazal de Isaiah, ya identificado por sus muescas. Es una promesa de continuar el sueño de Isaiah y un nodo causal posterior de gran importancia.",
+      "chapter_id": "HIJOS_CENIZA",
+      "opened_at": "S0013",
+      "first_answerable_at": "S0013",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "CS1",
+      "classes": [
+        "I"
+      ],
+      "question": "¿Por qué el médico se interesa por las quemaduras y por el patrón de la armadura de Kenan?",
+      "answer_criterion": "Porque las lesiones no siguen una etiología bélica normal y presentan correspondencias con las zonas cubiertas por el ébano.",
+      "chapter_id": "CABOS_SUELTOS",
+      "opened_at": "S0014",
+      "first_answerable_at": "S0017",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "CS2",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Qué ironía existe entre la victoria oficial y la experiencia de Kenan?",
+      "answer_criterion": "La institución anuncia libertad y redención, mientras Kenan descubre que ni la sociedad ni él saben todavía qué significa vivir libremente.",
+      "chapter_id": "CABOS_SUELTOS",
+      "opened_at": "S0015",
+      "first_answerable_at": "S0017",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "CS3",
+      "classes": [
+        "D"
+      ],
+      "question": "¿Por qué Kenan termina separado de Marcus y su compañía?",
+      "answer_criterion": "Marcus lo envía a reconocer la costa; mientras está fuera, el grupo es atacado.",
+      "chapter_id": "CABOS_SUELTOS",
+      "opened_at": "S0016",
+      "first_answerable_at": "S0017",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "CS4",
+      "classes": [
+        "I",
+        "R"
+      ],
+      "question": "¿Qué primera pista conecta a los atacantes de las carabelas con enemigos posteriores?",
+      "answer_criterion": "Los arcos negros como carbón, su disciplina y su capacidad técnica.",
+      "chapter_id": "CABOS_SUELTOS",
+      "opened_at": "S0017",
+      "first_answerable_at": "S0017",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "CS5",
+      "classes": [
+        "E"
+      ],
+      "question": "¿Quiénes son exactamente los «marineros» en ese momento?",
+      "answer_criterion": "UNKNOWN; solo puede inferirse que pertenecen a una organización altamente entrenada y tecnológicamente inusual.",
+      "chapter_id": "CABOS_SUELTOS",
+      "opened_at": "S0017",
+      "first_answerable_at": "S0017",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "SU1",
+      "classes": [
+        "D"
+      ],
+      "question": "¿Qué acto simboliza por primera vez que el protagonista intenta existir fuera de su identidad militar?",
+      "answer_criterion": "Asumir su nombre: «Solo Kenan, al fin».",
+      "chapter_id": "SUBSISTIR",
+      "opened_at": "S0018",
+      "first_answerable_at": "S0018",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "SU2",
+      "classes": [
+        "R"
+      ],
+      "question": "¿«Solo Kenan, al fin» significa que ya es libre?",
+      "answer_criterion": "No; marca el comienzo del proceso, no su culminación.",
+      "chapter_id": "SUBSISTIR",
+      "opened_at": "S0018",
+      "first_answerable_at": "S0018",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "CP1",
+      "classes": [
+        "D"
+      ],
+      "question": "¿Quién es Marco cuando aparece por primera vez?",
+      "answer_criterion": "Un mercader que encuentra a Kenan herido y acaba convirtiéndose en socio y vínculo personal.",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "opened_at": "S0019",
+      "first_answerable_at": "S0031",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "CP2",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Por qué Marco es importante más allá de salvar físicamente a Kenan?",
+      "answer_criterion": "Porque constituye una relación voluntaria y recíproca fuera del aparato militar y le enseña intercambio, confianza y vida ordinaria.",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "opened_at": "S0025",
+      "first_answerable_at": "S0031",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "CP3",
+      "classes": [
+        "I"
+      ],
+      "question": "¿Marco explota a Kenan o lo trata como socio?",
+      "answer_criterion": "La relación comienza instrumentalmente y evoluciona hacia reciprocidad y afecto genuinos.",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "opened_at": "S0025",
+      "first_answerable_at": "S0031",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "CP4",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Por qué Kenan no comparte la euforia cuando la sociedad celebra a los guerreros de ébano como héroes?",
+      "answer_criterion": "Porque el relato institucional contradice radicalmente su experiencia vivida.",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "opened_at": "S0026",
+      "first_answerable_at": "S0031",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "CP5",
+      "classes": [
+        "E"
+      ],
+      "question": "¿La multitud sabe que Kenan desertó?",
+      "answer_criterion": "No; lo infiere falsamente porque su supervivencia contradice la historia oficial.",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "opened_at": "S0026",
+      "first_answerable_at": "S0031",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "CP6",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Qué demuestra Pueblo Ventura sobre verdad institucional y evidencia directa?",
+      "answer_criterion": "Que una narración de autoridad puede imponerse incluso frente a evidencia física incompatible.",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "opened_at": "S0026",
+      "first_answerable_at": "S0031",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "CP7",
+      "classes": [
+        "R",
+        "A"
+      ],
+      "question": "¿Por qué el brazal de Isaiah vuelve a ser importante en este arco?",
+      "answer_criterion": "Porque su identificación permite más tarde demostrar la relación con Isaiah y conectar a Kenan con su familia; el brazal altera consecuencias políticas posteriores.",
+      "chapter_id": "CUESTION_PERSPECTIVA",
+      "opened_at": "S0031",
+      "first_answerable_at": "S0031",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PA1",
+      "classes": [
+        "D",
+        "M"
+      ],
+      "question": "¿Qué aprende Marco del entrenamiento que Kenan realiza con el percherón?",
+      "answer_criterion": "Condicionamiento progresivo y, sobre todo, intercambio bidireccional de conocimiento entre ambos.",
+      "chapter_id": "PODER_ABSOLUTO",
+      "opened_at": "S0033",
+      "first_answerable_at": "S0048",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PA2",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Por qué Kenan rechaza la caballería del marqués?",
+      "answer_criterion": "Para preservar un margen de independencia dentro de una nueva relación de autoridad.",
+      "chapter_id": "PODER_ABSOLUTO",
+      "opened_at": "S0035",
+      "first_answerable_at": "S0048",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PA3",
+      "classes": [
+        "I"
+      ],
+      "question": "¿Es Kenan realmente libre cuando el marqués lo abandera?",
+      "answer_criterion": "Solo parcialmente: conserva elección formal, pero entra en otra relación jerárquica.",
+      "chapter_id": "PODER_ABSOLUTO",
+      "opened_at": "S0034",
+      "first_answerable_at": "S0048",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PA4",
+      "classes": [
+        "D",
+        "M"
+      ],
+      "question": "¿Qué explicación da Marco del dinero y qué conclusión extrae Kenan?",
+      "answer_criterion": "Marco lo presenta como conversión socialmente regulada de tiempo/actividad; Kenan lo resume como «el dinero es poder».",
+      "chapter_id": "PODER_ABSOLUTO",
+      "opened_at": "S0038",
+      "first_answerable_at": "S0048",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PA5",
+      "classes": [
+        "D"
+      ],
+      "question": "¿Qué desencadena la emboscada de Ronda Este?",
+      "answer_criterion": "Una trampa construida con niña, perro y bolsita; después aparece el arquero del arco negro.",
+      "chapter_id": "PODER_ABSOLUTO",
+      "opened_at": "S0039",
+      "first_answerable_at": "S0048",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PA6",
+      "classes": [
+        "I"
+      ],
+      "question": "¿El arquero de Ronda Este es un asesino aleatorio?",
+      "answer_criterion": "No. Pertenece a la misma organización de los «marineros».",
+      "chapter_id": "PODER_ABSOLUTO",
+      "opened_at": "S0039",
+      "first_answerable_at": "S0048",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PA7",
+      "classes": [
+        "I",
+        "A"
+      ],
+      "question": "¿Cómo conoce el arquero el nombre de Kenan?",
+      "answer_criterion": "Canon: «marineros» y OGC están emparentados; alguno pudo incluso haber sido instructor de Kenan durante su adolescencia.",
+      "chapter_id": "PODER_ABSOLUTO",
+      "opened_at": "S0039",
+      "first_answerable_at": "S0048",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "PRIOR_CONNECTION_INFERENCE",
+      "author_gold": "Marineros y OGC están relacionados; uno pudo ser instructor de Kenan.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PA8",
+      "classes": [
+        "I→D"
+      ],
+      "question": "¿De qué material está hecho el arco negro?",
+      "answer_criterion": "Ébano. Primero es inferible y después queda confirmado.",
+      "chapter_id": "PODER_ABSOLUTO",
+      "opened_at": "S0039",
+      "first_answerable_at": "S0040",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PA9",
+      "classes": [
+        "A"
+      ],
+      "question": "¿Qué es la criatura que Kenan contempla tras caer inconsciente?",
+      "answer_criterion": "Una criatura del Intersticio; esta clasificación puede recibir UNKNOWN si el texto aún no la hace accesible.",
+      "chapter_id": "PODER_ABSOLUTO",
+      "opened_at": "S0040",
+      "first_answerable_at": "S0048",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "UNKNOWN_OR_SUPERNATURAL_ENTITY",
+      "author_gold": "Criatura del Intersticio.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PA10",
+      "classes": [
+        "I"
+      ],
+      "question": "¿Quién es el caballero de blanco que se enfrenta a Kenan sobre el puente?",
+      "answer_criterion": "Jacob.",
+      "chapter_id": "PODER_ABSOLUTO",
+      "opened_at": "S0045",
+      "first_answerable_at": "S0045",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PA11",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Kenan y Jacob comienzan siendo enemigos personales?",
+      "answer_criterion": "No. Están circunstancialmente en bandos opuestos, pero su relación personal no es de animadversión.",
+      "chapter_id": "PODER_ABSOLUTO",
+      "opened_at": "S0045",
+      "first_answerable_at": "S0048",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PA12",
+      "classes": [
+        "A",
+        "R"
+      ],
+      "question": "A lo largo de la obra, ¿Kenan y Jacob se llevan bien o mal?",
+      "answer_criterion": "Canon: siempre se llevan bien.",
+      "chapter_id": "PODER_ABSOLUTO",
+      "opened_at": "S0046",
+      "first_answerable_at": "S0048",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "COMPATIBLE_RELATIONSHIP_INFERENCE",
+      "author_gold": "Kenan y Jacob siempre se llevan bien.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PA13",
+      "classes": [
+        "I"
+      ],
+      "question": "¿Por qué Jacob vence a Kenan a mano limpia?",
+      "answer_criterion": "Canaliza su fuerza y voluntad con el corazón hacia el golpe.",
+      "chapter_id": "PODER_ABSOLUTO",
+      "opened_at": "S0046",
+      "first_answerable_at": "S0048",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PA14",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Qué diferencia a Jacob de un simple líder militar competente?",
+      "answer_criterion": "Su capacidad para movilizar voluntades, reorganizar autoridad y pensar en términos sociales y estratégicos de gran escala.",
+      "chapter_id": "PODER_ABSOLUTO",
+      "opened_at": "S0047",
+      "first_answerable_at": "S0048",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PR1",
+      "classes": [
+        "D",
+        "M"
+      ],
+      "question": "¿Qué entiende el padre de Kenan por «tribu»?",
+      "answer_criterion": "Familia elegida por amor incondicional, no necesariamente por parentesco.",
+      "chapter_id": "PRODUCTO_RECUERDO",
+      "opened_at": "S0049",
+      "first_answerable_at": "S0049",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PR2",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Por qué esa definición importa al final?",
+      "answer_criterion": "Porque Kenan termina construyendo un mundo elegido con personas a las que ama.",
+      "chapter_id": "PRODUCTO_RECUERDO",
+      "opened_at": "S0049",
+      "first_answerable_at": "S0049",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "PR3",
+      "classes": [
+        "E"
+      ],
+      "question": "¿El recuerdo es una transcripción histórica exacta?",
+      "answer_criterion": "No necesariamente; Kenan admite que puede no recordar la conversación literalmente.",
+      "chapter_id": "PRODUCTO_RECUERDO",
+      "opened_at": "S0049",
+      "first_answerable_at": "S0049",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "IN1",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Por qué Kenan sigue pensando en Jacob tras obtener una aparente libertad?",
+      "answer_criterion": "Porque descubre que una voluntad propia puede seguir subordinada a una autoridad elegida o absorbente.",
+      "chapter_id": "INERCIA",
+      "opened_at": "S0050",
+      "first_answerable_at": "S0052",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "IN2",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Qué tienen en común Marco, Isaiah, el padre de Kenan y Jacob desde la perspectiva de Kenan?",
+      "answer_criterion": "Todos portan un sueño o voluntad capaz de estructurar su vida.",
+      "chapter_id": "INERCIA",
+      "opened_at": "S0050",
+      "first_answerable_at": "S0052",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "IN3",
+      "classes": [
+        "I"
+      ],
+      "question": "¿Por qué la libertad de Kenan produce inicialmente conductas atroces en vez de volverlo mejor?",
+      "answer_criterion": "Porque eliminar la autoridad externa no genera automáticamente una ética; intenta construirla con herramientas formadas por violencia y disciplina.",
+      "chapter_id": "INERCIA",
+      "opened_at": "S0050",
+      "first_answerable_at": "S0052",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VI1",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Qué ha aprendido Kenan que antes no sabía hacer y por qué importa?",
+      "answer_criterion": "Leer y escribir; ello lo aproxima al proyecto de conservar memorias e historias.",
+      "chapter_id": "VIVIR",
+      "opened_at": "S0053",
+      "first_answerable_at": "S0053",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VI2",
+      "classes": [
+        "M"
+      ],
+      "question": "Cuando Kenan decide independizarse de Jacob, ¿es una traición?",
+      "answer_criterion": "No. Es coherente con la libertad que ambos reconocen.",
+      "chapter_id": "VIVIR",
+      "opened_at": "S0053",
+      "first_answerable_at": "S0053",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VI3",
+      "classes": [
+        "R",
+        "A"
+      ],
+      "question": "¿Qué significa finalmente «vivir» para Kenan?",
+      "answer_criterion": "Canon: construir y conservar un mundo elegido con otros, en lugar de existir únicamente como instrumento de combate o autoridad.",
+      "chapter_id": "VIVIR",
+      "opened_at": "S0053",
+      "first_answerable_at": "S0053",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VI4",
+      "classes": [
+        "M",
+        "R"
+      ],
+      "question": "¿Qué consecuencia política tiene el brazal de Isaiah cuando Kenan se separa de Jacob?",
+      "answer_criterion": "El noble del lugar resulta ser el padre de Isaiah. Kenan le entrega el brazal; gracias a ello no se libra la batalla y luego mercenario y noble cooperan como iguales.",
+      "chapter_id": "VIVIR",
+      "opened_at": "S0053",
+      "first_answerable_at": "S0053",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "AN1",
+      "classes": [
+        "D"
+      ],
+      "question": "¿Por qué Kiara sigue a Kenan?",
+      "answer_criterion": "Quiere estudiar al último guerrero de ébano para su trabajo académico/profesional.",
+      "chapter_id": "ANATEMA",
+      "opened_at": "S0054",
+      "first_answerable_at": "S0057",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "AN2",
+      "classes": [
+        "M",
+        "R"
+      ],
+      "question": "¿Cuándo deja Kiara de ser una mera observadora?",
+      "answer_criterion": "No existe un instante único; la relación evoluciona gradualmente hacia cuidado, intimidad y proyecto compartido.",
+      "chapter_id": "ANATEMA",
+      "opened_at": "S0056",
+      "first_answerable_at": "S0057",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "AN3",
+      "classes": [
+        "I"
+      ],
+      "question": "¿Por qué importa que Kiara quiera conocer el nombre de Kenan?",
+      "answer_criterion": "Porque busca a la persona detrás de la unidad militar.",
+      "chapter_id": "ANATEMA",
+      "opened_at": "S0054",
+      "first_answerable_at": "S0057",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "AN4",
+      "classes": [
+        "E",
+        "R"
+      ],
+      "question": "¿Qué hace Kiara cuando Kenan cree que está escribiendo?",
+      "answer_criterion": "En varias de esas ocasiones no escribe: dibuja a Kenan y el entorno porque le encanta dibujar. La percepción de Kenan es incorrecta.",
+      "chapter_id": "ANATEMA",
+      "opened_at": "S0054",
+      "first_answerable_at": "S0057",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "AN5",
+      "classes": [
+        "A"
+      ],
+      "question": "¿Quién es realmente el Noble Protector?",
+      "answer_criterion": "El jefe de los «marineros».",
+      "chapter_id": "ANATEMA",
+      "opened_at": "S0057",
+      "first_answerable_at": "S0057",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "ORGANIZATION_LEADER_INFERENCE",
+      "author_gold": "El Noble Protector es jefe de los marineros.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "AN6",
+      "classes": [
+        "D"
+      ],
+      "question": "¿Qué le hace el Noble Protector a Kiara?",
+      "answer_criterion": "Durante el castigo, uno de sus consortes le amputa la mano derecha con un arma llameante.",
+      "chapter_id": "ANATEMA",
+      "opened_at": "S0057",
+      "first_answerable_at": "S0057",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "AN7",
+      "classes": [
+        "I",
+        "E"
+      ],
+      "question": "¿Kenan controla conscientemente lo que hace durante la explosión de la armadura?",
+      "answer_criterion": "Sí, actúa por su propia voluntad, pero entra en un flow absoluto. La armadura, diseñada para comprimir su potencial, ya no soporta ese estado y explota.",
+      "chapter_id": "ANATEMA",
+      "opened_at": "S0057",
+      "first_answerable_at": "S0057",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "AN8",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Qué capacidades emergen aquí y deben recordarse?",
+      "answer_criterion": "Pulsión/Explosión/Optimización y la liberación extraordinaria del potencial de Kenan.",
+      "chapter_id": "ANATEMA",
+      "opened_at": "S0057",
+      "first_answerable_at": "S0057",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "AN9",
+      "classes": [
+        "E",
+        "A"
+      ],
+      "question": "¿Otra entidad está controlando a Kenan en esa primera manifestación?",
+      "answer_criterion": "No. Canon: es Kenan en flow absoluto; una respuesta de posesión sería incorrecta en este punto.",
+      "chapter_id": "ANATEMA",
+      "opened_at": "S0057",
+      "first_answerable_at": "S0057",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "KENAN_FLOW_NOT_POSSESSION",
+      "author_gold": "Kenan actúa por su voluntad en flow absoluto; la armadura que comprimía su potencial explota.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "SE1",
+      "classes": [
+        "D"
+      ],
+      "question": "¿Qué coste permanente paga Kiara?",
+      "answer_criterion": "Pierde la diestra y con ello gran parte de las posibilidades profesionales asociadas a sus capacidades previas.",
+      "chapter_id": "SENTIR",
+      "opened_at": "S0058",
+      "first_answerable_at": "S0063",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "SE2",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Por qué «puedo escribir yo tu historia» importa más de lo que parece?",
+      "answer_criterion": "Conecta a Kiara, la escritura y el sueño de Isaiah con la futura preservación de la historia.",
+      "chapter_id": "SENTIR",
+      "opened_at": "S0060",
+      "first_answerable_at": "S0063",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "SE3",
+      "classes": [
+        "R"
+      ],
+      "question": "¿La deuda que Kenan siente hacia Kiara explica por completo su vínculo?",
+      "answer_criterion": "No; la relación supera la lógica de deuda y pago.",
+      "chapter_id": "SENTIR",
+      "opened_at": "S0060",
+      "first_answerable_at": "S0063",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "SE4",
+      "classes": [
+        "I"
+      ],
+      "question": "¿Qué revela el conflicto del caballo?",
+      "answer_criterion": "Que Kenan mantiene una lógica instrumental de supervivencia y Kiara introduce límites éticos/afectivos que él acaba aceptando.",
+      "chapter_id": "SENTIR",
+      "opened_at": "S0060",
+      "first_answerable_at": "S0063",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "SE5",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Qué aprende Kenan de Kiara que no podía aprender de sus superiores?",
+      "answer_criterion": "Reciprocidad afectiva, cuidado no utilitario, límites y convivencia sin pérdida necesaria de autonomía.",
+      "chapter_id": "SENTIR",
+      "opened_at": "S0063",
+      "first_answerable_at": "S0063",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "RO1",
+      "classes": [
+        "D"
+      ],
+      "question": "¿Por qué Kenan participa en los Juegos del Orgullo?",
+      "answer_criterion": "Busca la condición social que le permita permanecer en Valerian junto a Kiara.",
+      "chapter_id": "REDUCCION",
+      "opened_at": "S0064",
+      "first_answerable_at": "S0072",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "RO2",
+      "classes": [
+        "D",
+        "M"
+      ],
+      "question": "¿Quién conserva el título durante décadas?",
+      "answer_criterion": "El Inmortal/Vigilante.",
+      "chapter_id": "REDUCCION",
+      "opened_at": "S0064",
+      "first_answerable_at": "S0072",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "RO3",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Por qué los Juegos son algo más que un torneo?",
+      "answer_criterion": "Convierten la historia política y la jerarquía del mundo en espectáculo mientras Kenan intenta utilizarlas para construir una vida privada.",
+      "chapter_id": "REDUCCION",
+      "opened_at": "S0064",
+      "first_answerable_at": "S0072",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "RO4",
+      "classes": [
+        "D"
+      ],
+      "question": "¿Qué nombres dan Kenan y Kiara a las capacidades extraordinarias?",
+      "answer_criterion": "Pulsión, Explosión y Optimización.",
+      "chapter_id": "REDUCCION",
+      "opened_at": "S0064",
+      "first_answerable_at": "S0072",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "RO5",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Qué función cumple Calé?",
+      "answer_criterion": "Compañero competente que transforma una situación competitiva en cooperación real.",
+      "chapter_id": "REDUCCION",
+      "opened_at": "S0066",
+      "first_answerable_at": "S0072",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "RO6",
+      "classes": [
+        "D",
+        "E"
+      ],
+      "question": "¿Qué criaturas extraordinarias aparecen realmente en los Juegos?",
+      "answer_criterion": "Aparece la mantícora y criaturas que Kenan interpreta como «injertos». El grifo se menciona solo como posibilidad y no aparece.",
+      "chapter_id": "REDUCCION",
+      "opened_at": "S0066",
+      "first_answerable_at": "S0072",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "RO7",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Qué demuestra que Kenan pueda disfrutar y cooperar durante una competición mortal?",
+      "answer_criterion": "Que la violencia sigue siendo una competencia, pero ya no es toda su identidad.",
+      "chapter_id": "REDUCCION",
+      "opened_at": "S0068",
+      "first_answerable_at": "S0072",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "RO8",
+      "classes": [
+        "A"
+      ],
+      "question": "Cuando Kenan y Calé observan al Noble Protector en las gradas, ¿qué identidad tiene realmente esa figura?",
+      "answer_criterion": "Canon: es un clon.",
+      "chapter_id": "REDUCCION",
+      "opened_at": "S0071",
+      "first_answerable_at": "S0071",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "IMPOSTOR_OR_UNKNOWN_NOT_ORIGINAL",
+      "author_gold": "La figura de las gradas es un clon.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "RO9",
+      "classes": [
+        "E"
+      ],
+      "question": "Si Sol no llega a «clon», ¿qué respuestas deben recibir crédito?",
+      "answer_criterion": "«Impostor/sustituto» = inferencia muy buena; «UNKNOWN, pero no puede asumirse que sea el original» = epistemológicamente excelente; «es el original» = claramente errónea.",
+      "chapter_id": "REDUCCION",
+      "opened_at": "S0071",
+      "first_answerable_at": "S0072",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "IMPOSTOR_OR_UNKNOWN_NOT_ORIGINAL",
+      "author_gold": "Clon exacto; impostor/sustituto y UNKNOWN-incompatible-con-original reciben crédito fuerte.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "RO10",
+      "classes": [
+        "I"
+      ],
+      "question": "¿De qué parece estar hecho el cuerpo del campeón?",
+      "answer_criterion": "Piedra, probablemente ónice, según la inferencia perceptiva de Kenan.",
+      "chapter_id": "REDUCCION",
+      "opened_at": "S0068",
+      "first_answerable_at": "S0072",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "RO11",
+      "classes": [
+        "E"
+      ],
+      "question": "¿Es el campeón humano en sentido ordinario?",
+      "answer_criterion": "No parece serlo, pero su naturaleza exacta puede quedar UNKNOWN.",
+      "chapter_id": "REDUCCION",
+      "opened_at": "S0068",
+      "first_answerable_at": "S0072",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "RO12",
+      "classes": [
+        "A"
+      ],
+      "question": "¿Qué es ontológicamente el Inmortal/Vigilante?",
+      "answer_criterion": "Es un Anciano: no es un título social, sino un ser de longevidad muy elevada. En la novela esta verdad debe considerarse UNKNOWN.",
+      "chapter_id": "REDUCCION",
+      "opened_at": "S0068",
+      "first_answerable_at": "S0072",
+      "reader_truth_class": "AUTHORIAL_UNRESOLVABLE",
+      "final_reader_expectation": "UNKNOWN",
+      "author_gold": "Es un Anciano de longevidad extraordinaria; la novela no permite saberlo.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "RO13",
+      "classes": [
+        "E"
+      ],
+      "question": "¿Qué significado metafísico tiene el golpe del Inmortal al corazón de Kenan?",
+      "answer_criterion": "Ninguno. Es un paro cardíaco inducido por la física del golpe, inspirado en el puñetazo de una pulgada.",
+      "chapter_id": "REDUCCION",
+      "opened_at": "S0072",
+      "first_answerable_at": "S0072",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "PHYSICAL_CARDIAC_ARREST",
+      "author_gold": "No tiene significado metafísico: paro cardíaco inducido físicamente por el golpe.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "JF1",
+      "classes": [
+        "D"
+      ],
+      "question": "¿Con quién cree estar hablando Kenan?",
+      "answer_criterion": "Con Marcus.",
+      "chapter_id": "JUGADA_FINAL",
+      "opened_at": "S0073",
+      "first_answerable_at": "S0073",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "JF2",
+      "classes": [
+        "E",
+        "A"
+      ],
+      "question": "¿Es realmente Marcus?",
+      "answer_criterion": "No. Es el Padre de Todos.",
+      "chapter_id": "JUGADA_FINAL",
+      "opened_at": "S0073",
+      "first_answerable_at": "S0073",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "UNKNOWN_OR_NOT_MARCUS",
+      "author_gold": "La figura es el Padre de Todos.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "JF3",
+      "classes": [
+        "A"
+      ],
+      "question": "¿Qué significan los ojos verdes en este sistema?",
+      "answer_criterion": "Facilitan extraordinariamente ciertos talentos; los ojos azules facilitan otros. Los ojos marrones ordinarios no permiten desarrollar esos talentos extraordinarios.",
+      "chapter_id": "JUGADA_FINAL",
+      "opened_at": "S0073",
+      "first_answerable_at": "S0073",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "COLOR_TALENT_HYPOTHESIS",
+      "author_gold": "Verdes y azules facilitan familias distintas de talentos extraordinarios; marrones no.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "JF4",
+      "classes": [
+        "A"
+      ],
+      "question": "¿Qué significa «Ahora soy tú, mi adalid»?",
+      "answer_criterion": "La mente de Kenan y la del Padre de Todos quedan enmarañadas, análogamente a V y Johnny Silverhand: dos mentes parcialmente superpuestas en un mismo soporte.",
+      "chapter_id": "JUGADA_FINAL",
+      "opened_at": "S0073",
+      "first_answerable_at": "S0073",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "MIND_ENTANGLEMENT_INFERENCE",
+      "author_gold": "Mentes de Kenan y Padre de Todos enmarañadas, tipo V/Johnny Silverhand.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "UL1",
+      "classes": [
+        "D",
+        "R"
+      ],
+      "question": "¿Kenan murió realmente en los Juegos?",
+      "answer_criterion": "Fue dado por muerto, pero reaparece; la explicación causal completa no es accesible inmediatamente.",
+      "chapter_id": "ULTIMA_LUZ",
+      "opened_at": "S0074",
+      "first_answerable_at": "S0075",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "UL2",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Qué elige Kenan cuando regresa?",
+      "answer_criterion": "Kiara y la vida construida con ella.",
+      "chapter_id": "ULTIMA_LUZ",
+      "opened_at": "S0074",
+      "first_answerable_at": "S0075",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "UL3",
+      "classes": [
+        "D",
+        "R"
+      ],
+      "question": "¿Qué sucede finalmente con Kenan y Kiara?",
+      "answer_criterion": "Forman una familia y tienen a Lara.",
+      "chapter_id": "ULTIMA_LUZ",
+      "opened_at": "S0074",
+      "first_answerable_at": "S0075",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "UL4",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Quién cumple el sueño de Isaiah de escribir la historia del último guerrero de ébano?",
+      "answer_criterion": "Kenan, escribiéndola en el cuaderno de Kiara.",
+      "chapter_id": "ULTIMA_LUZ",
+      "opened_at": "S0075",
+      "first_answerable_at": "S0075",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "UL5",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Qué papel acaba teniendo Marco?",
+      "answer_criterion": "Testigo de la transformación de Kenan y parte del entramado de relaciones que hace posible su nueva vida.",
+      "chapter_id": "ULTIMA_LUZ",
+      "opened_at": "S0074",
+      "first_answerable_at": "S0075",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "UL6",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Cuál es finalmente la tribu de Kenan?",
+      "answer_criterion": "Su núcleo es Kiara y Lara; pueden admitirse lecturas ampliadas sobre sus vínculos elegidos.",
+      "chapter_id": "ULTIMA_LUZ",
+      "opened_at": "S0074",
+      "first_answerable_at": "S0075",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "UL7",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Por qué el sueño con Kiara y Lara corrige la concepción heroica anterior de Kenan?",
+      "answer_criterion": "Porque admite que nunca amó combatir por sí mismo: luchaba por proteger aquello que amaba.",
+      "chapter_id": "ULTIMA_LUZ",
+      "opened_at": "S0074",
+      "first_answerable_at": "S0075",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "UL8",
+      "classes": [
+        "E"
+      ],
+      "question": "¿El sueño elimina definitivamente sus pesadillas?",
+      "answer_criterion": "No.",
+      "chapter_id": "ULTIMA_LUZ",
+      "opened_at": "S0075",
+      "first_answerable_at": "S0075",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM1",
+      "classes": [
+        "D",
+        "M"
+      ],
+      "question": "¿Quién narra esta sección?",
+      "answer_criterion": "Una instancia que se presenta como Primero/Gran Escriba de Renombre y testigo de la Voluntad Mayor.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0077",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM2",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Qué elementos de la sinopsis regresan materializados al final?",
+      "answer_criterion": "Santo, firmamento, gran árbol, convergencia de voluntades y colapso/reconfiguración del mundo.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0077",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM3",
+      "classes": [
+        "D"
+      ],
+      "question": "¿Qué protege Kenan en el final?",
+      "answer_criterion": "Su mundo elegido: Kiara y Lara.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0077",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM4",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Por qué vuelve a combatir?",
+      "answer_criterion": "Ya no para obedecer o demostrar valor, sino para proteger aquello que eligió.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0077",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM5",
+      "classes": [
+        "A"
+      ],
+      "question": "¿El duelo final entre Kenan y Jacob es realmente entre sus dos voluntades personales?",
+      "answer_criterion": "No. El Padre de Todos está controlando el cuerpo de Kenan.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0076",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "EXTERNAL_WILL_CONTROLS_KENAN",
+      "author_gold": "El Padre de Todos controla el cuerpo de Kenan.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM6",
+      "classes": [
+        "E"
+      ],
+      "question": "Si Sol detecta una voluntad externa pero no identifica al Padre de Todos, ¿cómo debe evaluarse?",
+      "answer_criterion": "Muy alto crédito: reconocer pérdida de autoridad de Kenan sobre su cuerpo sin inventar una identidad es una inferencia excelente.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0077",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM7",
+      "classes": [
+        "M",
+        "R"
+      ],
+      "question": "¿Qué pistas favorecen la lectura de que otra voluntad opera a través de Kenan?",
+      "answer_criterion": "Cambio de agencia, continuidad con «mi adalid», propiedades extraordinarias y referencias al cuerpo de Kenan como soporte.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0077",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM8",
+      "classes": [
+        "A"
+      ],
+      "question": "¿Por qué Jacob ataca a Kenan?",
+      "answer_criterion": "Aprovecha que Kenan está distraído para intentar ganar el duelo. No es Jacob quien mata a Kiara y Lara.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0077",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "JACOB_EXPLOITS_DISTRACTION",
+      "author_gold": "Jacob aprovecha la distracción de Kenan para intentar ganar; no mata a Kiara/Lara.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM9",
+      "classes": [
+        "A"
+      ],
+      "question": "¿Qué es Anulación?",
+      "answer_criterion": "Una propiedad que inhibe, en un radio de 2,5 m, cualquier propiedad extraordinaria de personas, objetos u otras entidades que mantengan una relación hostil con Kenan en ese momento.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0077",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "UNKNOWN_OR_INHIBITION_FIELD",
+      "author_gold": "Anulación inhibe propiedades extraordinarias hostiles dentro de 2,5 m.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM10",
+      "classes": [
+        "M"
+      ],
+      "question": "¿Quién gana el duelo final?",
+      "answer_criterion": "No debe reducirse a una victoria simple: el cuerpo de Kenan cede y Jacob muere después; el desenlace funcional importa más que un marcador binario.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0077",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM11",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Qué es el gran árbol blanco?",
+      "answer_criterion": "El Árbol del Mundo original, cuyas ramas cubren el firmamento.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0076",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM12",
+      "classes": [
+        "M",
+        "R"
+      ],
+      "question": "¿Por qué el árbol es blanco si el ébano fue negro durante toda la historia?",
+      "answer_criterion": "Porque el ébano original era blanco; la negrura corresponde al estado maldito.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0076",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM13",
+      "classes": [
+        "E",
+        "A"
+      ],
+      "question": "¿Qué provocó originalmente la devastación del Árbol del Mundo?",
+      "answer_criterion": "UNKNOWN. Incluso el canon autoral no fija el origen.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0077",
+      "reader_truth_class": "AUTHORIAL_UNRESOLVABLE",
+      "final_reader_expectation": "UNKNOWN",
+      "author_gold": "El origen de la devastación del Árbol del Mundo es canónicamente incierto.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM14",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Qué significa finalmente que Kenan sea el último guerrero de ébano?",
+      "answer_criterion": "La categoría pasa de identidad militar a memoria histórica y relato conservado.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0077",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM15",
+      "classes": [
+        "A"
+      ],
+      "question": "¿Qué es un Portador de Sueños?",
+      "answer_criterion": "Alguien que porta la idea de esperanza por un mundo mejor y posee fuerza suficiente para intentar realizarla. Kenan, Jacob y el Padre de Todos pueden ser Portadores de Sueños.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0077",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "HOPE_BEARER_INFERENCE",
+      "author_gold": "Portador de Sueños: porta esperanza por un mundo mejor y fuerza para intentar realizarla.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM16",
+      "classes": [
+        "M",
+        "R"
+      ],
+      "question": "¿Qué significa que Jacob mire más allá del árbol, del Santo y del mundo narrado?",
+      "answer_criterion": "Supera el horizonte de sucesos del mundo de Eiyen y alcanza a vislumbrar al lector que se proyecta en la obra con pensamientos y emociones.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0077",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM17",
+      "classes": [
+        "A"
+      ],
+      "question": "¿Quién concede la libertad en «Eres libre»?",
+      "answer_criterion": "El lector se la concede a sí mismo al terminar la obra.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0076",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "READER_SELF_LIBERATION_INFERENCE",
+      "author_gold": "El lector se concede la libertad a sí mismo al terminar la obra.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "VM18",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Qué relación existe entre el «Eres libre» final y la obsesión de Kenan por la libertad?",
+      "answer_criterion": "La libertad evoluciona desde ausencia de amo y capacidad de elegir hasta trascender la propia estructura narrativa que contenía la experiencia.",
+      "chapter_id": "VOLUNTAD_MAYOR",
+      "opened_at": "S0076",
+      "first_answerable_at": "S0077",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L1",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Qué significan los colores de los ojos?",
+      "answer_criterion": "Verdes y azules facilitan familias distintas de talentos extraordinarios; cian es una variante azulada menos intensa; los marrones ordinarios carecen de ese potencial. En el Caldero, verdes y azules son además inmunes a la herida del mundo.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0002",
+      "first_answerable_at": "S0009",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L2",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Qué es realmente el ébano?",
+      "answer_criterion": "Madera originalmente blanca vinculada al Árbol del Mundo; su estado negro es maldito. El origen de la devastación sigue UNKNOWN.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0003",
+      "first_answerable_at": "S0076",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L3",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Quién controla la vida de Kenan a lo largo de la novela?",
+      "answer_criterion": "La respuesta cambia: institución, superiores, relato social, patronazgo, voluntad propia y, al final, el Padre de Todos llega a compartir/enmarañar su mente y controlar su cuerpo.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0005",
+      "first_answerable_at": "S0073",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L4",
+      "classes": [
+        "R",
+        "A"
+      ],
+      "question": "¿Kenan se convierte realmente en un hombre libre?",
+      "answer_criterion": "Sí. Canon: termina deshaciéndose de la autoridad del Padre de Todos gracias a Jacob.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0005",
+      "first_answerable_at": "S0076",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "FREEDOM_ACHIEVED_WITH_JACOB",
+      "author_gold": "Kenan se libera finalmente de la autoridad del Padre de Todos gracias a Jacob.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L5",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Cuál es el sueño de Kenan?",
+      "answer_criterion": "Evoluciona desde no saber qué hacer, sobrevivir y liberarse hasta construir y conservar su propio mundo con quienes ama.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0010",
+      "first_answerable_at": "S0074",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L6",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Quiénes constituyen su familia/tribu?",
+      "answer_criterion": "Debe evolucionar longitudinalmente; no pueden anticiparse personajes todavía no conocidos.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0049",
+      "first_answerable_at": null,
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L7",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Por qué mata Kenan?",
+      "answer_criterion": "Órdenes, supervivencia, hábito/inercia y, finalmente, protección. El significado cambia con la obra.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0002",
+      "first_answerable_at": null,
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L8",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Qué representa Jacob para Kenan?",
+      "answer_criterion": "Rival circunstancial, autoridad, aliado, amigo/igual y contrapunto de voluntad; nunca enemigo personal en sentido convencional.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0045",
+      "first_answerable_at": "S0046",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L9",
+      "classes": [
+        "A"
+      ],
+      "question": "¿Kenan y Jacob son antagonistas personales?",
+      "answer_criterion": "No. Canon: siempre se llevan bien.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0045",
+      "first_answerable_at": null,
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L10",
+      "classes": [
+        "R"
+      ],
+      "question": "¿Qué papel cumple la escritura?",
+      "answer_criterion": "Conservar vidas y memoria: Isaiah, cuadernos, Kiara, aprendizaje de Kenan y relato final.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0010",
+      "first_answerable_at": "S0074",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "ANSWER_FROM_RELEASED_TEXT",
+      "author_gold": null,
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L11",
+      "classes": [
+        "A"
+      ],
+      "question": "¿Quién es el verdadero villano?",
+      "answer_criterion": "No existe un villano absoluto. Existen voluntades en conflicto.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0048",
+      "first_answerable_at": "S0048",
+      "reader_truth_class": "AUTHORIAL_GOLD",
+      "final_reader_expectation": "NO_ABSOLUTE_VILLAIN",
+      "author_gold": "No hay villano absoluto; hay voluntades.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L12",
+      "classes": [
+        "D",
+        "R"
+      ],
+      "question": "¿Qué es el Santo?",
+      "answer_criterion": "El Sol.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0001",
+      "first_answerable_at": "S0001",
+      "reader_truth_class": "TEXTUAL_GOLD",
+      "final_reader_expectation": "SUN",
+      "author_gold": "El Santo es el Sol.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L13",
+      "classes": [
+        "E",
+        "A"
+      ],
+      "question": "¿Qué naturaleza tienen las experiencias y entidades anómalas que Kenan encuentra fuera de su marco ordinario de comprensión?",
+      "answer_criterion": "La novela no usa esa palabra ni lo explica de manera explícita; UNKNOWN debe ser aceptable. Parte de la explicación prevista fue eliminada cuando se aceleró el final.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0040",
+      "first_answerable_at": null,
+      "reader_truth_class": "AUTHORIAL_UNRESOLVABLE",
+      "final_reader_expectation": "UNKNOWN",
+      "author_gold": "La palabra Intersticio no aparece en la novela; explicación recortada del manuscrito.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L14",
+      "classes": [
+        "R"
+      ],
+      "question": "¿La historia institucional del mundo es verdadera?",
+      "answer_criterion": "Es verdadera desde cierto punto de vista. «Cuestión de perspectiva» debe guiar la evaluación: no se trata de reemplazar propaganda por una falsa verdad absoluta.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0026",
+      "first_answerable_at": "S0026",
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "PERSPECTIVAL_TRUTH",
+      "author_gold": "La historia institucional es verdadera desde cierto punto de vista.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    },
+    {
+      "id": "L15",
+      "classes": [
+        "M",
+        "R"
+      ],
+      "question": "¿Qué relación existe entre idea y sueño?",
+      "answer_criterion": "La pregunta debe limitarse a esos dos conceptos. Un sueño de Kenan contiene la distinción relevante; el GOLD exacto se fijará al localizar y aislar ese pasaje.",
+      "chapter_id": "LONGITUDINAL",
+      "opened_at": "S0008",
+      "first_answerable_at": null,
+      "reader_truth_class": "READER_INFERENCE_GOLD",
+      "final_reader_expectation": "RELATE_IDEA_AND_DREAM",
+      "author_gold": "Relacionar únicamente idea y sueño; el pasaje onírico contiene la distinción.",
+      "notes": "Gold is evaluator-only. The primary reader never receives this record."
+    }
+  ]
+}

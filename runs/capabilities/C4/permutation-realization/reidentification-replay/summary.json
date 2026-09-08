@@ -1,0 +1,22 @@
+{
+  "protocol": "C4_PERMUTATION_REIDENTIFICATION_V1",
+  "record_count": 6,
+  "repeat_count": 3,
+  "observation_count": 18,
+  "valid_observation_count": 13,
+  "invalid_observation_count": 5,
+  "fully_evaluable_records": 2,
+  "partially_or_unevaluable_records": 4,
+  "completely_stable_records": 0,
+  "unstable_records": 2,
+  "target_recovered_at_least_once": 0,
+  "recorded_reproduced_every_time": 0,
+  "provider_usage": {
+    "cached_input_tokens": 39279,
+    "reasoning_tokens": 0,
+    "input_tokens": 39333,
+    "request_count": 18,
+    "output_tokens": 5354,
+    "total_tokens": 44687
+  }
+}

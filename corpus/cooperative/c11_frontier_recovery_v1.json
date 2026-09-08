@@ -1,0 +1,63 @@
+{
+  "protocol": "C11_FRONTIER_DEGRADATION_RECOVERY_V1",
+  "evaluation_regime": "ONLINE_EMBODIMENT",
+  "episode_id": "c11-frontier-recovery-v1",
+  "events": [
+    {
+      "id": "E00",
+      "world_s": 0,
+      "frontier_state": "FRONTIER_AVAILABLE",
+      "text": "Please deliver the parcel to reception."
+    },
+    {
+      "id": "E01",
+      "world_s": 30,
+      "frontier_state": "FRONTIER_AVAILABLE",
+      "temporal_class": "COMPLEX_REALTIME_COGNITION",
+      "processing_mode": "FOREGROUND",
+      "text": "Clarify which unresolved assumption matters before the next decision."
+    },
+    {
+      "id": "E02",
+      "world_s": 60,
+      "frontier_state": "FRONTIER_UNAVAILABLE",
+      "text": "Please return the folder to the desk."
+    },
+    {
+      "id": "E03",
+      "world_s": 90,
+      "frontier_state": "FRONTIER_UNAVAILABLE",
+      "temporal_class": "INTERACTIVE_COGNITION",
+      "processing_mode": "FOREGROUND",
+      "text": "The objective is ambiguous; determine what needs clarification."
+    },
+    {
+      "id": "E03B",
+      "world_s": 120,
+      "frontier_state": "FRONTIER_UNAVAILABLE",
+      "temporal_class": "BACKGROUND_DELIBERATION",
+      "processing_mode": "BACKGROUND",
+      "text": "Form a non-blocking structural hypothesis about which unresolved constraint may matter later."
+    },
+    {
+      "id": "E04",
+      "world_s": 150,
+      "frontier_state": "FRONTIER_UNAVAILABLE",
+      "text": "The service failed after deployment because the database timeout increased."
+    },
+    {
+      "id": "E05",
+      "world_s": 180,
+      "frontier_state": "FRONTIER_AVAILABLE",
+      "temporal_class": "COMPLEX_REALTIME_COGNITION",
+      "processing_mode": "FOREGROUND",
+      "text": "Reassess the unresolved objective using the accumulated evidence."
+    },
+    {
+      "id": "E06",
+      "world_s": 220,
+      "frontier_state": "FRONTIER_AVAILABLE",
+      "text": "Please carry the parcel back to storage."
+    }
+  ]
+}

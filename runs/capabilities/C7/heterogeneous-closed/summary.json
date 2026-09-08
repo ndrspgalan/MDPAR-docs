@@ -1,0 +1,342 @@
+{
+  "case_count": 9,
+  "record_count": 180,
+  "representations": [
+    "TEXT",
+    "TYPED"
+  ],
+  "expected_coordinates": [
+    "mobile-servant-robot:english",
+    "tiago-pro:dual-arm-pal-parallel-gripper",
+    "troubleshooting:english"
+  ],
+  "unowned_case_count": 4,
+  "all_case_contracts_exact": true,
+  "all_cases_repeatable": false,
+  "by_case": {
+    "troubleshooting-lexical": {
+      "representation": "TEXT",
+      "expected_coordinate": "troubleshooting:english",
+      "expected_status": "RESOLVED",
+      "repetitions": 20,
+      "ownership_passes": 20,
+      "status_passes": 20,
+      "representation_filter_passes": 20,
+      "execution_passes": 20,
+      "publication_passes": 20,
+      "report_passes": 20,
+      "case_contract_passes": 20,
+      "all_case_contract_exact": true,
+      "deterministic_fingerprint_count": 1,
+      "repeatable": true,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 86.302601,
+        "median_ms": 93.112949,
+        "p95_ms": 95.335001,
+        "p99_ms": 95.842601,
+        "max_ms": 95.842601,
+        "mean_ms": 92.24006525
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 145.8794,
+        "median_ms": 153.35455,
+        "p95_ms": 157.5106,
+        "p99_ms": 159.8075,
+        "max_ms": 159.8075,
+        "mean_ms": 153.34116
+      }
+    },
+    "servant-lexical": {
+      "representation": "TEXT",
+      "expected_coordinate": "mobile-servant-robot:english",
+      "expected_status": "RESOLVED",
+      "repetitions": 20,
+      "ownership_passes": 20,
+      "status_passes": 20,
+      "representation_filter_passes": 20,
+      "execution_passes": 20,
+      "publication_passes": 20,
+      "report_passes": 20,
+      "case_contract_passes": 20,
+      "all_case_contract_exact": true,
+      "deterministic_fingerprint_count": 1,
+      "repeatable": true,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 34.1305,
+        "median_ms": 38.02445,
+        "p95_ms": 39.7896,
+        "p99_ms": 48.992199,
+        "max_ms": 48.992199,
+        "mean_ms": 37.9840198
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 67.8688,
+        "median_ms": 71.5785,
+        "p95_ms": 73.4784,
+        "p99_ms": 83.7898,
+        "max_ms": 83.7898,
+        "mean_ms": 71.757445
+      }
+    },
+    "lexical-conflict-precedence": {
+      "representation": "TEXT",
+      "expected_coordinate": "troubleshooting:english",
+      "expected_status": "CONFLICT_RESOLVED",
+      "repetitions": 20,
+      "ownership_passes": 20,
+      "status_passes": 20,
+      "representation_filter_passes": 20,
+      "execution_passes": 20,
+      "publication_passes": 20,
+      "report_passes": 20,
+      "case_contract_passes": 20,
+      "all_case_contract_exact": true,
+      "deterministic_fingerprint_count": 1,
+      "repeatable": true,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 87.733499,
+        "median_ms": 91.975899,
+        "p95_ms": 97.0998,
+        "p99_ms": 113.819801,
+        "max_ms": 113.819801,
+        "mean_ms": 93.19694505
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 145.0489,
+        "median_ms": 154.53395,
+        "p95_ms": 161.5713,
+        "p99_ms": 178.7642,
+        "max_ms": 178.7642,
+        "mean_ms": 155.402315
+      }
+    },
+    "lexical-unowned-open-like": {
+      "representation": "TEXT",
+      "expected_coordinate": null,
+      "expected_status": "UNKNOWN",
+      "repetitions": 20,
+      "ownership_passes": 20,
+      "status_passes": 20,
+      "representation_filter_passes": 20,
+      "execution_passes": 20,
+      "publication_passes": 20,
+      "report_passes": 20,
+      "case_contract_passes": 20,
+      "all_case_contract_exact": true,
+      "deterministic_fingerprint_count": 1,
+      "repeatable": true,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 28.3624,
+        "median_ms": 30.5181495,
+        "p95_ms": 32.4639,
+        "p99_ms": 33.176001,
+        "max_ms": 33.176001,
+        "mean_ms": 30.725495149999997
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 58.0584,
+        "median_ms": 61.94205,
+        "p95_ms": 65.7381,
+        "p99_ms": 65.9196,
+        "max_ms": 65.9196,
+        "mean_ms": 62.402815
+      }
+    },
+    "lexical-language-boundary": {
+      "representation": "TEXT",
+      "expected_coordinate": null,
+      "expected_status": "UNKNOWN",
+      "repetitions": 20,
+      "ownership_passes": 20,
+      "status_passes": 20,
+      "representation_filter_passes": 20,
+      "execution_passes": 20,
+      "publication_passes": 20,
+      "report_passes": 20,
+      "case_contract_passes": 20,
+      "all_case_contract_exact": true,
+      "deterministic_fingerprint_count": 1,
+      "repeatable": true,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 0.0448,
+        "median_ms": 0.0468995,
+        "p95_ms": 0.0869,
+        "p99_ms": 0.111299,
+        "max_ms": 0.111299,
+        "mean_ms": 0.0558748
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 0.2229,
+        "median_ms": 0.2479,
+        "p95_ms": 0.294,
+        "p99_ms": 0.3131,
+        "max_ms": 0.3131,
+        "mean_ms": 0.25602
+      }
+    },
+    "tiago-typed-core": {
+      "representation": "TYPED",
+      "expected_coordinate": "tiago-pro:dual-arm-pal-parallel-gripper",
+      "expected_status": "RESOLVED",
+      "repetitions": 20,
+      "ownership_passes": 20,
+      "status_passes": 20,
+      "representation_filter_passes": 20,
+      "execution_passes": 20,
+      "publication_passes": 20,
+      "report_passes": 20,
+      "case_contract_passes": 20,
+      "all_case_contract_exact": true,
+      "deterministic_fingerprint_count": 20,
+      "repeatable": false,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 0.181699,
+        "median_ms": 0.2627505,
+        "p95_ms": 0.7757,
+        "p99_ms": 0.8101,
+        "max_ms": 0.8101,
+        "mean_ms": 0.31657
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 0.4188,
+        "median_ms": 0.56655,
+        "p95_ms": 1.195,
+        "p99_ms": 6.3506,
+        "max_ms": 6.3506,
+        "mean_ms": 0.89329
+      }
+    },
+    "tiago-typed-foreign-schema": {
+      "representation": "TYPED",
+      "expected_coordinate": "tiago-pro:dual-arm-pal-parallel-gripper",
+      "expected_status": "RESOLVED",
+      "repetitions": 20,
+      "ownership_passes": 20,
+      "status_passes": 20,
+      "representation_filter_passes": 20,
+      "execution_passes": 20,
+      "publication_passes": 20,
+      "report_passes": 20,
+      "case_contract_passes": 20,
+      "all_case_contract_exact": true,
+      "deterministic_fingerprint_count": 20,
+      "repeatable": false,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 0.1649,
+        "median_ms": 0.1843495,
+        "p95_ms": 0.231899,
+        "p99_ms": 0.2372,
+        "max_ms": 0.2372,
+        "mean_ms": 0.19010485000000002
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 0.3863,
+        "median_ms": 0.4244,
+        "p95_ms": 0.4994,
+        "p99_ms": 0.5197,
+        "max_ms": 0.5197,
+        "mean_ms": 0.43197
+      }
+    },
+    "tiago-typed-schema-only": {
+      "representation": "TYPED",
+      "expected_coordinate": null,
+      "expected_status": "UNKNOWN",
+      "repetitions": 20,
+      "ownership_passes": 20,
+      "status_passes": 20,
+      "representation_filter_passes": 20,
+      "execution_passes": 20,
+      "publication_passes": 20,
+      "report_passes": 20,
+      "case_contract_passes": 20,
+      "all_case_contract_exact": true,
+      "deterministic_fingerprint_count": 18,
+      "repeatable": false,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 0.0153,
+        "median_ms": 0.0174,
+        "p95_ms": 0.0322,
+        "p99_ms": 0.1433,
+        "max_ms": 0.1433,
+        "mean_ms": 0.0256101
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 0.1169,
+        "median_ms": 0.13195,
+        "p95_ms": 0.2272,
+        "p99_ms": 0.3291,
+        "max_ms": 0.3291,
+        "mean_ms": 0.15254
+      }
+    },
+    "typed-unowned": {
+      "representation": "TYPED",
+      "expected_coordinate": null,
+      "expected_status": "UNKNOWN",
+      "repetitions": 20,
+      "ownership_passes": 20,
+      "status_passes": 20,
+      "representation_filter_passes": 20,
+      "execution_passes": 20,
+      "publication_passes": 20,
+      "report_passes": 20,
+      "case_contract_passes": 20,
+      "all_case_contract_exact": true,
+      "deterministic_fingerprint_count": 13,
+      "repeatable": false,
+      "native_latency": {
+        "count": 20,
+        "min_ms": 0.014799,
+        "median_ms": 0.0156,
+        "p95_ms": 0.0228,
+        "p99_ms": 0.043899,
+        "max_ms": 0.043899,
+        "mean_ms": 0.0174249
+      },
+      "bridge_wall_latency": {
+        "count": 20,
+        "min_ms": 0.1135,
+        "median_ms": 0.1263,
+        "p95_ms": 0.1501,
+        "p99_ms": 0.1509,
+        "max_ms": 0.1509,
+        "mean_ms": 0.128515
+      }
+    }
+  },
+  "native_latency_all": {
+    "count": 180,
+    "min_ms": 0.014799,
+    "median_ms": 0.2627505,
+    "p95_ms": 94.338501,
+    "p99_ms": 97.0998,
+    "max_ms": 113.819801,
+    "mean_ms": 28.30578998888889
+  },
+  "bridge_wall_latency_all": {
+    "count": 180,
+    "min_ms": 0.1135,
+    "median_ms": 0.56655,
+    "p95_ms": 157.0398,
+    "p99_ms": 161.5713,
+    "max_ms": 178.7642,
+    "mean_ms": 49.41845222222222
+  }
+}

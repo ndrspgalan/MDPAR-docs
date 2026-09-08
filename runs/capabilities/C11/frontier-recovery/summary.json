@@ -1,0 +1,68 @@
+{
+  "episode_identity_preserved": true,
+  "closed_continuity": true,
+  "canonical_transition": true,
+  "availability_transitions": [
+    {
+      "world_s": 0,
+      "from": null,
+      "to": "FRONTIER_AVAILABLE"
+    },
+    {
+      "world_s": 60,
+      "from": "FRONTIER_AVAILABLE",
+      "to": "FRONTIER_UNAVAILABLE"
+    },
+    {
+      "world_s": 180,
+      "from": "FRONTIER_UNAVAILABLE",
+      "to": "FRONTIER_AVAILABLE"
+    }
+  ],
+  "debt_remaining": 0,
+  "debt_created_ids": [
+    "c11-E01",
+    "c11-E03",
+    "c11-E05"
+  ],
+  "reissued_work_ids": [
+    "c11-E01",
+    "c11-E03",
+    "c11-E05"
+  ],
+  "reissued_identity_preserved": true,
+  "committed_action_rewrites": 0,
+  "stale_authorizations": 0,
+  "claim_failures": 0,
+  "local_open_attempts": 2,
+  "local_open_valid": 2,
+  "local_foreground_attempts": 1,
+  "local_foreground_committed": 0,
+  "local_foreground_late_or_invalid": 1,
+  "local_background_attempts": 1,
+  "local_background_valid": 1,
+  "local_background_future_state_only": 1,
+  "local_latency_ms": [
+    8228.5526,
+    1584.0648
+  ],
+  "frontier_usage": {
+    "input_tokens": 10719,
+    "cached_input_tokens": 4282,
+    "output_tokens": 3299,
+    "reasoning_tokens": 2690,
+    "total_tokens": 14018,
+    "request_count": 5
+  },
+  "local_usage": {
+    "input_tokens": 3934,
+    "output_tokens": 166,
+    "reasoning_tokens": 0,
+    "total_tokens": 4100,
+    "request_count": 2
+  },
+  "hidden_model_state_migration_claimed": false,
+  "local_open_background_executed": true,
+  "local_open_foreground_executed": true,
+  "all_primary_invariants": true
+}

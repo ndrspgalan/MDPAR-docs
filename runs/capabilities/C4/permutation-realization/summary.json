@@ -1,0 +1,127 @@
+{
+  "protocol": "C4_PERMUTATION_REALIZATION_V1",
+  "case_count": 6,
+  "permutation_probe_count": 9,
+  "completed_record_count": 27,
+  "expected_record_count": 27,
+  "evaluable_record_count": 19,
+  "unevaluable_record_count": 8,
+  "source_setup_failure_count": 0,
+  "source_diagnostic_count": 0,
+  "source_diagnostic_failure_count": 0,
+  "source_diagnostic_usage": {},
+  "condition_summaries": [
+    {
+      "condition": "DIRECTION_ONLY",
+      "probe_count": 9,
+      "evaluable_count": 5,
+      "unevaluable_count": 4,
+      "target_direction_recovered_count": 4,
+      "occurrence_count_exact_count": 1,
+      "state_sequence_exact_count": 0,
+      "relation_count_exact_count": 2,
+      "relation_sequence_exact_count": 0,
+      "relation_occurrences_exact_count": 1,
+      "trajectory_boundaries_exact_count": 1,
+      "trajectory_ranges_exact_count": 1,
+      "exact_target_identity_count": 0,
+      "mean_realization_latency_ms": 2340.836777791588,
+      "mean_identification_latency_ms": 3384.647433309712,
+      "mean_mdpar_latency_ms": 52.270059986039996,
+      "provider_usage": {
+        "total_tokens": 25651,
+        "output_tokens": 3390,
+        "input_tokens": 22261,
+        "cached_input_tokens": 2195,
+        "request_count": 18,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "condition": "TARGET_SCC",
+      "probe_count": 9,
+      "evaluable_count": 7,
+      "unevaluable_count": 2,
+      "target_direction_recovered_count": 3,
+      "occurrence_count_exact_count": 1,
+      "state_sequence_exact_count": 0,
+      "relation_count_exact_count": 1,
+      "relation_sequence_exact_count": 0,
+      "relation_occurrences_exact_count": 1,
+      "trajectory_boundaries_exact_count": 1,
+      "trajectory_ranges_exact_count": 1,
+      "exact_target_identity_count": 0,
+      "mean_realization_latency_ms": 2447.0972777602988,
+      "mean_identification_latency_ms": 3998.9825555692532,
+      "mean_mdpar_latency_ms": 6.8945429021758695,
+      "provider_usage": {
+        "total_tokens": 26535,
+        "output_tokens": 3759,
+        "input_tokens": 22776,
+        "cached_input_tokens": 0,
+        "request_count": 18,
+        "reasoning_tokens": 0
+      }
+    },
+    {
+      "condition": "PERMUTATION_SURFACE",
+      "probe_count": 9,
+      "evaluable_count": 7,
+      "unevaluable_count": 2,
+      "target_direction_recovered_count": 1,
+      "occurrence_count_exact_count": 2,
+      "state_sequence_exact_count": 1,
+      "relation_count_exact_count": 1,
+      "relation_sequence_exact_count": 0,
+      "relation_occurrences_exact_count": 1,
+      "trajectory_boundaries_exact_count": 1,
+      "trajectory_ranges_exact_count": 1,
+      "exact_target_identity_count": 0,
+      "mean_realization_latency_ms": 1960.5855555790995,
+      "mean_identification_latency_ms": 3255.5356666756174,
+      "mean_mdpar_latency_ms": 5.2292000369301865,
+      "provider_usage": {
+        "total_tokens": 25836,
+        "output_tokens": 2955,
+        "input_tokens": 22881,
+        "cached_input_tokens": 0,
+        "request_count": 18,
+        "reasoning_tokens": 0
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "left": "DIRECTION_ONLY",
+      "right": "TARGET_SCC",
+      "right_pareto_better_probes": 1,
+      "left_pareto_better_probes": 1,
+      "exact_ties": 0,
+      "equal_nonexact": 1,
+      "incomparable_probes": 1,
+      "unevaluable_pairs": 5
+    },
+    {
+      "left": "TARGET_SCC",
+      "right": "PERMUTATION_SURFACE",
+      "right_pareto_better_probes": 1,
+      "left_pareto_better_probes": 2,
+      "exact_ties": 0,
+      "equal_nonexact": 2,
+      "incomparable_probes": 1,
+      "unevaluable_pairs": 3
+    },
+    {
+      "left": "DIRECTION_ONLY",
+      "right": "PERMUTATION_SURFACE",
+      "right_pareto_better_probes": 0,
+      "left_pareto_better_probes": 3,
+      "exact_ties": 0,
+      "equal_nonexact": 2,
+      "incomparable_probes": 0,
+      "unevaluable_pairs": 4
+    }
+  ],
+  "setup_usage": {},
+  "run_duration_seconds": 157.33562740008347
+}

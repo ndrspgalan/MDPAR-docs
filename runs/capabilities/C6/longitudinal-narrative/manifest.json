@@ -1,0 +1,56 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.0.0",
+  "adapter_version": "0.9.2",
+  "adapter_source_sha256": "6d3f9f3bb2473231d1503abfe3ba5436b771309c8ff02b8b424b9a4784a86ad1",
+  "protocol": "C6_C9_LONGITUDINAL_BOOK_V1",
+  "capabilities": [
+    "C6",
+    "C9"
+  ],
+  "scientific_axes": [
+    "P"
+  ],
+  "economic_dimensions": [
+    "C",
+    "T",
+    "Q"
+  ],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Can MDPAR preserve longitudinal structural identity and authorized belief revision while adaptive/concurrent acquisition selectively buys deep cognition over a massive sequential narrative workload without future-evidence leakage?",
+  "started_at_utc": "2026-09-06T13:47:29Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.0.0.jar",
+  "mdpar_jar_sha256": "036960d2e3324b77325a93ad2c3abbf56661f61c0aaa70e60580bab8ced61165",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\longitudinal\\manifest.json",
+  "corpus_sha256": "f296b40f01ce907f0958af91ec162ae1a08701fb1dd3f2c032e9c8a49035fac5",
+  "canonical": true,
+  "source_sha256": "54bf4bb8c778361fe987b1b70f531c5ca0dfd982086b980c77ca84b9189157fa",
+  "corpus_protocol": "C6_LONGITUDINAL_NARRATIVE_V1",
+  "segment_count": 77,
+  "question_count": 130,
+  "background_workers": 1,
+  "primary_reading_question_blind": true,
+  "provider": "openai",
+  "model": "gpt-5.6-sol",
+  "inference_policy": {
+    "reader": "none",
+    "planner": "none",
+    "worker": "none",
+    "background_reread": "high",
+    "max_output_tokens": 128000,
+    "timeout_seconds": 86400
+  },
+  "generic_confidence_prohibited": true,
+  "segments_completed": 77,
+  "finished_at_utc": "2026-09-06T14:43:23Z"
+}

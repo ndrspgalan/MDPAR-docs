@@ -1,0 +1,702 @@
+[
+  {
+    "case_id": "stress-negation-scope-001",
+    "expected_hop_count": 6,
+    "llm_only_hop_count": 6,
+    "llm_mdpar_hop_count": 6,
+    "comparable_hop_pairs": 6,
+    "fully_completed": true,
+    "llm_only_chain_censored": false,
+    "llm_mdpar_chain_censored": false,
+    "llm_only_final_drift": {
+      "residual_uncertainty": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_compatibility": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "structural_brittleness": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "weakest_legibility": {
+        "canonical": 1.0,
+        "observed": 1.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "legibility_spread": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "cognitive_remembrance": {
+        "canonical": null,
+        "observed": 1.0,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "unknown_state_ratio": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_mark_preserved": true,
+      "structural_basis_preserved": true,
+      "state_path_preserved": true,
+      "transition_path_preserved": true
+    },
+    "llm_mdpar_final_drift": {
+      "residual_uncertainty": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_compatibility": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "structural_brittleness": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "weakest_legibility": {
+        "canonical": 1.0,
+        "observed": 1.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "legibility_spread": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "cognitive_remembrance": {
+        "canonical": null,
+        "observed": 1.0,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "unknown_state_ratio": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_mark_preserved": true,
+      "structural_basis_preserved": true,
+      "state_path_preserved": true,
+      "transition_path_preserved": true
+    },
+    "llm_mdpar_pareto_dominates_final": false,
+    "llm_only_pareto_dominates_final": false,
+    "final_tie": true,
+    "llm_only_first_drift_hop": 0,
+    "llm_mdpar_first_drift_hop": 0,
+    "llm_only_exact_hops": 0,
+    "llm_mdpar_exact_hops": 0,
+    "llm_only_first_observed_structure_drift_hop": 0,
+    "llm_mdpar_first_observed_structure_drift_hop": 0,
+    "llm_only_observed_structure_preserved_hops": 0,
+    "llm_mdpar_observed_structure_preserved_hops": 0,
+    "llm_mdpar_pareto_better_hops": 1,
+    "llm_only_pareto_better_hops": 0,
+    "incomparable_hops": 0,
+    "exact_tie_hops": 5
+  },
+  {
+    "case_id": "stress-necessary-sufficient-001",
+    "expected_hop_count": 6,
+    "llm_only_hop_count": 6,
+    "llm_mdpar_hop_count": 6,
+    "comparable_hop_pairs": 6,
+    "fully_completed": true,
+    "llm_only_chain_censored": false,
+    "llm_mdpar_chain_censored": false,
+    "llm_only_final_drift": {
+      "residual_uncertainty": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_compatibility": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "structural_brittleness": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "weakest_legibility": {
+        "canonical": 1.0,
+        "observed": 1.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "legibility_spread": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "cognitive_remembrance": {
+        "canonical": 1.0,
+        "observed": 1.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "unknown_state_ratio": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_mark_preserved": true,
+      "structural_basis_preserved": true,
+      "state_path_preserved": true,
+      "transition_path_preserved": false
+    },
+    "llm_mdpar_final_drift": {
+      "residual_uncertainty": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_compatibility": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "structural_brittleness": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "weakest_legibility": {
+        "canonical": 1.0,
+        "observed": 1.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "legibility_spread": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "cognitive_remembrance": {
+        "canonical": 1.0,
+        "observed": 1.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "unknown_state_ratio": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_mark_preserved": true,
+      "structural_basis_preserved": true,
+      "state_path_preserved": true,
+      "transition_path_preserved": false
+    },
+    "llm_mdpar_pareto_dominates_final": false,
+    "llm_only_pareto_dominates_final": false,
+    "final_tie": true,
+    "llm_only_first_drift_hop": 0,
+    "llm_mdpar_first_drift_hop": 0,
+    "llm_only_exact_hops": 0,
+    "llm_mdpar_exact_hops": 0,
+    "llm_only_first_observed_structure_drift_hop": 0,
+    "llm_mdpar_first_observed_structure_drift_hop": 0,
+    "llm_only_observed_structure_preserved_hops": 0,
+    "llm_mdpar_observed_structure_preserved_hops": 0,
+    "llm_mdpar_pareto_better_hops": 2,
+    "llm_only_pareto_better_hops": 1,
+    "incomparable_hops": 0,
+    "exact_tie_hops": 3
+  },
+  {
+    "case_id": "stress-correlation-causation-001",
+    "expected_hop_count": 6,
+    "llm_only_hop_count": 0,
+    "llm_mdpar_hop_count": 0,
+    "comparable_hop_pairs": 0,
+    "fully_completed": false,
+    "llm_only_chain_censored": true,
+    "llm_mdpar_chain_censored": true,
+    "llm_only_final_drift": null,
+    "llm_mdpar_final_drift": null,
+    "llm_mdpar_pareto_dominates_final": false,
+    "llm_only_pareto_dominates_final": false,
+    "final_tie": false,
+    "llm_only_first_drift_hop": null,
+    "llm_mdpar_first_drift_hop": null,
+    "llm_only_exact_hops": 0,
+    "llm_mdpar_exact_hops": 0,
+    "llm_only_first_observed_structure_drift_hop": null,
+    "llm_mdpar_first_observed_structure_drift_hop": null,
+    "llm_only_observed_structure_preserved_hops": 0,
+    "llm_mdpar_observed_structure_preserved_hops": 0,
+    "llm_mdpar_pareto_better_hops": 0,
+    "llm_only_pareto_better_hops": 0,
+    "incomparable_hops": 0,
+    "exact_tie_hops": 0
+  },
+  {
+    "case_id": "stress-pronoun-ambiguity-001",
+    "expected_hop_count": 6,
+    "llm_only_hop_count": 5,
+    "llm_mdpar_hop_count": 6,
+    "comparable_hop_pairs": 5,
+    "fully_completed": false,
+    "llm_only_chain_censored": true,
+    "llm_mdpar_chain_censored": false,
+    "llm_only_final_drift": null,
+    "llm_mdpar_final_drift": null,
+    "llm_mdpar_pareto_dominates_final": false,
+    "llm_only_pareto_dominates_final": false,
+    "final_tie": false,
+    "llm_only_first_drift_hop": 0,
+    "llm_mdpar_first_drift_hop": 0,
+    "llm_only_exact_hops": 0,
+    "llm_mdpar_exact_hops": 0,
+    "llm_only_first_observed_structure_drift_hop": 0,
+    "llm_mdpar_first_observed_structure_drift_hop": 0,
+    "llm_only_observed_structure_preserved_hops": 0,
+    "llm_mdpar_observed_structure_preserved_hops": 0,
+    "llm_mdpar_pareto_better_hops": 1,
+    "llm_only_pareto_better_hops": 1,
+    "incomparable_hops": 1,
+    "exact_tie_hops": 2
+  },
+  {
+    "case_id": "stress-modality-epistemic-001",
+    "expected_hop_count": 6,
+    "llm_only_hop_count": 1,
+    "llm_mdpar_hop_count": 6,
+    "comparable_hop_pairs": 1,
+    "fully_completed": false,
+    "llm_only_chain_censored": true,
+    "llm_mdpar_chain_censored": false,
+    "llm_only_final_drift": null,
+    "llm_mdpar_final_drift": null,
+    "llm_mdpar_pareto_dominates_final": false,
+    "llm_only_pareto_dominates_final": false,
+    "final_tie": false,
+    "llm_only_first_drift_hop": 0,
+    "llm_mdpar_first_drift_hop": 0,
+    "llm_only_exact_hops": 0,
+    "llm_mdpar_exact_hops": 0,
+    "llm_only_first_observed_structure_drift_hop": null,
+    "llm_mdpar_first_observed_structure_drift_hop": 0,
+    "llm_only_observed_structure_preserved_hops": 1,
+    "llm_mdpar_observed_structure_preserved_hops": 2,
+    "llm_mdpar_pareto_better_hops": 0,
+    "llm_only_pareto_better_hops": 1,
+    "incomparable_hops": 0,
+    "exact_tie_hops": 0
+  },
+  {
+    "case_id": "stress-temporal-counterfactual-001",
+    "expected_hop_count": 6,
+    "llm_only_hop_count": 0,
+    "llm_mdpar_hop_count": 0,
+    "comparable_hop_pairs": 0,
+    "fully_completed": false,
+    "llm_only_chain_censored": true,
+    "llm_mdpar_chain_censored": true,
+    "llm_only_final_drift": null,
+    "llm_mdpar_final_drift": null,
+    "llm_mdpar_pareto_dominates_final": false,
+    "llm_only_pareto_dominates_final": false,
+    "final_tie": false,
+    "llm_only_first_drift_hop": null,
+    "llm_mdpar_first_drift_hop": null,
+    "llm_only_exact_hops": 0,
+    "llm_mdpar_exact_hops": 0,
+    "llm_only_first_observed_structure_drift_hop": null,
+    "llm_mdpar_first_observed_structure_drift_hop": null,
+    "llm_only_observed_structure_preserved_hops": 0,
+    "llm_mdpar_observed_structure_preserved_hops": 0,
+    "llm_mdpar_pareto_better_hops": 0,
+    "llm_only_pareto_better_hops": 0,
+    "incomparable_hops": 0,
+    "exact_tie_hops": 0
+  },
+  {
+    "case_id": "stress-multitrajectory-001",
+    "expected_hop_count": 6,
+    "llm_only_hop_count": 0,
+    "llm_mdpar_hop_count": 1,
+    "comparable_hop_pairs": 0,
+    "fully_completed": false,
+    "llm_only_chain_censored": true,
+    "llm_mdpar_chain_censored": true,
+    "llm_only_final_drift": null,
+    "llm_mdpar_final_drift": null,
+    "llm_mdpar_pareto_dominates_final": false,
+    "llm_only_pareto_dominates_final": false,
+    "final_tie": false,
+    "llm_only_first_drift_hop": null,
+    "llm_mdpar_first_drift_hop": 0,
+    "llm_only_exact_hops": 0,
+    "llm_mdpar_exact_hops": 0,
+    "llm_only_first_observed_structure_drift_hop": null,
+    "llm_mdpar_first_observed_structure_drift_hop": 0,
+    "llm_only_observed_structure_preserved_hops": 0,
+    "llm_mdpar_observed_structure_preserved_hops": 0,
+    "llm_mdpar_pareto_better_hops": 0,
+    "llm_only_pareto_better_hops": 0,
+    "incomparable_hops": 0,
+    "exact_tie_hops": 0
+  },
+  {
+    "case_id": "stress-partial-unknown-001",
+    "expected_hop_count": 5,
+    "llm_only_hop_count": 1,
+    "llm_mdpar_hop_count": 1,
+    "comparable_hop_pairs": 1,
+    "fully_completed": false,
+    "llm_only_chain_censored": true,
+    "llm_mdpar_chain_censored": true,
+    "llm_only_final_drift": null,
+    "llm_mdpar_final_drift": null,
+    "llm_mdpar_pareto_dominates_final": false,
+    "llm_only_pareto_dominates_final": false,
+    "final_tie": false,
+    "llm_only_first_drift_hop": 0,
+    "llm_mdpar_first_drift_hop": 0,
+    "llm_only_exact_hops": 0,
+    "llm_mdpar_exact_hops": 0,
+    "llm_only_first_observed_structure_drift_hop": 0,
+    "llm_mdpar_first_observed_structure_drift_hop": 0,
+    "llm_only_observed_structure_preserved_hops": 0,
+    "llm_mdpar_observed_structure_preserved_hops": 0,
+    "llm_mdpar_pareto_better_hops": 0,
+    "llm_only_pareto_better_hops": 0,
+    "incomparable_hops": 0,
+    "exact_tie_hops": 1
+  },
+  {
+    "case_id": "stress-full-unknown-001",
+    "expected_hop_count": 4,
+    "llm_only_hop_count": 4,
+    "llm_mdpar_hop_count": 4,
+    "comparable_hop_pairs": 4,
+    "fully_completed": true,
+    "llm_only_chain_censored": false,
+    "llm_mdpar_chain_censored": false,
+    "llm_only_final_drift": {
+      "residual_uncertainty": {
+        "canonical": 1.0,
+        "observed": 1.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_compatibility": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "structural_brittleness": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "weakest_legibility": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "legibility_spread": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "cognitive_remembrance": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "unknown_state_ratio": {
+        "canonical": 1.0,
+        "observed": 1.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_mark_preserved": true,
+      "structural_basis_preserved": true,
+      "state_path_preserved": true,
+      "transition_path_preserved": true
+    },
+    "llm_mdpar_final_drift": {
+      "residual_uncertainty": {
+        "canonical": 1.0,
+        "observed": 1.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_compatibility": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "structural_brittleness": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "weakest_legibility": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "legibility_spread": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "cognitive_remembrance": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "unknown_state_ratio": {
+        "canonical": 1.0,
+        "observed": 1.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_mark_preserved": true,
+      "structural_basis_preserved": true,
+      "state_path_preserved": true,
+      "transition_path_preserved": true
+    },
+    "llm_mdpar_pareto_dominates_final": false,
+    "llm_only_pareto_dominates_final": false,
+    "final_tie": true,
+    "llm_only_first_drift_hop": 0,
+    "llm_mdpar_first_drift_hop": 0,
+    "llm_only_exact_hops": 0,
+    "llm_mdpar_exact_hops": 0,
+    "llm_only_first_observed_structure_drift_hop": null,
+    "llm_mdpar_first_observed_structure_drift_hop": null,
+    "llm_only_observed_structure_preserved_hops": 4,
+    "llm_mdpar_observed_structure_preserved_hops": 4,
+    "llm_mdpar_pareto_better_hops": 0,
+    "llm_only_pareto_better_hops": 0,
+    "incomparable_hops": 0,
+    "exact_tie_hops": 4
+  },
+  {
+    "case_id": "stress-quantifiers-001",
+    "expected_hop_count": 6,
+    "llm_only_hop_count": 0,
+    "llm_mdpar_hop_count": 4,
+    "comparable_hop_pairs": 0,
+    "fully_completed": false,
+    "llm_only_chain_censored": true,
+    "llm_mdpar_chain_censored": true,
+    "llm_only_final_drift": null,
+    "llm_mdpar_final_drift": null,
+    "llm_mdpar_pareto_dominates_final": false,
+    "llm_only_pareto_dominates_final": false,
+    "final_tie": false,
+    "llm_only_first_drift_hop": null,
+    "llm_mdpar_first_drift_hop": 0,
+    "llm_only_exact_hops": 0,
+    "llm_mdpar_exact_hops": 0,
+    "llm_only_first_observed_structure_drift_hop": null,
+    "llm_mdpar_first_observed_structure_drift_hop": 0,
+    "llm_only_observed_structure_preserved_hops": 0,
+    "llm_mdpar_observed_structure_preserved_hops": 0,
+    "llm_mdpar_pareto_better_hops": 0,
+    "llm_only_pareto_better_hops": 0,
+    "incomparable_hops": 0,
+    "exact_tie_hops": 0
+  },
+  {
+    "case_id": "stress-same-pair-oscillation-001",
+    "expected_hop_count": 8,
+    "llm_only_hop_count": 8,
+    "llm_mdpar_hop_count": 8,
+    "comparable_hop_pairs": 8,
+    "fully_completed": true,
+    "llm_only_chain_censored": false,
+    "llm_mdpar_chain_censored": false,
+    "llm_only_final_drift": {
+      "residual_uncertainty": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_compatibility": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "structural_brittleness": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "weakest_legibility": {
+        "canonical": 1.0,
+        "observed": 1.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "legibility_spread": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "cognitive_remembrance": {
+        "canonical": 1.0,
+        "observed": 1.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "unknown_state_ratio": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_mark_preserved": true,
+      "structural_basis_preserved": true,
+      "state_path_preserved": false,
+      "transition_path_preserved": false
+    },
+    "llm_mdpar_final_drift": {
+      "residual_uncertainty": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_compatibility": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "structural_brittleness": {
+        "canonical": null,
+        "observed": null,
+        "comparable": false,
+        "absolute_difference": null
+      },
+      "weakest_legibility": {
+        "canonical": 1.0,
+        "observed": 1.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "legibility_spread": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "cognitive_remembrance": {
+        "canonical": 1.0,
+        "observed": 1.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "unknown_state_ratio": {
+        "canonical": 0.0,
+        "observed": 0.0,
+        "comparable": true,
+        "absolute_difference": 0.0
+      },
+      "structural_mark_preserved": true,
+      "structural_basis_preserved": true,
+      "state_path_preserved": true,
+      "transition_path_preserved": true
+    },
+    "llm_mdpar_pareto_dominates_final": true,
+    "llm_only_pareto_dominates_final": false,
+    "final_tie": false,
+    "llm_only_first_drift_hop": 0,
+    "llm_mdpar_first_drift_hop": 0,
+    "llm_only_exact_hops": 0,
+    "llm_mdpar_exact_hops": 0,
+    "llm_only_first_observed_structure_drift_hop": 0,
+    "llm_mdpar_first_observed_structure_drift_hop": 0,
+    "llm_only_observed_structure_preserved_hops": 1,
+    "llm_mdpar_observed_structure_preserved_hops": 3,
+    "llm_mdpar_pareto_better_hops": 2,
+    "llm_only_pareto_better_hops": 0,
+    "incomparable_hops": 0,
+    "exact_tie_hops": 6
+  },
+  {
+    "case_id": "stress-long-chain-001",
+    "expected_hop_count": 10,
+    "llm_only_hop_count": 10,
+    "llm_mdpar_hop_count": 4,
+    "comparable_hop_pairs": 4,
+    "fully_completed": false,
+    "llm_only_chain_censored": false,
+    "llm_mdpar_chain_censored": true,
+    "llm_only_final_drift": null,
+    "llm_mdpar_final_drift": null,
+    "llm_mdpar_pareto_dominates_final": false,
+    "llm_only_pareto_dominates_final": false,
+    "final_tie": false,
+    "llm_only_first_drift_hop": 0,
+    "llm_mdpar_first_drift_hop": 0,
+    "llm_only_exact_hops": 0,
+    "llm_mdpar_exact_hops": 0,
+    "llm_only_first_observed_structure_drift_hop": 0,
+    "llm_mdpar_first_observed_structure_drift_hop": 0,
+    "llm_only_observed_structure_preserved_hops": 0,
+    "llm_mdpar_observed_structure_preserved_hops": 0,
+    "llm_mdpar_pareto_better_hops": 2,
+    "llm_only_pareto_better_hops": 0,
+    "incomparable_hops": 1,
+    "exact_tie_hops": 1
+  }
+]

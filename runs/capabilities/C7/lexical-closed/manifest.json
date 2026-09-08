@@ -1,0 +1,38 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.0.0",
+  "adapter_version": "0.9.2",
+  "adapter_source_sha256": "3233437edfc304a19551268c56cc8f83e3a7710b5b29ef95edd5e4355c62609e",
+  "protocol": "C7_LEXICAL_CLOSED_PROFILE_V1",
+  "capabilities": [
+    "C7"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Can bounded lexical CLOSED profiles claim only supported competition units and publish deterministically under the v2.0.0 routing contract?",
+  "started_at_utc": "2026-09-06T15:37:04Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.0.0.jar",
+  "mdpar_jar_sha256": "036960d2e3324b77325a93ad2c3abbf56661f61c0aaa70e60580bab8ced61165",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\closed\\troubleshooting_english_v1.jsonl",
+  "corpus_sha256": "9027b68d02284b219809581c48479242dd7d939cd7169e657be45c38ce5f85d3",
+  "installed_coordinates": [
+    "mobile-servant-robot:english",
+    "tiago-pro:dual-arm-pal-parallel-gripper",
+    "troubleshooting:english"
+  ],
+  "repetitions": 20,
+  "warmups": 5,
+  "output_mode": "OPERATIONAL",
+  "finished_at_utc": "2026-09-06T15:37:18Z"
+}

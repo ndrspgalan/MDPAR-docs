@@ -1,0 +1,22 @@
+{
+  "record_count": 24,
+  "checkpoint_count": 24,
+  "evaluable_checkpoint_count": 14,
+  "unevaluable_checkpoint_count": 10,
+  "model": "gpt-5.6-sol",
+  "direction_correct": 13,
+  "direction_exact_rate": 0.9285714285714286,
+  "keep": 2,
+  "permute": 5,
+  "unavailable": 7,
+  "verified_known_direction": 2,
+  "contextually_underdetermined": 0,
+  "provider_usage": {
+    "input_tokens": 148955,
+    "cached_input_tokens": 81729,
+    "output_tokens": 18096,
+    "reasoning_tokens": 0,
+    "total_tokens": 167051,
+    "request_count": 98
+  }
+}

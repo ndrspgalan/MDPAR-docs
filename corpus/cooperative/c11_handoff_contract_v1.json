@@ -1,0 +1,41 @@
+{
+  "protocol": "C11_FRONTIER_DEGRADATION_RECOVERY_V1",
+  "evaluation_regime": "ONLINE_EMBODIMENT",
+  "cases": [
+    {
+      "id": "no-local-pending",
+      "episode_id": "C11-A",
+      "local_available": false,
+      "pending_work_ids": [
+        "W1"
+      ]
+    },
+    {
+      "id": "local-dual-mode-pending",
+      "episode_id": "C11-B",
+      "local_available": true,
+      "pending_work_ids": [
+        "W1",
+        "W2"
+      ]
+    },
+    {
+      "id": "local-foreground-inflight-restoration",
+      "episode_id": "C11-C",
+      "local_available": true,
+      "pending_work_ids": [
+        "W3"
+      ],
+      "local_foreground_in_flight": true
+    },
+    {
+      "id": "local-background-inflight-restoration",
+      "episode_id": "C11-D",
+      "local_available": true,
+      "pending_work_ids": [
+        "W4"
+      ],
+      "local_background_in_flight": true
+    }
+  ]
+}

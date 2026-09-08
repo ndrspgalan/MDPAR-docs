@@ -1,0 +1,32 @@
+{
+  "record_count": 1,
+  "checkpoint_count": 1,
+  "evaluable_checkpoint_count": 0,
+  "unevaluable_checkpoint_count": 1,
+  "unevaluable_breakdown": {
+    "unevaluable_checkpoint_count": 1,
+    "direct_failure_checkpoint_count": 1,
+    "upstream_censored_checkpoint_count": 0,
+    "unclassified_unevaluable_checkpoint_count": 0,
+    "unevaluable_by_reason": {
+      "upstream_structural_identification_invalid": 1
+    },
+    "classification_rule": "DIRECT_FAILURE iff structural_failure_turn_index == turn_index; UPSTREAM_CENSORED iff structural_failure_turn_index < turn_index."
+  },
+  "model": "gpt-5.6-sol",
+  "direction_correct": 0,
+  "direction_exact_rate": null,
+  "keep": 0,
+  "permute": 0,
+  "unavailable": 0,
+  "verified_known_direction": 0,
+  "contextually_underdetermined": 0,
+  "provider_usage": {
+    "input_tokens": 6468,
+    "cached_input_tokens": 6459,
+    "output_tokens": 555,
+    "reasoning_tokens": 0,
+    "total_tokens": 7023,
+    "request_count": 3
+  }
+}

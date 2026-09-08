@@ -1,0 +1,34 @@
+{
+  "model": "gpt-5.6-sol",
+  "checkpoint_count": 1,
+  "evaluable_checkpoint_count": 0,
+  "unevaluable_checkpoint_count": 1,
+  "unevaluable_breakdown": {
+    "unevaluable_checkpoint_count": 1,
+    "direct_failure_checkpoint_count": 0,
+    "upstream_censored_checkpoint_count": 1,
+    "unclassified_unevaluable_checkpoint_count": 0,
+    "unevaluable_by_reason": {
+      "invariant_violation": 1
+    },
+    "classification_rule": "DIRECT_FAILURE iff structural_failure_turn_index == turn_index; UPSTREAM_CENSORED iff structural_failure_turn_index < turn_index."
+  },
+  "exact_count": 0,
+  "exact_rate": null,
+  "by_phenomenon": {
+    "SIGNIFICANT_ANCHOR_LOSS_REANCHOR": {
+      "count": 1,
+      "evaluable": 0,
+      "unevaluable": 1,
+      "exact": 0
+    }
+  },
+  "provider_usage": {
+    "input_tokens": 6454,
+    "cached_input_tokens": 0,
+    "output_tokens": 6140,
+    "reasoning_tokens": 5460,
+    "total_tokens": 12594,
+    "request_count": 3
+  }
+}
