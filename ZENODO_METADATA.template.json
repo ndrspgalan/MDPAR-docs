@@ -7,7 +7,6 @@
   "creators": [
     {
       "name": "Pérez Galán, Andrés",
-      "orcid": "REPLACE_OR_REMOVE"
     }
   ],
   "keywords": [
@@ -21,9 +20,7 @@
   "notes": "Copyright © 2026 Andrés Pérez Galán. All rights reserved. Repository contents are governed by the proprietary LICENSE included with the package.",
   "related_identifiers": [
     {
-      "identifier": "REPLACE_WITH_PUBLIC_GITHUB_URL",
-      "relation": "isSupplementTo",
-      "scheme": "url"
+      "identifier": "https://github.com/ndrspgalan/MDPAR-docs",
     }
   ]
 }
