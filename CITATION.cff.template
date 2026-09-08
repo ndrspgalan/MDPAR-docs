@@ -7,6 +7,5 @@ type: dataset
 authors:
   - family-names: "Pérez Galán"
     given-names: "Andrés"
-    orcid: "REPLACE_OR_REMOVE"
-repository-code: "REPLACE_WITH_PUBLIC_GITHUB_URL"
+repository-code: "https://github.com/ndrspgalan/MDPAR-docs"
 doi: "REPLACE_WITH_ZENODO_DOI"
