@@ -73,8 +73,8 @@ Pérez Galán, A. (2026). *MDPAR-docs: MDPAR 2.2.0 versioned evidence and reprod
   month     = sep,
   version   = {2.2.0},
   publisher = {Zenodo},
-  doi       = {[ZENODO DOI]},
-  url       = {[GITHUB URL]},
+  doi       = {10.5281/zenodo.22818421},
+  url       = {https://github.com/ndrspgalan/MDPAR-docs},
   note      = {Research software and C0--C12 benchmark evidence}
 }
 ```
