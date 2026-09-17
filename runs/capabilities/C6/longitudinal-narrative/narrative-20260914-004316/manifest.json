@@ -1,0 +1,77 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.2.0",
+  "adapter_version": "0.12.0",
+  "adapter_source_sha256": "sha256:112d5a3087bfbfa3e03f593f60163081f06470f8688e61d22b94c20c422b07c5",
+  "protocol": "C6_LONGITUDINAL_EPISTEMIC_TIMING_V2",
+  "capabilities": [
+    "C6"
+  ],
+  "scientific_axes": [
+    "P"
+  ],
+  "economic_dimensions": [
+    "C",
+    "T",
+    "Q"
+  ],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Can a question-blind sequential reading preserve epistemic timing and authorized belief revision without future-evidence leakage, while MDPAR TRACK recurrence telemetry remains distinct from the adapter semantic ledger and from CORE structural-invariance history?",
+  "started_at_utc": "2026-09-14T00:43:16Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "instrument": "longitudinal-narrative",
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.2.0.jar",
+  "mdpar_jar_sha256": "baf0dc0103b8df0e079c196997c92b09583eaed238910551896f9848a0a00d3c",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\longitudinal\\manifest.json",
+  "corpus_sha256": "772abadd214f5e84c5738534ef38186c442dfc338a893e0d7556ac9e818da9e9",
+  "canonical": true,
+  "source_sha256": "54bf4bb8c778361fe987b1b70f531c5ca0dfd982086b980c77ca84b9189157fa",
+  "corpus_protocol": "C6_LONGITUDINAL_NARRATIVE_V1",
+  "segment_count": 77,
+  "question_count": 130,
+  "background_workers": 1,
+  "primary_reading_question_blind": true,
+  "provider": "openai",
+  "model": "gpt-5.6-sol",
+  "inference_policy": {
+    "reader": "none",
+    "planner": "none",
+    "worker": "none",
+    "background_reread": "high",
+    "max_output_tokens": 128000,
+    "timeout_seconds": 86400
+  },
+  "generic_confidence_prohibited": true,
+  "authority_planes": {
+    "semantic_ledger": "ADAPTER_EXPERIMENTAL_LEDGER",
+    "open": "SEMANTIC_REASONING_ONLY",
+    "track": "MDPAR_ENGINE_TRACK",
+    "core_invariance": "MDPAR_CORE_INVARIANCE"
+  },
+  "cognitive_remembrance_semantics": "endpointRecurrenceRatio operational TRACK telemetry; not continuous structural preservation",
+  "core_invariance_path_claimed": false,
+  "c9_capability_claimed": false,
+  "segments_completed": 77,
+  "initial_adapter_source_sha256": "sha256:806a2d8963b8e931e004bd48d77f85e8399db90971ed217eba85e1c8feb92604",
+  "resume_history": [
+    {
+      "resumed_at_utc": "2026-09-14T02:07:41Z",
+      "from_segment": "S0073",
+      "from_ordinal": 73,
+      "previous_adapter_source_sha256": "sha256:806a2d8963b8e931e004bd48d77f85e8399db90971ed217eba85e1c8feb92604",
+      "resumed_adapter_source_sha256": "sha256:112d5a3087bfbfa3e03f593f60163081f06470f8688e61d22b94c20c422b07c5",
+      "reason": "continue from durable checkpoint after claim-level failure classifier correction"
+    }
+  ],
+  "development_resume": true,
+  "development_resume_note": "Run continued from durable checkpoint; adapter hashes before and after resume are preserved in resume_history.",
+  "finished_at_utc": "2026-09-14T02:13:19Z"
+}

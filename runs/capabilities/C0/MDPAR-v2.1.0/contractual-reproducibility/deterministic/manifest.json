@@ -1,0 +1,112 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.1.0",
+  "adapter_version": "0.11.3",
+  "adapter_source_sha256": "sha256:a578473b29550bc66c8a731ef84b1f3ac4ad06b0064413d6e6761b37a4680bc3",
+  "protocol": "C0_CONTRACTUAL_REPRODUCIBILITY_V2",
+  "capabilities": [
+    "C0"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Is the runtime under evaluation traceable to the declared MDPAR/adapter contract and are the normative OPEN resources actually available?",
+  "started_at_utc": "2026-09-11T19:30:41Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.1.0.jar",
+  "mdpar_jar_sha256": "da75ba4a936ace6a52124dd1f19bf8ac6bcdf5de818f8880e951894a20839426",
+  "runtime_mdpar_version": "2.1.0",
+  "open_contract_version": "8",
+  "open_knowledge_sha256": "sha256:8621cd0f7e3feda8361a6d528b56d63415ff4577ca05fbb2e91bf0a0b77eb2f9",
+  "normative_open_document_count": 29,
+  "normative_open_document_ids": [
+    "semantic.foundation",
+    "semantic.what",
+    "semantic.which",
+    "semantic.who",
+    "semantic.identity-boundaries",
+    "semantic.identity-context",
+    "semantic.identity-diagnostics",
+    "semantic.how",
+    "semantic.why",
+    "semantic.how-vs-why",
+    "semantic.explanation-boundaries",
+    "semantic.explanation-advanced",
+    "semantic.explanation-diagnostics",
+    "semantic.where",
+    "semantic.when",
+    "semantic.how-much",
+    "semantic.orbital-boundaries",
+    "semantic.orbital-advanced",
+    "semantic.orbital-diagnostics",
+    "semantic.unknown",
+    "permutation.transition-type",
+    "permutation.thought-direction",
+    "permutation.semantic-structural-authority",
+    "permutation.permutation",
+    "permutation.semantic-transformation",
+    "permutation.structural-comparison",
+    "permutation.invariance-interpretation",
+    "permutation.directional-continuity",
+    "permutation.interpretation"
+  ],
+  "state_type_rule_count": 9,
+  "state_type_rule_registry": [
+    "WHAT",
+    "WHICH",
+    "WHO",
+    "HOW",
+    "WHY",
+    "WHERE",
+    "WHEN",
+    "HOW_MUCH",
+    "UNKNOWN"
+  ],
+  "direction_rule_count": 2,
+  "direction_rule_registry": [
+    "CONVERGENT",
+    "DIVERGENT"
+  ],
+  "gate_knowledge_sha256": {
+    "STRUCTURAL_IDENTIFICATION": "sha256:4de718f17e42e61542ea5fbeb4cc0119c10e0ccf012025d7d7afd5c82e961427",
+    "CONTEXTUAL_DIRECTION": "sha256:ca3068d713677d30194af102f886a6b080d021b7cd814bc3d11224afc25943f5",
+    "RESPONSE_REALIZATION": "sha256:57249a979c3ae9657f6e19a8dc4056acaeafd78e5ac461f350c3f898ce3af217",
+    "PERMUTATION_REALIZATION": "sha256:87db6c321fdb71dbf624366b5f09b9f72b089b765c64abd8a07fcea5a6dc0ad2"
+  },
+  "gate_normative_document_ids": {
+    "STRUCTURAL_IDENTIFICATION": [
+      "permutation.semantic-structural-authority",
+      "permutation.interpretation"
+    ],
+    "CONTEXTUAL_DIRECTION": [
+      "permutation.thought-direction",
+      "permutation.semantic-structural-authority",
+      "permutation.directional-continuity",
+      "permutation.interpretation"
+    ],
+    "RESPONSE_REALIZATION": [
+      "permutation.semantic-structural-authority",
+      "permutation.semantic-transformation",
+      "permutation.interpretation"
+    ],
+    "PERMUTATION_REALIZATION": [
+      "permutation.transition-type",
+      "permutation.thought-direction",
+      "permutation.semantic-structural-authority",
+      "permutation.permutation",
+      "permutation.semantic-transformation",
+      "permutation.interpretation"
+    ]
+  },
+  "neural_calls": 0,
+  "contract_policy": "EXACT_RUNTIME_REGISTRY_AND_GATE_KNOWLEDGE_BINDING; C0 establishes traceability, not semantic competence",
+  "finished_at_utc": "2026-09-11T19:30:41Z"
+}

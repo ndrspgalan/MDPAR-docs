@@ -1,0 +1,107 @@
+{
+  "history": [
+    {
+      "event_id": "E00",
+      "world_time_s": 0.0,
+      "decision": "ACT",
+      "action": "",
+      "committed": false
+    },
+    {
+      "event_id": "E01",
+      "world_time_s": 70.0,
+      "decision": "ACT",
+      "action": "",
+      "committed": false
+    },
+    {
+      "event_id": "E02",
+      "world_time_s": 145.0,
+      "decision": "WAIT",
+      "action": "",
+      "committed": false
+    },
+    {
+      "event_id": "E03",
+      "world_time_s": 220.0,
+      "decision": "ACT",
+      "action": "I take a quick turn with the darts, then walk over to her group and ask, “Which stall do you all want to try next?”",
+      "committed": true
+    },
+    {
+      "event_id": "E04",
+      "world_time_s": 300.0,
+      "decision": "ACT",
+      "action": "",
+      "committed": false
+    },
+    {
+      "event_id": "E05",
+      "world_time_s": 365.0,
+      "decision": "WAIT",
+      "action": "",
+      "committed": false
+    },
+    {
+      "event_id": "E06",
+      "world_time_s": 405.0,
+      "decision": "WAIT",
+      "action": "",
+      "committed": false
+    },
+    {
+      "event_id": "E07",
+      "world_time_s": 470.0,
+      "decision": "ACT",
+      "action": "",
+      "committed": false
+    },
+    {
+      "event_id": "E08",
+      "world_time_s": 525.0,
+      "decision": "ACT",
+      "action": "I walk alongside her toward the marquee and casually ask, “Want to take the scenic route over there?”",
+      "committed": true
+    },
+    {
+      "event_id": "E09",
+      "world_time_s": 565.0,
+      "decision": "ACT",
+      "action": "",
+      "committed": false
+    }
+  ],
+  "late_background_results": [],
+  "tail_background_ignored": [],
+  "world_time_s": 600.0,
+  "wall_s": 108.31728899999871,
+  "committed_action_count": 2,
+  "committed_action_rewritten_after_commit": false,
+  "late_background_retained_without_retroactive_action": 0,
+  "usage": {
+    "supervisor": {
+      "input_tokens": 4128,
+      "cached_input_tokens": 0,
+      "output_tokens": 913,
+      "reasoning_tokens": 0,
+      "total_tokens": 5041,
+      "request_count": 10
+    },
+    "worker": {
+      "input_tokens": 276253,
+      "cached_input_tokens": 0,
+      "output_tokens": 5464,
+      "reasoning_tokens": 0,
+      "total_tokens": 281717,
+      "request_count": 16
+    },
+    "high": {
+      "input_tokens": 0,
+      "cached_input_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_tokens": 0,
+      "total_tokens": 0,
+      "request_count": 0
+    }
+  }
+}

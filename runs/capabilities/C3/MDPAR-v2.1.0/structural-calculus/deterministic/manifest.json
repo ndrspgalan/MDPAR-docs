@@ -1,0 +1,49 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.1.0",
+  "adapter_version": "0.11.3",
+  "adapter_source_sha256": "sha256:a578473b29550bc66c8a731ef84b1f3ac4ad06b0064413d6e6761b37a4680bc3",
+  "protocol": "C3_STRUCTURAL_CALCULUS_V2",
+  "capabilities": [
+    "C3"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Does canonical mdpar_core expose the prospectively specified occurrence, radial, orbital, closure, topology and direction-basis properties exactly, without neural calls or adapter-side SCC reconstruction?",
+  "started_at_utc": "2026-09-11T19:58:25Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.1.0.jar",
+  "mdpar_jar_sha256": "da75ba4a936ace6a52124dd1f19bf8ac6bcdf5de818f8880e951894a20839426",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\open\\structural_calculus_v2.jsonl",
+  "corpus_sha256": "bbc41295f2b62550591875a67594c01fd03f55ba75034e23c95af094e8b1faf1",
+  "neural_calls": 0,
+  "structural_authority": "MDPAR_CORE",
+  "adapter_role": "LOSSLESS_FIXTURE_TO_CANONICAL_CORE_PROJECTION",
+  "comparison": "EXACT_PROSPECTIVE_PROPERTY_ASSERTIONS_NO_SCORE",
+  "case_count": 9,
+  "profile_surface": [
+    "positive occurrence trajectory",
+    "radial pseudometric",
+    "orbital localization",
+    "traversal and relational transition words",
+    "closure interval topology",
+    "relation topology",
+    "convergent/divergent canonical direction-basis profiles"
+  ],
+  "explicit_exclusions": [
+    "no semantic model judgment",
+    "no invariance transport claim (C4 authority)",
+    "no polyhedral realization claim without an incidence witness",
+    "no aggregate structural quality score"
+  ],
+  "finished_at_utc": "2026-09-11T19:58:25Z"
+}

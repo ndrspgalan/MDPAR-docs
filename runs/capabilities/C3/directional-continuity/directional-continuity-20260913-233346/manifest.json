@@ -1,0 +1,40 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.2.0",
+  "adapter_version": "0.12.0",
+  "adapter_source_sha256": "sha256:acdba428b980e04eb85773a1267b19317a2f68e86f2aa514f62babfb06094ed6",
+  "protocol": "C3_DIRECTIONAL_CONTINUITY_V2",
+  "capabilities": [
+    "C3"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Does MDPAR preserve exact ThoughtDirection continuity, binding transitions, interaction isolation and restart persistence on deterministic structural fixtures?",
+  "started_at_utc": "2026-09-13T21:33:47Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "instrument": "directional-continuity",
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.2.0.jar",
+  "mdpar_jar_sha256": "baf0dc0103b8df0e079c196997c92b09583eaed238910551896f9848a0a00d3c",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\open\\directional_continuity_v2.jsonl",
+  "corpus_sha256": "8a3ab1d7e31a221ca2d4cafd1faf78e784ec5586bc0ddd7443eb44aa4dd4fc32",
+  "case_count": 7,
+  "step_count": 16,
+  "neural_calls": 0,
+  "weighted_aggregate": false,
+  "mdpar_contract_version": "8",
+  "open_knowledge_sha256": "sha256:62ea32221b2190e69ce765c879e0831a0f38dd1055113e34e19f24d4dea79d35",
+  "direction_authority": "MDPAR_CORE_ENGINE_RUNTIME",
+  "continuity_scope": "LOCAL_LONGITUDINAL_DIRECTIONAL_STATE",
+  "invariance_path_excluded": true,
+  "persistent_restart_exercised": true,
+  "finished_at_utc": "2026-09-13T21:33:47Z"
+}

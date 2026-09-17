@@ -1,0 +1,43 @@
+{
+  "case_count": 12,
+  "completed_case_count": 8,
+  "failed_case_count": 4,
+  "partial_case_count": 3,
+  "failure_count": 4,
+  "failed_chain_count": 3,
+  "hop_count": 127,
+  "comparable_hop_pairs": 58,
+  "unpaired_hop_count": 11,
+  "llm_mdpar_pareto_better_cases": 1,
+  "llm_only_pareto_better_cases": 0,
+  "incomparable_cases": 0,
+  "exact_ties": 7,
+  "llm_mdpar_pareto_better_hops": 8,
+  "llm_only_pareto_better_hops": 4,
+  "incomparable_hops": 1,
+  "exact_tie_hops": 45,
+  "llm_only_engine_fully_estimable_exact_hops": 0,
+  "llm_mdpar_engine_fully_estimable_exact_hops": 0,
+  "llm_only_engine_publication_preserved_hops": 13,
+  "llm_mdpar_engine_publication_preserved_hops": 18,
+  "llm_only_core_comparable_cases": 9,
+  "llm_mdpar_core_comparable_cases": 9,
+  "llm_only_core_endurance_state_counts": {
+    "PRESERVED": 1716,
+    "DRIFTED": 882,
+    "RECOVERED": 276,
+    "LOST": 6
+  },
+  "llm_mdpar_core_endurance_state_counts": {
+    "PRESERVED": 1841,
+    "DRIFTED": 695,
+    "RECOVERED": 378,
+    "LOST": 6
+  },
+  "llm_only_mean_translation_latency_ms": 2230.7288016111875,
+  "llm_mdpar_mean_translation_latency_ms": 2507.9452430757765,
+  "llm_only_mean_identification_latency_ms": 61435.74169838605,
+  "llm_mdpar_mean_identification_latency_ms": 55918.870121536806,
+  "llm_only_mean_mdpar_latency_ms": 3.78049838670244,
+  "llm_mdpar_mean_mdpar_latency_ms": 4.075340001593129
+}

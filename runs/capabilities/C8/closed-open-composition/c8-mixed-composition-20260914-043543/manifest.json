@@ -1,0 +1,56 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.2.0",
+  "adapter_version": "0.12.0",
+  "adapter_source_sha256": "sha256:112d5a3087bfbfa3e03f593f60163081f06470f8688e61d22b94c20c422b07c5",
+  "protocol": "C8_CLOSED_OPEN_COOPERATIVE_COMPOSITION_V2",
+  "capabilities": [
+    "C8"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Can deterministic CLOSED routing retain ownership where warranted while only unresolved lexical competition units continue to OPEN, preserving one longitudinal interaction and never delegating routing authority to the model?",
+  "started_at_utc": "2026-09-14T02:35:43Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "instrument": "closed-open-composition",
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.2.0.jar",
+  "mdpar_jar_sha256": "baf0dc0103b8df0e079c196997c92b09583eaed238910551896f9848a0a00d3c",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\composition\\mixed_closed_open_v1.jsonl",
+  "corpus_sha256": "b5f6f10aa7c2544c811f2f89dbefa17d4a73feadbd83d5719a95f13681b480f7",
+  "provider": "openai",
+  "open_knowledge_sha256": "sha256:62ea32221b2190e69ce765c879e0831a0f38dd1055113e34e19f24d4dea79d35",
+  "model": "gpt-5.6-sol",
+  "inference_settings": {
+    "reasoning_effort": "none",
+    "max_output_tokens": 128000,
+    "timeout_seconds": 86400.0,
+    "store": false,
+    "api": "responses",
+    "structured_outputs": true
+  },
+  "routing_authority": "MDPAR_ONLY",
+  "open_continuation": "UNRESOLVED_LEXICAL_UNITS_ONLY",
+  "authority_boundary": {
+    "closed": "deterministic ownership where a CLOSED coordinate claims the unit",
+    "open": "semantic identification only after unresolved lexical routing",
+    "mdpar": "routing and structural evaluation",
+    "adapter": "orchestration and evidence only"
+  },
+  "open_contract_version": "8",
+  "open_self_structural_certification_prohibited": true,
+  "representations": [
+    "TEXT",
+    "TYPED"
+  ],
+  "aggregate_score_prohibited": true,
+  "finished_at_utc": "2026-09-14T02:35:53Z"
+}

@@ -1,0 +1,36 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.2.0",
+  "adapter_version": "0.12.0",
+  "adapter_source_sha256": "sha256:d3bbc444ffa4ea63b98dd8225af3f64a25b621943e2944b3bfd460b6ff028462",
+  "protocol": "C11_FRONTIER_DEGRADATION_RECOVERY_V2",
+  "capabilities": [
+    "C11"
+  ],
+  "scientific_axes": [
+    "P",
+    "A"
+  ],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "ONLINE_EMBODIMENT",
+  "experimental_question": "Does the provider-neutral handoff contract preserve CLOSED continuity, separate physical local availability from current-contract local OPEN certification, and preserve portable work/non-retroactive authority across restoration?",
+  "started_at_utc": "2026-09-14T10:51:18Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "instrument": "handoff-contract",
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.2.0.jar",
+  "mdpar_jar_sha256": "baf0dc0103b8df0e079c196997c92b09583eaed238910551896f9848a0a00d3c",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\cooperative\\c11_handoff_contract_v2.json",
+  "corpus_sha256": "efd60dfe626e335a8ba0966ca059270ee3f038a2ca59ff11e4494b91136c90e9",
+  "neural_calls": 0,
+  "hidden_model_state_migration_claimed": false,
+  "current_open_contract_required_for_local_authority": true,
+  "finished_at_utc": "2026-09-14T10:51:18Z"
+}

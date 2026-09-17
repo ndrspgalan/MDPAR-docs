@@ -1,0 +1,13 @@
+{
+  "cases": 6,
+  "exact": 6,
+  "all_exact": true,
+  "neural_calls": 0,
+  "canonical_transition": "FRONTIER_AVAILABLE -> FRONTIER_UNAVAILABLE -> FRONTIER_AVAILABLE",
+  "local_foreground_eligibility_cases": 1,
+  "local_background_authority_cases": 1,
+  "physical_local_without_current_certification_cases": 3,
+  "current_contract_without_requested_gate_certification_cases": 1,
+  "gate_authorized_local_cases": 1,
+  "hidden_model_state_migration_claimed": false
+}

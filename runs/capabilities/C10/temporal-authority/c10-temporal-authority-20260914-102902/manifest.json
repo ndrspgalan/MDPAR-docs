@@ -1,0 +1,50 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.2.0",
+  "adapter_version": "0.12.0",
+  "adapter_source_sha256": "sha256:d3bbc444ffa4ea63b98dd8225af3f64a25b621943e2944b3bfd460b6ff028462",
+  "protocol": "C10_TEMPORAL_AUTHORITY_EMBODIMENT_V2",
+  "capabilities": [
+    "C10"
+  ],
+  "scientific_axes": [
+    "P",
+    "A"
+  ],
+  "economic_dimensions": [
+    "T",
+    "Q"
+  ],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "ONLINE_EMBODIMENT",
+  "experimental_question": "Do the canonical temporal contract and provider authority invariants separate contextual urgency, OPEN authorization, current-contract local certification, foreground expiry and background continuation without neural calls?",
+  "started_at_utc": "2026-09-14T08:29:02Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "instrument": "temporal-authority",
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.2.0.jar",
+  "mdpar_jar_sha256": "baf0dc0103b8df0e079c196997c92b09583eaed238910551896f9848a0a00d3c",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\online\\authority_invariants_v2.jsonl",
+  "corpus_sha256": "2c2602c399760fe6634739c4f0aa5b374db18de4b18aaf0f9125e41c8c9465c1",
+  "contract_version": "C10-V2",
+  "case_count": 11,
+  "neural_calls": 0,
+  "weighted_aggregate": false,
+  "frontier_model": "gpt-5.6-sol",
+  "frontier_online_reasoning_effort": "low",
+  "frontier_max_output_tokens_policy": "maximum model allowance; current adapter default 128000",
+  "local_profile": "qwen3-4b-local-evidence-contract8-v1",
+  "local_profile_open_contract": "8",
+  "local_profile_contract_certified": false,
+  "local_profile_current_contract_authorized": false,
+  "local_supported_gates": [],
+  "local_recertification_required": true,
+  "local_context_note": "8192 is a recorded hardware-profile context value, not a canonical MDPAR deadline.",
+  "finished_at_utc": "2026-09-14T08:29:02Z"
+}

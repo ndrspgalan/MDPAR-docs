@@ -1,0 +1,48 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.1.0",
+  "adapter_version": "0.11.3",
+  "adapter_source_sha256": "sha256:a578473b29550bc66c8a731ef84b1f3ac4ad06b0064413d6e6761b37a4680bc3",
+  "protocol": "C5_CONTEXTUAL_DIRECTION_V2",
+  "capabilities": [
+    "C5"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Can OPEN exercise semantic/contextual authority over the next contribution while MDPAR independently retains structural and directional authority, without collapsing UNKNOWN into a forced direction?",
+  "started_at_utc": "2026-09-12T16:28:50Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.1.0.jar",
+  "mdpar_jar_sha256": "da75ba4a936ace6a52124dd1f19bf8ac6bcdf5de818f8880e951894a20839426",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\open\\contextual_cooperation_v1.jsonl",
+  "corpus_sha256": "f74a7a1a4ef83c72f4e42f5f3948c06dbf92f36e9e1ac66a42acd84ae3a83bf8",
+  "campaign_id": "C5-MDPAR210-SOL-HIGH-DIRECTION",
+  "provider": "openai",
+  "model": "gpt-5.6-sol",
+  "inference_settings": {
+    "reasoning_effort": "high",
+    "max_output_tokens": 128000,
+    "timeout_seconds": 86400.0,
+    "store": false,
+    "api": "responses",
+    "structured_outputs": true
+  },
+  "single_neural_claim_per_gate": true,
+  "transport_retries_are_not_neural_retries": true,
+  "metrics": "vector only; no weighted aggregate",
+  "authority_boundary": {
+    "open": "semantic/contextual proposal",
+    "mdpar": "structural observation and effective direction",
+    "adapter": "orchestration and evidence only"
+  },
+  "finished_at_utc": "2026-09-12T17:04:35Z"
+}

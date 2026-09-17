@@ -1,0 +1,21 @@
+{
+  "mdpar_runtime_version_matches": true,
+  "adapter_version_present": true,
+  "closed_coordinates_enumerable": true,
+  "open_contract_version_current": true,
+  "capability_contract_matches_knowledge": true,
+  "open_analysis_ready": true,
+  "semantic_document_registry_exact": true,
+  "permutation_document_registry_exact": true,
+  "normative_document_ids_unique": true,
+  "normative_document_ordinals_unique": true,
+  "normative_document_metadata_exact": true,
+  "normative_documents_nonblank": true,
+  "state_type_rule_registry_exact": true,
+  "direction_rule_registry_exact": true,
+  "structural_identification_gate_is_taught": true,
+  "contextual_direction_gate_is_taught": true,
+  "response_realization_gate_is_taught": true,
+  "permutation_realization_gate_is_taught": true,
+  "gate_normative_document_scopes_exact": true
+}

@@ -1,0 +1,50 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.2.0",
+  "adapter_version": "0.12.0",
+  "adapter_source_sha256": "sha256:acdba428b980e04eb85773a1267b19317a2f68e86f2aa514f62babfb06094ed6",
+  "protocol": "C3_STRUCTURAL_CALCULUS_V2",
+  "capabilities": [
+    "C3"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Does canonical mdpar_core expose the prospectively specified occurrence, radial, orbital, closure, topology and direction-basis properties exactly, without neural calls or adapter-side SCC reconstruction?",
+  "started_at_utc": "2026-09-13T21:33:28Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "instrument": "structural-calculus",
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.2.0.jar",
+  "mdpar_jar_sha256": "baf0dc0103b8df0e079c196997c92b09583eaed238910551896f9848a0a00d3c",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\open\\structural_calculus_v2.jsonl",
+  "corpus_sha256": "bbc41295f2b62550591875a67594c01fd03f55ba75034e23c95af094e8b1faf1",
+  "neural_calls": 0,
+  "structural_authority": "MDPAR_CORE",
+  "adapter_role": "LOSSLESS_FIXTURE_TO_CANONICAL_CORE_PROJECTION",
+  "comparison": "EXACT_PROSPECTIVE_PROPERTY_ASSERTIONS_NO_SCORE",
+  "case_count": 9,
+  "profile_surface": [
+    "positive occurrence trajectory",
+    "radial pseudometric",
+    "orbital localization",
+    "traversal and relational transition words",
+    "closure interval topology",
+    "relation topology",
+    "convergent/divergent canonical direction-basis profiles"
+  ],
+  "explicit_exclusions": [
+    "no semantic model judgment",
+    "no invariance transport claim (C4 authority)",
+    "no polyhedral realization claim without an incidence witness",
+    "no aggregate structural quality score"
+  ],
+  "finished_at_utc": "2026-09-13T21:33:28Z"
+}

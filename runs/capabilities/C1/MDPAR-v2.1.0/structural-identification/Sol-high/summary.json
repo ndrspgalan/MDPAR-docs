@@ -1,0 +1,276 @@
+{
+  "gpt-5.6-sol": {
+    "case_count": 36,
+    "by_state_type": {
+      "HOW": {
+        "tp": 2,
+        "tn": 2,
+        "fp": 0,
+        "fn": 0,
+        "invalid": 0,
+        "expected_positive": 2,
+        "grounded_true_positive": 2,
+        "activation_latency": {
+          "count": 4,
+          "min_ms": 1059.7433,
+          "median_ms": 1301.86105,
+          "p95_ms": 1445.0819,
+          "p99_ms": 1445.0819,
+          "max_ms": 1445.0819,
+          "mean_ms": 1277.136825
+        },
+        "grounding_latency": {
+          "count": 2,
+          "min_ms": 1612.0384,
+          "median_ms": 2454.4129,
+          "p95_ms": 3296.7874,
+          "p99_ms": 3296.7874,
+          "max_ms": 3296.7874,
+          "mean_ms": 2454.4129
+        }
+      },
+      "HOW_MUCH": {
+        "tp": 2,
+        "tn": 1,
+        "fp": 1,
+        "fn": 0,
+        "invalid": 0,
+        "expected_positive": 2,
+        "grounded_true_positive": 2,
+        "activation_latency": {
+          "count": 4,
+          "min_ms": 1582.0104,
+          "median_ms": 1745.41225,
+          "p95_ms": 2190.7199,
+          "p99_ms": 2190.7199,
+          "max_ms": 2190.7199,
+          "mean_ms": 1815.8887
+        },
+        "grounding_latency": {
+          "count": 3,
+          "min_ms": 1396.7587,
+          "median_ms": 1467.4209,
+          "p95_ms": 1504.9473,
+          "p99_ms": 1504.9473,
+          "max_ms": 1504.9473,
+          "mean_ms": 1456.3756333333333
+        }
+      },
+      "UNKNOWN": {
+        "tp": 2,
+        "tn": 2,
+        "fp": 0,
+        "fn": 0,
+        "invalid": 0,
+        "expected_positive": 2,
+        "grounded_true_positive": 2,
+        "activation_latency": {
+          "count": 4,
+          "min_ms": 1705.9448,
+          "median_ms": 2365.1948,
+          "p95_ms": 3160.2476,
+          "p99_ms": 3160.2476,
+          "max_ms": 3160.2476,
+          "mean_ms": 2399.1455
+        },
+        "grounding_latency": {
+          "count": 2,
+          "min_ms": 3698.1224,
+          "median_ms": 3796.56555,
+          "p95_ms": 3895.0087,
+          "p99_ms": 3895.0087,
+          "max_ms": 3895.0087,
+          "mean_ms": 3796.56555
+        }
+      },
+      "WHAT": {
+        "tp": 2,
+        "tn": 2,
+        "fp": 0,
+        "fn": 0,
+        "invalid": 0,
+        "expected_positive": 2,
+        "grounded_true_positive": 2,
+        "activation_latency": {
+          "count": 4,
+          "min_ms": 1148.1898,
+          "median_ms": 1516.32075,
+          "p95_ms": 1989.2996,
+          "p99_ms": 1989.2996,
+          "max_ms": 1989.2996,
+          "mean_ms": 1542.532725
+        },
+        "grounding_latency": {
+          "count": 2,
+          "min_ms": 2487.7853,
+          "median_ms": 3138.4006,
+          "p95_ms": 3789.0159,
+          "p99_ms": 3789.0159,
+          "max_ms": 3789.0159,
+          "mean_ms": 3138.4006
+        }
+      },
+      "WHEN": {
+        "tp": 2,
+        "tn": 1,
+        "fp": 1,
+        "fn": 0,
+        "invalid": 0,
+        "expected_positive": 2,
+        "grounded_true_positive": 2,
+        "activation_latency": {
+          "count": 4,
+          "min_ms": 1143.5584,
+          "median_ms": 1532.20175,
+          "p95_ms": 2921.3898,
+          "p99_ms": 2921.3898,
+          "max_ms": 2921.3898,
+          "mean_ms": 1782.337925
+        },
+        "grounding_latency": {
+          "count": 3,
+          "min_ms": 1605.2049,
+          "median_ms": 2904.7021,
+          "p95_ms": 4497.2331,
+          "p99_ms": 4497.2331,
+          "max_ms": 4497.2331,
+          "mean_ms": 3002.3800333333334
+        }
+      },
+      "WHERE": {
+        "tp": 2,
+        "tn": 2,
+        "fp": 0,
+        "fn": 0,
+        "invalid": 0,
+        "expected_positive": 2,
+        "grounded_true_positive": 0,
+        "activation_latency": {
+          "count": 4,
+          "min_ms": 1119.9363,
+          "median_ms": 1819.19625,
+          "p95_ms": 2886.7103,
+          "p99_ms": 2886.7103,
+          "max_ms": 2886.7103,
+          "mean_ms": 1911.259775
+        },
+        "grounding_latency": {
+          "count": 2,
+          "min_ms": 2762.1956,
+          "median_ms": 3361.61905,
+          "p95_ms": 3961.0425,
+          "p99_ms": 3961.0425,
+          "max_ms": 3961.0425,
+          "mean_ms": 3361.61905
+        }
+      },
+      "WHICH": {
+        "tp": 2,
+        "tn": 2,
+        "fp": 0,
+        "fn": 0,
+        "invalid": 0,
+        "expected_positive": 2,
+        "grounded_true_positive": 2,
+        "activation_latency": {
+          "count": 4,
+          "min_ms": 1125.0432,
+          "median_ms": 1247.56865,
+          "p95_ms": 1817.9336,
+          "p99_ms": 1817.9336,
+          "max_ms": 1817.9336,
+          "mean_ms": 1359.528525
+        },
+        "grounding_latency": {
+          "count": 2,
+          "min_ms": 2849.5871,
+          "median_ms": 2982.47425,
+          "p95_ms": 3115.3614,
+          "p99_ms": 3115.3614,
+          "max_ms": 3115.3614,
+          "mean_ms": 2982.47425
+        }
+      },
+      "WHO": {
+        "tp": 2,
+        "tn": 2,
+        "fp": 0,
+        "fn": 0,
+        "invalid": 0,
+        "expected_positive": 2,
+        "grounded_true_positive": 2,
+        "activation_latency": {
+          "count": 4,
+          "min_ms": 1155.5854,
+          "median_ms": 1240.5018,
+          "p95_ms": 1484.9556,
+          "p99_ms": 1484.9556,
+          "max_ms": 1484.9556,
+          "mean_ms": 1280.38615
+        },
+        "grounding_latency": {
+          "count": 2,
+          "min_ms": 2596.0092,
+          "median_ms": 3930.94605,
+          "p95_ms": 5265.8829,
+          "p99_ms": 5265.8829,
+          "max_ms": 5265.8829,
+          "mean_ms": 3930.94605
+        }
+      },
+      "WHY": {
+        "tp": 2,
+        "tn": 2,
+        "fp": 0,
+        "fn": 0,
+        "invalid": 0,
+        "expected_positive": 2,
+        "grounded_true_positive": 2,
+        "activation_latency": {
+          "count": 4,
+          "min_ms": 1166.0713,
+          "median_ms": 1563.2454,
+          "p95_ms": 2034.0856,
+          "p99_ms": 2034.0856,
+          "max_ms": 2034.0856,
+          "mean_ms": 1581.661925
+        },
+        "grounding_latency": {
+          "count": 2,
+          "min_ms": 1189.358,
+          "median_ms": 1193.05435,
+          "p95_ms": 1196.7507,
+          "p99_ms": 1196.7507,
+          "max_ms": 1196.7507,
+          "mean_ms": 1193.05435
+        }
+      }
+    },
+    "activation_latency_all": {
+      "count": 36,
+      "min_ms": 1059.7433,
+      "median_ms": 1504.17885,
+      "p95_ms": 2991.5426,
+      "p99_ms": 3160.2476,
+      "max_ms": 3160.2476,
+      "mean_ms": 1661.0975611111112
+    },
+    "grounding_latency_all": {
+      "count": 20,
+      "min_ms": 1189.358,
+      "median_ms": 2805.89135,
+      "p95_ms": 4497.2331,
+      "p99_ms": 5265.8829,
+      "max_ms": 5265.8829,
+      "mean_ms": 2754.560625
+    },
+    "inference_settings": {
+      "reasoning_effort": "high",
+      "max_output_tokens": 128000,
+      "timeout_seconds": 86400.0,
+      "store": false,
+      "api": "responses",
+      "structured_outputs": true
+    }
+  }
+}

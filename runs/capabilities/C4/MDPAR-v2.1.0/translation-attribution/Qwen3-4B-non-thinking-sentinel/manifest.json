@@ -1,0 +1,64 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.1.0",
+  "adapter_version": "0.11.3",
+  "adapter_source_sha256": "sha256:a578473b29550bc66c8a731ef84b1f3ac4ad06b0064413d6e6761b37a4680bc3",
+  "protocol": "A_G_INVARIANCE_ATTRIBUTION_V1",
+  "capabilities": [],
+  "scientific_axes": [
+    "A",
+    "G"
+  ],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Which source, SCC, MDPAR structural-state and directional-state components causally contribute to observed invariance?",
+  "started_at_utc": "2026-09-11T20:14:47Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": "C4-MDPAR210-QWEN3-4B-ATTRIBUTION-SENTINEL",
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.1.0.jar",
+  "mdpar_jar_sha256": "da75ba4a936ace6a52124dd1f19bf8ac6bcdf5de818f8880e951894a20839426",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\invariance\\translation_invariance_v1.jsonl",
+  "corpus_sha256": "59c97711857151a13f106ce1575e2fb62c01e1514503f8d0a4a8267023d441ec",
+  "provider": "ollama",
+  "model": "qwen3:4b",
+  "inference_settings": {
+    "temperature": 0,
+    "seed": 881,
+    "num_ctx": 8192,
+    "num_predict": 2048,
+    "think": false,
+    "thinking_mode": "disabled",
+    "timeout_seconds": 1800.0
+  },
+  "selected_case_ids": [
+    "stress-necessary-sufficient-001",
+    "stress-pronoun-ambiguity-001",
+    "stress-multitrajectory-001",
+    "stress-partial-unknown-001",
+    "stress-full-unknown-001",
+    "stress-long-chain-001"
+  ],
+  "conditions": [
+    "NO_ANCHOR",
+    "SOURCE_ANCHOR",
+    "SCC_ANCHOR",
+    "MDPAR_ANCHOR",
+    "DIRECTIONAL_STATE_ANCHOR"
+  ],
+  "condition_order_policy": "deterministic case-id rotation; all conditions use one identical preservation instruction and payload shape",
+  "prompt_sha256": "246c93b816669c991151729167a3477ba51c704de4b4e42490158839d2b0e25a",
+  "metric_policy": "CORE_PROPERTY_TRANSPORT_PRIMARY_ENGINE_VECTOR_SECONDARY_NO_AGGREGATE",
+  "structural_authority": "mdpar_core property transport; anchored prompt conditions are interventions",
+  "resonance_policy": "ENGINE per-channel diagnostic only; no aggregation or cross-channel ordering",
+  "failure_policy": "record_condition_unevaluable_and_continue_no_neural_retry",
+  "aggregate_score_prohibited": true,
+  "finished_at_utc": "2026-09-11T20:15:05Z",
+  "run_duration_seconds": 18.357364399998914
+}

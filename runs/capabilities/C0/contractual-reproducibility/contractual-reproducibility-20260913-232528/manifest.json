@@ -1,0 +1,113 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.2.0",
+  "adapter_version": "0.12.0",
+  "adapter_source_sha256": "sha256:acdba428b980e04eb85773a1267b19317a2f68e86f2aa514f62babfb06094ed6",
+  "protocol": "C0_CONTRACTUAL_REPRODUCIBILITY_V2",
+  "capabilities": [
+    "C0"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Is the runtime under evaluation traceable to the declared MDPAR/adapter contract and are the normative OPEN resources actually available?",
+  "started_at_utc": "2026-09-13T21:25:28Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "instrument": "contractual-reproducibility",
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.2.0.jar",
+  "mdpar_jar_sha256": "baf0dc0103b8df0e079c196997c92b09583eaed238910551896f9848a0a00d3c",
+  "runtime_mdpar_version": "2.2.0",
+  "open_contract_version": "8",
+  "open_knowledge_sha256": "sha256:62ea32221b2190e69ce765c879e0831a0f38dd1055113e34e19f24d4dea79d35",
+  "normative_open_document_count": 29,
+  "normative_open_document_ids": [
+    "semantic.foundation",
+    "semantic.what",
+    "semantic.which",
+    "semantic.who",
+    "semantic.identity-boundaries",
+    "semantic.identity-context",
+    "semantic.identity-diagnostics",
+    "semantic.how",
+    "semantic.why",
+    "semantic.how-vs-why",
+    "semantic.explanation-boundaries",
+    "semantic.explanation-advanced",
+    "semantic.explanation-diagnostics",
+    "semantic.where",
+    "semantic.when",
+    "semantic.how-much",
+    "semantic.orbital-boundaries",
+    "semantic.orbital-advanced",
+    "semantic.orbital-diagnostics",
+    "semantic.unknown",
+    "permutation.transition-type",
+    "permutation.thought-direction",
+    "permutation.semantic-structural-authority",
+    "permutation.permutation",
+    "permutation.semantic-transformation",
+    "permutation.structural-comparison",
+    "permutation.invariance-interpretation",
+    "permutation.directional-continuity",
+    "permutation.interpretation"
+  ],
+  "state_type_rule_count": 9,
+  "state_type_rule_registry": [
+    "WHAT",
+    "WHICH",
+    "WHO",
+    "HOW",
+    "WHY",
+    "WHERE",
+    "WHEN",
+    "HOW_MUCH",
+    "UNKNOWN"
+  ],
+  "direction_rule_count": 2,
+  "direction_rule_registry": [
+    "CONVERGENT",
+    "DIVERGENT"
+  ],
+  "gate_knowledge_sha256": {
+    "STRUCTURAL_IDENTIFICATION": "sha256:cbd3ff38475db76014b92c413504af6fe3146c53b5a259f8a219eeae878bac29",
+    "CONTEXTUAL_DIRECTION": "sha256:ca3068d713677d30194af102f886a6b080d021b7cd814bc3d11224afc25943f5",
+    "RESPONSE_REALIZATION": "sha256:72d7f5ccfc24b13e8c40ba2d985f4943414929b6d28722f26b580c14de791d8f",
+    "PERMUTATION_REALIZATION": "sha256:c9da54a373d080f00649c8a8540cc9ceba8012b67d84a2298acd809a44488da9"
+  },
+  "gate_normative_document_ids": {
+    "STRUCTURAL_IDENTIFICATION": [
+      "permutation.semantic-structural-authority",
+      "permutation.interpretation"
+    ],
+    "CONTEXTUAL_DIRECTION": [
+      "permutation.thought-direction",
+      "permutation.semantic-structural-authority",
+      "permutation.directional-continuity",
+      "permutation.interpretation"
+    ],
+    "RESPONSE_REALIZATION": [
+      "permutation.semantic-structural-authority",
+      "permutation.semantic-transformation",
+      "permutation.interpretation"
+    ],
+    "PERMUTATION_REALIZATION": [
+      "permutation.transition-type",
+      "permutation.thought-direction",
+      "permutation.semantic-structural-authority",
+      "permutation.permutation",
+      "permutation.semantic-transformation",
+      "permutation.interpretation"
+    ]
+  },
+  "neural_calls": 0,
+  "contract_policy": "EXACT_RUNTIME_REGISTRY_AND_GATE_KNOWLEDGE_BINDING; C0 establishes traceability, not semantic competence",
+  "finished_at_utc": "2026-09-13T21:25:28Z"
+}

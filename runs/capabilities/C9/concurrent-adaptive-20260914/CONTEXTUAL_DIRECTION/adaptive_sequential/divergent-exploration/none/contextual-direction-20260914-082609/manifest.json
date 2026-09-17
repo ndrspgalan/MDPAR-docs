@@ -1,0 +1,50 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.2.0",
+  "adapter_version": "0.12.0",
+  "adapter_source_sha256": "sha256:112d5a3087bfbfa3e03f593f60163081f06470f8688e61d22b94c20c422b07c5",
+  "protocol": "C5_CONTEXTUAL_DIRECTION_V2",
+  "capabilities": [
+    "C5"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Can OPEN exercise semantic/contextual authority over the next contribution while MDPAR independently retains structural and directional authority, without collapsing UNKNOWN into a forced direction?",
+  "started_at_utc": "2026-09-14T06:26:09Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": "C9-CONCURRENT-ADAPTIVE",
+    "hardware_profile_id": null
+  },
+  "instrument": "contextual-direction",
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.2.0.jar",
+  "mdpar_jar_sha256": "baf0dc0103b8df0e079c196997c92b09583eaed238910551896f9848a0a00d3c",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\_case_corpora\\divergent-exploration.jsonl",
+  "corpus_sha256": "d645a82635191806348c9c9bb9908a4554e8914865aed11be23215d4af2d437d",
+  "campaign_id": "C9-CONCURRENT-ADAPTIVE",
+  "open_knowledge_sha256": "sha256:62ea32221b2190e69ce765c879e0831a0f38dd1055113e34e19f24d4dea79d35",
+  "provider": "openai",
+  "model": "gpt-5.6-sol",
+  "inference_settings": {
+    "reasoning_effort": "none",
+    "max_output_tokens": 128000,
+    "timeout_seconds": 86400.0,
+    "store": false,
+    "api": "responses",
+    "structured_outputs": true
+  },
+  "single_neural_claim_per_gate": true,
+  "transport_retries_are_not_neural_retries": true,
+  "metrics": "vector only; no weighted aggregate",
+  "authority_boundary": {
+    "open": "semantic/contextual proposal",
+    "mdpar": "structural observation and effective direction",
+    "adapter": "orchestration and evidence only"
+  },
+  "finished_at_utc": "2026-09-14T06:26:17Z"
+}

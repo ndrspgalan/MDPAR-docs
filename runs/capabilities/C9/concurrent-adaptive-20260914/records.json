@@ -1,0 +1,2690 @@
+{
+  "CONTEXTUAL_DIRECTION": {
+    "arm_order": [
+      "ADAPTIVE_CONCURRENT",
+      "ADAPTIVE_SEQUENTIAL"
+    ],
+    "ADAPTIVE_CONCURRENT": {
+      "arm": "ADAPTIVE_CONCURRENT",
+      "workload_family": "CONTEXTUAL_DIRECTION",
+      "max_background_workers": 1,
+      "campaign_wall_seconds": 1648.3795974,
+      "foreground_stream_wall_seconds": 225.0768413,
+      "same_run_serialized_neural_wall_seconds": 1775.8057781999814,
+      "same_run_wall_hidden_seconds": 127.42618079998147,
+      "same_run_wall_hidden_fraction": 0.07175682293879293,
+      "exposed_tail_after_foreground_seconds": 1423.3027561,
+      "records": [
+        {
+          "case_id": "convergent-diagnosis",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\convergent-diagnosis\\none\\contextual-direction-20260914-075832",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 10.881332200006,
+          "none_provider_usage": {
+            "input_tokens": 46155,
+            "cached_input_tokens": 0,
+            "output_tokens": 401,
+            "reasoning_tokens": 0,
+            "total_tokens": 46556,
+            "request_count": 3
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1
+          }
+        },
+        {
+          "case_id": "divergent-exploration",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\divergent-exploration\\none\\contextual-direction-20260914-075843",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 8.628380199996172,
+          "none_provider_usage": {
+            "input_tokens": 46174,
+            "cached_input_tokens": 0,
+            "output_tokens": 341,
+            "reasoning_tokens": 0,
+            "total_tokens": 46515,
+            "request_count": 3
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1
+          }
+        },
+        {
+          "case_id": "topic-shift-direction-preserved",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\topic-shift-direction-preserved\\none\\contextual-direction-20260914-075851",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 12.170482099987566,
+          "none_provider_usage": {
+            "input_tokens": 46148,
+            "cached_input_tokens": 0,
+            "output_tokens": 316,
+            "reasoning_tokens": 0,
+            "total_tokens": 46464,
+            "request_count": 3
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1
+          }
+        },
+        {
+          "case_id": "appropriate-takeover-emergency",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\appropriate-takeover-emergency\\none\\contextual-direction-20260914-075904",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 9.035446999987471,
+          "none_provider_usage": {
+            "input_tokens": 46132,
+            "cached_input_tokens": 0,
+            "output_tokens": 449,
+            "reasoning_tokens": 0,
+            "total_tokens": 46581,
+            "request_count": 3
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1
+          }
+        },
+        {
+          "case_id": "inappropriate-takeover-social",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\inappropriate-takeover-social\\none\\contextual-direction-20260914-075913",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 13.692552699998487,
+          "none_provider_usage": {
+            "input_tokens": 67956,
+            "cached_input_tokens": 0,
+            "output_tokens": 466,
+            "reasoning_tokens": 0,
+            "total_tokens": 68422,
+            "request_count": 4
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1
+          }
+        },
+        {
+          "case_id": "anchor-loss-opportunity",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\anchor-loss-opportunity\\none\\contextual-direction-20260914-075926",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 14.396148100000573,
+          "none_provider_usage": {
+            "input_tokens": 67928,
+            "cached_input_tokens": 0,
+            "output_tokens": 692,
+            "reasoning_tokens": 0,
+            "total_tokens": 68620,
+            "request_count": 4
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1
+          }
+        },
+        {
+          "case_id": "group-interleaved-resumption-and-merge",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\group-interleaved-resumption-and-merge\\none\\contextual-direction-20260914-075941",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 28.457204499994987,
+          "none_provider_usage": {
+            "input_tokens": 135988,
+            "cached_input_tokens": 0,
+            "output_tokens": 1584,
+            "reasoning_tokens": 0,
+            "total_tokens": 137572,
+            "request_count": 8
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\group-interleaved-resumption-and-merge\\high\\contextual-direction-20260914-080009",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 335.3273382000043,
+          "high_provider_usage": {
+            "input_tokens": 141744,
+            "cached_input_tokens": 0,
+            "output_tokens": 21712,
+            "reasoning_tokens": 19822,
+            "total_tokens": 163456,
+            "request_count": 10
+          },
+          "high_queue_delay_seconds": 0.0007451,
+          "high_submit_to_complete_seconds": 335.3385015,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 4,
+            "evaluable_checkpoint_count": 4,
+            "exact_count": 4,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 4,
+            "evaluable_checkpoint_count": 4,
+            "exact_count": 4
+          },
+          "high_submitted_ns": 75466168014400
+        },
+        {
+          "case_id": "group-same-topic-opposed-organization",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\group-same-topic-opposed-organization\\none\\contextual-direction-20260914-080009",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 20.267132399996626,
+          "none_provider_usage": {
+            "input_tokens": 70663,
+            "cached_input_tokens": 0,
+            "output_tokens": 658,
+            "reasoning_tokens": 0,
+            "total_tokens": 71321,
+            "request_count": 5
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 2,
+            "exact_count": 2,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 2,
+            "exact_count": 2
+          }
+        },
+        {
+          "case_id": "group-parallel-threads-local-inertia",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\group-parallel-threads-local-inertia\\none\\contextual-direction-20260914-080029",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 19.68837170000188,
+          "none_provider_usage": {
+            "input_tokens": 108629,
+            "cached_input_tokens": 0,
+            "output_tokens": 860,
+            "reasoning_tokens": 0,
+            "total_tokens": 109489,
+            "request_count": 5
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\group-parallel-threads-local-inertia\\high\\contextual-direction-20260914-080544",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 235.71097550001286,
+          "high_provider_usage": {
+            "input_tokens": 117075,
+            "cached_input_tokens": 0,
+            "output_tokens": 13587,
+            "reasoning_tokens": 12489,
+            "total_tokens": 130662,
+            "request_count": 8
+          },
+          "high_queue_delay_seconds": 295.3592966,
+          "high_submit_to_complete_seconds": 531.0811704,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "exact_count": 3,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "exact_count": 3
+          },
+          "high_submitted_ns": 75506147278000
+        },
+        {
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\group-observer-reconstructs-without-original-participation\\none\\contextual-direction-20260914-080049",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 21.60646579999593,
+          "none_provider_usage": {
+            "input_tokens": 108618,
+            "cached_input_tokens": 0,
+            "output_tokens": 1040,
+            "reasoning_tokens": 0,
+            "total_tokens": 109658,
+            "request_count": 5
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\group-observer-reconstructs-without-original-participation\\high\\contextual-direction-20260914-080940",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 311.7780628000037,
+          "high_provider_usage": {
+            "input_tokens": 114249,
+            "cached_input_tokens": 0,
+            "output_tokens": 18955,
+            "reasoning_tokens": 17740,
+            "total_tokens": 133204,
+            "request_count": 7
+          },
+          "high_queue_delay_seconds": 509.4605606,
+          "high_submit_to_complete_seconds": 821.2497203,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 2,
+            "exact_count": 1,
+            "exact_rate": 0.5
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 2,
+            "exact_count": 1
+          },
+          "high_submitted_ns": 75527767927600
+        },
+        {
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\group-misunderstanding-repeat-and-reanchor\\none\\contextual-direction-20260914-080111",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 28.92441140000301,
+          "none_provider_usage": {
+            "input_tokens": 114166,
+            "cached_input_tokens": 0,
+            "output_tokens": 946,
+            "reasoning_tokens": 0,
+            "total_tokens": 115112,
+            "request_count": 7
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\group-misunderstanding-repeat-and-reanchor\\high\\contextual-direction-20260914-081452",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 305.62506510000094,
+          "high_provider_usage": {
+            "input_tokens": 117010,
+            "cached_input_tokens": 0,
+            "output_tokens": 18091,
+            "reasoning_tokens": 16797,
+            "total_tokens": 135101,
+            "request_count": 8
+          },
+          "high_queue_delay_seconds": 792.3138047,
+          "high_submit_to_complete_seconds": 1097.950972,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "exact_count": 3,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "exact_count": 3
+          },
+          "high_submitted_ns": 75556703876100
+        },
+        {
+          "case_id": "group-external-cutoff-after-merge",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\group-external-cutoff-after-merge\\none\\contextual-direction-20260914-080140",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 26.99972130000242,
+          "none_provider_usage": {
+            "input_tokens": 133091,
+            "cached_input_tokens": 43435,
+            "output_tokens": 1350,
+            "reasoning_tokens": 0,
+            "total_tokens": 134441,
+            "request_count": 7
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\group-external-cutoff-after-merge\\high\\contextual-direction-20260914-081958",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 362.48657969999476,
+          "high_provider_usage": {
+            "input_tokens": 138839,
+            "cached_input_tokens": 0,
+            "output_tokens": 22920,
+            "reasoning_tokens": 21423,
+            "total_tokens": 161759,
+            "request_count": 9
+          },
+          "high_queue_delay_seconds": 1070.9364489,
+          "high_submit_to_complete_seconds": 1433.44705,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "exact_count": 3,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "exact_count": 3
+          },
+          "high_submitted_ns": 75583718433400
+        },
+        {
+          "case_id": "explicit-contextual-underdetermination",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_concurrent\\explicit-contextual-underdetermination\\none\\contextual-direction-20260914-080207",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 10.130107499993755,
+          "none_provider_usage": {
+            "input_tokens": 46180,
+            "cached_input_tokens": 43453,
+            "output_tokens": 268,
+            "reasoning_tokens": 0,
+            "total_tokens": 46448,
+            "request_count": 3
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1
+          }
+        }
+      ],
+      "provider_usage": {
+        "input_tokens": 1666745,
+        "cached_input_tokens": 86888,
+        "output_tokens": 104636,
+        "reasoning_tokens": 88271,
+        "total_tokens": 1771381,
+        "request_count": 102
+      },
+      "events": [
+        {
+          "event": "NONE_STARTED",
+          "case_id": "convergent-diagnosis",
+          "time_ns": 75368800379100,
+          "offset_seconds": 0.0141828
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "convergent-diagnosis",
+          "time_ns": 75379690632200,
+          "offset_seconds": 10.9044359
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "divergent-exploration",
+          "time_ns": 75379691180300,
+          "offset_seconds": 10.904984
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "divergent-exploration",
+          "time_ns": 75388340927300,
+          "offset_seconds": 19.554731
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "topic-shift-direction-preserved",
+          "time_ns": 75388355309100,
+          "offset_seconds": 19.5691128
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "topic-shift-direction-preserved",
+          "time_ns": 75400535803900,
+          "offset_seconds": 31.7496076
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "appropriate-takeover-emergency",
+          "time_ns": 75400536452700,
+          "offset_seconds": 31.7502564
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "appropriate-takeover-emergency",
+          "time_ns": 75409584430500,
+          "offset_seconds": 40.7982342
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "inappropriate-takeover-social",
+          "time_ns": 75409585039400,
+          "offset_seconds": 40.7988431
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "inappropriate-takeover-social",
+          "time_ns": 75423285794700,
+          "offset_seconds": 54.4995984
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "anchor-loss-opportunity",
+          "time_ns": 75423286492500,
+          "offset_seconds": 54.5002962
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "anchor-loss-opportunity",
+          "time_ns": 75437695995000,
+          "offset_seconds": 68.9097987
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "group-interleaved-resumption-and-merge",
+          "time_ns": 75437696707600,
+          "offset_seconds": 68.9105113
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "group-interleaved-resumption-and-merge",
+          "time_ns": 75466167499400,
+          "offset_seconds": 97.3813031
+        },
+        {
+          "event": "HIGH_SUBMITTED",
+          "case_id": "group-interleaved-resumption-and-merge",
+          "time_ns": 75466168014400,
+          "offset_seconds": 97.3818181
+        },
+        {
+          "event": "HIGH_STARTED",
+          "case_id": "group-interleaved-resumption-and-merge",
+          "time_ns": 75466168759500,
+          "offset_seconds": 97.3825632
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "group-same-topic-opposed-organization",
+          "time_ns": 75466170024400,
+          "offset_seconds": 97.3838281
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "group-same-topic-opposed-organization",
+          "time_ns": 75486447809300,
+          "offset_seconds": 117.661613
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "group-parallel-threads-local-inertia",
+          "time_ns": 75486448517800,
+          "offset_seconds": 117.6623215
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "group-parallel-threads-local-inertia",
+          "time_ns": 75506146821400,
+          "offset_seconds": 137.3606251
+        },
+        {
+          "event": "HIGH_SUBMITTED",
+          "case_id": "group-parallel-threads-local-inertia",
+          "time_ns": 75506147278000,
+          "offset_seconds": 137.3610817
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "time_ns": 75506148503700,
+          "offset_seconds": 137.3623074
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "time_ns": 75527767413300,
+          "offset_seconds": 158.981217
+        },
+        {
+          "event": "HIGH_SUBMITTED",
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "time_ns": 75527767927600,
+          "offset_seconds": 158.9817313
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "time_ns": 75527768582400,
+          "offset_seconds": 158.9823861
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "time_ns": 75556703425500,
+          "offset_seconds": 187.9172292
+        },
+        {
+          "event": "HIGH_SUBMITTED",
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "time_ns": 75556703876100,
+          "offset_seconds": 187.9176798
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "group-external-cutoff-after-merge",
+          "time_ns": 75556705164200,
+          "offset_seconds": 187.9189679
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "group-external-cutoff-after-merge",
+          "time_ns": 75583717975200,
+          "offset_seconds": 214.9317789
+        },
+        {
+          "event": "HIGH_SUBMITTED",
+          "case_id": "group-external-cutoff-after-merge",
+          "time_ns": 75583718433400,
+          "offset_seconds": 214.9322371
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "explicit-contextual-underdetermination",
+          "time_ns": 75583719555700,
+          "offset_seconds": 214.9333594
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "explicit-contextual-underdetermination",
+          "time_ns": 75593863029100,
+          "offset_seconds": 225.0768328
+        },
+        {
+          "event": "FOREGROUND_STREAM_COMPLETED",
+          "case_id": "__WORKLOAD__",
+          "time_ns": 75593863037600,
+          "offset_seconds": 225.0768413
+        },
+        {
+          "event": "HIGH_COMPLETED",
+          "case_id": "group-interleaved-resumption-and-merge",
+          "time_ns": 75801506515900,
+          "offset_seconds": 432.7203196
+        },
+        {
+          "event": "HIGH_STARTED",
+          "case_id": "group-parallel-threads-local-inertia",
+          "time_ns": 75801506574600,
+          "offset_seconds": 432.7203783
+        },
+        {
+          "event": "HIGH_COLLECTED",
+          "case_id": "group-interleaved-resumption-and-merge",
+          "time_ns": 75801506806200,
+          "offset_seconds": 432.7206099
+        },
+        {
+          "event": "HIGH_COMPLETED",
+          "case_id": "group-parallel-threads-local-inertia",
+          "time_ns": 76037228448400,
+          "offset_seconds": 668.4422521
+        },
+        {
+          "event": "HIGH_STARTED",
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "time_ns": 76037228488200,
+          "offset_seconds": 668.4422919
+        },
+        {
+          "event": "HIGH_COLLECTED",
+          "case_id": "group-parallel-threads-local-inertia",
+          "time_ns": 76037228728900,
+          "offset_seconds": 668.4425326
+        },
+        {
+          "event": "HIGH_COMPLETED",
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "time_ns": 76349017647900,
+          "offset_seconds": 980.2314516
+        },
+        {
+          "event": "HIGH_STARTED",
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "time_ns": 76349017680800,
+          "offset_seconds": 980.2314845
+        },
+        {
+          "event": "HIGH_COLLECTED",
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "time_ns": 76349017909800,
+          "offset_seconds": 980.2317135
+        },
+        {
+          "event": "HIGH_COMPLETED",
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "time_ns": 76654654848100,
+          "offset_seconds": 1285.8686518
+        },
+        {
+          "event": "HIGH_STARTED",
+          "case_id": "group-external-cutoff-after-merge",
+          "time_ns": 76654654882300,
+          "offset_seconds": 1285.868686
+        },
+        {
+          "event": "HIGH_COLLECTED",
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "time_ns": 76654655095300,
+          "offset_seconds": 1285.868899
+        },
+        {
+          "event": "HIGH_COMPLETED",
+          "case_id": "group-external-cutoff-after-merge",
+          "time_ns": 77017165483400,
+          "offset_seconds": 1648.3792871
+        },
+        {
+          "event": "HIGH_COLLECTED",
+          "case_id": "group-external-cutoff-after-merge",
+          "time_ns": 77017165549800,
+          "offset_seconds": 1648.3793535
+        }
+      ]
+    },
+    "ADAPTIVE_SEQUENTIAL": {
+      "arm": "ADAPTIVE_SEQUENTIAL",
+      "workload_family": "CONTEXTUAL_DIRECTION",
+      "campaign_wall_seconds": 1241.644227,
+      "records": [
+        {
+          "case_id": "convergent-diagnosis",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\convergent-diagnosis\\none\\contextual-direction-20260914-082600",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 8.39131360000465,
+          "none_provider_usage": {
+            "input_tokens": 46162,
+            "cached_input_tokens": 43438,
+            "output_tokens": 406,
+            "reasoning_tokens": 0,
+            "total_tokens": 46568,
+            "request_count": 3
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1
+          }
+        },
+        {
+          "case_id": "divergent-exploration",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\divergent-exploration\\none\\contextual-direction-20260914-082609",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 9.778558799996972,
+          "none_provider_usage": {
+            "input_tokens": 46174,
+            "cached_input_tokens": 43439,
+            "output_tokens": 319,
+            "reasoning_tokens": 0,
+            "total_tokens": 46493,
+            "request_count": 3
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1
+          }
+        },
+        {
+          "case_id": "topic-shift-direction-preserved",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\topic-shift-direction-preserved\\none\\contextual-direction-20260914-082618",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 7.7751626999961445,
+          "none_provider_usage": {
+            "input_tokens": 43443,
+            "cached_input_tokens": 43437,
+            "output_tokens": 366,
+            "reasoning_tokens": 0,
+            "total_tokens": 43809,
+            "request_count": 2
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\topic-shift-direction-preserved\\high\\contextual-direction-20260914-082626",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 125.39614209999854,
+          "high_provider_usage": {
+            "input_tokens": 46148,
+            "cached_input_tokens": 0,
+            "output_tokens": 8189,
+            "reasoning_tokens": 7714,
+            "total_tokens": 54337,
+            "request_count": 3
+          },
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1
+          }
+        },
+        {
+          "case_id": "appropriate-takeover-emergency",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\appropriate-takeover-emergency\\none\\contextual-direction-20260914-082832",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 9.319015099987155,
+          "none_provider_usage": {
+            "input_tokens": 46132,
+            "cached_input_tokens": 46123,
+            "output_tokens": 452,
+            "reasoning_tokens": 0,
+            "total_tokens": 46584,
+            "request_count": 3
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1
+          }
+        },
+        {
+          "case_id": "inappropriate-takeover-social",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\inappropriate-takeover-social\\none\\contextual-direction-20260914-082841",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 10.962003900000127,
+          "none_provider_usage": {
+            "input_tokens": 67956,
+            "cached_input_tokens": 65172,
+            "output_tokens": 551,
+            "reasoning_tokens": 0,
+            "total_tokens": 68507,
+            "request_count": 4
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1
+          }
+        },
+        {
+          "case_id": "anchor-loss-opportunity",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\anchor-loss-opportunity\\none\\contextual-direction-20260914-082852",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 16.144427299994277,
+          "none_provider_usage": {
+            "input_tokens": 67928,
+            "cached_input_tokens": 65158,
+            "output_tokens": 815,
+            "reasoning_tokens": 0,
+            "total_tokens": 68743,
+            "request_count": 4
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1
+          }
+        },
+        {
+          "case_id": "group-interleaved-resumption-and-merge",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\group-interleaved-resumption-and-merge\\none\\contextual-direction-20260914-082908",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 27.376436199992895,
+          "none_provider_usage": {
+            "input_tokens": 141786,
+            "cached_input_tokens": 135964,
+            "output_tokens": 1379,
+            "reasoning_tokens": 0,
+            "total_tokens": 143165,
+            "request_count": 10
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 4,
+            "evaluable_checkpoint_count": 4,
+            "exact_count": 4,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 4,
+            "evaluable_checkpoint_count": 4,
+            "exact_count": 4
+          }
+        },
+        {
+          "case_id": "group-same-topic-opposed-organization",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\group-same-topic-opposed-organization\\none\\contextual-direction-20260914-082936",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 14.603896900007385,
+          "none_provider_usage": {
+            "input_tokens": 70663,
+            "cached_input_tokens": 67886,
+            "output_tokens": 737,
+            "reasoning_tokens": 0,
+            "total_tokens": 71400,
+            "request_count": 5
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 2,
+            "exact_count": 2,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 2,
+            "exact_count": 2
+          }
+        },
+        {
+          "case_id": "group-parallel-threads-local-inertia",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\group-parallel-threads-local-inertia\\none\\contextual-direction-20260914-082950",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 16.261422700001276,
+          "none_provider_usage": {
+            "input_tokens": 108629,
+            "cached_input_tokens": 108614,
+            "output_tokens": 949,
+            "reasoning_tokens": 0,
+            "total_tokens": 109578,
+            "request_count": 5
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\group-parallel-threads-local-inertia\\high\\contextual-direction-20260914-083006",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 298.46649390000675,
+          "high_provider_usage": {
+            "input_tokens": 117082,
+            "cached_input_tokens": 108614,
+            "output_tokens": 18737,
+            "reasoning_tokens": 17587,
+            "total_tokens": 135819,
+            "request_count": 8
+          },
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "exact_count": 3,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "exact_count": 3
+          }
+        },
+        {
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\group-observer-reconstructs-without-original-participation\\none\\contextual-direction-20260914-083505",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 21.292339799998445,
+          "none_provider_usage": {
+            "input_tokens": 108618,
+            "cached_input_tokens": 0,
+            "output_tokens": 920,
+            "reasoning_tokens": 0,
+            "total_tokens": 109538,
+            "request_count": 5
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\group-observer-reconstructs-without-original-participation\\high\\contextual-direction-20260914-083526",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 234.34997689999,
+          "high_provider_usage": {
+            "input_tokens": 114256,
+            "cached_input_tokens": 111465,
+            "output_tokens": 14078,
+            "reasoning_tokens": 13090,
+            "total_tokens": 128334,
+            "request_count": 7
+          },
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 2,
+            "exact_count": 2,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 2,
+            "exact_count": 2
+          }
+        },
+        {
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\group-misunderstanding-repeat-and-reanchor\\none\\contextual-direction-20260914-083920",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 18.180634999996983,
+          "none_provider_usage": {
+            "input_tokens": 108623,
+            "cached_input_tokens": 0,
+            "output_tokens": 889,
+            "reasoning_tokens": 0,
+            "total_tokens": 109512,
+            "request_count": 5
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\group-misunderstanding-repeat-and-reanchor\\high\\contextual-direction-20260914-083939",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 311.9633313999948,
+          "high_provider_usage": {
+            "input_tokens": 116981,
+            "cached_input_tokens": 108608,
+            "output_tokens": 20126,
+            "reasoning_tokens": 18819,
+            "total_tokens": 137107,
+            "request_count": 8
+          },
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "exact_count": 3,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "exact_count": 3
+          }
+        },
+        {
+          "case_id": "group-external-cutoff-after-merge",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\group-external-cutoff-after-merge\\none\\contextual-direction-20260914-084451",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 36.17463449999923,
+          "none_provider_usage": {
+            "input_tokens": 138846,
+            "cached_input_tokens": 0,
+            "output_tokens": 1474,
+            "reasoning_tokens": 0,
+            "total_tokens": 140320,
+            "request_count": 9
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "exact_count": 3,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "exact_count": 3
+          }
+        },
+        {
+          "case_id": "explicit-contextual-underdetermination",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\explicit-contextual-underdetermination\\none\\contextual-direction-20260914-084527",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 8.42072389999521,
+          "none_provider_usage": {
+            "input_tokens": 43459,
+            "cached_input_tokens": 0,
+            "output_tokens": 339,
+            "reasoning_tokens": 0,
+            "total_tokens": 43798,
+            "request_count": 2
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_DIRECTION\\adaptive_sequential\\explicit-contextual-underdetermination\\high\\contextual-direction-20260914-084535",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 66.57262590000755,
+          "high_provider_usage": {
+            "input_tokens": 46180,
+            "cached_input_tokens": 0,
+            "output_tokens": 4354,
+            "reasoning_tokens": 3999,
+            "total_tokens": 50534,
+            "request_count": 3
+          },
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1,
+            "exact_rate": 1.0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "exact_count": 1
+          }
+        }
+      ],
+      "provider_usage": {
+        "input_tokens": 1479066,
+        "cached_input_tokens": 947918,
+        "output_tokens": 75080,
+        "reasoning_tokens": 61209,
+        "total_tokens": 1554146,
+        "request_count": 89
+      }
+    }
+  },
+  "CONTEXTUAL_ADAPTATION": {
+    "arm_order": [
+      "ADAPTIVE_SEQUENTIAL",
+      "ADAPTIVE_CONCURRENT"
+    ],
+    "ADAPTIVE_SEQUENTIAL": {
+      "arm": "ADAPTIVE_SEQUENTIAL",
+      "workload_family": "CONTEXTUAL_ADAPTATION",
+      "campaign_wall_seconds": 2847.0856852,
+      "records": [
+        {
+          "case_id": "convergent-diagnosis",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\convergent-diagnosis\\none\\contextual-adaptation-20260914-084642",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 19.004472300002817,
+          "none_provider_usage": {
+            "input_tokens": 70563,
+            "cached_input_tokens": 46153,
+            "output_tokens": 764,
+            "reasoning_tokens": 0,
+            "total_tokens": 71327,
+            "request_count": 5
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "direction_exact_rate": 1.0,
+            "keep": 0,
+            "permute": 0,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "divergent-exploration",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\divergent-exploration\\none\\contextual-adaptation-20260914-084701",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 23.474586600001203,
+          "none_provider_usage": {
+            "input_tokens": 70685,
+            "cached_input_tokens": 46165,
+            "output_tokens": 1159,
+            "reasoning_tokens": 0,
+            "total_tokens": 71844,
+            "request_count": 5
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\divergent-exploration\\high\\contextual-adaptation-20260914-084724",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 271.3115160000016,
+          "high_provider_usage": {
+            "input_tokens": 70687,
+            "cached_input_tokens": 0,
+            "output_tokens": 18445,
+            "reasoning_tokens": 17369,
+            "total_tokens": 89132,
+            "request_count": 5
+          },
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "direction_exact_rate": 1.0,
+            "keep": 0,
+            "permute": 0,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "topic-shift-direction-preserved",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\topic-shift-direction-preserved\\none\\contextual-adaptation-20260914-085156",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 15.481627799992566,
+          "none_provider_usage": {
+            "input_tokens": 70524,
+            "cached_input_tokens": 43437,
+            "output_tokens": 516,
+            "reasoning_tokens": 0,
+            "total_tokens": 71040,
+            "request_count": 5
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "direction_exact_rate": 1.0,
+            "keep": 0,
+            "permute": 0,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "appropriate-takeover-emergency",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\appropriate-takeover-emergency\\none\\contextual-adaptation-20260914-085211",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 20.582434800002375,
+          "none_provider_usage": {
+            "input_tokens": 70503,
+            "cached_input_tokens": 46123,
+            "output_tokens": 822,
+            "reasoning_tokens": 0,
+            "total_tokens": 71325,
+            "request_count": 5
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "direction_exact_rate": 1.0,
+            "keep": 1,
+            "permute": 0,
+            "unavailable": 0,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "inappropriate-takeover-social",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\inappropriate-takeover-social\\none\\contextual-adaptation-20260914-085232",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 25.324676699994598,
+          "none_provider_usage": {
+            "input_tokens": 118449,
+            "cached_input_tokens": 67944,
+            "output_tokens": 1416,
+            "reasoning_tokens": 0,
+            "total_tokens": 119865,
+            "request_count": 8
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "direction_exact_rate": 1.0,
+            "keep": 0,
+            "permute": 1,
+            "unavailable": 0,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "anchor-loss-opportunity",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\anchor-loss-opportunity\\none\\contextual-adaptation-20260914-085257",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 33.83782899999642,
+          "none_provider_usage": {
+            "input_tokens": 92392,
+            "cached_input_tokens": 67916,
+            "output_tokens": 1327,
+            "reasoning_tokens": 0,
+            "total_tokens": 93719,
+            "request_count": 6
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\anchor-loss-opportunity\\high\\contextual-adaptation-20260914-085331",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 254.71100959999603,
+          "high_provider_usage": {
+            "input_tokens": 92441,
+            "cached_input_tokens": 0,
+            "output_tokens": 16627,
+            "reasoning_tokens": 15030,
+            "total_tokens": 109068,
+            "request_count": 6
+          },
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "direction_exact_rate": 1.0,
+            "keep": 0,
+            "permute": 0,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "group-interleaved-resumption-and-merge",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\group-interleaved-resumption-and-merge\\none\\contextual-adaptation-20260914-085746",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 27.605016400004388,
+          "none_provider_usage": {
+            "input_tokens": 92495,
+            "cached_input_tokens": 67950,
+            "output_tokens": 1490,
+            "reasoning_tokens": 0,
+            "total_tokens": 93985,
+            "request_count": 6
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\group-interleaved-resumption-and-merge\\high\\contextual-adaptation-20260914-085813",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 630.5899833000003,
+          "high_provider_usage": {
+            "input_tokens": 239869,
+            "cached_input_tokens": 0,
+            "output_tokens": 43513,
+            "reasoning_tokens": 39825,
+            "total_tokens": 283382,
+            "request_count": 18
+          },
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 4,
+            "evaluable_checkpoint_count": 4,
+            "direction_correct": 4,
+            "direction_exact_rate": 1.0,
+            "keep": 3,
+            "permute": 0,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 4,
+            "evaluable_checkpoint_count": 4,
+            "direction_correct": 4,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "group-same-topic-opposed-organization",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\group-same-topic-opposed-organization\\none\\contextual-adaptation-20260914-090844",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 36.36443819999113,
+          "none_provider_usage": {
+            "input_tokens": 119629,
+            "cached_input_tokens": 0,
+            "output_tokens": 1769,
+            "reasoning_tokens": 0,
+            "total_tokens": 121398,
+            "request_count": 9
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\group-same-topic-opposed-organization\\high\\contextual-adaptation-20260914-090920",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 362.2742761000118,
+          "high_provider_usage": {
+            "input_tokens": 119766,
+            "cached_input_tokens": 0,
+            "output_tokens": 24401,
+            "reasoning_tokens": 22062,
+            "total_tokens": 144167,
+            "request_count": 9
+          },
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 2,
+            "direction_correct": 2,
+            "direction_exact_rate": 1.0,
+            "keep": 0,
+            "permute": 0,
+            "unavailable": 2,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 2,
+            "direction_correct": 2,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "group-parallel-threads-local-inertia",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\group-parallel-threads-local-inertia\\none\\contextual-adaptation-20260914-091523",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 63.98594549999689,
+          "none_provider_usage": {
+            "input_tokens": 216594,
+            "cached_input_tokens": 0,
+            "output_tokens": 3658,
+            "reasoning_tokens": 0,
+            "total_tokens": 220252,
+            "request_count": 16
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "direction_correct": 1,
+            "direction_exact_rate": 0.3333333333333333,
+            "keep": 1,
+            "permute": 1,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\group-observer-reconstructs-without-original-participation\\none\\contextual-adaptation-20260914-091627",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 13.929644100004225,
+          "none_provider_usage": {
+            "input_tokens": 65178,
+            "cached_input_tokens": 0,
+            "output_tokens": 694,
+            "reasoning_tokens": 0,
+            "total_tokens": 65872,
+            "request_count": 3
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\group-observer-reconstructs-without-original-participation\\high\\contextual-adaptation-20260914-091641",
+          "high_evidence_complete": false,
+          "high_wall_seconds": 433.66728670000157,
+          "high_provider_usage": {
+            "input_tokens": 163287,
+            "cached_input_tokens": 0,
+            "output_tokens": 28196,
+            "reasoning_tokens": 25788,
+            "total_tokens": 191483,
+            "request_count": 11
+          },
+          "final_evidence_complete": false,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "direction_exact_rate": 1.0,
+            "keep": 0,
+            "permute": 0,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\group-misunderstanding-repeat-and-reanchor\\none\\contextual-adaptation-20260914-092354",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 35.493166300002486,
+          "none_provider_usage": {
+            "input_tokens": 162973,
+            "cached_input_tokens": 0,
+            "output_tokens": 1229,
+            "reasoning_tokens": 0,
+            "total_tokens": 164202,
+            "request_count": 11
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\group-misunderstanding-repeat-and-reanchor\\high\\contextual-adaptation-20260914-092430",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 397.89286629999697,
+          "high_provider_usage": {
+            "input_tokens": 190314,
+            "cached_input_tokens": 0,
+            "output_tokens": 25528,
+            "reasoning_tokens": 23441,
+            "total_tokens": 215842,
+            "request_count": 14
+          },
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "direction_correct": 3,
+            "direction_exact_rate": 1.0,
+            "keep": 0,
+            "permute": 0,
+            "unavailable": 3,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "direction_correct": 3,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "group-external-cutoff-after-merge",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\group-external-cutoff-after-merge\\none\\contextual-adaptation-20260914-093108",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 63.53249030000006,
+          "none_provider_usage": {
+            "input_tokens": 263664,
+            "cached_input_tokens": 0,
+            "output_tokens": 3059,
+            "reasoning_tokens": 0,
+            "total_tokens": 266723,
+            "request_count": 19
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "direction_correct": 3,
+            "direction_exact_rate": 1.0,
+            "keep": 0,
+            "permute": 2,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "direction_correct": 3,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "explicit-contextual-underdetermination",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\explicit-contextual-underdetermination\\none\\contextual-adaptation-20260914-093211",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 8.007343500008574,
+          "none_provider_usage": {
+            "input_tokens": 43459,
+            "cached_input_tokens": 0,
+            "output_tokens": 329,
+            "reasoning_tokens": 0,
+            "total_tokens": 43788,
+            "request_count": 2
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_sequential\\explicit-contextual-underdetermination\\high\\contextual-adaptation-20260914-093219",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 109.74725810000382,
+          "high_provider_usage": {
+            "input_tokens": 70542,
+            "cached_input_tokens": 0,
+            "output_tokens": 6673,
+            "reasoning_tokens": 6059,
+            "total_tokens": 77215,
+            "request_count": 5
+          },
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "direction_exact_rate": 1.0,
+            "keep": 1,
+            "permute": 0,
+            "unavailable": 0,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        }
+      ],
+      "provider_usage": {
+        "input_tokens": 2404014,
+        "cached_input_tokens": 385688,
+        "output_tokens": 181615,
+        "reasoning_tokens": 149574,
+        "total_tokens": 2585629,
+        "request_count": 168
+      }
+    },
+    "ADAPTIVE_CONCURRENT": {
+      "arm": "ADAPTIVE_CONCURRENT",
+      "workload_family": "CONTEXTUAL_ADAPTATION",
+      "max_background_workers": 1,
+      "campaign_wall_seconds": 2031.626622,
+      "foreground_stream_wall_seconds": 393.1597224,
+      "same_run_serialized_neural_wall_seconds": 2152.4404807999963,
+      "same_run_wall_hidden_seconds": 120.8138587999963,
+      "same_run_wall_hidden_fraction": 0.056128780274144204,
+      "exposed_tail_after_foreground_seconds": 1638.4668996,
+      "records": [
+        {
+          "case_id": "convergent-diagnosis",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\convergent-diagnosis\\none\\contextual-adaptation-20260914-093409",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 22.23237599999993,
+          "none_provider_usage": {
+            "input_tokens": 70566,
+            "cached_input_tokens": 0,
+            "output_tokens": 725,
+            "reasoning_tokens": 0,
+            "total_tokens": 71291,
+            "request_count": 5
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "direction_exact_rate": 1.0,
+            "keep": 0,
+            "permute": 0,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "divergent-exploration",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\divergent-exploration\\none\\contextual-adaptation-20260914-093431",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 32.71280069999921,
+          "none_provider_usage": {
+            "input_tokens": 97304,
+            "cached_input_tokens": 0,
+            "output_tokens": 2053,
+            "reasoning_tokens": 0,
+            "total_tokens": 99357,
+            "request_count": 7
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "direction_exact_rate": 1.0,
+            "keep": 0,
+            "permute": 1,
+            "unavailable": 0,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "topic-shift-direction-preserved",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\topic-shift-direction-preserved\\none\\contextual-adaptation-20260914-093504",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 19.229567000002135,
+          "none_provider_usage": {
+            "input_tokens": 70604,
+            "cached_input_tokens": 0,
+            "output_tokens": 737,
+            "reasoning_tokens": 0,
+            "total_tokens": 71341,
+            "request_count": 5
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "direction_exact_rate": 1.0,
+            "keep": 0,
+            "permute": 0,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "appropriate-takeover-emergency",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\appropriate-takeover-emergency\\none\\contextual-adaptation-20260914-093523",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 19.952947300000233,
+          "none_provider_usage": {
+            "input_tokens": 70483,
+            "cached_input_tokens": 0,
+            "output_tokens": 918,
+            "reasoning_tokens": 0,
+            "total_tokens": 71401,
+            "request_count": 5
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "direction_exact_rate": 1.0,
+            "keep": 1,
+            "permute": 0,
+            "unavailable": 0,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "inappropriate-takeover-social",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\inappropriate-takeover-social\\none\\contextual-adaptation-20260914-093543",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 32.30551819999528,
+          "none_provider_usage": {
+            "input_tokens": 118777,
+            "cached_input_tokens": 0,
+            "output_tokens": 2151,
+            "reasoning_tokens": 0,
+            "total_tokens": 120928,
+            "request_count": 8
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "direction_exact_rate": 1.0,
+            "keep": 0,
+            "permute": 1,
+            "unavailable": 0,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "anchor-loss-opportunity",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\anchor-loss-opportunity\\none\\contextual-adaptation-20260914-093615",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 25.12003749998985,
+          "none_provider_usage": {
+            "input_tokens": 92407,
+            "cached_input_tokens": 0,
+            "output_tokens": 1215,
+            "reasoning_tokens": 0,
+            "total_tokens": 93622,
+            "request_count": 6
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "direction_exact_rate": 1.0,
+            "keep": 0,
+            "permute": 0,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 1,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "group-interleaved-resumption-and-merge",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\group-interleaved-resumption-and-merge\\none\\contextual-adaptation-20260914-093641",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 39.717356900000595,
+          "none_provider_usage": {
+            "input_tokens": 167210,
+            "cached_input_tokens": 0,
+            "output_tokens": 2150,
+            "reasoning_tokens": 0,
+            "total_tokens": 169360,
+            "request_count": 12
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\group-interleaved-resumption-and-merge\\high\\contextual-adaptation-20260914-093720",
+          "high_evidence_complete": false,
+          "high_wall_seconds": 48.443161899995175,
+          "high_provider_usage": {
+            "input_tokens": 21732,
+            "cached_input_tokens": 0,
+            "output_tokens": 3062,
+            "reasoning_tokens": 2705,
+            "total_tokens": 24794,
+            "request_count": 1
+          },
+          "high_queue_delay_seconds": 0.000466,
+          "high_submit_to_complete_seconds": 48.4528191,
+          "high_background_error": null,
+          "final_evidence_complete": false,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 4,
+            "evaluable_checkpoint_count": 0,
+            "direction_correct": 0,
+            "direction_exact_rate": null,
+            "keep": 0,
+            "permute": 0,
+            "unavailable": 0,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 4,
+            "evaluable_checkpoint_count": 0,
+            "direction_correct": 0,
+            "verified": 0
+          },
+          "high_submitted_ns": 81297253866300
+        },
+        {
+          "case_id": "group-same-topic-opposed-organization",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\group-same-topic-opposed-organization\\none\\contextual-adaptation-20260914-093720",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 38.52825380000286,
+          "none_provider_usage": {
+            "input_tokens": 119582,
+            "cached_input_tokens": 65172,
+            "output_tokens": 1729,
+            "reasoning_tokens": 0,
+            "total_tokens": 121311,
+            "request_count": 9
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 2,
+            "direction_correct": 2,
+            "direction_exact_rate": 1.0,
+            "keep": 1,
+            "permute": 0,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 2,
+            "direction_correct": 2,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "group-parallel-threads-local-inertia",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\group-parallel-threads-local-inertia\\none\\contextual-adaptation-20260914-093759",
+          "none_evidence_complete": true,
+          "none_wall_seconds": 71.02793379999639,
+          "none_provider_usage": {
+            "input_tokens": 217011,
+            "cached_input_tokens": 108614,
+            "output_tokens": 3728,
+            "reasoning_tokens": 0,
+            "total_tokens": 220739,
+            "request_count": 16
+          },
+          "high_escalated": false,
+          "high_run": null,
+          "high_evidence_complete": null,
+          "high_wall_seconds": null,
+          "high_provider_usage": null,
+          "high_queue_delay_seconds": null,
+          "high_submit_to_complete_seconds": null,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "none",
+          "final_gold_metrics": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "direction_correct": 3,
+            "direction_exact_rate": 1.0,
+            "keep": 1,
+            "permute": 1,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "direction_correct": 3,
+            "verified": 0
+          }
+        },
+        {
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\group-observer-reconstructs-without-original-participation\\none\\contextual-adaptation-20260914-093910",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 19.60190789999615,
+          "none_provider_usage": {
+            "input_tokens": 92365,
+            "cached_input_tokens": 65169,
+            "output_tokens": 914,
+            "reasoning_tokens": 0,
+            "total_tokens": 93279,
+            "request_count": 6
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\group-observer-reconstructs-without-original-participation\\high\\contextual-adaptation-20260914-093930",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 417.0236747000017,
+          "high_provider_usage": {
+            "input_tokens": 163271,
+            "cached_input_tokens": 108603,
+            "output_tokens": 26130,
+            "reasoning_tokens": 24371,
+            "total_tokens": 189401,
+            "request_count": 11
+          },
+          "high_queue_delay_seconds": 0.0001778,
+          "high_submit_to_complete_seconds": 417.0350431,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 2,
+            "direction_correct": 1,
+            "direction_exact_rate": 0.5,
+            "keep": 1,
+            "permute": 0,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 2,
+            "evaluable_checkpoint_count": 2,
+            "direction_correct": 1,
+            "verified": 0
+          },
+          "high_submitted_ns": 81426445292200
+        },
+        {
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\group-misunderstanding-repeat-and-reanchor\\none\\contextual-adaptation-20260914-093930",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 35.02320680000412,
+          "none_provider_usage": {
+            "input_tokens": 162944,
+            "cached_input_tokens": 130341,
+            "output_tokens": 1384,
+            "reasoning_tokens": 0,
+            "total_tokens": 164328,
+            "request_count": 11
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\group-misunderstanding-repeat-and-reanchor\\high\\contextual-adaptation-20260914-094627",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 436.43916400001035,
+          "high_provider_usage": {
+            "input_tokens": 190336,
+            "cached_input_tokens": 108608,
+            "output_tokens": 27296,
+            "reasoning_tokens": 25242,
+            "total_tokens": 217632,
+            "request_count": 14
+          },
+          "high_queue_delay_seconds": 381.9755926,
+          "high_submit_to_complete_seconds": 818.4255444,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "direction_correct": 2,
+            "direction_exact_rate": 0.6666666666666666,
+            "keep": 0,
+            "permute": 0,
+            "unavailable": 3,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "direction_correct": 2,
+            "verified": 0
+          },
+          "high_submitted_ns": 81461504782700
+        },
+        {
+          "case_id": "group-external-cutoff-after-merge",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\group-external-cutoff-after-merge\\none\\contextual-adaptation-20260914-094005",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 23.03262850000465,
+          "none_provider_usage": {
+            "input_tokens": 92326,
+            "cached_input_tokens": 67902,
+            "output_tokens": 1051,
+            "reasoning_tokens": 0,
+            "total_tokens": 93377,
+            "request_count": 6
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\group-external-cutoff-after-merge\\high\\contextual-adaptation-20260914-095343",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 724.7214254999999,
+          "high_provider_usage": {
+            "input_tokens": 238604,
+            "cached_input_tokens": 0,
+            "output_tokens": 44786,
+            "reasoning_tokens": 40890,
+            "total_tokens": 283390,
+            "request_count": 17
+          },
+          "high_queue_delay_seconds": 795.3795145,
+          "high_submit_to_complete_seconds": 1520.1118813,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "direction_correct": 3,
+            "direction_exact_rate": 1.0,
+            "keep": 1,
+            "permute": 1,
+            "unavailable": 1,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 3,
+            "evaluable_checkpoint_count": 3,
+            "direction_correct": 3,
+            "verified": 0
+          },
+          "high_submitted_ns": 81484550844500
+        },
+        {
+          "case_id": "explicit-contextual-underdetermination",
+          "none_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\explicit-contextual-underdetermination\\none\\contextual-adaptation-20260914-094028",
+          "none_evidence_complete": false,
+          "none_wall_seconds": 14.476584500007448,
+          "none_provider_usage": {
+            "input_tokens": 43459,
+            "cached_input_tokens": 43453,
+            "output_tokens": 339,
+            "reasoning_tokens": 0,
+            "total_tokens": 43798,
+            "request_count": 2
+          },
+          "high_escalated": true,
+          "high_run": "runs\\capabilities\\C9\\concurrent-adaptive-20260914\\CONTEXTUAL_ADAPTATION\\adaptive_concurrent\\explicit-contextual-underdetermination\\high\\contextual-adaptation-20260914-100548",
+          "high_evidence_complete": true,
+          "high_wall_seconds": 132.85193579999031,
+          "high_provider_usage": {
+            "input_tokens": 96127,
+            "cached_input_tokens": 0,
+            "output_tokens": 8292,
+            "reasoning_tokens": 7360,
+            "total_tokens": 104419,
+            "request_count": 7
+          },
+          "high_queue_delay_seconds": 1505.6050667,
+          "high_submit_to_complete_seconds": 1638.466534,
+          "high_background_error": null,
+          "final_evidence_complete": true,
+          "final_stage": "high",
+          "final_gold_metrics": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 0,
+            "direction_exact_rate": 0.0,
+            "keep": 0,
+            "permute": 1,
+            "unavailable": 0,
+            "verified": 0
+          },
+          "final_capability_vector": {
+            "checkpoint_count": 1,
+            "evaluable_checkpoint_count": 1,
+            "direction_correct": 0,
+            "verified": 0
+          },
+          "high_submitted_ns": 81499057693800
+        }
+      ],
+      "provider_usage": {
+        "input_tokens": 2125108,
+        "cached_input_tokens": 697862,
+        "output_tokens": 128660,
+        "reasoning_tokens": 100568,
+        "total_tokens": 2253768,
+        "request_count": 148
+      },
+      "events": [
+        {
+          "event": "NONE_STARTED",
+          "case_id": "convergent-diagnosis",
+          "time_ns": 81105899575000,
+          "offset_seconds": 0.001565
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "convergent-diagnosis",
+          "time_ns": 81128144629200,
+          "offset_seconds": 22.2466192
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "divergent-exploration",
+          "time_ns": 81128145210000,
+          "offset_seconds": 22.2472
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "divergent-exploration",
+          "time_ns": 81160868031400,
+          "offset_seconds": 54.9700214
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "topic-shift-direction-preserved",
+          "time_ns": 81160869216100,
+          "offset_seconds": 54.9712061
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "topic-shift-direction-preserved",
+          "time_ns": 81180111465100,
+          "offset_seconds": 74.2134551
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "appropriate-takeover-emergency",
+          "time_ns": 81180112033600,
+          "offset_seconds": 74.2140236
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "appropriate-takeover-emergency",
+          "time_ns": 81200074631300,
+          "offset_seconds": 94.1766213
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "inappropriate-takeover-social",
+          "time_ns": 81200075253800,
+          "offset_seconds": 94.1772438
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "inappropriate-takeover-social",
+          "time_ns": 81232390005800,
+          "offset_seconds": 126.4919958
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "anchor-loss-opportunity",
+          "time_ns": 81232390576100,
+          "offset_seconds": 126.4925661
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "anchor-loss-opportunity",
+          "time_ns": 81257522922500,
+          "offset_seconds": 151.6249125
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "group-interleaved-resumption-and-merge",
+          "time_ns": 81257523629100,
+          "offset_seconds": 151.6256191
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "group-interleaved-resumption-and-merge",
+          "time_ns": 81297253394900,
+          "offset_seconds": 191.3553849
+        },
+        {
+          "event": "HIGH_SUBMITTED",
+          "case_id": "group-interleaved-resumption-and-merge",
+          "time_ns": 81297253866300,
+          "offset_seconds": 191.3558563
+        },
+        {
+          "event": "HIGH_STARTED",
+          "case_id": "group-interleaved-resumption-and-merge",
+          "time_ns": 81297254332300,
+          "offset_seconds": 191.3563223
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "group-same-topic-opposed-organization",
+          "time_ns": 81297255536900,
+          "offset_seconds": 191.3575269
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "group-same-topic-opposed-organization",
+          "time_ns": 81335793174000,
+          "offset_seconds": 229.895164
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "group-parallel-threads-local-inertia",
+          "time_ns": 81335793825500,
+          "offset_seconds": 229.8958155
+        },
+        {
+          "event": "HIGH_COMPLETED",
+          "case_id": "group-interleaved-resumption-and-merge",
+          "time_ns": 81345706685400,
+          "offset_seconds": 239.8086754
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "group-parallel-threads-local-inertia",
+          "time_ns": 81406830790200,
+          "offset_seconds": 300.9327802
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "time_ns": 81406831598100,
+          "offset_seconds": 300.9335881
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "time_ns": 81426444788300,
+          "offset_seconds": 320.5467783
+        },
+        {
+          "event": "HIGH_SUBMITTED",
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "time_ns": 81426445292200,
+          "offset_seconds": 320.5472822
+        },
+        {
+          "event": "HIGH_STARTED",
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "time_ns": 81426445470000,
+          "offset_seconds": 320.54746
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "time_ns": 81426446523200,
+          "offset_seconds": 320.5485132
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "time_ns": 81461504310400,
+          "offset_seconds": 355.6063004
+        },
+        {
+          "event": "HIGH_SUBMITTED",
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "time_ns": 81461504782700,
+          "offset_seconds": 355.6067727
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "group-external-cutoff-after-merge",
+          "time_ns": 81461506382000,
+          "offset_seconds": 355.608372
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "group-external-cutoff-after-merge",
+          "time_ns": 81484550405900,
+          "offset_seconds": 378.6523959
+        },
+        {
+          "event": "HIGH_SUBMITTED",
+          "case_id": "group-external-cutoff-after-merge",
+          "time_ns": 81484550844500,
+          "offset_seconds": 378.6528345
+        },
+        {
+          "event": "NONE_STARTED",
+          "case_id": "explicit-contextual-underdetermination",
+          "time_ns": 81484551519500,
+          "offset_seconds": 378.6535095
+        },
+        {
+          "event": "NONE_COMPLETED",
+          "case_id": "explicit-contextual-underdetermination",
+          "time_ns": 81499057317900,
+          "offset_seconds": 393.1593079
+        },
+        {
+          "event": "HIGH_SUBMITTED",
+          "case_id": "explicit-contextual-underdetermination",
+          "time_ns": 81499057693800,
+          "offset_seconds": 393.1596838
+        },
+        {
+          "event": "FOREGROUND_STREAM_COMPLETED",
+          "case_id": "__WORKLOAD__",
+          "time_ns": 81499057732400,
+          "offset_seconds": 393.1597224
+        },
+        {
+          "event": "HIGH_COLLECTED",
+          "case_id": "group-interleaved-resumption-and-merge",
+          "time_ns": 81499057747700,
+          "offset_seconds": 393.1597377
+        },
+        {
+          "event": "HIGH_COMPLETED",
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "time_ns": 81843480335300,
+          "offset_seconds": 737.5823253
+        },
+        {
+          "event": "HIGH_STARTED",
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "time_ns": 81843480375300,
+          "offset_seconds": 737.5823653
+        },
+        {
+          "event": "HIGH_COLLECTED",
+          "case_id": "group-observer-reconstructs-without-original-participation",
+          "time_ns": 81843480624200,
+          "offset_seconds": 737.5826142
+        },
+        {
+          "event": "HIGH_COMPLETED",
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "time_ns": 82279930327100,
+          "offset_seconds": 1174.0323171
+        },
+        {
+          "event": "HIGH_STARTED",
+          "case_id": "group-external-cutoff-after-merge",
+          "time_ns": 82279930359000,
+          "offset_seconds": 1174.032349
+        },
+        {
+          "event": "HIGH_COLLECTED",
+          "case_id": "group-misunderstanding-repeat-and-reanchor",
+          "time_ns": 82279930599500,
+          "offset_seconds": 1174.0325895
+        },
+        {
+          "event": "HIGH_COMPLETED",
+          "case_id": "group-external-cutoff-after-merge",
+          "time_ns": 83004662725800,
+          "offset_seconds": 1898.7647158
+        },
+        {
+          "event": "HIGH_STARTED",
+          "case_id": "explicit-contextual-underdetermination",
+          "time_ns": 83004662760500,
+          "offset_seconds": 1898.7647505
+        },
+        {
+          "event": "HIGH_COLLECTED",
+          "case_id": "group-external-cutoff-after-merge",
+          "time_ns": 83004662997600,
+          "offset_seconds": 1898.7649876
+        },
+        {
+          "event": "HIGH_COMPLETED",
+          "case_id": "explicit-contextual-underdetermination",
+          "time_ns": 83137524227800,
+          "offset_seconds": 2031.6262178
+        },
+        {
+          "event": "HIGH_COLLECTED",
+          "case_id": "explicit-contextual-underdetermination",
+          "time_ns": 83137524292400,
+          "offset_seconds": 2031.6262824
+        }
+      ]
+    }
+  }
+}

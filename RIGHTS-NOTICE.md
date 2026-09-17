@@ -2,8 +2,24 @@
 
 Copyright © 2026 Andrés Pérez Galán. All rights reserved.
 
-This repository is publicly accessible for inspection, citation and scientific scrutiny, but its public availability does not place its contents in the public domain. The repository contents are distributed under the proprietary `LICENSE` included at the repository root. No permission to copy, modify, redistribute, sublicense, commercially exploit or create derivative works is granted except by explicit written authorization or where applicable law independently permits the use.
+`MDPAR-docs` is the public, versioned scientific evidence and reproducibility package associated 
+with MDPAR 2.2.0. Public access is provided so that the released manuscripts, corpora, 
+benchmark evidence and verification surface can be inspected, cited and subjected to 
+scientific scrutiny.
 
-The package intentionally excludes the proprietary production implementation of MDPAR. Publication of documentation, corpora, benchmark evidence or verification utilities does not grant any license to the private MDPAR runtime, source code, architecture or other undistributed intellectual property.
+Public access does **not** place the package in the public domain. The repository is governed
+by the proprietary `LICENSE` at its root. Unless applicable law independently permits a use,
+copying, modification, adaptation, redistribution, sublicensing, commercial exploitation and
+creation of derivative works require explicit written authorization from the copyright holder.
 
-Third-party materials, names, standards, quotations and dependencies remain subject to their respective rights and terms.
+The included verification utilities may be executed against the published evidence for integrity
+and reproducibility checking. That permission to execute the verification surface does not transfer
+ownership of the utilities or grant a broader license over the repository contents.
+
+The package intentionally separates public evidence from the proprietary MDPAR production 
+implementation. Publication of manuscripts, corpora, benchmark evidence, verification utilities,
+schemas or results does not grant a license to undistributed MDPAR source code, runtime, 
+algorithms, models, architecture or associated intellectual property.
+
+Third-party materials, names, standards, quotations and dependencies remain subject to their 
+respective rights and terms.

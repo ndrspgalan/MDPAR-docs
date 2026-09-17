@@ -1,0 +1,51 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.1.0",
+  "adapter_version": "0.11.3",
+  "adapter_source_sha256": "sha256:a578473b29550bc66c8a731ef84b1f3ac4ad06b0064413d6e6761b37a4680bc3",
+  "protocol": "C4_PERMUTATION_REIDENTIFICATION_V2",
+  "capabilities": [
+    "C4"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Does repeated OPEN re-identification of an immutable C4 permutation realization remain structurally stable, and does it recover the prospectively frozen target?",
+  "started_at_utc": "2026-09-12T00:38:04Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.1.0.jar",
+  "mdpar_jar_sha256": "da75ba4a936ace6a52124dd1f19bf8ac6bcdf5de818f8880e951894a20839426",
+  "provider": "openai",
+  "model": "gpt-5.6-sol",
+  "inference_settings": {
+    "reasoning_effort": "none",
+    "max_output_tokens": 128000,
+    "timeout_seconds": 86400.0,
+    "store": false,
+    "api": "responses",
+    "structured_outputs": true
+  },
+  "source_records": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\runs\\capabilities\\C4\\permutation-realization\\permutation-realization-20260912-003343\\records.jsonl",
+  "source_records_sha256": "38fa13cb62d0de7368d742b8199482abad9671e0959d40742cd8af8a84ac8ee9",
+  "sentinel_record_keys": [
+    "perm-necessary-sufficient|0|DIRECTION_ONLY",
+    "perm-necessary-sufficient|0|PERMUTATION_SURFACE",
+    "perm-necessary-sufficient|0|TARGET_SCC",
+    "perm-correlation-causation|0|TARGET_SCC",
+    "perm-correlation-causation|0|PERMUTATION_SURFACE",
+    "perm-correlation-causation|0|DIRECTION_ONLY"
+  ],
+  "repeats": 3,
+  "repetition_policy": "Repeated independent OPEN identification of the same immutable realization; repetition is the measured phenomenon, not a semantic retry.",
+  "metric_policy": "EXACT_FINGERPRINT_STABILITY_PLUS_CORE_PROPERTY_TRANSPORT_NO_SCORE",
+  "structural_authority": "mdpar_core classifies target-to-replay property transport; fingerprint identity remains separate",
+  "finished_at_utc": "2026-09-12T00:39:34Z"
+}

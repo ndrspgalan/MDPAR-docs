@@ -1,0 +1,75 @@
+{
+  "protocol": "C11_FRONTIER_DEGRADATION_RECOVERY_V2",
+  "evaluation_regime": "ONLINE_EMBODIMENT",
+  "cases": [
+    {
+      "id": "no-local-pending",
+      "episode_id": "C11-A",
+      "local_available": false,
+      "pending_work_ids": [
+        "W1"
+      ],
+      "local_open_current_contract_certified": false,
+      "requested_gate": "STRUCTURAL_IDENTIFICATION",
+      "local_open_gate_certified": false
+    },
+    {
+      "id": "local-dual-mode-pending",
+      "episode_id": "C11-B",
+      "local_available": true,
+      "pending_work_ids": [
+        "W1",
+        "W2"
+      ],
+      "local_open_current_contract_certified": false,
+      "requested_gate": "STRUCTURAL_IDENTIFICATION",
+      "local_open_gate_certified": false
+    },
+    {
+      "id": "local-foreground-inflight-restoration",
+      "episode_id": "C11-C",
+      "local_available": true,
+      "pending_work_ids": [
+        "W3"
+      ],
+      "local_foreground_in_flight": true,
+      "local_open_current_contract_certified": false,
+      "requested_gate": "STRUCTURAL_IDENTIFICATION",
+      "local_open_gate_certified": false
+    },
+    {
+      "id": "local-background-inflight-restoration",
+      "episode_id": "C11-D",
+      "local_available": true,
+      "pending_work_ids": [
+        "W4"
+      ],
+      "local_background_in_flight": true,
+      "local_open_current_contract_certified": false,
+      "requested_gate": "STRUCTURAL_IDENTIFICATION",
+      "local_open_gate_certified": false
+    },
+    {
+      "id": "local-current-contract-gate-certified",
+      "episode_id": "C11-E",
+      "local_available": true,
+      "pending_work_ids": [
+        "W5"
+      ],
+      "requested_gate": "STRUCTURAL_IDENTIFICATION",
+      "local_open_current_contract_certified": true,
+      "local_open_gate_certified": true
+    },
+    {
+      "id": "local-current-contract-wrong-gate",
+      "episode_id": "C11-F",
+      "local_available": true,
+      "pending_work_ids": [
+        "W6"
+      ],
+      "requested_gate": "PERMUTATION_REALIZATION",
+      "local_open_current_contract_certified": true,
+      "local_open_gate_certified": false
+    }
+  ]
+}

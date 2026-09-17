@@ -2,22 +2,29 @@ MDPAR-docs — Proprietary / All Rights Reserved
 
 Copyright (c) 2026 Andrés Pérez Galán. All rights reserved.
 
-The contents of this repository, including documentation, research materials,
-corpora, benchmark evidence, verification utilities, diagrams, tables and other
-original material, are protected by copyright and other applicable rights.
+This repository is a public scientific evidence and reproducibility package for
+MDPAR 2.2.0. Its contents include original documentation, research manuscripts,
+corpora, benchmark evidence, verification utilities, tables, diagrams and other
+research material protected by copyright and other applicable rights.
 
 No license is granted to copy, modify, adapt, redistribute, sublicense, sell,
 commercially exploit, or create derivative works from these materials, in whole
 or in part, except where permission is expressly granted in writing by the
-copyright holder or where an applicable law independently permits the use.
+copyright holder or where applicable law independently permits the use.
 
-Public availability of this repository does not place its contents in the public
-domain and does not grant any license to the proprietary MDPAR implementation,
-source code, runtime, algorithms, models, architecture, or associated intellectual
-property that is not expressly distributed under a separate written license.
+Public availability permits inspection, citation, scientific scrutiny and the
+execution of the included verification utilities against the published evidence.
+Those purposes do not place the contents in the public domain and do not create
+an implied license to reproduce, redistribute or commercially exploit them.
 
-Citation or reference to MDPAR or to this evidence package does not constitute a
-license to reproduce or redistribute protected material.
+This package does not grant any license to the proprietary MDPAR production
+implementation, source code, runtime, algorithms, models, architecture or other
+undistributed intellectual property. Any separately distributed dependency or
+third-party component remains governed by its own terms.
+
+Citation or reference to MDPAR, a manuscript in this package, or the MDPAR-docs
+evidence release does not constitute a license to reproduce or redistribute
+protected material.
 
 Third-party names, standards, quotations, dependencies and other third-party
 materials remain subject to their respective rights and terms.

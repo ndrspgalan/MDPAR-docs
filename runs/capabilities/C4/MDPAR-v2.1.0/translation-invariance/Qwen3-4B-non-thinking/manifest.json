@@ -1,0 +1,69 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.1.0",
+  "adapter_version": "0.11.3",
+  "adapter_source_sha256": "sha256:a578473b29550bc66c8a731ef84b1f3ac4ad06b0064413d6e6761b37a4680bc3",
+  "protocol": "C4_TRANSLATION_INVARIANCE_V2",
+  "capabilities": [
+    "C4"
+  ],
+  "scientific_axes": [
+    "G"
+  ],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Across sequential semantic translations, which canonical SCC properties are preserved, drifted, lost or recovered under mdpar_core's exact property transport calculus, and what ENGINE consequences accompany those changes?",
+  "started_at_utc": "2026-09-11T20:02:29Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": "C4-MDPAR210-QWEN3-4B-TRANSLATION",
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.1.0.jar",
+  "mdpar_jar_sha256": "da75ba4a936ace6a52124dd1f19bf8ac6bcdf5de818f8880e951894a20839426",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\invariance\\translation_invariance_v1.jsonl",
+  "corpus_sha256": "59c97711857151a13f106ce1575e2fb62c01e1514503f8d0a4a8267023d441ec",
+  "run_id": "translation-invariance-20260911-220229-29e79735",
+  "provider": "ollama",
+  "model": "qwen3:4b",
+  "inference_settings": {
+    "temperature": 0,
+    "seed": 881,
+    "num_ctx": 8192,
+    "num_predict": 2048,
+    "think": false,
+    "thinking_mode": "disabled",
+    "timeout_seconds": 1800.0
+  },
+  "case_count": 12,
+  "metric_policy": "CORE_PROPERTY_TRANSPORT_PRIMARY_ENGINE_VECTOR_SECONDARY_NO_AGGREGATE",
+  "core_invariance_contract": "C4_EXACT_ALL_STRUCTURAL_PROPERTIES",
+  "resonance_policy": "ENGINE_PER_CHANNEL_DIAGNOSTIC_NO_AGGREGATION_NO_CROSS_CHANNEL_ORDERING",
+  "semantic_authority_policy": {
+    "LLM_ONLY": "canonical non-leaking semantic translation; no SCC target is shown",
+    "LLM_MDPAR": "explicit structure-guided intervention; never evidence of spontaneous invariance",
+    "structural_adjudication": "mdpar_core only"
+  },
+  "engine_basis": {
+    "nullable_properties": [
+      "structural_compatibility",
+      "structural_stability",
+      "weakest_state_legibility",
+      "legibility_spread",
+      "cognitive_remembrance"
+    ],
+    "non_ordinal_mark": "StructuralMark(C,S,L)",
+    "comparison": "like-for-like estimable absolute differences + categorical preservation + partial Pareto relation; absence is never zero drift"
+  },
+  "stress_policy": {
+    "case_failure": "record_and_continue",
+    "final_only_is_not_sufficient": true,
+    "intermediate_hops": "strict first drift + observed-structure first drift + exact preservation + Pareto relation; partial chains are retained"
+  },
+  "measurement_note": "Every output is independently re-identified through OPEN. CORE then compares positive trajectories property-by-property under a prospectively fixed exact contract. InvariancePath preserves intermediate loss and recovery. ENGINE drift is consequence telemetry and does not define invariance. No weighted retention score is used.",
+  "finished_at_utc": "2026-09-11T20:02:56Z"
+}

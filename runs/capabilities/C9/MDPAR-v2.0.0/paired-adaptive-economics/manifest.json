@@ -1,0 +1,60 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.0.0",
+  "adapter_version": "0.9.2",
+  "adapter_source_sha256": "7177275d407159e07b21e487f5103cc0ecf734b6dfe906584ddde693ca333586",
+  "protocol": "C9_PAIRED_ADAPTIVE_ECONOMICS_V1",
+  "capabilities": [
+    "C9"
+  ],
+  "scientific_axes": [
+    "P",
+    "A"
+  ],
+  "economic_dimensions": [
+    "C",
+    "T",
+    "Q"
+  ],
+  "artifact_disposition": "REPLAY",
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Does MDPAR-gated adaptive acquisition change compute/time while preserving or improving the required capability relative to a paired ALWAYS_HIGH arm?",
+  "started_at_utc": "2026-09-06T18:30:09Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.0.0.jar",
+  "mdpar_jar_sha256": "036960d2e3324b77325a93ad2c3abbf56661f61c0aaa70e60580bab8ced61165",
+  "treatment": "ADAPTIVE",
+  "control": "ALWAYS_HIGH",
+  "workload_families": [
+    "CONTEXTUAL_DIRECTION",
+    "CONTEXTUAL_ADAPTATION"
+  ],
+  "historical_lineage": "i08.7",
+  "pairing": "same case corpus; deterministic SHA256-derived AB/BA arm ordering",
+  "gold_guardrail": "gold labels never decide escalation or sufficiency",
+  "concurrency_guardrail": "sequential by design to isolate acquisition/allocation",
+  "pricing_in_canonical_evidence": false,
+  "no_double_counting_required": true,
+  "model": "gpt-5.6-sol",
+  "workload_corpora": {
+    "CONTEXTUAL_DIRECTION": {
+      "historical_level": "L4",
+      "path": "corpus/open/contextual_direction_v2.jsonl",
+      "sha256": "f74a7a1a4ef83c72f4e42f5f3948c06dbf92f36e9e1ac66a42acd84ae3a83bf8"
+    },
+    "CONTEXTUAL_ADAPTATION": {
+      "historical_level": "L6",
+      "path": "corpus/open/contextual_direction_v2.jsonl",
+      "sha256": "f74a7a1a4ef83c72f4e42f5f3948c06dbf92f36e9e1ac66a42acd84ae3a83bf8"
+    }
+  },
+  "finished_at_utc": "2026-09-06T20:02:57Z"
+}

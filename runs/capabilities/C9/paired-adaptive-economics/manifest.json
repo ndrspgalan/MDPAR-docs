@@ -1,9 +1,9 @@
 {
   "standard": "MDPAR-BENCHMARKING-STANDARD",
-  "mdpar_version": "2.0.0",
-  "adapter_version": "0.9.2",
-  "adapter_source_sha256": "7177275d407159e07b21e487f5103cc0ecf734b6dfe906584ddde693ca333586",
-  "protocol": "C9_PAIRED_ADAPTIVE_ECONOMICS_V1",
+  "mdpar_version": "2.2.0",
+  "adapter_version": "0.12.0",
+  "adapter_source_sha256": "sha256:112d5a3087bfbfa3e03f593f60163081f06470f8688e61d22b94c20c422b07c5",
+  "protocol": "C9_PAIRED_ADAPTIVE_ECONOMICS_V2",
   "capabilities": [
     "C9"
   ],
@@ -16,11 +16,10 @@
     "T",
     "Q"
   ],
-  "artifact_disposition": "REPLAY",
   "evidence_stage": "DEVELOPMENT",
   "evaluation_regime": "OFFLINE_CAPABILITY",
   "experimental_question": "Does MDPAR-gated adaptive acquisition change compute/time while preserving or improving the required capability relative to a paired ALWAYS_HIGH arm?",
-  "started_at_utc": "2026-09-06T18:30:09Z",
+  "started_at_utc": "2026-09-14T02:36:18Z",
   "status": "COMPLETED",
   "environment": {
     "python": "3.14.7",
@@ -29,32 +28,34 @@
     "campaign_id": null,
     "hardware_profile_id": null
   },
-  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.0.0.jar",
-  "mdpar_jar_sha256": "036960d2e3324b77325a93ad2c3abbf56661f61c0aaa70e60580bab8ced61165",
+  "instrument": "paired-adaptive-economics",
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.2.0.jar",
+  "mdpar_jar_sha256": "baf0dc0103b8df0e079c196997c92b09583eaed238910551896f9848a0a00d3c",
   "treatment": "ADAPTIVE",
   "control": "ALWAYS_HIGH",
   "workload_families": [
     "CONTEXTUAL_DIRECTION",
     "CONTEXTUAL_ADAPTATION"
   ],
-  "historical_lineage": "i08.7",
+  "protocol_basis": "C5 v2 contextual direction/adaptation; escalation by evaluability, capability comparison post-hoc",
   "pairing": "same case corpus; deterministic SHA256-derived AB/BA arm ordering",
-  "gold_guardrail": "gold labels never decide escalation or sufficiency",
+  "gold_guardrail": "gold labels never decide escalation; equivalent-capability claims are post-hoc component-wise vectors only",
+  "aggregate_score_prohibited": true,
+  "structural_authority": "MDPAR; C9 does not reinterpret StructuralMark, resonance or invariance as a scalar quality score",
   "concurrency_guardrail": "sequential by design to isolate acquisition/allocation",
   "pricing_in_canonical_evidence": false,
   "no_double_counting_required": true,
   "model": "gpt-5.6-sol",
+  "open_knowledge_sha256": "sha256:62ea32221b2190e69ce765c879e0831a0f38dd1055113e34e19f24d4dea79d35",
   "workload_corpora": {
     "CONTEXTUAL_DIRECTION": {
-      "historical_level": "L4",
-      "path": "corpus/open/contextual_direction_v2.jsonl",
+      "path": "corpus/open/contextual_cooperation_v1.jsonl",
       "sha256": "f74a7a1a4ef83c72f4e42f5f3948c06dbf92f36e9e1ac66a42acd84ae3a83bf8"
     },
     "CONTEXTUAL_ADAPTATION": {
-      "historical_level": "L6",
-      "path": "corpus/open/contextual_direction_v2.jsonl",
+      "path": "corpus/open/contextual_cooperation_v1.jsonl",
       "sha256": "f74a7a1a4ef83c72f4e42f5f3948c06dbf92f36e9e1ac66a42acd84ae3a83bf8"
     }
   },
-  "finished_at_utc": "2026-09-06T20:02:57Z"
+  "finished_at_utc": "2026-09-14T05:54:17Z"
 }

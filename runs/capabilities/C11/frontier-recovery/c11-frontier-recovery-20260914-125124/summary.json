@@ -1,0 +1,67 @@
+{
+  "episode_identity_preserved": true,
+  "closed_continuity": true,
+  "canonical_transition": true,
+  "availability_transitions": [
+    {
+      "world_s": 0,
+      "from": null,
+      "to": "FRONTIER_AVAILABLE"
+    },
+    {
+      "world_s": 60,
+      "from": "FRONTIER_AVAILABLE",
+      "to": "FRONTIER_UNAVAILABLE"
+    },
+    {
+      "world_s": 180,
+      "from": "FRONTIER_UNAVAILABLE",
+      "to": "FRONTIER_AVAILABLE"
+    }
+  ],
+  "debt_remaining": 0,
+  "debt_created_ids": [
+    "c11-E01",
+    "c11-E03",
+    "c11-E03B"
+  ],
+  "reissued_work_ids": [
+    "c11-E01",
+    "c11-E03",
+    "c11-E03B"
+  ],
+  "reissued_identity_preserved": true,
+  "committed_action_rewrites": 0,
+  "stale_authorizations": 0,
+  "claim_failures": 0,
+  "local_open_attempts": 0,
+  "local_open_valid": 0,
+  "local_foreground_attempts": 0,
+  "local_foreground_committed": 0,
+  "local_foreground_late_or_invalid": 0,
+  "local_background_attempts": 0,
+  "local_background_valid": 0,
+  "local_background_future_state_only": 0,
+  "local_latency_ms": [],
+  "frontier_usage": {
+    "input_tokens": 108578,
+    "cached_input_tokens": 21712,
+    "output_tokens": 670,
+    "reasoning_tokens": 0,
+    "total_tokens": 109248,
+    "request_count": 5
+  },
+  "local_usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "reasoning_tokens": 0,
+    "total_tokens": 0,
+    "request_count": 0
+  },
+  "hidden_model_state_migration_claimed": false,
+  "local_open_background_executed": false,
+  "local_open_foreground_executed": false,
+  "local_contract_uncertified_events": 2,
+  "historical_local_profile_used_as_current_authority": false,
+  "all_primary_invariants": true
+}

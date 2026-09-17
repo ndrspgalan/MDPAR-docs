@@ -1,0 +1,48 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.2.0",
+  "adapter_version": "0.12.0",
+  "adapter_source_sha256": "sha256:112d5a3087bfbfa3e03f593f60163081f06470f8688e61d22b94c20c422b07c5",
+  "protocol": "C7_HETEROGENEOUS_CLOSED_V2",
+  "capabilities": [
+    "C7"
+  ],
+  "scientific_axes": [
+    "G"
+  ],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Can one MDPAR runtime preserve bounded ownership, representation filtering, admissibility and operational publication across heterogeneous lexical and strongly typed CLOSED domain-profile coordinates without schema- or language-wide ownership shortcuts?",
+  "started_at_utc": "2026-09-14T02:35:19Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "instrument": "heterogeneous-closed",
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.2.0.jar",
+  "mdpar_jar_sha256": "baf0dc0103b8df0e079c196997c92b09583eaed238910551896f9848a0a00d3c",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\closed\\heterogeneous_closed_v1.jsonl",
+  "corpus_sha256": "5a7d7731b85ce8c10013d3689a0fb4cf374178b9f18bec6cd710249bf1946f1f",
+  "installed_coordinates": [
+    "troubleshooting:english",
+    "mobile-servant-robot:english",
+    "tiago-pro:dual-arm-pal-parallel-gripper"
+  ],
+  "repetitions": 10,
+  "warmups": 3,
+  "fixed_observed_at": "2026-09-06T00:00:00Z",
+  "output_mode": "OPERATIONAL",
+  "authority_boundary": {
+    "closed": "bounded deterministic routing, execution and publication",
+    "adapter": "orchestration, exact contract comparison and timing evidence only"
+  },
+  "structural_mark_is_quality_score": false,
+  "open_semantic_authority_exercised": false,
+  "aggregate_score_prohibited": true,
+  "finished_at_utc": "2026-09-14T02:35:25Z"
+}

@@ -1,0 +1,75 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.1.0",
+  "adapter_version": "0.11.3",
+  "adapter_source_sha256": "sha256:a578473b29550bc66c8a731ef84b1f3ac4ad06b0064413d6e6761b37a4680bc3",
+  "protocol": "C4_PERMUTATION_REALIZATION_V2",
+  "capabilities": [
+    "C4"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Can a frozen MDPAR permutation target be realized in another language and re-identified as the exact target occurrence/relation structure?",
+  "started_at_utc": "2026-09-11T22:33:44Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": "C4-MDPAR210-SOL-NONE-PERMUTATION",
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.1.0.jar",
+  "mdpar_jar_sha256": "da75ba4a936ace6a52124dd1f19bf8ac6bcdf5de818f8880e951894a20839426",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\permutation\\permutation_realization_v1.jsonl",
+  "corpus_sha256": "ca6e59fa794d24db597aa3094dfb2e987c6aa7f5bb7a3f2339d31ed08ccc143c",
+  "campaign_id": "C4-MDPAR210-SOL-NONE-PERMUTATION",
+  "provider": "openai",
+  "model": "gpt-5.6-sol",
+  "inference_settings": {
+    "reasoning_effort": "none",
+    "max_output_tokens": 128000,
+    "timeout_seconds": 86400.0,
+    "store": false,
+    "api": "responses",
+    "structured_outputs": true
+  },
+  "case_count": 6,
+  "conditions": [
+    "DIRECTION_ONLY",
+    "TARGET_SCC",
+    "PERMUTATION_SURFACE"
+  ],
+  "condition_order_policy": "deterministic permutation-id rotation; identical instruction and payload shape across conditions",
+  "target_policy": "frozen MDPAR permutation targets; the evaluated LLM does not construct or gate probe eligibility",
+  "canonical_anchor_provenance": [
+    "Frozen structural target fixture. The producing JAR SHA-256 is recorded separately; current runs evaluate realization/re-identification against this target and do not attribute its generation to the current runtime."
+  ],
+  "canonical_anchor_mdpar_jar_sha256": [
+    "d2d0044283dd6ecbd04573311561c089393aff14316065dd41f8c5ebc270c4da"
+  ],
+  "source_diagnostic_enabled": false,
+  "metric_policy": "PARSER_WITNESS_PLUS_CORE_PROPERTY_TRANSPORT_PLUS_EXACT_TARGET_IDENTITY_NO_AGGREGATE",
+  "core_invariance_contract": "C4_EXACT_ALL_STRUCTURAL_PROPERTIES",
+  "resonance_policy": "ENGINE_PER_CHANNEL_DIAGNOSTIC_NO_AGGREGATION_NO_CROSS_CHANNEL_ORDERING",
+  "fingerprint_policy": "LOSSLESS_RANGES_AND_RELATION_OCCURRENCE_ENDPOINTS_REQUIRED",
+  "prompt_sha256": "99e2007617dbd25040073c8814c0b814fb84738f5c8da8b41b7a99760b15434d",
+  "max_permutations_per_case": null,
+  "measurement_note": "Parser-side permutation equivalence remains the exact witness that the formal permutation was constructed correctly. The realized output is independently re-identified; mdpar_core then classifies property transport to the frozen target, while exact fingerprint identity remains a separate stricter endpoint test. The LLM is semantic realizer, never structural adjudicator.",
+  "setup_usage": {},
+  "source_diagnostic_usage": {},
+  "source_diagnostic_count": 0,
+  "source_diagnostic_failure_count": 0,
+  "source_setup_failure_count": 0,
+  "source_setup_failures": [],
+  "last_resumed_at_utc": "2026-09-11T22:33:44Z",
+  "permutation_probe_count": 9,
+  "completed_record_count": 27,
+  "expected_record_count": 27,
+  "evaluable_record_count": 25,
+  "unevaluable_record_count": 2,
+  "finished_at_utc": "2026-09-11T22:36:59Z",
+  "last_segment_duration_seconds": 195.30666230000497
+}

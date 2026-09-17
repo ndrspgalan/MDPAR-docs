@@ -1,0 +1,74 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.2.0",
+  "adapter_version": "0.12.0",
+  "adapter_source_sha256": "sha256:d3bbc444ffa4ea63b98dd8225af3f64a25b621943e2944b3bfd460b6ff028462",
+  "protocol": "C12_SERVANT_ROBOT_SUSTAINED_COOPERATION_V2",
+  "capabilities": [
+    "C12"
+  ],
+  "scientific_axes": [
+    "P",
+    "A",
+    "G"
+  ],
+  "economic_dimensions": [
+    "C",
+    "T",
+    "I",
+    "Q"
+  ],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "ONLINE_EMBODIMENT",
+  "experimental_question": "Can one five-world-minute servant-robot episode compose deterministic CLOSED routing, frontier Sol NONE, current-contract-gated local availability, C10 temporal leases and C11 debt/recovery without losing episode/work identity, silently promoting historical certification, or granting stale/late authority?",
+  "started_at_utc": "2026-09-14T10:51:52Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": null,
+    "hardware_profile_id": null
+  },
+  "instrument": "servant-robot",
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.2.0.jar",
+  "mdpar_jar_sha256": "baf0dc0103b8df0e079c196997c92b09583eaed238910551896f9848a0a00d3c",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\cooperative\\c12_servant_robot_v2.json",
+  "corpus_sha256": "31a7fa8d7b2d284aa8af2a0af38e2c7ccc596cc506b8a6e12d526fb75d2fd9a5",
+  "realtime": false,
+  "frontier_loss_s": 90.0,
+  "frontier_restore_s": 210.0,
+  "closed_coordinates": [
+    "troubleshooting:english",
+    "mobile-servant-robot:english",
+    "tiago-pro:dual-arm-pal-parallel-gripper"
+  ],
+  "frontier_fault_injected": true,
+  "frontier_provider": "openai",
+  "frontier_model": "gpt-5.6-sol",
+  "frontier_reasoning_effort": "none",
+  "local_provider": "ollama",
+  "local_model": "qwen3:4b",
+  "open_knowledge_sha256": "sha256:62ea32221b2190e69ce765c879e0831a0f38dd1055113e34e19f24d4dea79d35",
+  "local_profile": "qwen3-4b-local-evidence-contract8-v1",
+  "local_profile_open_contract": "8",
+  "local_profile_contract_certified": false,
+  "local_supported_gates": [],
+  "local_profile_current_contract_authorized": false,
+  "local_recertification_required": true,
+  "local_gate": "STRUCTURAL_IDENTIFICATION",
+  "local_inference_settings": {
+    "temperature": 0,
+    "seed": 881,
+    "num_ctx": 8192,
+    "num_predict": 2048,
+    "think": false,
+    "thinking_mode": "disabled",
+    "timeout_seconds": 1800.0
+  },
+  "local_foreground_authority": "CURRENT_CONTRACT_GATE_AND_TEMPORAL_LEASE_BOUNDED",
+  "local_background_authority": "CURRENT_CONTRACT_GATE_AND_FUTURE_STATE_ONLY",
+  "hidden_model_state_migration_claimed": false,
+  "aggregate_score_prohibited": true,
+  "finished_at_utc": "2026-09-14T10:52:12Z"
+}

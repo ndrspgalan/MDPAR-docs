@@ -1,0 +1,133 @@
+{
+  "protocol": "C4_PERMUTATION_REALIZATION_V2",
+  "case_count": 6,
+  "permutation_probe_count": 9,
+  "completed_record_count": 27,
+  "expected_record_count": 27,
+  "evaluable_record_count": 0,
+  "unevaluable_record_count": 27,
+  "source_setup_failure_count": 0,
+  "source_diagnostic_count": 0,
+  "source_diagnostic_failure_count": 0,
+  "source_diagnostic_usage": {},
+  "condition_summaries": [
+    {
+      "condition": "DIRECTION_ONLY",
+      "probe_count": 9,
+      "evaluable_count": 0,
+      "unevaluable_count": 9,
+      "target_direction_recovered_count": 0,
+      "occurrence_count_exact_count": 0,
+      "state_sequence_exact_count": 0,
+      "relation_count_exact_count": 0,
+      "relation_sequence_exact_count": 0,
+      "relation_occurrences_exact_count": 0,
+      "trajectory_boundaries_exact_count": 0,
+      "trajectory_ranges_exact_count": 0,
+      "exact_target_identity_count": 0,
+      "core_comparable_count": 0,
+      "core_all_properties_preserved_count": 0,
+      "core_transport_state_counts": {},
+      "mean_realization_latency_ms": 2403.5958222213794,
+      "mean_identification_latency_ms": 2750.149266665782,
+      "mean_mdpar_latency_ms": 0.0,
+      "provider_usage": {
+        "total_tokens": 77475,
+        "request_count": 18,
+        "reasoning_tokens": 0,
+        "input_tokens": 75323,
+        "output_tokens": 2152
+      }
+    },
+    {
+      "condition": "TARGET_SCC",
+      "probe_count": 9,
+      "evaluable_count": 0,
+      "unevaluable_count": 9,
+      "target_direction_recovered_count": 0,
+      "occurrence_count_exact_count": 0,
+      "state_sequence_exact_count": 0,
+      "relation_count_exact_count": 0,
+      "relation_sequence_exact_count": 0,
+      "relation_occurrences_exact_count": 0,
+      "trajectory_boundaries_exact_count": 0,
+      "trajectory_ranges_exact_count": 0,
+      "exact_target_identity_count": 0,
+      "core_comparable_count": 0,
+      "core_all_properties_preserved_count": 0,
+      "core_transport_state_counts": {},
+      "mean_realization_latency_ms": 2118.3508777758107,
+      "mean_identification_latency_ms": 2605.6895888889103,
+      "mean_mdpar_latency_ms": 0.0,
+      "provider_usage": {
+        "total_tokens": 78055,
+        "request_count": 18,
+        "reasoning_tokens": 0,
+        "input_tokens": 75833,
+        "output_tokens": 2222
+      }
+    },
+    {
+      "condition": "PERMUTATION_SURFACE",
+      "probe_count": 9,
+      "evaluable_count": 0,
+      "unevaluable_count": 9,
+      "target_direction_recovered_count": 0,
+      "occurrence_count_exact_count": 0,
+      "state_sequence_exact_count": 0,
+      "relation_count_exact_count": 0,
+      "relation_sequence_exact_count": 0,
+      "relation_occurrences_exact_count": 0,
+      "trajectory_boundaries_exact_count": 0,
+      "trajectory_ranges_exact_count": 0,
+      "exact_target_identity_count": 0,
+      "core_comparable_count": 0,
+      "core_all_properties_preserved_count": 0,
+      "core_transport_state_counts": {},
+      "mean_realization_latency_ms": 2177.550755555179,
+      "mean_identification_latency_ms": 2579.941555555302,
+      "mean_mdpar_latency_ms": 0.0,
+      "provider_usage": {
+        "total_tokens": 78248,
+        "request_count": 18,
+        "reasoning_tokens": 0,
+        "input_tokens": 76110,
+        "output_tokens": 2138
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "left": "DIRECTION_ONLY",
+      "right": "TARGET_SCC",
+      "right_pareto_better_probes": 0,
+      "left_pareto_better_probes": 0,
+      "exact_ties": 0,
+      "equal_nonexact": 0,
+      "incomparable_probes": 0,
+      "unevaluable_pairs": 9
+    },
+    {
+      "left": "TARGET_SCC",
+      "right": "PERMUTATION_SURFACE",
+      "right_pareto_better_probes": 0,
+      "left_pareto_better_probes": 0,
+      "exact_ties": 0,
+      "equal_nonexact": 0,
+      "incomparable_probes": 0,
+      "unevaluable_pairs": 9
+    },
+    {
+      "left": "DIRECTION_ONLY",
+      "right": "PERMUTATION_SURFACE",
+      "right_pareto_better_probes": 0,
+      "left_pareto_better_probes": 0,
+      "exact_ties": 0,
+      "equal_nonexact": 0,
+      "incomparable_probes": 0,
+      "unevaluable_pairs": 9
+    }
+  ],
+  "setup_usage": {},
+  "run_duration_seconds": 131.87002960000245
+}

@@ -1,0 +1,71 @@
+{
+  "standard": "MDPAR-BENCHMARKING-STANDARD",
+  "mdpar_version": "2.1.0",
+  "adapter_version": "0.11.3",
+  "adapter_source_sha256": "sha256:a578473b29550bc66c8a731ef84b1f3ac4ad06b0064413d6e6761b37a4680bc3",
+  "protocol": "C1_STRUCTURAL_IDENTIFICATION_V2",
+  "capabilities": [
+    "C1"
+  ],
+  "scientific_axes": [],
+  "economic_dimensions": [],
+  "evidence_stage": "DEVELOPMENT",
+  "evaluation_regime": "OFFLINE_CAPABILITY",
+  "experimental_question": "Can an external observer identify and source-ground SCC structural functions without transferring structural authority away from MDPAR?",
+  "started_at_utc": "2026-09-11T19:38:16Z",
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "campaign_id": "C1-MDPAR210-QWEN3-4B-NONTHINKING",
+    "hardware_profile_id": null
+  },
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.1.0.jar",
+  "mdpar_jar_sha256": "da75ba4a936ace6a52124dd1f19bf8ac6bcdf5de818f8880e951894a20839426",
+  "corpus": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\mdpar-ai-adapter\\corpus\\open\\structural_identification_v1.jsonl",
+  "corpus_sha256": "b831f5c8e193c9832525ebfe1395b688aae6792be9b6e2514944cd1a28f4e802",
+  "metric_policy": "PER_STATETYPE_CONFUSION_PLUS_CONDITIONAL_GROUNDING",
+  "no_weighted_aggregate": true,
+  "mdpar_contract_version": "8",
+  "open_knowledge_sha256": "sha256:8621cd0f7e3feda8361a6d528b56d63415ff4577ca05fbb2e91bf0a0b77eb2f9",
+  "structural_identification_gate_knowledge_sha256": "sha256:4de718f17e42e61542ea5fbeb4cc0119c10e0ccf012025d7d7afd5c82e961427",
+  "structural_identification_gate_document_ids": [
+    "permutation.semantic-structural-authority",
+    "permutation.interpretation"
+  ],
+  "structural_identification_semantic_document_ids": [
+    "semantic.foundation",
+    "semantic.what",
+    "semantic.which",
+    "semantic.who",
+    "semantic.identity-boundaries",
+    "semantic.identity-context",
+    "semantic.identity-diagnostics",
+    "semantic.how",
+    "semantic.why",
+    "semantic.how-vs-why",
+    "semantic.explanation-boundaries",
+    "semantic.explanation-advanced",
+    "semantic.explanation-diagnostics",
+    "semantic.where",
+    "semantic.when",
+    "semantic.how-much",
+    "semantic.orbital-boundaries",
+    "semantic.orbital-advanced",
+    "semantic.orbital-diagnostics",
+    "semantic.unknown"
+  ],
+  "instrument_scope": "DIAGNOSTIC_SINGLE_STATETYPE_ACTIVATION_AND_SOURCE_GROUNDING; semantic observation only; MDPAR retains structural authority",
+  "certification_policy": "C1 records gate-specific evidence and does not auto-promote any local capability profile or invent a scalar pass threshold",
+  "provider": "ollama",
+  "models": [
+    "qwen3:4b"
+  ],
+  "model_warmup": {
+    "requests_per_model": 1,
+    "measured": false,
+    "purpose": "Load the model and initialize structured generation before any corpus latency is recorded."
+  },
+  "finished_at_utc": "2026-09-11T19:39:08Z"
+}
