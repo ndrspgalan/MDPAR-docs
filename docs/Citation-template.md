@@ -61,7 +61,7 @@ Pérez Galán, A. (2026). *MDPAR-H: Experimental validation of structural invari
 
 ### APA 7
 
-Pérez Galán, A. (2026). *MDPAR-docs: MDPAR 2.2.0 versioned evidence and reproducibility package* (Version 2.2.0) [Research software and benchmark evidence]. Zenodo. [ZENODO DOI]. [GITHUB URL]
+Pérez Galán, A. (2026). *MDPAR-docs: MDPAR 2.2.0 versioned evidence and reproducibility package* (Version 2.2.0) [Research software and benchmark evidence]. Zenodo. 10.5281/zenodo.22818421. https://github.com/ndrspgalan/MDPAR-docs
 
 ### BibTeX
 
