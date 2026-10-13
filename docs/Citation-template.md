@@ -60,9 +60,7 @@ Pérez Galán, A. (2026). *MDPAR-docs: MDPAR v2.3.0 scientific evidence and repr
 
 ### Versioned archive
 
-The archival record for MDPAR-docs v2.2.0 is available at https://doi.org/10.5281/zenodo.22818421. 
-This identifier refers specifically to v2.2.0 and does not identify v2.3.0. The Zenodo version-specific identifier,
-when available, is cited together with the v2.3.0 repository release.
+The archival record for MDPAR-docs v2.3.0 is available at https://doi.org/10.5281/zenodo.23351248.
 
 ## Combined scientific citation
 
