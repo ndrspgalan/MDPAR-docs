@@ -3,7 +3,7 @@
 Copyright © 2026 Andrés Pérez Galán. All rights reserved.
 
 `MDPAR-docs` is the public, versioned scientific evidence and reproducibility package associated 
-with MDPAR 2.2.0. Public access is provided so that the released manuscripts, corpora, 
+with MDPAR 2.3.0. Public access is provided so that the released manuscripts, corpora, 
 benchmark evidence and verification surface can be inspected, cited and subjected to 
 scientific scrutiny.
 

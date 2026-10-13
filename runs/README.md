@@ -1,37 +1,30 @@
-# MDPAR benchmark evidence store
+# MDPAR v2.3.0 — C0–C13 evidence snapshot
 
-This directory contains the canonical C0–C12 benchmark evidence for MDPAR. Evidence is organized first by capability (`C0` through `C12`), then by MDPAR release (`MDPAR-v2.0.0`, `MDPAR-v2.1.0`), then by instrument and, where relevant, by neural regime.
+`runs/capabilities/` contains the scientific evidence carried by the MDPAR-docs 2.3.0 distribution. 
+The package preserves **historical** C0–C12 releases (including 2.0.0, 2.1.0 and 2.2.0) alongside later experiments 
+and the **C13** mathematical/algorithmic evidence ledger. The distribution version is not a blanket claim that every
+recorded run was executed under 2.3.0.
 
-The packaging taxonomy is descriptive metadata only. Historical JSON/JSONL/state artifacts are preserved without rewriting their internal provenance, timestamps, run IDs, protocol names or hashes. Timestamp-heavy directory names have been replaced by semantic names such as `Sol-none`, `Sol-high`, `Qwen3-4B-non-thinking`, or `deterministic`.
+## Index contract
 
-## Layout
+`runs/index.json` uses `MDPAR_BENCHMARK_EVIDENCE_INDEX_V3` and covers **C0–C13**, including version-qualified and 
+unversioned instrument paths. It records each evidence file's path, capability, originating MDPAR version, instrument, 
+byte count and SHA-256. For non-C13 files the version/instrument labels are inherited from the retained provenance 
+index; the index builder refuses to invent labels for newly added non-C13 files. C13 is assigned the 2.3.0 release 
+identity in the authoritative C13 index policy.
 
-```text
-runs/
-  capabilities/
-    C0/
-      MDPAR-v2.0.0/
-      MDPAR-v2.1.0/
-    ...
-    C12/
-      MDPAR-v2.0.0/
-  README.md
-  index.json
-```
+`python verification/verify_benchmark_evidence.py` verifies actual bytes against the index.
+`python verification/index_benchmark_evidence.py --check-existing` rebuilds and compares the index without rewriting 
+the published artifact. Run from the `MDPAR-docs` root.
 
-C0–C5 contain both the historical MDPAR 2.0.0 evidence and the new MDPAR 2.1.0 campaign where available.
-C6–C12 currently contain the retained MDPAR 2.0.0 campaign only.
+## C13
 
-For neural instruments, folder names identify the execution regime directly.
-For compound late-capability campaigns (adaptive, sequential, concurrent, frontier recovery,
-temporal authority, servant robot), the original internal semantic layout is retained because the run itself contains 
-multiple policies or authorities and cannot be reduced to one LLM-effort label.
+`runs/capabilities/C13/` contains `manifest.json`, `provenance.json`, `milestones.json`, `protocol.json`, 
+`evidence_index.json` and the algorithm, scientific and regression batches. To regenerate C13 experimental data, use 
+the private MDPAR AI adapter and its documented runner; do **not** regenerate the evidence store merely to repair hashes.
 
-`index.json` is regenerated from this organized tree and records every evidence file with path,
-capability, MDPAR release, instrument, size and SHA-256.
+## Release discipline
 
-### Preservation note
-
-The three loose C0 v2.0.0 files in the input package were byte-identical duplicates of the timestamped canonical C0
-v2.0.0 directory. Only one copy is retained in the organized package; 
-no unique evidence was removed.
+The `checksums/SHA256SUMS.txt` manifest covers the published repository snapshot, excluding `.git`, `.idea` and itself.
+Regenerate the index only after an intentional, reviewed evidence change; regenerate the package manifest only after
+the complete release tree is final. Source execution tests must be performed separately in the MDPAR code repository.

@@ -1,16 +1,14 @@
 # Citation template
 
-MDPAR-docs is the versioned public evidence package associated with MDPAR 2.2.0. 
-Cite the specific work used and, when reproducibility or benchmark evidence is material to the claim, 
-cite the MDPAR-docs release as well.
-
-Replace the bracketed GitHub URL and Zenodo DOI below when the definitive identifiers are available.
+MDPAR-docs v2.3.0 is the public, versioned evidence and reproducibility package associated with MDPAR v2.3.0. 
+Individual historical runs retain their original provenance. Scientific claims should cite the relevant work and, when
+they depend on benchmark records or reproducibility artifacts, the corresponding version of MDPAR-docs.
 
 ## 1. Modelo de Dirección de Pensamiento Ampliado y Refinado
 
 ### APA 7
 
-Pérez Galán, A. (2026). *Modelo de Dirección de Pensamiento Ampliado y Refinado: Formalización del Sistema de Coordenadas Cognitivas y su expresión simbólica en un software agnóstico al dominio* [Propuesta doctoral inédita].
+Pérez Galán, A. (2026). *Modelo de Dirección de Pensamiento Ampliado y Refinado: Formalización del Sistema de Coordenadas Cognitivas y su expresión simbólica en un software agnóstico al dominio* [Manuscrito de investigación inédito].
 
 ### BibTeX
 
@@ -19,7 +17,7 @@ Pérez Galán, A. (2026). *Modelo de Dirección de Pensamiento Ampliado y Refina
   author = {P{\'e}rez Gal{\'a}n, Andr{\'e}s},
   title  = {Modelo de Direcci{\'o}n de Pensamiento Ampliado y Refinado: Formalizaci{\'o}n del Sistema de Coordenadas Cognitivas y su expresi{\'o}n simb{\'o}lica en un software agn{\'o}stico al dominio},
   year   = {2026},
-  note   = {Propuesta doctoral in{\'e}dita}
+  note   = {Manuscrito de investigaci{\'o}n in{\'e}dito}
 }
 ```
 
@@ -40,48 +38,35 @@ Pérez Galán, A. (2026). *El Portador de Sueños v2* [Obra inédita].
 }
 ```
 
-## 3. MDPAR-H — EIC Pathfinder DeepRAP 2026 Part B
+## 3. MDPAR-docs v2.3.0 — versioned evidence package
 
 ### APA 7
 
-Pérez Galán, A. (2026). *MDPAR-H: Experimental validation of structural invariance across heterogeneous cognitive AI systems* [EIC Pathfinder DeepRAP 2026, Part B submission].
+Pérez Galán, A. (2026). *MDPAR-docs: MDPAR v2.3.0 scientific evidence and reproducibility package* (Version 2.3.0) [Software de investigación y evidencias experimentales]. GitHub. https://github.com/ndrspgalan/MDPAR-docs
 
 ### BibTeX
 
 ```bibtex
-@unpublished{perezgalan2026mdparh,
-  author = {P{\'e}rez Gal{\'a}n, Andr{\'e}s},
-  title  = {MDPAR-H: Experimental Validation of Structural Invariance across Heterogeneous Cognitive AI Systems},
-  year   = {2026},
-  note   = {EIC Pathfinder DeepRAP 2026, Part B submission}
-}
-```
-
-## 4. MDPAR-docs 2.2.0 — versioned evidence package
-
-### APA 7
-
-Pérez Galán, A. (2026). *MDPAR-docs: MDPAR 2.2.0 versioned evidence and reproducibility package* (Version 2.2.0) [Research software and benchmark evidence]. Zenodo. 10.5281/zenodo.22818421. https://github.com/ndrspgalan/MDPAR-docs
-
-### BibTeX
-
-```bibtex
-@misc{perezgalan2026mdpardocs,
+@software{perezgalan2026mdpardocs,
   author    = {P{\'e}rez Gal{\'a}n, Andr{\'e}s},
-  title     = {MDPAR-docs: MDPAR 2.2.0 Versioned Evidence and Reproducibility Package},
+  title     = {MDPAR-docs: MDPAR v2.3.0 Scientific Evidence and Reproducibility Package},
   year      = {2026},
-  month     = sep,
-  version   = {2.2.0},
-  publisher = {Zenodo},
-  doi       = {10.5281/zenodo.22818421},
+  version   = {2.3.0},
+  publisher = {GitHub},
   url       = {https://github.com/ndrspgalan/MDPAR-docs},
-  note      = {Research software and C0--C12 benchmark evidence}
+  note      = {Versioned C0--C13 research evidence and reproducibility package}
 }
 ```
 
-## Recommended combined citation
+### Versioned archive
 
-For claims that depend on both the scientific formulation and the published experimental evidence,
-cite the MDPAR doctoral manuscript together with the exact MDPAR-docs 2.2.0 release. 
-For claims specific to MDPAR-H or to *El Portador de Sueños v2*, cite that work directly and
-add MDPAR-docs only when the repository evidence or reproducibility surface is also being relied upon.
+The archival record for MDPAR-docs v2.2.0 is available at https://doi.org/10.5281/zenodo.22818421. 
+This identifier refers specifically to v2.2.0 and does not identify v2.3.0. The Zenodo version-specific identifier,
+when available, is cited together with the v2.3.0 repository release.
+
+## Combined scientific citation
+
+Claims involving both the SCC/MDPAR mathematical formulation and published benchmark evidence cite the corresponding
+scientific manuscript and the specific version of MDPAR-docs used. Claims specific to MDPAR-H or
+*El Portador de Sueños v2* cite those works directly, with an additional MDPAR-docs citation where its reproducibility
+evidence is material.

@@ -1,9 +1,9 @@
 {
   "standard": "MDPAR-BENCHMARKING-STANDARD",
-  "mdpar_version": "2.2.0",
-  "adapter_version": "0.12.0",
-  "adapter_source_sha256": "sha256:112d5a3087bfbfa3e03f593f60163081f06470f8688e61d22b94c20c422b07c5",
-  "protocol": "C9_PAIRED_ADAPTIVE_ECONOMICS_V2",
+  "mdpar_version": "2.3.0",
+  "adapter_version": "0.13.0",
+  "adapter_source_sha256": "sha256:218f8811e5bbb96eed86d9e8e3148a3f0812439f6e323805837b49f36dd33cc9",
+  "protocol": "C9_PAIRED_ADAPTIVE_ECONOMICS_V3",
   "capabilities": [
     "C9"
   ],
@@ -16,10 +16,10 @@
     "T",
     "Q"
   ],
-  "evidence_stage": "DEVELOPMENT",
+  "evidence_stage": "FROZEN",
   "evaluation_regime": "OFFLINE_CAPABILITY",
   "experimental_question": "Does MDPAR-gated adaptive acquisition change compute/time while preserving or improving the required capability relative to a paired ALWAYS_HIGH arm?",
-  "started_at_utc": "2026-09-14T02:36:18Z",
+  "started_at_utc": "2026-09-25T22:43:37Z",
   "status": "COMPLETED",
   "environment": {
     "python": "3.14.7",
@@ -29,8 +29,8 @@
     "hardware_profile_id": null
   },
   "instrument": "paired-adaptive-economics",
-  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.2.0.jar",
-  "mdpar_jar_sha256": "baf0dc0103b8df0e079c196997c92b09583eaed238910551896f9848a0a00d3c",
+  "mdpar_jar": "C:\\Users\\Andres\\IdeaProjects\\MDPAR\\target\\mdpar-2.3.0.jar",
+  "mdpar_jar_sha256": "acd6f2d0fd370e9ec6dc3266be37f3cd8fa54f7494a283165096cd1a5d625587",
   "treatment": "ADAPTIVE",
   "control": "ALWAYS_HIGH",
   "workload_families": [
@@ -46,16 +46,16 @@
   "pricing_in_canonical_evidence": false,
   "no_double_counting_required": true,
   "model": "gpt-5.6-sol",
-  "open_knowledge_sha256": "sha256:62ea32221b2190e69ce765c879e0831a0f38dd1055113e34e19f24d4dea79d35",
+  "open_knowledge_sha256": "sha256:31f659d0af3c5b415c207fb2c50b7e85fe2c4096737f5be283e8e4f2e0e3966d",
   "workload_corpora": {
     "CONTEXTUAL_DIRECTION": {
-      "path": "corpus/open/contextual_cooperation_v1.jsonl",
-      "sha256": "f74a7a1a4ef83c72f4e42f5f3948c06dbf92f36e9e1ac66a42acd84ae3a83bf8"
+      "path": "corpus/open/contextual_cooperation_v2.jsonl",
+      "sha256": "e0f1763eb41fa9a1046714f0aa0a0e3c0abe2b0a01c20ed316fe7aaa1e24927f"
     },
     "CONTEXTUAL_ADAPTATION": {
-      "path": "corpus/open/contextual_cooperation_v1.jsonl",
-      "sha256": "f74a7a1a4ef83c72f4e42f5f3948c06dbf92f36e9e1ac66a42acd84ae3a83bf8"
+      "path": "corpus/open/contextual_cooperation_v2.jsonl",
+      "sha256": "e0f1763eb41fa9a1046714f0aa0a0e3c0abe2b0a01c20ed316fe7aaa1e24927f"
     }
   },
-  "finished_at_utc": "2026-09-14T05:54:17Z"
+  "finished_at_utc": "2026-09-26T01:32:41Z"
 }
